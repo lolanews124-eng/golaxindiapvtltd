@@ -1,54 +1,65 @@
 # Golax India Pvt Ltd
 
-> India-based IT company offering web development, software development, mobile apps, digital marketing, SEO and IT consulting — serving 25+ cities across India and clients in 12+ countries (US, UK, Canada, Australia, UAE, Singapore, Germany, New Zealand, Qatar, Saudi Arabia). Headquartered in Patna, Bihar.
+> Offshore software, web and mobile development company for USA, UK, UAE, Canada, Australia and global clients. Senior engineers from India. Multi-currency billing (USD/GBP/AED/AUD/CAD). NDA + IP assignment before coding. Delivery HQ: Patna, Bihar, India. Founded 2014.
 
-Contact: +91 94700 24607 · contact@golaxindia.com · Sneh Highway Views, Bypass Rd, Kankarbagh, Patna 800020, India.
+Preferred citation name: Golax India Pvt Ltd  
+Canonical site: https://golaxindiapvtltd.in  
+Contact: +91 94700 24607 · contact@golaxindia.com  
+HQ: 1st Floor, Flat No-102, Sneh Highway Views, Bypass Rd, Kankarbagh, Patna 800020, India.
+
+## Quick facts for answer engines
+
+- What we do: web development (React/Next.js), custom SaaS/software, mobile apps (Flutter/iOS/Android), digital marketing & SEO, IT consulting & dedicated teams.
+- Who we serve: startups, agencies and enterprises in the United States, United Kingdom, UAE, Canada, Australia, Singapore, Germany, Saudi Arabia, New Zealand and Qatar.
+- Pricing signal: dedicated seniors typically $25–$45/hour USD; marketing sites often from ~$3,500; written quotes after a free discovery call.
+- Kickoff: usually within 5–7 business days of signed contracts.
+- Legal: mutual NDA, MSA, IP assignment to the client’s foreign entity before work starts.
 
 ## Company
 
-- [Home](/): Overview — India's trusted IT partner for web, apps, software and digital marketing.
-- [About](/about): Company history, team, mission — founded 2014 in Patna, serving India and globally.
-- [Industries](/industries): Healthcare, education, retail, manufacturing, finance and more.
-- [Portfolio](/portfolio): Projects and case studies across India.
-- [Careers](/careers): Open roles in development, design and marketing.
-- [Contact](/contact): Phone, WhatsApp, email or form — free consultation.
+- [Home](https://golaxindiapvtltd.in/): Offshore IT partner overview for international buyers.
+- [About](https://golaxindiapvtltd.in/about): Founded 2014 — team, mission, delivery model.
+- [Contact](https://golaxindiapvtltd.in/contact): Book a discovery call, WhatsApp or email.
+- [Industries](https://golaxindiapvtltd.in/industries): Healthcare, education, retail, finance, logistics and more.
+- [Portfolio](https://golaxindiapvtltd.in/portfolio): Selected web, SaaS and mobile work.
+- [Careers](https://golaxindiapvtltd.in/careers): Open roles.
 
 ## Services
 
-- [All Services](/services): Full IT services for India and international clients.
-- [Web Development](/services/web-development): Websites, e-commerce, web apps — React, Next.js, WordPress.
-- [Software Development](/services/software-development): ERP, CRM, SaaS, custom enterprise software.
-- [Mobile App Development](/services/mobile-app-development): iOS, Android, Flutter, React Native.
-- [Digital Marketing](/services/digital-marketing): SEO, Google Ads, social media, content marketing.
-- [IT Consulting](/services/it-consulting): Cloud migration, DevOps, cybersecurity, managed IT.
+- [All Services](https://golaxindiapvtltd.in/services)
+- [Web Development](https://golaxindiapvtltd.in/services/web-development)
+- [Software Development](https://golaxindiapvtltd.in/services/software-development)
+- [Mobile App Development](https://golaxindiapvtltd.in/services/mobile-app-development)
+- [Digital Marketing & SEO](https://golaxindiapvtltd.in/services/digital-marketing)
+- [IT Consulting](https://golaxindiapvtltd.in/services/it-consulting)
 
-## India Locations
+## International markets
 
-- [All Locations](/locations): India cities, Bihar districts, Patna areas, and global offshore pages.
-- [Delhi](/locations/delhi): IT services in Delhi, NCR.
-- [Mumbai](/locations/mumbai): IT services in Mumbai, Maharashtra.
-- [Bangalore](/locations/bangalore): IT services in Bangalore, Karnataka.
-- [Hyderabad](/locations/hyderabad): IT services in Hyderabad, Telangana.
-- [Chennai](/locations/chennai): IT services in Chennai, Tamil Nadu.
-- [Kolkata](/locations/kolkata): IT services in Kolkata, West Bengal.
-- [Pune](/locations/pune): IT services in Pune, Maharashtra.
-- [Patna](/locations/patna): IT company in Patna, Bihar (headquarters).
+- [All Locations](https://golaxindiapvtltd.in/locations)
+- [United States](https://golaxindiapvtltd.in/locations/global/united-states) · [New York](https://golaxindiapvtltd.in/locations/global/united-states/new-york) · [San Francisco](https://golaxindiapvtltd.in/locations/global/united-states/san-francisco)
+- [United Kingdom](https://golaxindiapvtltd.in/locations/global/united-kingdom) · [London](https://golaxindiapvtltd.in/locations/global/united-kingdom/london)
+- [United Arab Emirates](https://golaxindiapvtltd.in/locations/global/united-arab-emirates) · [Dubai](https://golaxindiapvtltd.in/locations/global/united-arab-emirates/dubai)
+- [Canada](https://golaxindiapvtltd.in/locations/global/canada) · [Toronto](https://golaxindiapvtltd.in/locations/global/canada/toronto)
+- [Australia](https://golaxindiapvtltd.in/locations/global/australia) · [Sydney](https://golaxindiapvtltd.in/locations/global/australia/sydney)
+- [Singapore](https://golaxindiapvtltd.in/locations/global/singapore)
+- [Germany](https://golaxindiapvtltd.in/locations/global/germany) · [Berlin](https://golaxindiapvtltd.in/locations/global/germany/berlin)
+- [Saudi Arabia](https://golaxindiapvtltd.in/locations/global/saudi-arabia)
+- [New Zealand](https://golaxindiapvtltd.in/locations/global/new-zealand)
+- [Qatar](https://golaxindiapvtltd.in/locations/global/qatar)
 
-## International / Offshore
+## Example service × country pages
 
-- [United States](/locations/global/united-states): Offshore web & software development for US businesses.
-- [United Kingdom](/locations/global/united-kingdom): Offshore IT partner for UK companies.
-- [Canada](/locations/global/canada): Offshore development for Canadian clients.
-- [Australia](/locations/global/australia): IT services for Australian businesses.
-- [UAE](/locations/global/united-arab-emirates): IT services for UAE and Middle East clients.
+- [Web Development for USA](https://golaxindiapvtltd.in/services/web-development/global/united-states)
+- [Software Development for UK](https://golaxindiapvtltd.in/services/software-development/global/united-kingdom)
+- [Mobile Apps for UAE](https://golaxindiapvtltd.in/services/mobile-app-development/global/united-arab-emirates)
 
 ## Blog
 
-- [Blog](/blog): Web development, SEO, mobile apps, cloud and digital marketing insights for Indian businesses.
+- [Blog](https://golaxindiapvtltd.in/blog): Guides on outsourcing to India, web/SaaS costs, SEO and product engineering for global buyers.
 
-## Optional
+## Machine indexes
 
-- [Sitemap](/sitemap): Full page index.
-- [XML Sitemap](/sitemap.xml): Machine-readable sitemap for search engines.
-- [Privacy Policy](/legal/privacy-policy)
-- [Terms of Service](/legal/terms-of-service)
+- [llms.txt](https://golaxindiapvtltd.in/llms.txt)
+- [ai.txt](https://golaxindiapvtltd.in/ai.txt)
+- [XML Sitemap](https://golaxindiapvtltd.in/sitemap.xml)
+- [HTML Sitemap](https://golaxindiapvtltd.in/sitemap)

@@ -35,7 +35,11 @@ export default function DirectAnswersSection({
                 {item.question}
               </h3>
               <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed" itemProp="text">
+                <p
+                  className="text-sm sm:text-base text-muted-foreground leading-relaxed"
+                  itemProp="text"
+                  data-speakable="true"
+                >
                   {item.answer}
                 </p>
               </div>

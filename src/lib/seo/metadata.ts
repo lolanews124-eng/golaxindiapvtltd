@@ -16,6 +16,13 @@ export interface PageSeoInput {
   locale?: string;
   /** hreflang map: BCP-47 code → path or absolute URL */
   languages?: Record<string, string>;
+  /** GEO meta: geo.region, geo.placename, geo.position, ICBM */
+  geo?: {
+    region: string;
+    placename: string;
+    position: string;
+    icbm: string;
+  };
 }
 
 function toAbsolute(url: string): string {
@@ -33,6 +40,7 @@ export function buildMetadata({
   noindex = false,
   locale = "en_US",
   languages,
+  geo,
 }: PageSeoInput): Metadata {
   const fullTitle = `${title} | ${SITE_NAME}`;
   const googleVerification = process.env.GOOGLE_SITE_VERIFICATION;
@@ -94,6 +102,16 @@ export function buildMetadata({
       : languageAlternates
         ? { languages: languageAlternates }
         : undefined,
+    ...(geo
+      ? {
+          other: {
+            "geo.region": geo.region,
+            "geo.placename": geo.placename,
+            "geo.position": geo.position,
+            ICBM: geo.icbm,
+          },
+        }
+      : {}),
   };
 }
 

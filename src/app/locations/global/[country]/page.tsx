@@ -41,6 +41,14 @@ export async function generateMetadata({
     ogImage: DEFAULT_OG_IMAGE,
     locale: geo?.locale ?? "en_US",
     languages: buildInternationalHreflang((slug) => `/locations/global/${slug}`, "/locations"),
+    geo: geo
+      ? {
+          region: geo.region,
+          placename: geo.placename,
+          position: geo.position,
+          icbm: geo.icbm,
+        }
+      : undefined,
   });
 }
 

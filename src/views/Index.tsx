@@ -13,6 +13,7 @@ import FAQSection from "@/components/shared/FAQSection";
 import CTABanner from "@/components/shared/CTABanner";
 import SectionHeader from "@/components/shared/SectionHeader";
 import GeoReachSection from "@/components/shared/GeoReachSection";
+import DirectAnswersSection from "@/components/seo/DirectAnswersSection";
 import { homeFaqs } from "@/data/siteFaqs";
 import heroBanner from "@/assets/hero-banner.jpg";
 import techPattern from "@/assets/tech-pattern.jpg";
@@ -549,6 +550,12 @@ export default function Index() {
       </section>
 
       <GeoReachSection />
+
+      <DirectAnswersSection
+        title="Direct Answers for Buyers"
+        description="Short, citation-ready answers for US, UK and UAE teams evaluating an offshore partner"
+        items={homeFaqs}
+      />
 
       <FAQSection
         title="Frequently Asked Questions"

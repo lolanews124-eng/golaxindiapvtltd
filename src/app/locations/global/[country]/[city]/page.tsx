@@ -39,6 +39,14 @@ export async function generateMetadata({
           "x-default": `/locations/global/${country}`,
         }
       : undefined,
+    geo: geo
+      ? {
+          region: geo.region,
+          placename: `${data.city}, ${geo.placename}`,
+          position: geo.position,
+          icbm: geo.icbm,
+        }
+      : undefined,
   });
 }
 

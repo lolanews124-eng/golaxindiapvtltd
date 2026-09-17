@@ -1,7 +1,10 @@
 import Contact from "@/views/Contact";
 import FAQPageSchema from "@/components/seo/FAQPageSchema";
+import OrganizationSchema from "@/components/seo/OrganizationSchema";
+import JsonLd from "@/components/seo/JsonLd";
 import { contactFaqs } from "@/data/siteFaqs";
 import { buildMetadata } from "@/lib/seo/metadata";
+import { buildBreadcrumbSchema, buildOffshoreKickoffHowToSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
   title: "Contact Golax India – Free Quote for USA & Global Clients",
@@ -15,7 +18,15 @@ export const metadata = buildMetadata({
 export default function Page() {
   return (
     <>
+      <OrganizationSchema />
       <FAQPageSchema faqs={contactFaqs} />
+      <JsonLd data={buildOffshoreKickoffHowToSchema()} />
+      <JsonLd
+        data={buildBreadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Contact", path: "/contact" },
+        ])}
+      />
       <Contact />
     </>
   );

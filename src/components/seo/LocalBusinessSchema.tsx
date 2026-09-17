@@ -1,30 +1,28 @@
 import JsonLd from "./JsonLd";
+import {
+  ENTITY,
+  areaServedCountryList,
+  postalAddressSchema,
+} from "@/lib/seo/entity";
 
 export default function LocalBusinessSchema() {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    "@id": "https://golaxindiapvtltd.in/#localbusiness",
-    name: "Golax India Pvt Ltd",
-    image: "https://golaxindiapvtltd.in/logo.png",
-    description:
-      "Offshore software, web and mobile development company for USA, UK, UAE, Canada, Australia and global clients — senior engineers from India with USD billing, NDA/IP assignment and timezone-aware collaboration.",
-    url: "https://golaxindiapvtltd.in",
-    telephone: "+91-9470024607",
-    email: "contact@golaxindia.com",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress:
-        "1st Floor, Flat No-102, Sneh Highway Views, Bypass Rd, Near Jaganpura More, Nalanda Colony, Kankarbagh",
-      addressLocality: "Patna",
-      addressRegion: "Bihar",
-      postalCode: "800020",
-      addressCountry: "IN",
-    },
+    "@id": `${ENTITY.url}/#localbusiness`,
+    name: ENTITY.brandName,
+    legalName: ENTITY.legalName,
+    image: `${ENTITY.url}/logo.png`,
+    description: ENTITY.description,
+    url: ENTITY.url,
+    telephone: ENTITY.phoneSchema,
+    email: ENTITY.email,
+    foundingDate: ENTITY.foundingDate,
+    address: postalAddressSchema(),
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 25.5941,
-      longitude: 85.1376,
+      latitude: ENTITY.geo.latitude,
+      longitude: ENTITY.geo.longitude,
     },
     openingHoursSpecification: [
       {
@@ -41,24 +39,12 @@ export default function LocalBusinessSchema() {
       },
     ],
     priceRange: "$$",
-    areaServed: [
-      { "@type": "Country", name: "United States" },
-      { "@type": "Country", name: "United Kingdom" },
-      { "@type": "Country", name: "Canada" },
-      { "@type": "Country", name: "Australia" },
-      { "@type": "Country", name: "United Arab Emirates" },
-      { "@type": "Country", name: "Saudi Arabia" },
-      { "@type": "Country", name: "Singapore" },
-      { "@type": "Country", name: "Germany" },
-      { "@type": "Country", name: "New Zealand" },
-      { "@type": "Country", name: "Qatar" },
-    ],
-    sameAs: [
-      "https://www.facebook.com/golaxindiapvtltd",
-      "https://www.linkedin.com/company/golaxindiapvtltd",
-      "https://twitter.com/golaxindiapvtltd",
-      "https://www.instagram.com/golaxindiapvtltd",
-    ],
+    areaServed: areaServedCountryList(),
+    sameAs: [...ENTITY.sameAs],
+    parentOrganization: {
+      "@type": "Organization",
+      "@id": `${ENTITY.url}/#organization`,
+    },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Offshore IT Services",

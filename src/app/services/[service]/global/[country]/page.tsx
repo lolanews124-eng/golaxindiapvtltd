@@ -40,6 +40,14 @@ export async function generateMetadata({
     canonicalUrl: `/services/${service}/global/${country}`,
     locale: geo?.locale ?? "en_US",
     languages,
+    geo: geo
+      ? {
+          region: geo.region,
+          placename: geo.placename,
+          position: geo.position,
+          icbm: geo.icbm,
+        }
+      : undefined,
   });
 }
 
