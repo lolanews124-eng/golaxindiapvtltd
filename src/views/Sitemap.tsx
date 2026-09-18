@@ -42,6 +42,7 @@ const blogPosts = [
 const mainPages = [
   { name: "Home", href: "/", icon: Home, description: "Welcome to Golax India" },
   { name: "About Us", href: "/about", icon: Users, description: "Our story and team" },
+  { name: "Certificates", href: "/certificates", icon: FileCode, description: "CIN, GST & ISO certificates" },
   { name: "Services", href: "/services", icon: Briefcase, description: "What we offer" },
   { name: "Industries", href: "/industries", icon: Building2, description: "Sectors we serve" },
   { name: "Locations", href: "/locations", icon: MapPin, description: "International markets" },

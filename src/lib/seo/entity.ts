@@ -10,14 +10,20 @@ export const ENTITY = {
   url: "https://golaxindiapvtltd.in",
   email: "contact@golaxindia.com",
   /** Display format for humans */
-  phoneDisplay: "+91 94700 24607",
+  phoneDisplay: "+91 9128666005",
   /** E.164-style for schema / tel: links */
-  phoneE164: "+919470024607",
+  phoneE164: "+919128666005",
   /** Schema telephone (hyphenated common form) */
-  phoneSchema: "+91-94700-24607",
-  foundingDate: "2014",
+  phoneSchema: "+91-9128666005",
+  foundingDate: "2025-09-25",
   description:
     "Offshore software, web and mobile development partner for USA, UK, UAE, Canada, Australia and global clients — senior engineers from India with transparent multi-currency billing, NDA/IP assignment and timezone-aware delivery.",
+  taxIds: {
+    cin: "U42102BR2025PTC079250",
+    gstin: "10AAMCG4053A1ZA",
+    tan: "PTNG16445C",
+    pan: "AAMCG4053A",
+  },
   address: {
     streetAddress:
       "1st Floor, Flat No-102, Sneh Highway Views, Bypass Rd, Near Jaganpura More, Nalanda Colony, Kankarbagh",

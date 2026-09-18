@@ -29,8 +29,8 @@ import { InternationalLocationData, internationalLocations } from "@/data/intern
 import { getCountryGeo } from "@/data/countryGeo";
 import { getServiceCountryHref } from "@/data/serviceCountryContent";
 
-const primaryPhoneDisplay = "+91 94700 24607";
-const primaryPhoneHref = "+919470024607";
+const primaryPhoneDisplay = "+91 9128666005";
+const primaryPhoneHref = "+919128666005";
 const SITE = "https://golaxindiapvtltd.in";
 
 const services = [

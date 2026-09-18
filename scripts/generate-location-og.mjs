@@ -50,7 +50,7 @@ for (const loc of locations) {
     -font Liberation-Sans-Bold -pointsize 70 -fill white -gravity NorthWest -annotate +70+150 "IT Company in" \
     -font Liberation-Sans-Bold -pointsize 92 -fill white -gravity NorthWest -annotate +70+240 "${loc.city.replace(/"/g, '\\"')}" \
     -font Liberation-Sans -pointsize 32 -fill "#cbd5e1" -gravity NorthWest -annotate +70+400 "${sub}" \
-    -font Liberation-Sans -pointsize 24 -fill "#94a3b8" -gravity NorthWest -annotate +70+475 "Get a free quote • +91 94700 24607" \
+    -font Liberation-Sans -pointsize 24 -fill "#94a3b8" -gravity NorthWest -annotate +70+475 "Get a free quote • +91 9128666005" \
     -quality 85 "${out}"`;
 
   execSync(cmd, { stdio: "pipe" });

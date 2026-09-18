@@ -47,6 +47,6 @@ export const contactFaqs: FaqItem[] = [
   {
     question: "How do I get a free quote from Golax India?",
     answer:
-      "Fill out the contact form, email contact@golaxindia.com, or message WhatsApp +91 94700 24607. We reply within 2 business hours with a free consultation and estimate.",
+      "Fill out the contact form, email contact@golaxindia.com, or message WhatsApp +91 9128666005. We reply within 2 business hours with a free consultation and estimate.",
   },
 ];

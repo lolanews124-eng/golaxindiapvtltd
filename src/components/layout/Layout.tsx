@@ -16,8 +16,10 @@ export default function Layout({ children }: LayoutProps) {
     <div className="min-h-screen flex flex-col overflow-x-clip w-full max-w-full">
       <Header />
       <main
-        className={`flex-grow min-w-0 w-full pt-[4.25rem] sm:pt-[4.75rem] md:pt-[136px] lg:pt-[156px] lg:pb-0 transition-[padding] duration-300 ${
-          ctaVisible ? "pb-[4.5rem]" : "pb-3"
+        className={`flex-grow min-w-0 w-full pt-[4.25rem] sm:pt-[4.75rem] md:pt-[136px] xl:pb-0 transition-[padding] duration-300 ${
+          ctaVisible
+            ? "pb-[calc(4.5rem+env(safe-area-inset-bottom,0px))]"
+            : "pb-3"
         }`}
       >
         {children}

@@ -24,6 +24,7 @@ const services = [
 
 const quickLinks = [
   { name: "About Us", href: "/about" },
+  { name: "Certificates", href: "/certificates" },
   { name: "Industries", href: "/industries" },
   { name: "All Locations", href: "/locations" },
   { name: "Portfolio", href: "/portfolio" },
@@ -98,8 +99,10 @@ function FooterLink({ href, children }: { href: string; children: React.ReactNod
 export default function Footer({ ctaVisible = true }: { ctaVisible?: boolean }) {
   return (
     <footer
-      className={`relative overflow-hidden text-primary-foreground lg:pb-0 transition-[padding] duration-300 ${
-        ctaVisible ? "pb-[4.5rem]" : "pb-6"
+      className={`relative overflow-hidden text-primary-foreground xl:pb-0 transition-[padding] duration-300 ${
+        ctaVisible
+          ? "pb-[calc(4.5rem+env(safe-area-inset-bottom,0px))]"
+          : "pb-6"
       }`}
     >
       {/* Background */}
@@ -151,7 +154,7 @@ export default function Footer({ ctaVisible = true }: { ctaVisible?: boolean }) 
                     key={label}
                     href={href}
                     aria-label={`Follow Golax India on ${label}`}
-                    className="w-10 h-10 rounded-xl bg-white/10 border border-white/10 flex items-center justify-center hover:bg-accent hover:border-accent hover:scale-105 hover:shadow-lg hover:shadow-accent/25 transition-all duration-200"
+                    className="w-11 h-11 rounded-xl bg-white/10 border border-white/10 flex items-center justify-center hover:bg-accent hover:border-accent hover:scale-105 hover:shadow-lg hover:shadow-accent/25 transition-all duration-200"
                   >
                     <Icon className="h-4 w-4" aria-hidden="true" />
                   </a>
@@ -228,14 +231,14 @@ export default function Footer({ ctaVisible = true }: { ctaVisible?: boolean }) 
                 </li>
                 <li>
                   <a
-                    href="tel:+919470024607"
+                    href="tel:+919128666005"
                     className="flex items-center gap-3 p-3.5 rounded-xl bg-white/5 border border-white/10 hover:border-accent/40 hover:bg-white/10 transition-all duration-200 group"
                   >
                     <div className="w-9 h-9 rounded-lg bg-accent/20 flex items-center justify-center shrink-0 group-hover:bg-accent/30 transition-colors">
                       <Phone className="h-4 w-4 text-accent" />
                     </div>
                     <span className="text-sm font-medium text-primary-foreground/90 group-hover:text-accent transition-colors">
-                      +91 94700 24607
+                      +91 9128666005
                     </span>
                   </a>
                 </li>
@@ -269,7 +272,7 @@ export default function Footer({ ctaVisible = true }: { ctaVisible?: boolean }) 
                   <span key={link.href} className="inline-flex items-center">
                     <Link
                       href={link.href}
-                      className="text-xs sm:text-sm text-primary-foreground/60 hover:text-accent px-2 py-1 rounded-md hover:bg-white/5 transition-all duration-200"
+                      className="inline-flex items-center min-h-11 text-xs sm:text-sm text-primary-foreground/60 hover:text-accent px-3 py-2 rounded-md hover:bg-white/5 transition-all duration-200"
                     >
                       {link.name}
                     </Link>

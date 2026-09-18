@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
@@ -16,13 +16,14 @@ const navigation = [
   { name: "Services", href: "/services" },
   { name: "Industries", href: "/industries" },
   { name: "Portfolio", href: "/portfolio" },
+  { name: "Certificates", href: "/certificates" },
   { name: "Careers", href: "/careers" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
 
-const PHONE_DISPLAY = "+91 94700 24607";
-const PHONE_HREF = "+919470024607";
+const PHONE_DISPLAY = "+91 9128666005";
+const PHONE_HREF = "+919128666005";
 
 const globalLinks = internationalLocations.slice(0, 8);
 
@@ -32,6 +33,11 @@ export default function Header() {
   const [mobileLocationsOpen, setMobileLocationsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+
+  const closeMobileMenu = useCallback(() => {
+    setMobileMenuOpen(false);
+    setMobileLocationsOpen(false);
+  }, []);
 
   useEffect(() => {
     const root = document.documentElement;
@@ -49,9 +55,18 @@ export default function Header() {
   }, [mobileMenuOpen]);
 
   useEffect(() => {
-    setMobileMenuOpen(false);
+    closeMobileMenu();
     setLocationsOpen(false);
-  }, [pathname]);
+  }, [pathname, closeMobileMenu]);
+
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeMobileMenu();
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [mobileMenuOpen, closeMobileMenu]);
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
@@ -66,7 +81,7 @@ export default function Header() {
   const isLocationsActive = pathname.startsWith("/locations");
 
   const navClass = (active: boolean) =>
-    `relative px-2.5 xl:px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 ${
+    `relative px-2 xl:px-2.5 2xl:px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap ${
       active
         ? "text-primary nav-link-active bg-primary/5"
         : "text-foreground/70 hover:text-primary hover:bg-primary/5"
@@ -75,38 +90,41 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 pt-[env(safe-area-inset-top)]">
       <div className="bg-gradient-to-r from-primary via-[hsl(217,91%,26%)] to-primary text-primary-foreground py-2 hidden md:block border-b border-white/10">
-        <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center text-sm">
-          <div className="flex items-center gap-6">
-            <a href={`tel:${PHONE_HREF}`} className="flex items-center gap-2 hover:text-accent transition-colors">
+        <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center text-sm gap-4">
+          <div className="flex items-center gap-4 xl:gap-6 min-w-0">
+            <a href={`tel:${PHONE_HREF}`} className="flex items-center gap-2 hover:text-accent transition-colors shrink-0">
               <Phone className="h-4 w-4" />
               {PHONE_DISPLAY}
             </a>
-            <a href="mailto:contact@golaxindia.com" className="flex items-center gap-2 hover:text-accent transition-colors">
-              <Mail className="h-4 w-4" />
+            <a
+              href="mailto:contact@golaxindia.com"
+              className="hidden lg:flex items-center gap-2 hover:text-accent transition-colors truncate"
+            >
+              <Mail className="h-4 w-4 shrink-0" />
               contact@golaxindia.com
             </a>
           </div>
-          <div className="text-primary-foreground/80">
-            Offshore Engineering Partner · Serving 12+ Countries Worldwide
+          <div className="text-primary-foreground/80 text-right truncate hidden sm:block">
+            Offshore Engineering Partner · 12+ Countries
           </div>
         </div>
       </div>
 
       <nav className="bg-white/90 backdrop-blur-xl border-b border-border/50 shadow-sm">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="flex h-[4.25rem] sm:h-[4.75rem] md:h-24 items-center justify-between gap-2">
-            <Link href="/" className="flex items-center shrink-0 min-w-0" aria-label="Golax India Pvt Ltd – Home">
+        <div className="container mx-auto px-3 sm:px-6">
+          <div className="flex h-[4.25rem] sm:h-[4.75rem] md:h-24 items-center justify-between gap-2 min-w-0">
+            <Link href="/" className="flex items-center min-w-0 shrink" aria-label="Golax India Pvt Ltd – Home">
               <Image
                 src={logo}
                 alt="Golax India Pvt Ltd logo"
                 width={320}
                 height={96}
                 priority
-                className="h-12 sm:h-14 md:h-20 lg:h-[5.25rem] w-auto max-w-[240px] sm:max-w-[280px] md:max-w-none"
+                className="h-10 sm:h-12 md:h-16 xl:h-[4.5rem] w-auto max-w-[140px] sm:max-w-[200px] md:max-w-[240px] xl:max-w-none"
               />
             </Link>
 
-            <div className="hidden lg:flex items-center gap-0.5 xl:gap-1">
+            <div className="hidden xl:flex items-center gap-0.5 2xl:gap-1 min-w-0">
               <Link href="/" className={navClass(pathname === "/")}>
                 Home
               </Link>
@@ -143,7 +161,7 @@ export default function Header() {
                           <li key={c.slug}>
                             <Link
                               href={`/locations/global/${c.slug}`}
-                              className="block px-2 py-1.5 text-sm rounded-md hover:bg-muted"
+                              className="flex items-center min-h-10 px-2 py-2.5 text-sm rounded-md hover:bg-muted"
                               onClick={() => setLocationsOpen(false)}
                             >
                               {c.flag} {c.country}
@@ -153,7 +171,7 @@ export default function Header() {
                       </ul>
                       <Link
                         href="/locations"
-                        className="text-xs text-primary font-medium mt-3 inline-block hover:underline"
+                        className="text-xs text-primary font-medium mt-3 inline-flex min-h-10 items-center hover:underline"
                         onClick={() => setLocationsOpen(false)}
                       >
                         All countries →
@@ -170,28 +188,19 @@ export default function Header() {
               ))}
             </div>
 
-            <div className="hidden lg:flex items-center gap-3 shrink-0">
+            <div className="hidden xl:flex items-center gap-3 shrink-0">
               <Button asChild variant="hero" size="default">
                 <Link href="/contact">Get Free Quote</Link>
               </Button>
             </div>
 
-            <div className="flex items-center gap-1 lg:hidden shrink-0">
+            <div className="flex items-center gap-1 xl:hidden shrink-0">
               <a
                 href={`tel:${PHONE_HREF}`}
                 className="flex items-center justify-center w-11 h-11 rounded-full bg-primary/10 text-primary active:bg-primary/20 transition-colors"
                 aria-label="Call Golax India"
               >
                 <Phone className="h-5 w-5" />
-              </a>
-              <a
-                href="https://wa.me/919470024607"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-11 h-11 rounded-full bg-[#25D366]/15 text-[#128C7E] active:bg-[#25D366]/25 transition-colors"
-                aria-label="WhatsApp Golax India"
-              >
-                <MessageCircle className="h-5 w-5" />
               </a>
               <button
                 type="button"
@@ -214,8 +223,8 @@ export default function Header() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black/50 z-[60] lg:hidden"
-              onClick={() => setMobileMenuOpen(false)}
+              className="fixed inset-0 bg-black/50 z-[60] xl:hidden"
+              onClick={closeMobileMenu}
               aria-hidden="true"
             />
             <motion.div
@@ -223,7 +232,7 @@ export default function Header() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 28, stiffness: 320 }}
-              className="fixed top-0 right-0 bottom-0 w-[85vw] max-w-[320px] z-[70] bg-card shadow-2xl flex flex-col lg:hidden pt-[env(safe-area-inset-top)]"
+              className="fixed top-0 right-0 bottom-0 w-[min(85vw,320px)] z-[70] bg-card shadow-2xl flex flex-col xl:hidden pt-[env(safe-area-inset-top)]"
               role="dialog"
               aria-modal="true"
               aria-label="Navigation menu"
@@ -232,7 +241,7 @@ export default function Header() {
                 <span className="font-heading font-semibold text-foreground">Menu</span>
                 <button
                   type="button"
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={closeMobileMenu}
                   className="w-11 h-11 flex items-center justify-center rounded-full bg-muted"
                   aria-label="Close menu"
                 >
@@ -262,18 +271,21 @@ export default function Header() {
                     <ChevronDown className={`h-5 w-5 transition-transform ${mobileLocationsOpen ? "rotate-180" : ""}`} />
                   </button>
                   {mobileLocationsOpen && (
-                    <div className="pl-4 pb-2 space-y-1">
-                      <p className="text-xs font-semibold text-muted-foreground px-4 pt-2">🌍 Global</p>
+                    <div className="pl-2 pb-2 space-y-1">
+                      <p className="text-xs font-semibold text-muted-foreground px-4 pt-2">Global Markets</p>
                       {globalLinks.map((c) => (
                         <Link
                           key={c.slug}
                           href={`/locations/global/${c.slug}`}
-                          className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded-lg"
+                          className="flex items-center min-h-[44px] px-4 text-sm text-foreground hover:bg-muted rounded-lg"
                         >
                           {c.flag} {c.country}
                         </Link>
                       ))}
-                      <Link href="/locations" className="block px-4 py-2 text-sm text-primary font-medium">
+                      <Link
+                        href="/locations"
+                        className="flex items-center min-h-[44px] px-4 text-sm text-primary font-medium"
+                      >
                         All countries →
                       </Link>
                     </div>
@@ -293,10 +305,12 @@ export default function Header() {
                     <Phone className="h-4 w-4" /> Call
                   </a>
                   <a
-                    href="mailto:contact@golaxindia.com"
+                    href="https://wa.me/919128666005"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 min-h-[44px] rounded-lg border border-border text-sm font-medium"
                   >
-                    <Mail className="h-4 w-4" /> Email
+                    <MessageCircle className="h-4 w-4" /> WhatsApp
                   </a>
                 </div>
               </div>

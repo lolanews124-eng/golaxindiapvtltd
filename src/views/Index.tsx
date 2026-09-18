@@ -159,7 +159,7 @@ export default function Index() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="w-full min-w-0 order-2 lg:order-2"
+              className="w-full min-w-0 order-1 lg:order-2"
             >
               <HeroLeadForm
                 context="Home — USA & Global Offshore"
@@ -173,7 +173,7 @@ export default function Index() {
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="order-1 lg:order-1 min-w-0"
+              className="order-2 lg:order-1 min-w-0"
             >
               <motion.span 
                 initial={{ opacity: 0, y: 20 }}
@@ -364,9 +364,9 @@ export default function Index() {
             x: 0
           }} viewport={{
             once: true
-          }} className="relative overflow-hidden">
+          }} className="relative pb-10 sm:pb-12">
               <Image src={techPattern} alt="Technology innovation at Golax India" className="rounded-2xl shadow-2xl w-full h-auto" loading="lazy" />
-              <div className="absolute -bottom-4 left-4 right-4 sm:-bottom-6 sm:left-4 sm:right-auto sm:max-w-[220px] glass-card rounded-2xl p-4 sm:p-6">
+              <div className="absolute bottom-2 left-4 right-4 sm:bottom-4 sm:left-4 sm:right-auto sm:max-w-[220px] glass-card rounded-2xl p-4 sm:p-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-success flex items-center justify-center">
                     <Award className="h-6 w-6 text-success-foreground" />
@@ -410,7 +410,7 @@ export default function Index() {
                 <div className="w-11 h-11 sm:w-14 sm:h-14 mx-auto rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center mb-3 sm:mb-4 group-hover:from-primary group-hover:to-accent transition-all duration-300 shadow-sm">
                   <industry.icon className="h-6 w-6 sm:h-7 sm:w-7 text-primary group-hover:text-white transition-colors" />
                 </div>
-                <h3 className="font-semibold text-foreground text-xs sm:text-sm md:text-base leading-snug">{industry.name}</h3>
+                <h3 className="font-semibold text-foreground text-sm sm:text-base leading-snug">{industry.name}</h3>
               </motion.div>
             ))}
           </div>

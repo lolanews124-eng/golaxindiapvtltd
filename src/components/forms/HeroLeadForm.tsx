@@ -19,7 +19,7 @@ import {
 import { useToast } from "@/hooks/use-toast";
 import { getClientPageMeta, submitLeadToAdmin } from "@/lib/leads/submit-client";
 
-const PHONE_HREF = "919470024607";
+const PHONE_HREF = "919128666005";
 const EMAIL = "contact@golaxindia.com";
 
 const schema = z.object({
@@ -184,7 +184,7 @@ export default function HeroLeadForm({
           placeholder="Your name"
           maxLength={100}
           required
-          className="h-11 sm:h-10 text-foreground"
+          className="h-11 text-foreground"
         />
       </div>
 
@@ -199,7 +199,7 @@ export default function HeroLeadForm({
             placeholder="+91 …"
             maxLength={20}
             required
-            className="h-11 sm:h-10 text-foreground"
+            className="h-11 text-foreground"
           />
         </div>
         <div className="space-y-2">
@@ -212,7 +212,7 @@ export default function HeroLeadForm({
             placeholder="you@company.com"
             maxLength={255}
             required
-            className="h-11 sm:h-10 text-foreground"
+            className="h-11 text-foreground"
           />
         </div>
       </div>
@@ -223,7 +223,7 @@ export default function HeroLeadForm({
           value={form.service}
           onValueChange={(v) => setForm({ ...form, service: v })}
         >
-          <SelectTrigger id="hlf-service" aria-labelledby="hlf-service-label" className="h-11 sm:h-10 text-foreground">
+          <SelectTrigger id="hlf-service" aria-labelledby="hlf-service-label" className="h-11 text-foreground">
             <SelectValue placeholder="Select a service" />
           </SelectTrigger>
           <SelectContent>

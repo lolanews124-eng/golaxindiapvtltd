@@ -40,8 +40,8 @@ import {
 } from "@/data/serviceCountryContent";
 import type { SearchTermLink } from "@/lib/seo/internationalKeywords";
 
-const primaryPhoneDisplay = "+91 94700 24607";
-const primaryPhoneHref = "+919470024607";
+const primaryPhoneDisplay = "+91 9128666005";
+const primaryPhoneHref = "+919128666005";
 const SITE = "https://golaxindiapvtltd.in";
 
 const iconMap: Record<string, React.ElementType> = {
@@ -120,7 +120,7 @@ export default function ServiceInternationalTemplate({ data }: Props) {
               "@id": `${SITE}/#organization`,
               name: "Golax India Pvt Ltd",
               url: SITE,
-              telephone: "+91-94700-24607",
+              telephone: "+91-9128666005",
               email: "contact@golaxindia.com",
               address: {
                 "@type": "PostalAddress",

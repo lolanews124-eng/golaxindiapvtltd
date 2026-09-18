@@ -340,8 +340,8 @@ export default function RefundPolicy() {
                   <Mail className="h-5 w-5" />
                   refunds@golaxindiapvtltd.in
                 </a>
-                <a href="tel:+919470024607" className="inline-flex items-center gap-2 bg-card border border-border text-foreground px-6 py-3 rounded-lg hover:bg-muted transition-colors">
-                  Call: +91 94700 24607
+                <a href="tel:+919128666005" className="inline-flex items-center gap-2 bg-card border border-border text-foreground px-6 py-3 rounded-lg hover:bg-muted transition-colors">
+                  Call: +91 9128666005
                 </a>
               </div>
               <p className="text-sm text-muted-foreground mt-4">

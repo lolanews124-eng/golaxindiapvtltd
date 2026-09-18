@@ -24,7 +24,7 @@ export const seoBlogPosts: BlogPostData[] = [
     title: "Website Development Cost When Outsourcing to India (2026)",
     excerpt:
       "What should US, UK and UAE buyers budget when outsourcing a website to India? Honest 2026 ranges for marketing sites, ecommerce and custom web apps — in USD context.",
-    author: "Vikash Kumar",
+    author: "Vinay Bhaskar",
     date: "June 10, 2026",
     readTime: "10 min read",
     category: "Web Development",
@@ -149,7 +149,7 @@ Website development cost in India ranges from ₹15,000 for a simple business si
     title: "How to Choose an Offshore IT Company in India (2026)",
     excerpt:
       "Practical checklist for US, UK and UAE buyers evaluating web, software and marketing partners in India — portfolio, pricing, NDA, overlap and red flags.",
-    author: "Anita Sharma",
+    author: "Shekhar Sahani",
     date: "June 8, 2026",
     readTime: "9 min read",
     category: "Business",
@@ -270,7 +270,7 @@ The best IT company in India isn't a universal ranking — it's the one that mat
     title: "Why US & UK Businesses Outsource Software Development to India",
     excerpt:
       "Complete guide to outsourcing software development to India — cost savings, talent quality, timezone tips, contracts, and how to choose the right offshore partner.",
-    author: "Vikash Kumar",
+    author: "Vinay Bhaskar",
     date: "June 5, 2026",
     readTime: "11 min read",
     category: "Offshore Development",
@@ -401,7 +401,7 @@ Outsourcing software development to India works when you choose a senior-led par
     title: "How to Hire Mobile App Developers in India: Complete 2026 Guide",
     excerpt:
       "Native vs Flutter vs React Native, realistic app development costs in India, and how to hire the right mobile app development company for iOS and Android.",
-    author: "Rajesh Singh",
+    author: "Shekhar Sahani",
     date: "June 3, 2026",
     readTime: "10 min read",
     category: "Mobile Development",
@@ -517,7 +517,7 @@ Hiring mobile app developers in India succeeds when you define features clearly,
     title: "SEO from India for Global Businesses: What Works in 2026",
     excerpt:
       "What offshore SEO retainers actually include, realistic timelines, and how US/UK/UAE brands should evaluate an India-based SEO partner.",
-    author: "Meera Patel",
+    author: "Deepak Bharti",
     date: "June 1, 2026",
     readTime: "9 min read",
     category: "SEO",
@@ -652,7 +652,7 @@ SEO services in India deliver results when built on technical health, relevant c
     title: "Next.js vs WordPress for Business Websites: Which Should You Choose?",
     excerpt:
       "Compare Next.js and WordPress for speed, SEO, cost, and scalability — so you pick the right stack for your business website in 2026.",
-    author: "Rajesh Singh",
+    author: "Shekhar Sahani",
     date: "May 28, 2026",
     readTime: "8 min read",
     category: "Web Development",

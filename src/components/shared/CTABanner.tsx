@@ -48,9 +48,10 @@ export default function CTABanner({
             </Button>
             {showPhone && (
               <Button asChild variant="heroOutline" size="xl" className="w-full sm:w-auto">
-                <a href="tel:+919470024607">
-                  <Phone className="mr-2 h-5 w-5" />
-                  +91 94700 24607
+                <a href="tel:+919128666005">
+                  <Phone className="mr-2 h-5 w-5 shrink-0" />
+                  <span className="sm:hidden">Call us</span>
+                  <span className="hidden sm:inline">+91 9128666005</span>
                 </a>
               </Button>
             )}

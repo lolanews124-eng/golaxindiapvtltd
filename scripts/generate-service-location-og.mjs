@@ -50,7 +50,7 @@ for (const service of SERVICES) {
       -font Liberation-Sans-Bold -pointsize 60 -fill white -gravity NorthWest -annotate +70+145 "${headline.replace(/"/g, '\\"')}" \
       -font Liberation-Sans-Bold -pointsize 78 -fill white -gravity NorthWest -annotate +70+225 "${sub.replace(/"/g, '\\"')}" \
       -font Liberation-Sans -pointsize 30 -fill "#cbd5e1" -gravity NorthWest -annotate +70+380 "${tagline}" \
-      -font Liberation-Sans -pointsize 24 -fill "#94a3b8" -gravity NorthWest -annotate +70+450 "Get a free quote • +91 94700 24607" \
+      -font Liberation-Sans -pointsize 24 -fill "#94a3b8" -gravity NorthWest -annotate +70+450 "Get a free quote • +91 9128666005" \
       -font Liberation-Sans -pointsize 22 -fill "#64748b" -gravity NorthWest -annotate +70+495 "golaxindiapvtltd.in" \
       -quality 85 "${out}"`;
 

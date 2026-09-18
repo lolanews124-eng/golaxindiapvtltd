@@ -91,7 +91,7 @@ export function buildOffshoreKickoffHowToSchema() {
         "@type": "HowToStep",
         position: 1,
         name: "Book a discovery call",
-        text: "Share your goals via the contact form, email contact@golaxindia.com, or WhatsApp +91 94700 24607. Free 30-minute discovery call.",
+        text: "Share your goals via the contact form, email contact@golaxindia.com, or WhatsApp +91 9128666005. Free 30-minute discovery call.",
         url: `${BASE_URL}/contact`,
       },
       {

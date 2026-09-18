@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 
-const PHONE_HREF = "919470024607";
+const PHONE_HREF = "919128666005";
 const EMAIL = "contact@golaxindia.com";
 
 const leadSchema = z.object({

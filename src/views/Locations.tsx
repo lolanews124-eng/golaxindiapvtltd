@@ -30,7 +30,7 @@ export default function Locations() {
               <Link href="/contact">Book a Discovery Call</Link>
             </Button>
             <Button asChild variant="heroOutline" size="lg">
-              <a href="tel:+919470024607">Call: +91 94700 24607</a>
+              <a href="tel:+919128666005">Call: +91 9128666005</a>
             </Button>
           </>
         }

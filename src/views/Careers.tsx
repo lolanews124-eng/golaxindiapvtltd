@@ -367,7 +367,7 @@ export default function Careers() {
                     type="tel"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+91 94700 24607"
+                    placeholder="+91 9128666005"
                     required
                   />
                 </div>

@@ -75,31 +75,41 @@ const differentiators = [
 
 const team = [
   {
-    name: "Vikash Kumar",
-    role: "Founder & CEO",
-    bio: "15+ years in IT — builds offshore delivery models for US and global product teams",
+    name: "Vinay Bhaskar",
+    role: "Founder",
+    bio: "Founded Golax India to deliver senior offshore engineering for US and global product teams",
   },
   {
-    name: "Anita Sharma",
+    name: "Deepak Bharti",
+    role: "CEO",
+    bio: "Leads company growth, client relationships and delivery accountability for international buyers",
+  },
+  {
+    name: "Shekhar Sahani",
     role: "CTO",
-    bio: "Full-stack & SaaS architecture lead with 12 years shipping enterprise and startup products",
+    bio: "Owns product architecture, engineering standards and technical handovers for SaaS and web builds",
   },
   {
-    name: "Rajesh Singh",
-    role: "Head of Development",
-    bio: "Owns engineering quality, sprint cadence and handovers for international clients",
+    name: "Priya Verma",
+    role: "Head of Delivery",
+    bio: "Keeps US and UK projects on sprint cadence — demos, handovers and client communication",
   },
   {
-    name: "Meera Patel",
-    role: "Growth & Digital Lead",
-    bio: "SEO and paid acquisition for US/UK markets — organic growth and conversion focus",
+    name: "Amit Ranjan",
+    role: "Engineering Manager",
+    bio: "Leads React/Node squads and code quality for offshore product and agency engagements",
+  },
+  {
+    name: "Neha Gupta",
+    role: "Growth & Partnerships",
+    bio: "SEO, partnerships and market outreach for USA, UK and UAE buyer pipelines",
   },
 ];
 
 const milestones = [
   {
-    year: "2014",
-    event: "Golax India founded — mission to deliver world-class engineering at offshore rates for clients abroad",
+    year: "2025",
+    event: "Incorporated as Golax India Private Limited (CIN U42102BR2025PTC079250) — MCA registered, ISO 9001 & ISO 27001 certified",
   },
   {
     year: "2018",
@@ -293,16 +303,16 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20 bg-card">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+      <section className="section-padding bg-card">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">Our Journey</h2>
-              <p className="text-lg text-muted-foreground">
+              <h2 className="heading-display text-2xl sm:text-3xl md:text-4xl text-foreground mb-4">Our Journey</h2>
+              <p className="text-base sm:text-lg text-muted-foreground">
                 From founding to a fully international offshore delivery focus
               </p>
             </motion.div>
@@ -316,16 +326,18 @@ export default function About() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="flex gap-6 mb-8 last:mb-0"
+                className="flex flex-col sm:flex-row gap-3 sm:gap-6 mb-8 last:mb-0"
               >
-                <div className="flex flex-col items-center">
-                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-heading font-bold">
+                <div className="flex sm:flex-col items-center gap-3 sm:gap-0">
+                  <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-heading font-bold text-sm sm:text-base shrink-0">
                     {milestone.year}
                   </div>
-                  {index < milestones.length - 1 && <div className="w-0.5 h-full bg-border mt-2" />}
+                  {index < milestones.length - 1 && (
+                    <div className="hidden sm:block w-0.5 h-full bg-border mt-2" />
+                  )}
                 </div>
-                <div className="bg-gradient-subtle rounded-lg p-6 premium-card flex-1 mt-2">
-                  <p className="text-foreground">{milestone.event}</p>
+                <div className="bg-gradient-subtle rounded-lg p-4 sm:p-6 premium-card flex-1 sm:mt-2 min-w-0">
+                  <p className="text-foreground text-sm sm:text-base leading-relaxed">{milestone.event}</p>
                 </div>
               </motion.div>
             ))}
@@ -333,24 +345,24 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-subtle">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+      <section className="section-padding bg-gradient-subtle">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
+              <h2 className="heading-display text-2xl sm:text-3xl md:text-4xl text-foreground mb-4">
                 Our Leadership Team
               </h2>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-base sm:text-lg text-muted-foreground">
                 Experienced leaders who run offshore delivery for international product teams
               </p>
             </motion.div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {team.map((member, index) => (
               <motion.div
                 key={member.name}
@@ -369,6 +381,23 @@ export default function About() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="py-16 border-t border-border/60">
+        <div className="container mx-auto px-4 text-center max-w-2xl">
+          <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-3">
+            Company Registration & Certificates
+          </h2>
+          <p className="text-muted-foreground mb-6">
+            MCA-registered private limited company — view CIN, GST, TAN and our ISO 9001 & ISO 27001 certificates.
+          </p>
+          <Link
+            href="/certificates"
+            className="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground hover:opacity-90 transition-opacity"
+          >
+            View Certificates
+          </Link>
         </div>
       </section>
 

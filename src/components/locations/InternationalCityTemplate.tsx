@@ -29,8 +29,8 @@ import KeywordTopicsSection from "@/components/seo/KeywordTopicsSection";
 import { buildCitySeoSections, getCitySearchTerms } from "@/lib/seo/internationalKeywords";
 import CityLeadForm from "./CityLeadForm";
 
-const PHONE_DISPLAY = "+91 94700 24607";
-const PHONE_HREF = "+919470024607";
+const PHONE_DISPLAY = "+91 9128666005";
+const PHONE_HREF = "+919128666005";
 const SITE = "https://golaxindiapvtltd.in";
 
 const services = [
@@ -140,7 +140,7 @@ export default function InternationalCityTemplate({ data }: Props) {
                   name: "Golax India Pvt Ltd",
                   url: SITE,
                   email: "contact@golaxindia.com",
-                  telephone: "+91-94700-24607",
+                  telephone: "+91-9128666005",
                   address: {
                     "@type": "PostalAddress",
                     streetAddress: "1st Floor, Flat No-102, Sneh Highway Views, Bypass Rd, Near Jaganpura More, Nalanda Colony, Kankarbagh",

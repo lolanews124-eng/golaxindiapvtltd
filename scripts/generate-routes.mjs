@@ -67,7 +67,7 @@ const staticPages = [
     view: "Contact",
     title: "Contact Us – Get a Free Quote",
     description:
-      "Contact Golax India for a free IT consultation in Patna. Call +91 94700 24607 or fill our form for web development, software, mobile apps & digital marketing.",
+      "Contact Golax India for a free IT consultation in Patna. Call +91 9128666005 or fill our form for web development, software, mobile apps & digital marketing.",
     canonical: "/contact",
   },
   {

@@ -25,8 +25,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    details: ["+91 94700 24607"],
-    action: "tel:+919470024607",
+    details: ["+91 9128666005"],
+    action: "tel:+919128666005",
   },
   {
     icon: Mail,
@@ -108,7 +108,7 @@ ${formData.message}`;
 
     // Encode message for URL
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappNumber = "919470024607";
+    const whatsappNumber = "919128666005";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
     // Open WhatsApp in new tab
@@ -207,7 +207,7 @@ ${formData.message}`;
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="premium-card p-8 md:p-10"
+                className="premium-card p-5 sm:p-8 md:p-10"
               >
                 <h2 className="font-heading text-2xl font-bold text-foreground mb-2">
                   Request a Free Quote
@@ -252,7 +252,7 @@ ${formData.message}`;
                         type="tel"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="+91 94700 24607"
+                        placeholder="+91 9128666005"
                         required
                       />
                     </div>

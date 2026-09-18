@@ -193,7 +193,7 @@ export default function Services() {
                   <Link href="/contact">Request Free Quote</Link>
                 </Button>
                 <Button asChild variant="heroOutline" size="lg" className="w-full">
-                  <a href="tel:+919470024607">Call: +91 94700 24607</a>
+                  <a href="tel:+919128666005">Call: +91 9128666005</a>
                 </Button>
               </div>
             </motion.div>

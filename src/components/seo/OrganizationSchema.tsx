@@ -20,6 +20,12 @@ export default function OrganizationSchema() {
     email: ENTITY.email,
     telephone: ENTITY.phoneSchema,
     foundingDate: ENTITY.foundingDate,
+    taxID: ENTITY.taxIds.gstin,
+    identifier: [
+      { "@type": "PropertyValue", name: "CIN", value: ENTITY.taxIds.cin },
+      { "@type": "PropertyValue", name: "TAN", value: ENTITY.taxIds.tan },
+      { "@type": "PropertyValue", name: "PAN", value: ENTITY.taxIds.pan },
+    ],
     foundingLocation: {
       "@type": "Place",
       name: "Patna, Bihar, India",

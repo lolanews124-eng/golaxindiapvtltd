@@ -74,7 +74,7 @@ export default function PageHero({
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="max-w-2xl min-w-0"
+              className={`max-w-2xl min-w-0 ${showForm ? "order-2 lg:order-1" : ""}`}
             >
               {backLink && (
                 <Link
@@ -97,7 +97,7 @@ export default function PageHero({
               <p className="mb-6 max-w-xl text-base leading-relaxed text-primary-foreground/80 sm:mb-8 sm:text-lg md:text-xl">
                 {description}
               </p>
-              {actions && <div className="flex flex-wrap gap-3">{actions}</div>}
+              {actions && <div className="flex flex-col sm:flex-row flex-wrap gap-3">{actions}</div>}
             </motion.div>
 
             {showForm && (
@@ -105,7 +105,7 @@ export default function PageHero({
                 initial={{ opacity: 0, y: 24 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.15 }}
-                className="w-full"
+                className="w-full order-1 lg:order-2"
               >
                 <HeroLeadForm
                   context={formContext}
