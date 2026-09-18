@@ -31,7 +31,7 @@ export default function ServiceHero({
     <section className="hero-premium">
       <div className="hero-premium-orb hero-premium-orb-accent" aria-hidden />
       <div className="hero-premium-orb hero-premium-orb-primary" aria-hidden />
-      <div className="container mx-auto px-4 sm:px-6 relative z-10 py-10 sm:py-14 md:py-20">
+      <div className="container mx-auto px-4 sm:px-6 relative z-10 py-8 sm:py-12 md:py-16">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start lg:items-center">
           <motion.div
             initial={{ opacity: 0, y: 24 }}

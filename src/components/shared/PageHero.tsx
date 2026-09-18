@@ -37,7 +37,7 @@ export default function PageHero({
       <div className="hero-premium-orb hero-premium-orb-accent" aria-hidden />
       <div className="hero-premium-orb hero-premium-orb-primary" aria-hidden />
 
-      <div className="container relative z-10 mx-auto px-4 sm:px-6 py-10 sm:py-14 md:py-20 min-w-0">
+      <div className="container relative z-10 mx-auto px-4 sm:px-6 py-8 sm:py-12 md:py-16 min-w-0">
         {centered ? (
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -74,7 +74,7 @@ export default function PageHero({
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className={`max-w-2xl min-w-0 ${showForm ? "order-2 lg:order-1" : ""}`}
+              className="max-w-2xl min-w-0"
             >
               {backLink && (
                 <Link
@@ -105,7 +105,7 @@ export default function PageHero({
                 initial={{ opacity: 0, y: 24 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.15 }}
-                className="w-full order-1 lg:order-2"
+                className="w-full"
               >
                 <HeroLeadForm
                   context={formContext}

@@ -135,14 +135,14 @@ export default function HeroLeadForm({
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
-        className={`${wrapperClass} ${formInner} p-6 md:p-7 text-center text-card-foreground`}
+        className={`${wrapperClass} ${formInner} p-5 text-center text-card-foreground`}
       >
-        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-accent to-primary" />
-        <CheckCircle2 className="w-12 h-12 text-primary mx-auto mb-3 mt-1" />
-        <h3 className="text-xl font-bold text-foreground mb-2">
+        <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-accent to-primary" />
+        <CheckCircle2 className="w-10 h-10 text-primary mx-auto mb-2 mt-0.5" />
+        <h3 className="text-lg font-bold text-foreground mb-1">
           Thanks, {form.name.split(" ")[0]}!
         </h3>
-        <p className="text-sm text-muted-foreground mb-4">
+        <p className="text-xs text-muted-foreground mb-3">
           WhatsApp & Email opened with your enquiry. We&apos;ll reply within 2 business hours.
         </p>
         <Button asChild size="sm" className="w-full">
@@ -164,67 +164,70 @@ export default function HeroLeadForm({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.3 }}
-      className={`${wrapperClass} ${formInner} p-4 sm:p-5 md:p-6 space-y-3 w-full max-w-md mx-auto lg:mx-0 lg:max-w-none text-card-foreground`}
+      className={`${wrapperClass} ${formInner} p-3.5 sm:p-4 space-y-2 w-full max-w-md mx-auto lg:mx-0 lg:max-w-none text-card-foreground`}
       aria-label="Quick lead enquiry form"
     >
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary via-accent to-primary" />
-      <div className="text-center mb-1 pt-1">
-        <h3 className="font-heading text-lg md:text-xl font-bold text-foreground leading-tight tracking-tight">
+      <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-accent to-primary" />
+      <div className="text-center pt-0.5 pb-0.5">
+        <h3 className="font-heading text-base sm:text-lg font-bold text-foreground leading-snug tracking-tight">
           {title}
         </h3>
-        <p className="text-xs text-muted-foreground mt-1">{subtitle}</p>
+        <p className="text-[11px] text-muted-foreground mt-0.5 leading-snug line-clamp-2">{subtitle}</p>
       </div>
 
-      <div className="space-y-2">
-        <Label htmlFor="hlf-name" className="text-xs font-semibold">Full Name *</Label>
+      <div>
+        <Label htmlFor="hlf-name" className="sr-only">Full Name</Label>
         <Input
           id="hlf-name"
           value={form.name}
           onChange={(e) => setForm({ ...form, name: e.target.value })}
-          placeholder="Your name"
+          placeholder="Full name *"
           maxLength={100}
           required
-          className="h-11 text-foreground"
+          autoComplete="name"
+          className="h-10 text-foreground"
         />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        <div className="space-y-2">
-          <Label htmlFor="hlf-phone" className="text-xs font-semibold">Phone *</Label>
+      <div className="grid grid-cols-2 gap-2">
+        <div>
+          <Label htmlFor="hlf-phone" className="sr-only">Phone</Label>
           <Input
             id="hlf-phone"
             type="tel"
             value={form.phone}
             onChange={(e) => setForm({ ...form, phone: e.target.value })}
-            placeholder="+91 …"
+            placeholder="Phone *"
             maxLength={20}
             required
-            className="h-11 text-foreground"
+            autoComplete="tel"
+            className="h-10 text-foreground"
           />
         </div>
-        <div className="space-y-2">
-          <Label htmlFor="hlf-email" className="text-xs font-semibold">Email *</Label>
+        <div>
+          <Label htmlFor="hlf-email" className="sr-only">Email</Label>
           <Input
             id="hlf-email"
             type="email"
             value={form.email}
             onChange={(e) => setForm({ ...form, email: e.target.value })}
-            placeholder="you@company.com"
+            placeholder="Email *"
             maxLength={255}
             required
-            className="h-11 text-foreground"
+            autoComplete="email"
+            className="h-10 text-foreground"
           />
         </div>
       </div>
 
-      <div className="space-y-2">
-        <Label htmlFor="hlf-service" id="hlf-service-label" className="text-xs font-semibold">Service Needed *</Label>
+      <div>
+        <Label htmlFor="hlf-service" id="hlf-service-label" className="sr-only">Service Needed</Label>
         <Select
           value={form.service}
           onValueChange={(v) => setForm({ ...form, service: v })}
         >
-          <SelectTrigger id="hlf-service" aria-labelledby="hlf-service-label" className="h-11 text-foreground">
-            <SelectValue placeholder="Select a service" />
+          <SelectTrigger id="hlf-service" aria-labelledby="hlf-service-label" className="h-10 text-foreground">
+            <SelectValue placeholder="Service needed *" />
           </SelectTrigger>
           <SelectContent>
             {services.map((s) => (
@@ -236,26 +239,26 @@ export default function HeroLeadForm({
         </Select>
       </div>
 
-      <div className="space-y-2">
-        <Label htmlFor="hlf-req" className="text-xs font-semibold">Your Requirement *</Label>
+      <div>
+        <Label htmlFor="hlf-req" className="sr-only">Your Requirement</Label>
         <Textarea
           id="hlf-req"
           value={form.requirement}
           onChange={(e) => setForm({ ...form, requirement: e.target.value })}
-          placeholder="Briefly describe your project, goals, timeline…"
-          rows={3}
+          placeholder="Brief project requirement *"
+          rows={2}
           maxLength={1000}
           required
-          className="text-foreground"
+          className="min-h-[2.75rem] max-h-20 resize-none py-2 text-foreground"
         />
       </div>
 
-      <Button type="submit" size="lg" className="w-full min-h-[48px] text-base" disabled={submitting}>
-        <Send className="w-4 h-4 mr-2" />
+      <Button type="submit" size="default" className="w-full min-h-10 h-10 text-sm font-semibold" disabled={submitting}>
+        <Send className="w-3.5 h-3.5 mr-1.5" />
         {submitting ? "Saving…" : "Send via WhatsApp"}
       </Button>
-      <p className="text-[10px] text-muted-foreground text-center flex items-center justify-center gap-1">
-        <Shield className="w-3 h-3" />
+      <p className="text-[10px] text-muted-foreground text-center flex items-center justify-center gap-1 leading-none pb-0.5">
+        <Shield className="w-3 h-3 shrink-0" />
         100% confidential. No spam.
       </p>
     </motion.form>

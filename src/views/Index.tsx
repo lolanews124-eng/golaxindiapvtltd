@@ -115,7 +115,7 @@ export default function Index() {
   return <Layout>
       
       {/* Hero Section — mobile-first: form on top, compact height */}
-      <section className="relative min-h-0 py-8 sm:py-12 md:min-h-[90vh] md:flex md:items-center overflow-hidden">
+      <section className="relative min-h-0 py-8 sm:py-10 md:py-14 md:flex md:items-center overflow-hidden">
         {/* Background with overlay */}
         <div className="absolute inset-0">
           <Image
@@ -154,26 +154,12 @@ export default function Index() {
         
         <div className="container mx-auto px-4 sm:px-6 relative z-10 min-w-0">
           <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-start lg:items-center min-w-0">
-            {/* Lead form first on mobile for conversions */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="w-full min-w-0 order-1 lg:order-2"
-            >
-              <HeroLeadForm
-                context="Home — USA & Global Offshore"
-                title="Book a Free Discovery Call"
-                subtitle="USD quotes · reply in 2 hours · NDA available."
-              />
-            </motion.div>
-
-            {/* Hero copy */}
+            {/* Hero copy first; lead form below on mobile */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="order-2 lg:order-1 min-w-0"
+              className="min-w-0"
             >
               <motion.span 
                 initial={{ opacity: 0, y: 20 }}
@@ -250,6 +236,19 @@ export default function Index() {
                   <span className="text-sm text-primary-foreground/80 ml-1">4.9/5 Rating</span>
                 </div>
               </motion.div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="w-full min-w-0"
+            >
+              <HeroLeadForm
+                context="Home — USA & Global Offshore"
+                title="Book a Free Discovery Call"
+                subtitle="USD quotes · reply in 2 hours · NDA available."
+              />
             </motion.div>
           </div>
         </div>
