@@ -72,51 +72,27 @@ export default function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const { getClientPageMeta, submitLeadToAdmin } = await import(
-      "@/lib/leads/submit-client"
+    const subject = encodeURIComponent(
+      `Website enquiry — ${formData.service || "General"} (Contact Page)`,
     );
-    const meta = getClientPageMeta();
-    await submitLeadToAdmin({
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      service: formData.service || "General Inquiry",
-      message: formData.message,
-      company: formData.company || undefined,
-      source: "Contact Page",
-      pagePath: meta.pagePath,
-      pageUrl: meta.pageUrl,
-      referrer: meta.referrer,
-    });
-
-    // Build WhatsApp message with form details
-    const whatsappMessage = `*New Inquiry from Website*
-
-*Name:* ${formData.name}
-*Email:* ${formData.email}
-*Phone:* ${formData.phone}
-*Company:* ${formData.company || "Not provided"}
-*Service Required:* ${formData.service}
-*Page:* ${meta.pagePath}
-
-*Project Details:*
-${formData.message}`;
-
-    // Encode message for URL
-    const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappNumber = "919128666005";
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-
-    // Open WhatsApp in new tab
-    window.open(whatsappUrl, "_blank");
+    const body = encodeURIComponent(
+      `New enquiry from Contact Page\n\n` +
+        `Name: ${formData.name}\n` +
+        `Email: ${formData.email}\n` +
+        `Phone: ${formData.phone}\n` +
+        `Company: ${formData.company || "Not provided"}\n` +
+        `Service: ${formData.service || "General Inquiry"}\n\n` +
+        `Project details:\n${formData.message}`,
+    );
+    window.location.href = `mailto:contact@golaxindia.com?subject=${subject}&body=${body}`;
 
     toast({
-      title: "Lead saved — redirecting to WhatsApp!",
-      description: "Complete your inquiry on WhatsApp.",
+      title: "Opening your email app…",
+      description: "Send the pre-filled message to contact@golaxindia.com.",
     });
 
     setFormData({
@@ -315,7 +291,7 @@ ${formData.message}`;
                     ) : (
                       <>
                         <Send className="mr-2 h-5 w-5" />
-                        Send Message
+                        Send via Email
                       </>
                     )}
                   </Button>

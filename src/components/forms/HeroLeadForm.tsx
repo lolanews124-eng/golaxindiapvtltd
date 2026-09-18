@@ -4,7 +4,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { z } from "zod";
-import { Send, MessageCircle, CheckCircle2, Shield } from "lucide-react";
+import { Send, Mail, CheckCircle2, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -17,9 +17,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import { getClientPageMeta, submitLeadToAdmin } from "@/lib/leads/submit-client";
 
-const PHONE_HREF = "919128666005";
 const EMAIL = "contact@golaxindia.com";
 
 const schema = z.object({
@@ -53,7 +51,7 @@ export default function HeroLeadForm({
   defaultService = "",
   services = DEFAULT_SERVICES,
   title = "Get a Free Quote in 2 Hours",
-  subtitle = "Tell us about your project — we'll connect on WhatsApp instantly.",
+  subtitle = "Tell us about your project — we'll open your email to send the enquiry.",
   variant = "dark",
 }: Props) {
   const { toast } = useToast();
@@ -68,17 +66,22 @@ export default function HeroLeadForm({
     requirement: "",
   });
 
-  const buildMsg = () =>
-    `New Lead from ${context}%0A%0A` +
-    `Name: ${form.name}%0A` +
-    `Phone: ${form.phone}%0A` +
-    `Email: ${form.email}%0A` +
-    `Service: ${form.service}%0A` +
-    `Page: ${pathname || "/"}%0A` +
-    `Source: ${context}%0A%0A` +
-    `Requirement:%0A${form.requirement}`;
+  const buildBody = () =>
+    `New enquiry from ${context}\n\n` +
+    `Name: ${form.name}\n` +
+    `Phone: ${form.phone}\n` +
+    `Email: ${form.email}\n` +
+    `Service: ${form.service}\n` +
+    `Page: ${pathname || "/"}\n\n` +
+    `Requirement:\n${form.requirement}`;
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const mailHref = () => {
+    const subject = encodeURIComponent(`Website enquiry — ${form.service} (${context})`);
+    const body = encodeURIComponent(buildBody());
+    return `mailto:${EMAIL}?subject=${subject}&body=${body}`;
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const result = schema.safeParse(form);
     if (!result.success) {
@@ -91,35 +94,12 @@ export default function HeroLeadForm({
     }
 
     setSubmitting(true);
-    const meta = getClientPageMeta();
-    await submitLeadToAdmin({
-      name: form.name,
-      email: form.email,
-      phone: form.phone,
-      service: form.service,
-      message: form.requirement,
-      source: context,
-      pagePath: pathname || meta.pagePath,
-      pageUrl: meta.pageUrl,
-      referrer: meta.referrer,
-    });
-
-    const encoded = buildMsg();
-    const waUrl = `https://wa.me/${PHONE_HREF}?text=${encoded}`;
-    const subject = encodeURIComponent(`New Lead from ${context} — ${form.service}`);
-    const body = encoded.replace(/%0A/g, "\n");
-    const mailUrl = `mailto:${EMAIL}?subject=${subject}&body=${encodeURIComponent(body)}`;
-
-    window.open(waUrl, "_blank", "noopener,noreferrer");
-    setTimeout(() => {
-      window.location.href = mailUrl;
-    }, 400);
-
+    window.location.href = mailHref();
     setSubmitted(true);
     setSubmitting(false);
     toast({
-      title: "Lead saved & connecting you now!",
-      description: "Saved to admin panel. WhatsApp opened; email will open shortly.",
+      title: "Opening your email app…",
+      description: `Send the pre-filled message to ${EMAIL}.`,
     });
   };
 
@@ -143,15 +123,11 @@ export default function HeroLeadForm({
           Thanks, {form.name.split(" ")[0]}!
         </h3>
         <p className="text-xs text-muted-foreground mb-3">
-          WhatsApp & Email opened with your enquiry. We&apos;ll reply within 2 business hours.
+          Your email app should open with the enquiry ready. If it didn&apos;t, tap below.
         </p>
         <Button asChild size="sm" className="w-full">
-          <a
-            href={`https://wa.me/${PHONE_HREF}?text=${buildMsg()}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <MessageCircle className="w-4 h-4 mr-2" /> Reopen WhatsApp
+          <a href={mailHref()}>
+            <Mail className="w-4 h-4 mr-2" /> Open email again
           </a>
         </Button>
       </motion.div>
@@ -255,11 +231,11 @@ export default function HeroLeadForm({
 
       <Button type="submit" size="default" className="w-full min-h-10 h-10 text-sm font-semibold" disabled={submitting}>
         <Send className="w-3.5 h-3.5 mr-1.5" />
-        {submitting ? "Saving…" : "Send via WhatsApp"}
+        {submitting ? "Opening…" : "Send via Email"}
       </Button>
       <p className="text-[10px] text-muted-foreground text-center flex items-center justify-center gap-1 leading-none pb-0.5">
         <Shield className="w-3 h-3 shrink-0" />
-        100% confidential. No spam.
+        Opens your mail app to {EMAIL}
       </p>
     </motion.form>
   );

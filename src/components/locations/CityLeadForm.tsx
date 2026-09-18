@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { z } from "zod";
-import { Send, MessageCircle, Mail, CheckCircle2 } from "lucide-react";
+import { Send, Mail, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -17,7 +17,6 @@ import {
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 
-const PHONE_HREF = "919128666005";
 const EMAIL = "contact@golaxindia.com";
 
 const leadSchema = z.object({
@@ -65,15 +64,20 @@ export default function CityLeadForm({ city, country, currency }: Props) {
     "Not sure yet",
   ];
 
-  const buildMessage = () =>
-    `New Lead from ${city}, ${country}%0A%0A` +
-    `Name: ${form.name}%0A` +
-    `Email: ${form.email}%0A` +
-    (form.company ? `Company: ${form.company}%0A` : "") +
-    `Service: ${form.service}%0A` +
-    `Budget: ${form.budget}%0A` +
-    `Location: ${city}, ${country}%0A%0A` +
-    `Requirement:%0A${form.requirement}`;
+  const buildBody = () =>
+    `New enquiry from ${city}, ${country}\n\n` +
+    `Name: ${form.name}\n` +
+    `Email: ${form.email}\n` +
+    (form.company ? `Company: ${form.company}\n` : "") +
+    `Service: ${form.service}\n` +
+    `Budget: ${form.budget}\n` +
+    `Location: ${city}, ${country}\n\n` +
+    `Requirement:\n${form.requirement}`;
+
+  const mailHref = () => {
+    const subject = encodeURIComponent(`Website enquiry — ${form.service} (${city}, ${country})`);
+    return `mailto:${EMAIL}?subject=${subject}&body=${encodeURIComponent(buildBody())}`;
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -84,22 +88,11 @@ export default function CityLeadForm({ city, country, currency }: Props) {
       return;
     }
 
-    const encoded = buildMessage();
-    const waUrl = `https://wa.me/${PHONE_HREF}?text=${encoded}`;
-    const subject = encodeURIComponent(`New Lead from ${city}, ${country} — ${form.service}`);
-    const body = encoded.replace(/%0A/g, "\n");
-    const mailUrl = `mailto:${EMAIL}?subject=${subject}&body=${encodeURIComponent(body)}`;
-
-    // Open WhatsApp (primary), then trigger mail in background
-    window.open(waUrl, "_blank", "noopener,noreferrer");
-    setTimeout(() => {
-      window.location.href = mailUrl;
-    }, 400);
-
+    window.location.href = mailHref();
     setSubmitted(true);
     toast({
-      title: "Connecting you now!",
-      description: "WhatsApp opened. Your email client will open shortly.",
+      title: "Opening your email app…",
+      description: `Send the pre-filled message to ${EMAIL}.`,
     });
   };
 
@@ -113,17 +106,12 @@ export default function CityLeadForm({ city, country, currency }: Props) {
         <CheckCircle2 className="w-14 h-14 text-primary mx-auto mb-4" />
         <h3 className="text-2xl font-bold mb-2">Thanks, {form.name.split(" ")[0]}!</h3>
         <p className="text-muted-foreground mb-6">
-          We've opened WhatsApp & Email so you can confirm your {city} project enquiry. Our team will respond within 2 business hours.
+          Your email app should open with the {city} enquiry ready. If it didn&apos;t, tap below.
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           <Button asChild>
-            <a href={`https://wa.me/${PHONE_HREF}?text=${buildMessage()}`} target="_blank" rel="noopener noreferrer">
-              <MessageCircle className="w-4 h-4 mr-2" /> Reopen WhatsApp
-            </a>
-          </Button>
-          <Button asChild variant="outline">
-            <a href={`mailto:${EMAIL}`}>
-              <Mail className="w-4 h-4 mr-2" /> Email us
+            <a href={mailHref()}>
+              <Mail className="w-4 h-4 mr-2" /> Open email again
             </a>
           </Button>
         </div>
@@ -216,10 +204,10 @@ export default function CityLeadForm({ city, country, currency }: Props) {
 
       <Button type="submit" size="lg" className="w-full">
         <Send className="w-4 h-4 mr-2" />
-        Send Enquiry via WhatsApp & Email
+        Send via Email
       </Button>
       <p className="text-xs text-muted-foreground text-center">
-        On submit we'll open WhatsApp and your email client pre-filled with your enquiry. No spam — your details stay with us.
+        Opens your mail app to {EMAIL} with a pre-filled enquiry.
       </p>
     </motion.form>
   );

@@ -129,29 +129,27 @@ export default function Careers() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const { getClientPageMeta, submitLeadToAdmin } = await import(
-      "@/lib/leads/submit-client"
+    const subject = encodeURIComponent(
+      `Career application — ${formData.position || "Open role"}`,
     );
-    const meta = getClientPageMeta();
-    await submitLeadToAdmin({
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      service: `Career — ${formData.position || "Application"}`,
-      message: `Experience: ${formData.experience}\n\n${formData.message}`,
-      source: "Careers Page",
-      pagePath: meta.pagePath,
-      pageUrl: meta.pageUrl,
-      referrer: meta.referrer,
-    });
+    const body = encodeURIComponent(
+      `New career application\n\n` +
+        `Name: ${formData.name}\n` +
+        `Email: ${formData.email}\n` +
+        `Phone: ${formData.phone}\n` +
+        `Position: ${formData.position}\n` +
+        `Experience: ${formData.experience}\n\n` +
+        `Message:\n${formData.message}`,
+    );
+    window.location.href = `mailto:contact@golaxindia.com?subject=${subject}&body=${body}`;
 
     toast({
-      title: "Application Submitted!",
-      description: "We'll review your application and get back to you soon.",
+      title: "Opening your email app…",
+      description: "Send the pre-filled application to contact@golaxindia.com.",
     });
 
     setFormData({

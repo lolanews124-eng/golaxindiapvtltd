@@ -7,7 +7,8 @@ Next.js migration of the Golax India corporate website (SEO-first static site).
 - Next.js 16 (App Router + SSG)
 - Tailwind CSS v3 + shadcn/ui
 - Static data files (locations, blog, services)
-- Forms → WhatsApp + Email (no database)
+- Forms → mailto (opens user’s email app to contact@golaxindia.com)
+
 
 ## Folder structure
 
@@ -25,14 +26,9 @@ npm run build    # Generates 508 static pages
 npm start        # Production server
 ```
 
-## Admin panel (leads)
+## Contact forms
 
-- URL: `/admin` → login, then `/admin/leads`
-- Default login: `admin@bhaskar.com` / `Bhaskar@123`
-- Website forms save leads with **page path** + form context (which page the lead came from)
-- Leads are stored in `data/leads.json` (local/server filesystem)
-
-> On Vercel serverless, filesystem storage does not persist reliably. Prefer a VPS/`next start` host, or later connect a database.
+Website forms open the visitor’s email app with a pre-filled message to `contact@golaxindia.com` (mailto). There is no admin panel or lead database.
 
 ## SEO
 
@@ -45,6 +41,7 @@ npm start        # Production server
 
 - AI chat widget
 - Supabase integration
+- Admin panel / lead database
 
 ## Deploy
 
