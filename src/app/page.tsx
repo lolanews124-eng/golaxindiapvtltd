@@ -7,7 +7,10 @@ import FAQPageSchema from "@/components/seo/FAQPageSchema";
 import JsonLd from "@/components/seo/JsonLd";
 import { homeFaqs } from "@/data/siteFaqs";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { buildOffshoreKickoffHowToSchema } from "@/lib/seo/schema";
+import {
+  buildBreadcrumbSchema,
+  buildOffshoreKickoffHowToSchema,
+} from "@/lib/seo/schema";
 
 export const metadata: Metadata = buildMetadata({
   title: "Offshore Software Development Company for USA & Global Businesses",
@@ -26,6 +29,9 @@ export default function HomePage() {
       <LocalBusinessSchema />
       <FAQPageSchema faqs={homeFaqs} />
       <JsonLd data={buildOffshoreKickoffHowToSchema()} />
+      <JsonLd
+        data={buildBreadcrumbSchema([{ name: "Home", path: "/" }])}
+      />
       <Index />
     </>
   );

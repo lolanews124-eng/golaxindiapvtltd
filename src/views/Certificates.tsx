@@ -20,12 +20,14 @@ import Layout from "@/components/layout/Layout";
 import PageHero from "@/components/shared/PageHero";
 import SectionHeader from "@/components/shared/SectionHeader";
 import CTABanner from "@/components/shared/CTABanner";
+import FAQSection from "@/components/shared/FAQSection";
 import { Button } from "@/components/ui/button";
 import {
   certificates,
   companyRegistration,
   type CertificateItem,
 } from "@/data/certificates";
+import { certificatesFaqs } from "@/data/siteFaqs";
 
 const regCards = [
   {
@@ -271,6 +273,12 @@ export default function Certificates() {
           </div>
         </div>
       </section>
+
+      <FAQSection
+        title="Registration & Certificate FAQs"
+        description="Quick answers for overseas buyers doing vendor diligence"
+        faqs={certificatesFaqs}
+      />
 
       <CTABanner
         title="Work with a registered, certified offshore partner"

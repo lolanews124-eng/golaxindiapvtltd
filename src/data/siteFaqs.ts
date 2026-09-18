@@ -50,3 +50,67 @@ export const contactFaqs: FaqItem[] = [
       "Fill out the contact form, email contact@golaxindia.com, or message WhatsApp +91 9128666005. We reply within 2 business hours with a free consultation and estimate.",
   },
 ];
+
+export const aboutFaqs: FaqItem[] = [
+  {
+    question: "When was Golax India Private Limited incorporated?",
+    answer:
+      "Golax India Private Limited was incorporated on 25 September 2025 under the Companies Act, 2013 (CIN U42102BR2025PTC079250). Our engineering team has shipped for international clients since 2014; the private limited company formalises that delivery brand.",
+  },
+  {
+    question: "Where is Golax India’s delivery headquarters?",
+    answer:
+      "Delivery and correspondence HQ is in Kankarbagh, Patna, Bihar, India (Sneh Highway Views). The MCA registered office is at 5/B, Anand Palace, New Bypass, Kankarbagh, Patna 800020. We serve buyers in the USA, UK, UAE, Canada, Australia and other international markets.",
+  },
+  {
+    question: "Who leads Golax India?",
+    answer:
+      "Leadership includes Founder Vinay Bhaskar, CEO Deepak Bharti and CTO Shekhar Sahani, supported by delivery and engineering leads who run offshore squads for overseas product teams.",
+  },
+  {
+    question: "Is Golax India a registered startup?",
+    answer:
+      "Yes. DPIIT Startup India Certificate of Recognition DIPP225612 (issued 14 October 2025, valid through 24 September 2035) covers IT Services / Application Development.",
+  },
+];
+
+export const certificatesFaqs: FaqItem[] = [
+  {
+    question: "What is Golax India’s CIN, GST and TAN?",
+    answer:
+      "CIN: U42102BR2025PTC079250. GSTIN: 10AAMCG4053A1ZA. TAN: PTNG16445C. PAN: AAMCG4053A. Status can be verified on mca.gov.in.",
+  },
+  {
+    question: "Which ISO certificates does Golax India hold?",
+    answer:
+      "ISO 9001:2015 (QMS/25M05771) for quality management and ISO/IEC 27001:2022 (ISMS/25M05772) for information security — both issued by MQA Certification Services, initially registered 18 November 2025, re-certification due 17 November 2028.",
+  },
+  {
+    question: "How does Startup India recognition help international clients?",
+    answer:
+      "DPIIT recognition (DIPP225612) confirms Golax India is a recognised Indian startup in IT Services / Application Development — useful diligence for overseas buyers evaluating vendor legitimacy alongside MCA incorporation and ISO frameworks.",
+  },
+  {
+    question: "Where can I view the certificates?",
+    answer:
+      "All certificates and registration identifiers are published at https://golaxindiapvtltd.in/certificates with full-size images and issuer verify links.",
+  },
+];
+
+export const servicesFaqs: FaqItem[] = [
+  {
+    question: "Which offshore IT services does Golax India offer?",
+    answer:
+      "Web development (React/Next.js), custom SaaS and software, mobile apps (Flutter/iOS/Android), digital marketing & SEO, and IT consulting / dedicated teams — billed in USD and other major currencies for international clients.",
+  },
+  {
+    question: "Can I hire a dedicated development team from India?",
+    answer:
+      "Yes. Dedicated senior engineers typically bill $25–$45/hour USD with Slack/Teams collaboration, 4–5 hours of US timezone overlap, and NDA + IP assignment before coding starts.",
+  },
+  {
+    question: "Do you work only with US clients?",
+    answer:
+      "No — we serve the United States, United Kingdom, UAE, Canada, Australia, Singapore, Germany, Saudi Arabia, New Zealand and Qatar. Browse markets under /locations.",
+  },
+];

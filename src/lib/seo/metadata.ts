@@ -88,8 +88,8 @@ export function buildMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      site: "@golaxindia",
-      creator: "@golaxindia",
+      site: "@golaxindiapvtltd",
+      creator: "@golaxindiapvtltd",
       title: fullTitle,
       description,
       images: [ogImage],

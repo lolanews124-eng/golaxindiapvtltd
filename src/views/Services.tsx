@@ -9,6 +9,8 @@ import PageHero from "@/components/shared/PageHero";
 import ProcessTimeline from "@/components/shared/ProcessTimeline";
 import SectionHeader from "@/components/shared/SectionHeader";
 import CTABanner from "@/components/shared/CTABanner";
+import FAQSection from "@/components/shared/FAQSection";
+import { servicesFaqs } from "@/data/siteFaqs";
 
 const services = [{
   icon: Globe,
@@ -200,6 +202,12 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      <FAQSection
+        title="Offshore Services FAQs"
+        description="What international buyers usually ask before hiring"
+        faqs={servicesFaqs}
+      />
 
       <CTABanner
         title="Ready to Hire Your Offshore Team?"

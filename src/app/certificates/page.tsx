@@ -1,9 +1,11 @@
 import Certificates from "@/views/Certificates";
 import JsonLd from "@/components/seo/JsonLd";
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
+import FAQPageSchema from "@/components/seo/FAQPageSchema";
 import { buildMetadata, BASE_URL } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
-import { companyRegistration, certificates } from "@/data/certificates";
+import { certificates } from "@/data/certificates";
+import { certificatesFaqs } from "@/data/siteFaqs";
 import { ENTITY } from "@/lib/seo/entity";
 
 export const metadata = buildMetadata({
@@ -16,53 +18,35 @@ export const metadata = buildMetadata({
 });
 
 export default function Page() {
-  const taxSchema = {
+  /** Credential graph only — does not redefine Organization address (avoids conflicting @id). */
+  const credentialsSchema = {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": `${ENTITY.url}/#organization`,
-    name: ENTITY.brandName,
-    legalName: companyRegistration.legalName,
-    taxID: companyRegistration.gstin,
-    vatID: companyRegistration.gstin,
-    identifier: [
-      {
-        "@type": "PropertyValue",
-        name: "CIN",
-        value: companyRegistration.cin,
-      },
-      {
-        "@type": "PropertyValue",
-        name: "TAN",
-        value: companyRegistration.tan,
-      },
-      {
-        "@type": "PropertyValue",
-        name: "PAN",
-        value: companyRegistration.pan,
-      },
-    ],
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "5/B, Anand Palace, New Bypass, Kankarbagh, Ashok Nagar (Patna), Sampatchak",
-      addressLocality: "Patna",
-      addressRegion: "Bihar",
-      postalCode: "800020",
-      addressCountry: "IN",
+    "@type": "WebPage",
+    "@id": `${BASE_URL}/certificates#webpage`,
+    url: `${BASE_URL}/certificates`,
+    name: "Certificates & Company Registration — Golax India Private Limited",
+    description:
+      "Golax India Private Limited — MCA registered (CIN U42102BR2025PTC079250), GST, Startup India and ISO certificates.",
+    about: { "@id": `${ENTITY.url}/#organization` },
+    mainEntity: {
+      "@type": "Organization",
+      "@id": `${ENTITY.url}/#organization`,
+      hasCredential: certificates.map((c) => ({
+        "@type": "EducationalOccupationalCredential",
+        name: c.title,
+        credentialCategory: c.standard,
+        recognizedBy: { "@type": "Organization", name: c.issuer },
+        identifier: c.certificateNumber,
+        url: `${BASE_URL}/certificates`,
+      })),
     },
-    hasCredential: certificates.map((c) => ({
-      "@type": "EducationalOccupationalCredential",
-      name: c.title,
-      credentialCategory: c.standard,
-      recognizedBy: { "@type": "Organization", name: c.issuer },
-      identifier: c.certificateNumber,
-      url: `${BASE_URL}/certificates`,
-    })),
   };
 
   return (
     <>
       <OrganizationSchema />
-      <JsonLd data={taxSchema} />
+      <FAQPageSchema faqs={certificatesFaqs} />
+      <JsonLd data={credentialsSchema} />
       <JsonLd
         data={buildBreadcrumbSchema([
           { name: "Home", path: "/" },

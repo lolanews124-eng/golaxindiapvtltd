@@ -4,7 +4,7 @@ import OrganizationSchema from "@/components/seo/OrganizationSchema";
 import JsonLd from "@/components/seo/JsonLd";
 import { contactFaqs } from "@/data/siteFaqs";
 import { buildMetadata } from "@/lib/seo/metadata";
-import { buildBreadcrumbSchema, buildOffshoreKickoffHowToSchema } from "@/lib/seo/schema";
+import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
   title: "Contact Golax India – Free Quote for USA & Global Clients",
@@ -20,7 +20,6 @@ export default function Page() {
     <>
       <OrganizationSchema />
       <FAQPageSchema faqs={contactFaqs} />
-      <JsonLd data={buildOffshoreKickoffHowToSchema()} />
       <JsonLd
         data={buildBreadcrumbSchema([
           { name: "Home", path: "/" },

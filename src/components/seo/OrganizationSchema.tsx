@@ -25,12 +25,22 @@ export default function OrganizationSchema() {
       { "@type": "PropertyValue", name: "CIN", value: ENTITY.taxIds.cin },
       { "@type": "PropertyValue", name: "TAN", value: ENTITY.taxIds.tan },
       { "@type": "PropertyValue", name: "PAN", value: ENTITY.taxIds.pan },
+      {
+        "@type": "PropertyValue",
+        name: "Team operating since",
+        value: ENTITY.teamSince,
+      },
     ],
     foundingLocation: {
       "@type": "Place",
       name: "Patna, Bihar, India",
     },
-    address: postalAddressSchema(),
+    address: postalAddressSchema("delivery"),
+    department: {
+      "@type": "Organization",
+      name: "Registered Office (MCA)",
+      address: postalAddressSchema("registered"),
+    },
     knowsAbout: [...ENTITY.knowsAbout],
     areaServed: areaServedCountryList(),
     contactPoint: {

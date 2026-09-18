@@ -336,7 +336,7 @@ export default function Index() {
                 An offshore engineering partner built for founders and CTOs in the USA, UK, Canada, UAE and Australia — senior talent, clear contracts, predictable USD pricing.
               </p>
               <ul className="space-y-4">
-                {["Senior engineers at $25–$45/hr — 40–60% below US rates", "4–5 hours daily overlap with US EST/PST business hours", "NDA, MSA & IP assignment before any code is written", "Dedicated squads or fixed-scope projects — your choice", "Slack/Teams collaboration with English-fluent PMs", "ISO-aligned processes, CI/CD and documented handovers"].map((item, index) => <motion.li key={index} initial={{
+                {["Senior engineers at $25–$45/hr — 40–60% below US rates", "4–5 hours daily overlap with US EST/PST business hours", "NDA, MSA & IP assignment before any code is written", "Dedicated squads or fixed-scope projects — your choice", "Slack/Teams collaboration with English-fluent PMs", "MCA registered · Startup India · ISO 9001 & ISO 27001"].map((item, index) => <motion.li key={index} initial={{
                 opacity: 0,
                 x: -20
               }} whileInView={{
@@ -351,9 +351,14 @@ export default function Index() {
                     <span className="text-foreground">{item}</span>
                   </motion.li>)}
               </ul>
-              <Button asChild variant="hero" size="lg" className="mt-8">
-                <Link href="/about">Learn More About Us</Link>
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-3 mt-8">
+                <Button asChild variant="hero" size="lg">
+                  <Link href="/about">Learn More About Us</Link>
+                </Button>
+                <Button asChild variant="outline" size="lg">
+                  <Link href="/certificates">View Certificates</Link>
+                </Button>
+              </div>
             </motion.div>
 
             <motion.div initial={{

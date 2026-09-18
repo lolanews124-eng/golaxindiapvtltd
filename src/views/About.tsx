@@ -19,9 +19,11 @@ import Layout from "@/components/layout/Layout";
 import PageHero from "@/components/shared/PageHero";
 import SectionHeader from "@/components/shared/SectionHeader";
 import CTABanner from "@/components/shared/CTABanner";
+import FAQSection from "@/components/shared/FAQSection";
 import { Button } from "@/components/ui/button";
 import aboutTeam from "@/assets/about-team.jpg";
 import { internationalLocations } from "@/data/internationalLocations";
+import { aboutFaqs } from "@/data/siteFaqs";
 
 const values = [
   {
@@ -145,7 +147,7 @@ export default function About() {
             <span className="text-accent">USA & Global Clients</span>
           </>
         }
-        description="Since 2014, Golax India has helped US startups, UK scale-ups and international enterprises ship web products, SaaS platforms and mobile apps — with senior talent, clear contracts and USD-friendly pricing."
+        description="Engineering teams shipping since 2014 — incorporated as Golax India Private Limited in 2025. We help US startups, UK scale-ups and international enterprises ship web products, SaaS platforms and mobile apps with senior talent, clear contracts and USD-friendly pricing."
         formContext="About — USA & Global"
       />
 
@@ -383,6 +385,14 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      </section>
+
+      <FAQSection
+        title="About Golax India — FAQs"
+        description="Incorporation, HQ and recognition for international buyers"
+        faqs={aboutFaqs}
+      />
 
       <section className="py-16 border-t border-border/60">
         <div className="container mx-auto px-4 text-center max-w-2xl">

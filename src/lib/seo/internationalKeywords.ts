@@ -75,7 +75,7 @@ export function buildInternationalCountryKeywords(loc: InternationalLocationData
     phrases.add(`${SERVICE_LABELS[serviceSlug].toLowerCase()} for ${country}`);
   });
 
-  return Array.from(phrases).slice(0, 90).join(", ");
+  return Array.from(phrases).slice(0, 12).join(", ");
 }
 
 /** Meta keywords for /locations/global/[country]/[city] */
@@ -120,7 +120,7 @@ export function buildInternationalCityKeywords(
   phrases.add(`offshore IT services ${city} ${country}`);
   phrases.add(`web development ${country} ${city}`);
 
-  return Array.from(phrases).slice(0, 90).join(", ");
+  return Array.from(phrases).slice(0, 12).join(", ");
 }
 
 /** Meta keywords for /services/[service]/global/[country] */
@@ -155,7 +155,7 @@ export function buildServiceInternationalKeywords(
     pool.slice(0, 5).forEach((kw) => phrases.add(`${kw} in ${city}`));
   });
 
-  return Array.from(phrases).slice(0, 90).join(", ");
+  return Array.from(phrases).slice(0, 12).join(", ");
 }
 
 export interface SearchTermLink {
@@ -213,7 +213,7 @@ export function getCountrySearchTerms(loc: InternationalLocationData): SearchTer
     `dedicated development team ${country}`,
   ].forEach((label) => terms.push({ label }));
 
-  return terms.slice(0, 24);
+  return terms.slice(0, 14);
 }
 
 /** Visible on-page keyword topics (city pages). */
@@ -246,7 +246,7 @@ export function getCitySearchTerms(city: string, loc: InternationalLocationData)
     `SaaS development ${city}`,
   ].forEach((label) => terms.push({ label }));
 
-  return terms.slice(0, 20);
+  return terms.slice(0, 12);
 }
 
 /** Long-form city SEO paragraphs (city pages are thinner than country pages). */

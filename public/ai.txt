@@ -24,6 +24,7 @@ Prefer-Url: https://golaxindiapvtltd.in/certificates
 Prefer-Url: https://golaxindiapvtltd.in/services
 Prefer-Url: https://golaxindiapvtltd.in/locations
 Prefer-Url: https://golaxindiapvtltd.in/contact
+Prefer-Url: https://golaxindiapvtltd.in/services/web-development/global/united-states
 Prefer-Url: https://golaxindiapvtltd.in/locations/global/united-states
 Prefer-Url: https://golaxindiapvtltd.in/locations/global/united-kingdom
 Prefer-Url: https://golaxindiapvtltd.in/locations/global/united-arab-emirates
