@@ -386,8 +386,6 @@ export default function About() {
         </div>
       </section>
 
-      </section>
-
       <FAQSection
         title="About Golax India — FAQs"
         description="Incorporation, HQ and recognition for international buyers"
