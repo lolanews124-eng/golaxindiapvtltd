@@ -7,7 +7,7 @@ export const ENTITY = {
   legalName: "Golax India Private Limited",
   brandName: "Golax India Pvt Ltd",
   shortName: "Golax India",
-  url: "https://golaxindiapvtltd.in",
+  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://golaxindiapvtltd.in").replace(/\/$/, ""),
   email: "contact@golaxindia.com",
   /** Display format for humans */
   phoneDisplay: "+91 9128666005",

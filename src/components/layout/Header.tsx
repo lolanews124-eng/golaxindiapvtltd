@@ -9,6 +9,7 @@ import { Menu, X, Phone, Mail, MessageCircle, ChevronDown, Globe2 } from "lucide
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "@/assets/logo.png";
 import { internationalLocations } from "@/data/internationalLocations";
+import { trackPhoneClick, trackWhatsAppClick } from "@/lib/analytics";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -117,7 +118,11 @@ export default function Header() {
       <div className="bg-gradient-to-r from-primary via-[hsl(217,91%,26%)] to-primary text-primary-foreground py-2 hidden md:block border-b border-white/10">
         <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center text-sm gap-4">
           <div className="flex items-center gap-4 xl:gap-6 min-w-0">
-            <a href={`tel:${PHONE_HREF}`} className="flex items-center gap-2 hover:text-accent transition-colors shrink-0">
+            <a
+              href={`tel:${PHONE_HREF}`}
+              onClick={() => trackPhoneClick()}
+              className="flex items-center gap-2 hover:text-accent transition-colors shrink-0"
+            >
               <Phone className="h-4 w-4" />
               {PHONE_DISPLAY}
             </a>
@@ -415,6 +420,7 @@ export default function Header() {
                   </a>
                   <a
                     href="https://wa.me/919128666005"
+                    onClick={() => trackWhatsAppClick()}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-2 min-h-[44px] rounded-lg border border-border text-sm font-medium"
