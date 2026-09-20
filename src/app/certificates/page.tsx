@@ -9,11 +9,11 @@ import { certificatesFaqs } from "@/data/siteFaqs";
 import { ENTITY } from "@/lib/seo/entity";
 
 export const metadata = buildMetadata({
-  title: "Certificates & Company Registration – CIN, GST, ISO",
+  title: "Company Registration & Certificates",
   description:
-    "Golax India Private Limited — MCA registered (CIN U42102BR2025PTC079250), GST 10AAMCG4053A1ZA, TAN PTNG16445C. DPIIT Startup India recognised (DIPP225612). View Certificate of Incorporation, ISO 9001:2015 and ISO/IEC 27001:2022.",
+    "View Golax India MCA incorporation, GST, Startup India recognition and ISO certificates. Verify who you are hiring before you outsource. Open the docs.",
   keywords:
-    "Golax India CIN, Golax India GST, Startup India DIPP225612, Golax India Private Limited registration, ISO 9001 Golax India, ISO 27001 Golax India, MCA certificate Patna",
+    "Golax India CIN, Golax India GST, Startup India DIPP225612, ISO 9001 Golax India, ISO 27001 Golax India",
   canonicalUrl: "/certificates",
 });
 

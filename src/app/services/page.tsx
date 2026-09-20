@@ -8,11 +8,11 @@ import { buildMetadata, BASE_URL } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
-  title: "Offshore IT Services for USA & Global Clients",
+  title: "Offshore IT Services for Global Buyers",
   description:
-    "Web, SaaS, mobile apps, SEO and cloud consulting for US startups and international brands. Hire senior engineers from India — Golax India.",
+    "Web, SaaS, mobile, SEO and cloud consulting for international teams. Hire senior engineers from India with clear scopes and NDA/IP terms. Explore services.",
   keywords:
-    "offshore IT services, hire developers from India, outsource software development, web development for USA, SaaS development India, mobile app outsourcing",
+    "offshore software development company, hire dedicated developers from India, outsource software development to India, SaaS development company India",
   canonicalUrl: "/services",
 });
 

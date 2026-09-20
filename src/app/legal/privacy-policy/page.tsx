@@ -3,7 +3,8 @@ import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
   title: "Privacy Policy",
-  description: "Privacy Policy — Golax India Pvt Ltd, Patna, Bihar.",
+  description:
+    "How Golax India Private Limited collects, uses and protects personal data when you use our website or enquire about offshore software services. Read the full policy.",
   canonicalUrl: "/legal/privacy-policy",
 });
 

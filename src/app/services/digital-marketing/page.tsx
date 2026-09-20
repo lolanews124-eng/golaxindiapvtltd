@@ -3,11 +3,11 @@ import ServiceHubSchemas from "@/components/seo/ServiceHubSchemas";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
-  title: "Digital Marketing & SEO for USA & International Brands",
+  title: "Digital Marketing & SEO Services",
   description:
-    "Technical SEO, content and paid acquisition for US, UK, Canada, Australia and Gulf brands. Clear USD retainers — no fake ranking guarantees.",
+    "Technical SEO, content and paid acquisition for international brands. Honest reporting and clear retainers — no fake ranking promises. Get a plan.",
   keywords:
-    "offshore SEO agency, digital marketing for US businesses, Google Ads management India, SEO company for USA startups, international SEO agency India",
+    "digital marketing company India, SEO services for international brands, Google Ads management, offshore SEO agency",
   canonicalUrl: "/services/digital-marketing",
 });
 

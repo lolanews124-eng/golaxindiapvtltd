@@ -3,11 +3,11 @@ import ServiceHubSchemas from "@/components/seo/ServiceHubSchemas";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
-  title: "Offshore Web Development for USA & Global Clients",
+  title: "Offshore Web Development Company",
   description:
-    "Outsource website & web app development to India — React, Next.js, Shopify, headless commerce. From $3,500 USD. EST/PST overlap, NDA & IP ready. Golax India.",
+    "Outsource React, Next.js and Shopify builds to India. Clear USD scopes, timezone overlap and NDA/IP assignment. Talk to Golax India about your site.",
   keywords:
-    "offshore web development company, outsource web development to India, hire Next.js developers India, React development company for USA, website development for US startups, headless commerce development India",
+    "offshore web development company, outsource web development to India, Shopify development company India, hire Next.js developers",
   canonicalUrl: "/services/web-development",
 });
 

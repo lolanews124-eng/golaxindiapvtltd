@@ -7,17 +7,14 @@ import FAQPageSchema from "@/components/seo/FAQPageSchema";
 import JsonLd from "@/components/seo/JsonLd";
 import { homeFaqs } from "@/data/siteFaqs";
 import { buildMetadata } from "@/lib/seo/metadata";
-import {
-  buildBreadcrumbSchema,
-  buildOffshoreKickoffHowToSchema,
-} from "@/lib/seo/schema";
+import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Offshore Software Development Company for USA & Global Businesses",
+  title: "Offshore Software Development Company",
   description:
-    "Outsource web, SaaS & mobile app development to Golax India. Senior engineers for US startups & enterprises — $25–$45/hr USD, 4–5 hrs timezone overlap, NDA & IP assignment ready.",
+    "Hire dedicated developers from India for web, SaaS and mobile. Outsource to Golax India with clear USD scopes, timezone overlap and NDA/IP terms. Request a free quote.",
   keywords:
-    "offshore software development company USA, hire developers from India, outsource web development to India, dedicated development team India, offshore React Next.js developers, SaaS MVP development for US startups, hire Flutter developers India",
+    "offshore software development company, hire dedicated developers from India, outsource software development to India, SaaS development company India, hire React developers",
   canonicalUrl: "/",
 });
 
@@ -28,7 +25,6 @@ export default function HomePage() {
       <OrganizationSchema />
       <LocalBusinessSchema />
       <FAQPageSchema faqs={homeFaqs} />
-      <JsonLd data={buildOffshoreKickoffHowToSchema()} />
       <JsonLd
         data={buildBreadcrumbSchema([{ name: "Home", path: "/" }])}
       />

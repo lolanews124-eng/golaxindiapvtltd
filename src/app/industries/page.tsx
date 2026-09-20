@@ -7,11 +7,11 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
-  title: "Industries We Serve – Offshore IT for Global Sectors",
+  title: "Industries We Serve Worldwide",
   description:
-    "Golax India delivers tailored offshore IT for education, healthcare, startups, retail, real estate and finance — USA, UK, UAE and global buyers.",
+    "Offshore IT for education, healthcare, startups, retail, real estate and finance buyers outside India. See how Golax India approaches your sector.",
   keywords:
-    "offshore IT industries, healthcare software development India, EdTech development offshore, retail ecommerce development, fintech offshore partner",
+    "offshore IT industries, healthcare software development, EdTech development, retail ecommerce development, fintech offshore partner",
   canonicalUrl: "/industries",
 });
 

@@ -6,11 +6,11 @@ import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 import { ENTITY } from "@/lib/seo/entity";
 
 export const metadata = buildMetadata({
-  title: "Careers – Join Golax India’s Offshore Engineering Team",
+  title: "Careers in Offshore Software Engineering",
   description:
-    "Open roles in web, mobile, software and digital marketing at Golax India. Work from Patna on products for USA, UK, UAE and global clients.",
+    "Join Golax India’s delivery team building products for USA, UK, UAE and global clients. Open roles in web, mobile, design and marketing. Apply today.",
   keywords:
-    "Golax India careers, software developer jobs Patna, Flutter jobs India, offshore engineering careers, React developer jobs Bihar",
+    "Golax India careers, offshore engineering jobs, React developer jobs India, Flutter developer careers",
   canonicalUrl: "/careers",
 });
 

@@ -3,7 +3,8 @@ import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
   title: "Cookie Policy",
-  description: "Cookie Policy — Golax India Pvt Ltd, Patna, Bihar.",
+  description:
+    "How Golax India uses cookies and similar technologies on golaxindiapvtltd.in. Learn what we store, why, and how you can control tracking preferences.",
   canonicalUrl: "/legal/cookie-policy",
 });
 

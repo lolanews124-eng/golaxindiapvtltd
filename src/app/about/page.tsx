@@ -7,11 +7,11 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
-  title: "About Golax India – Offshore Partner for USA & Global Clients",
+  title: "About Our Offshore Engineering Team",
   description:
-    "Golax India Private Limited (incorporated 2025) — offshore web, SaaS and mobile engineering for US, UK, UAE, Canada and Australia. Team shipping since 2014. USD billing, NDA/IP ready. HQ Patna, India.",
+    "Meet Golax India — an offshore software partner for USA, UK, UAE, Canada and Australia. Senior engineers, USD billing, NDA/IP assignment. Learn how we work.",
   keywords:
-    "offshore IT company for USA, hire software developers from India, dedicated development team India, Golax India about, outsource product engineering to India",
+    "offshore software development company, hire dedicated developers from India, outsource software development to India, Golax India about",
   canonicalUrl: "/about",
 });
 

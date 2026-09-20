@@ -8,11 +8,11 @@ import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 import { ENTITY } from "@/lib/seo/entity";
 
 export const metadata = buildMetadata({
-  title: "Contact Golax India – Free Quote for USA & Global Clients",
+  title: "Contact Us for a Free Project Quote",
   description:
-    "Book a free discovery call for offshore web, SaaS or mobile development. USD quotes within 24 hours. Email contact@golaxindia.com or call +91 9128666005.",
+    "Request a free discovery call for offshore web, SaaS or mobile work. Clear quotes, NDA on request. Email contact@golaxindia.com or call +91 9128666005.",
   keywords:
-    "hire offshore developers contact, outsource software development quote, Golax India contact USA, free USD development quote",
+    "hire offshore developers contact, outsource software development quote, Golax India contact, free development quote",
   canonicalUrl: "/contact",
 });
 

@@ -25,10 +25,10 @@ export async function generateMetadata({
   return buildMetadata({
     title:
       unique?.metaTitle ??
-      `Web Development Company in ${data.city}, ${data.country.country} | Offshore from India`,
+      `Software Partner for ${data.city} Teams`,
     description:
       unique?.metaDescription ??
-      `Hire Golax India for web development, software, mobile apps & SEO in ${data.city}, ${data.country.country}. Senior offshore team from India — ${data.country.currency} pricing, ${data.country.timezoneOverlap} overlap.`,
+      `Outsource software development to India from ${data.city}, ${data.country.country}. ${data.country.currency} quotes, timezone overlap, NDA/IP ready. Contact Golax India today.`,
     keywords: buildInternationalCityKeywords(data.city, data.country),
     canonicalUrl: pagePath,
     noindex: !unique,

@@ -32,10 +32,10 @@ export async function generateMetadata({
   return buildMetadata({
     title:
       unique?.metaTitle ??
-      `${data.service.title} for ${data.location.country} | Offshore from India`,
+      `${data.service.shortTitle} for ${data.location.country}`,
     description:
       unique?.metaDescription ??
-      `Offshore ${data.service.title.toLowerCase()} for ${data.location.country} businesses. Hire Golax India — senior engineers, transparent ${data.location.currency} pricing, ${data.location.timezoneOverlap} timezone overlap.`,
+      `Offshore ${data.service.title.toLowerCase()} for ${data.location.country}. ${data.location.currency} pricing, timezone overlap and NDA/IP ready. Request a quote from Golax India.`,
     keywords: buildServiceInternationalKeywords(service, data.location),
     canonicalUrl: `/services/${service}/global/${country}`,
     locale: geo?.locale ?? "en_US",

@@ -8,11 +8,11 @@ import { buildMetadata, BASE_URL } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
-  title: "International Locations – Offshore Markets We Serve",
+  title: "International Markets We Serve",
   description:
-    "Golax India delivers offshore web, software and app development for clients in the USA, UK, Canada, UAE, Australia, Singapore, Germany and more.",
+    "Outsource software development to India from the USA, UK, Canada, UAE, Australia, Singapore, Germany and more. Pick your market and talk to us.",
   keywords:
-    "offshore development USA, hire developers UK, IT outsourcing UAE, software development Canada, web development Australia, Golax India locations",
+    "outsource software development to India from USA, software development partner for UK startups, offshore development Canada UAE Australia",
   canonicalUrl: "/locations",
 });
 
