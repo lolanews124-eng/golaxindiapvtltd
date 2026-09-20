@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import { Phone, MessageCircle } from "lucide-react";
 
+import { trackPhoneClick, trackWhatsAppClick } from "@/lib/analytics";
+
 const PHONE = "+919128666005";
 const WHATSAPP = "919128666005";
 const WHATSAPP_MSG = encodeURIComponent(
@@ -65,6 +67,7 @@ export default function MobileStickyCTA({ onVisibilityChange }: MobileStickyCTAP
       <div className="grid grid-cols-2 gap-2 p-2.5 max-w-lg mx-auto">
         <a
           href={`tel:${PHONE}`}
+          onClick={() => trackPhoneClick()}
           className="flex items-center justify-center gap-2 min-h-[48px] rounded-xl bg-primary text-primary-foreground font-semibold text-sm active:scale-[0.98] transition-transform"
         >
           <Phone className="h-5 w-5 shrink-0" />
@@ -74,6 +77,7 @@ export default function MobileStickyCTA({ onVisibilityChange }: MobileStickyCTAP
           href={`https://wa.me/${WHATSAPP}?text=${WHATSAPP_MSG}`}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackWhatsAppClick()}
           className="flex items-center justify-center gap-2 min-h-[48px] rounded-xl bg-[#25D366] text-white font-semibold text-sm active:scale-[0.98] transition-transform"
         >
           <MessageCircle className="h-5 w-5 shrink-0" />

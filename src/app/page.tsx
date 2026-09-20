@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Index from "@/views/Index";
-import LocalBusinessSchema from "@/components/seo/LocalBusinessSchema";
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
+import ProfessionalServiceSchema from "@/components/seo/ProfessionalServiceSchema";
 import WebSiteSchema from "@/components/seo/WebSiteSchema";
 import FAQPageSchema from "@/components/seo/FAQPageSchema";
 import JsonLd from "@/components/seo/JsonLd";
@@ -23,7 +23,7 @@ export default function HomePage() {
     <>
       <WebSiteSchema />
       <OrganizationSchema />
-      <LocalBusinessSchema />
+      <ProfessionalServiceSchema />
       <FAQPageSchema faqs={homeFaqs} />
       <JsonLd
         data={buildBreadcrumbSchema([{ name: "Home", path: "/" }])}
