@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { z } from "zod";
-import { Send, CheckCircle2, Shield, Calendar } from "lucide-react";
+import { Send, Mail, CheckCircle2, Shield, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -18,6 +18,8 @@ import {
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import { getBookingUrl, trackFormSubmit } from "@/lib/analytics";
+
+const EMAIL = "contact@golaxindia.com";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Name is required").max(100),
@@ -55,16 +57,14 @@ export default function HeroLeadForm({
   defaultService = "",
   services = DEFAULT_SERVICES,
   title = "Get a Free Quote",
-  subtitle = "Submit your brief — we email contact@golaxindia.com and reply on business days.",
+  subtitle = "Tell us about your project — we will open your email to send the enquiry.",
   variant = "dark",
 }: Props) {
   const { toast } = useToast();
   const pathname = usePathname();
-  const router = useRouter();
   const bookingUrl = getBookingUrl();
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
-  const [honeypot, setHoneypot] = useState("");
   const [form, setForm] = useState({
     name: "",
     phone: "",
@@ -73,7 +73,22 @@ export default function HeroLeadForm({
     requirement: "",
   });
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const buildBody = () =>
+    `New enquiry from ${context}\n\n` +
+    `Name: ${form.name}\n` +
+    `Phone: ${form.phone}\n` +
+    `Email: ${form.email}\n` +
+    `Service: ${form.service}\n` +
+    `Page: ${pathname || "/"}\n\n` +
+    `Requirement:\n${form.requirement}`;
+
+  const mailHref = () => {
+    const subject = encodeURIComponent(`Website enquiry — ${form.service} (${context})`);
+    const body = encodeURIComponent(buildBody());
+    return `mailto:${EMAIL}?subject=${subject}&body=${body}`;
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const result = schema.safeParse(form);
     if (!result.success) {
@@ -86,40 +101,14 @@ export default function HeroLeadForm({
     }
 
     setSubmitting(true);
-    try {
-      const res = await fetch("/api/leads", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...form,
-          context,
-          page: pathname || "/",
-          companyWebsite: honeypot,
-        }),
-      });
-      const payload = (await res.json()) as { ok?: boolean; error?: string };
-      if (!res.ok || !payload.ok) {
-        throw new Error(payload.error || "Submission failed");
-      }
-      trackFormSubmit(form.service);
-      setSubmitted(true);
-      toast({
-        title: "Enquiry sent",
-        description: "Thanks — we will reply to your email shortly.",
-      });
-      router.push("/thank-you");
-    } catch (err) {
-      toast({
-        title: "Could not send enquiry",
-        description:
-          err instanceof Error
-            ? err.message
-            : "Please email contact@golaxindia.com or try again.",
-        variant: "destructive",
-      });
-    } finally {
-      setSubmitting(false);
-    }
+    trackFormSubmit(form.service);
+    window.location.href = mailHref();
+    setSubmitted(true);
+    setSubmitting(false);
+    toast({
+      title: "Opening your email app…",
+      description: `Send the pre-filled message to ${EMAIL}.`,
+    });
   };
 
   const wrapperClass =
@@ -138,10 +127,17 @@ export default function HeroLeadForm({
       >
         <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-accent to-primary" />
         <CheckCircle2 className="w-10 h-10 text-primary mx-auto mb-2 mt-0.5" />
-        <h3 className="text-lg font-bold text-foreground mb-1">Thanks!</h3>
+        <h3 className="text-lg font-bold text-foreground mb-1">
+          Thanks, {form.name.split(" ")[0]}!
+        </h3>
         <p className="text-xs text-muted-foreground mb-3">
-          Redirecting you to the confirmation page…
+          Your email app should open with the enquiry ready. If it didn&apos;t, tap below.
         </p>
+        <Button asChild size="sm" className="w-full">
+          <a href={mailHref()}>
+            <Mail className="w-4 h-4 mr-2" /> Open email again
+          </a>
+        </Button>
       </motion.div>
     );
   }
@@ -153,7 +149,7 @@ export default function HeroLeadForm({
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.3 }}
       className={`${wrapperClass} ${formInner} p-3.5 sm:p-4 space-y-2 w-full max-w-md mx-auto lg:mx-0 lg:max-w-none text-card-foreground`}
-      aria-label="Project enquiry form"
+      aria-label="Quick lead enquiry form"
     >
       <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-accent to-primary" />
       <div className="text-center pt-0.5 pb-0.5">
@@ -163,18 +159,6 @@ export default function HeroLeadForm({
         <p className="text-[11px] text-muted-foreground mt-0.5 leading-snug line-clamp-2">
           {subtitle}
         </p>
-      </div>
-
-      {/* Honeypot */}
-      <div className="absolute -left-[9999px] opacity-0 h-0 overflow-hidden" aria-hidden>
-        <Label htmlFor="hlf-company-website">Company website</Label>
-        <Input
-          id="hlf-company-website"
-          tabIndex={-1}
-          autoComplete="off"
-          value={honeypot}
-          onChange={(e) => setHoneypot(e.target.value)}
-        />
       </div>
 
       <div>
@@ -273,7 +257,7 @@ export default function HeroLeadForm({
         disabled={submitting}
       >
         <Send className="w-3.5 h-3.5 mr-1.5" />
-        {submitting ? "Sending…" : "Submit enquiry"}
+        {submitting ? "Opening…" : "Send via Email"}
       </Button>
 
       {bookingUrl ? (
@@ -289,7 +273,7 @@ export default function HeroLeadForm({
 
       <p className="text-[10px] text-muted-foreground text-center flex items-center justify-center gap-1 leading-none pb-0.5">
         <Shield className="w-3 h-3 shrink-0" />
-        Goes to contact@golaxindia.com · we never sell your data
+        Opens your mail app to {EMAIL}
       </p>
     </motion.form>
   );
