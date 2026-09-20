@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 export const metadata = buildMetadata({
   title: "Refund Policy",
   description:
-    "Refund and payment terms for Golax India offshore software engagements. Understand milestone billing and how change requests are handled before you buy.",
+    "How payments, milestones, cancellations and refunds work for projects and monthly teams provided by Golax India.",
   canonicalUrl: "/legal/refund-policy",
 });
 

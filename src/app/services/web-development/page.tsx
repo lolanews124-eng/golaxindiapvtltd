@@ -3,9 +3,9 @@ import ServiceHubSchemas from "@/components/seo/ServiceHubSchemas";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
-  title: "Offshore Web Development Company",
+  title: "Web Development Company India for US & UK",
   description:
-    "Outsource React, Next.js and Shopify builds to India. Clear USD scopes, timezone overlap and NDA/IP assignment. Talk to Golax India about your site.",
+    "Custom websites and web apps in React and Next.js by senior Indian engineers. Fast, SEO-ready builds with USD pricing and NDA.",
   keywords:
     "offshore web development company, outsource web development to India, Shopify development company India, hire Next.js developers",
   canonicalUrl: "/services/web-development",

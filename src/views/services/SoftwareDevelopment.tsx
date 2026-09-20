@@ -10,7 +10,6 @@ import {
   Workflow,
   RefreshCw,
   Database,
-  Zap,
   ArrowRight,
   DollarSign,
   Clock,
@@ -31,138 +30,139 @@ import { softwareDevelopmentFaqs } from "@/data/serviceFaqs";
 const features = [
   {
     icon: Building2,
-    title: "SaaS Product Engineering",
+    title: "SaaS MVPs and full products",
     description:
-      "Multi-tenant apps, billing hooks, roles and admin tools built so a US or UK founder can demo without excuses.",
+      "SaaS MVPs and full products with subscriptions, billing and admin panels.",
+  },
+  {
+    icon: Shield,
+    title: "Multi-tenant architecture",
+    description: "Multi-tenant architecture, role-based access and audit logs.",
   },
   {
     icon: Cog,
-    title: "Custom ERP & CRM",
-    description:
-      "Ops software shaped around your workflow — not a bloated package you only use at 20%.",
+    title: "ERP, CRM & workflow",
+    description: "ERP, CRM, inventory and workflow systems tailored to how you operate.",
   },
   {
     icon: Workflow,
-    title: "Automation & Integrations",
+    title: "Integrations",
     description:
-      "Connect Stripe, HubSpot, ERPs and internal APIs so teams stop copy-pasting between tools.",
-  },
-  {
-    icon: RefreshCw,
-    title: "Legacy Modernisation",
-    description:
-      "Replace brittle systems in slices. Keep the business running while architecture improves.",
+      "Integrations with Stripe, QuickBooks, HubSpot, Salesforce, Slack and custom APIs.",
   },
   {
     icon: Database,
-    title: "Data & API Design",
-    description:
-      "Schemas and APIs that stay readable when the next engineer joins six months later.",
+    title: "Analytics & reporting",
+    description: "Analytics dashboards and reporting engines.",
   },
   {
-    icon: Zap,
-    title: "Dedicated Product Squads",
-    description:
-      "A small senior team inside your Slack/GitHub — faster than hiring, clearer than a mega-agency.",
+    icon: RefreshCw,
+    title: "Legacy modernisation",
+    description: "Legacy system modernisation and rewrites.",
   },
 ];
 
 const softwareTypes = [
   {
     title: "SaaS MVPs",
-    description: "For founders who need a diligence-ready first version, not a prototype that dies in staging.",
-    features: ["Auth & roles", "Billing hooks", "Admin panel", "CI/CD from week one"],
+    description: "Subscriptions, billing and admin panels for your first product release.",
+    features: ["Billing", "Admin panel", "User roles", "Multi-tenant ready"],
   },
   {
-    title: "Internal Tools",
-    description: "Ops dashboards and workflows that cut manual work for finance, support or field teams.",
-    features: ["Permissions", "Exports", "Audit logs", "API links"],
+    title: "Business systems",
+    description: "ERP, CRM, inventory and workflows matched to how you operate.",
+    features: ["Custom modules", "Approvals", "Reporting", "Integrations"],
   },
   {
-    title: "Customer Portals",
-    description: "Login areas for clients, partners or brokers — especially common for US, UK and Gulf buyers.",
-    features: ["Self-serve flows", "Notifications", "Document upload", "Usage metrics"],
+    title: "Integrations & data",
+    description: "Stripe, QuickBooks, HubSpot, Salesforce, Slack and custom APIs.",
+    features: ["Payments", "Accounting", "CRM sync", "Webhooks"],
   },
   {
-    title: "Platform Rebuilds",
-    description: "When the old stack cannot hire or scale. We migrate in stages with a written cutover plan.",
-    features: ["Strangler approach", "Data migration", "Parity checks", "Rollback path"],
+    title: "Modernisation",
+    description: "Legacy system modernisation and rewrites when off-the-shelf no longer fits.",
+    features: ["Architecture review", "Phased migration", "Data import", "Handover docs"],
   },
 ];
 
 const pricing = [
   {
-    title: "Discovery & Spec",
-    price: "Often free / fixed",
-    detail: "Short call + written scope so you are not buying fog.",
-  },
-  {
     title: "SaaS MVP",
-    price: "$15k–$60k USD",
-    detail: "Typical range for focused MVPs — integrations and compliance move the number.",
+    price: "$15,000–$60,000",
+    detail:
+      "SaaS MVPs typically range from $15,000 to $60,000 depending on scope and integrations.",
   },
   {
-    title: "Dedicated Engineer",
-    price: "$25–$45/hr",
-    detail: "Senior capacity billed monthly in USD (or GBP/CAD/AED as needed).",
+    title: "Larger platforms",
+    price: "Phased",
+    detail: "Larger platforms are staged in phases after discovery.",
   },
   {
-    title: "Squad Retainer",
-    price: "Scoped monthly",
-    detail: "Lead + builders + optional QA for continuous roadmap delivery.",
+    title: "Fixed-scope MVP",
+    price: "Fixed price",
+    detail: "Fixed-scope pricing suits MVPs with a clear feature list.",
+  },
+  {
+    title: "Dedicated team",
+    price: "Monthly",
+    detail: "A dedicated team suits ongoing product development.",
   },
 ];
 
 const whyOffshore = [
-  "Senior engineers — not a revolving door of juniors",
-  "USD / multi-currency quotes with milestone clarity",
-  "4–5+ hours overlap with US, UK and Gulf working days",
-  "NDA and IP assignment before any repository exists",
-  "CI, reviews and docs treated as delivery — not upsells",
-  "Kickoff commonly within a week of signed contracts",
+  "Production experience in multi-tenant SaaS and business systems.",
+  "Clean, documented code that your future in-house team can take over.",
+  "SOC 2-ready practices: access control, logging, backups and reviews.",
+  "Legal protection: NDA, MSA and IP assignment before work begins.",
 ];
 
 const process = [
   {
     step: "01",
-    title: "Problem & Constraints",
-    description: "What must ship, what can wait, and which systems you already trust.",
+    title: "Discovery workshop",
+    description: "Users, core workflow, must-have and later features.",
   },
   {
     step: "02",
-    title: "Architecture & Quote",
-    description: "Stack choice, risks, and a written USD/multi-currency commercial plan.",
+    title: "Architecture and estimate",
+    description: "Stack, data model, security and cost plan.",
   },
   {
     step: "03",
-    title: "Contracts",
-    description: "NDA, MSA and IP assignment — templates yours or ours.",
+    title: "MVP sprints",
+    description: "Working software every two weeks with demos.",
   },
   {
     step: "04",
-    title: "Build in Slices",
-    description: "Weekly demos on staging. You see working software, not status theatre.",
+    title: "Hardening",
+    description: "Automated tests, load checks, security review and CI/CD.",
   },
   {
     step: "05",
-    title: "Launch & Handover",
-    description: "Production cutover, runbooks and optional ongoing product engineering.",
+    title: "Launch and monitoring",
+    description: "Production deployment, alerts and backups.",
+  },
+  {
+    step: "06",
+    title: "Roadmap",
+    description: "Continue with the same team under a retainer or dedicated squad.",
   },
 ];
 
 const technologies = [
-  "TypeScript",
-  "Node.js",
-  "Python",
   "React",
   "Next.js",
+  "Node.js",
+  "TypeScript",
+  "Python",
+  "Laravel",
   "PostgreSQL",
   "MongoDB",
   "Redis",
   "AWS",
+  "Azure",
   "Docker",
   "GitHub Actions",
-  ".NET",
 ];
 
 export default function SoftwareDevelopment() {
@@ -170,16 +170,12 @@ export default function SoftwareDevelopment() {
     <Layout>
       <ServiceHero
         icon={Code}
-        badge="Offshore Software Development"
-        title={
-          <>
-            Custom Software & SaaS Development for{" "}
-            <span className="text-accent">USA & Global Teams</span>
-          </>
-        }
-        description="Hire a senior software squad from India — SaaS MVPs, portals, ERP/CRM and APIs with clear USD pricing, timezone overlap and IP assigned to your company."
-        formContext="Software Development — USA & Global"
-        defaultService="Software / SaaS Development"
+        badge="SaaS & custom software"
+        title="SaaS and Custom Software Development from India"
+        description="We build custom software and SaaS products for startups and established companies in the US, UK and other international markets. From a first MVP to a scalable multi-tenant platform, our senior engineers handle architecture, development, testing and deployment while you focus on customers."
+        formContext="SaaS and Software Development"
+        defaultService="Software Development"
+        formTitle="Book a free discovery call for SaaS and software development"
       />
 
       <section className="py-12 bg-card border-b border-border">
@@ -207,9 +203,9 @@ export default function SoftwareDevelopment() {
       </section>
 
       <FeatureGrid
-        badge="What We Build"
-        title="Software Solutions International Clients Actually Need"
-        description="Less brochureware. More product that survives real users and diligence questions."
+        badge="What we deliver"
+        title="What we deliver"
+        description="SaaS products, business systems, integrations and modernisation for international clients."
         features={features}
       />
 
@@ -252,8 +248,8 @@ export default function SoftwareDevelopment() {
               <SectionHeader
                 align="left"
                 badge="Why Golax"
-                title="Why Founders Outsource Software Development to Us"
-                description="You keep product ownership. We supply senior execution that does not need babysitting every hour."
+                title="Why choose Golax India for SaaS and software development"
+                description="Multi-tenant experience, documented code and contract-ready legal protection."
               />
               <ul className="space-y-3 mt-6">
                 {whyOffshore.map((item) => (
@@ -276,12 +272,8 @@ export default function SoftwareDevelopment() {
             </div>
             <div className="premium-card p-6 sm:p-8 space-y-4">
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Best fit: a US or UK founder with a clear MVP, a Gulf company needing a bilingual portal, or a product
-                team that needs two senior engineers next month — not next hiring cycle.
-              </p>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Poor fit: undefined “AI transformation” decks with no users and no decision-maker. We will say that on
-                the first call.
+                Founders who need to validate an idea quickly, product teams that need extra engineering capacity, and
+                businesses that have outgrown spreadsheets or off-the-shelf tools.
               </p>
             </div>
           </div>
@@ -292,8 +284,8 @@ export default function SoftwareDevelopment() {
         <div className="container mx-auto px-4 sm:px-6">
           <SectionHeader
             badge="Pricing"
-            title="How Software Engagements Are Priced"
-            description="Indicative USD ranges for international clients — final numbers after discovery"
+            title="Pricing and engagement models"
+            description="SaaS MVPs from $15,000 to $60,000 — fixed scope or dedicated team after discovery."
           />
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {pricing.map((tier, index) => (
@@ -314,10 +306,14 @@ export default function SoftwareDevelopment() {
         </div>
       </section>
 
-      <TechPills title="Technologies We Use" items={technologies} />
+      <TechPills
+        title="Technology we use"
+        description="We select the stack for your product, not our habit."
+        items={technologies}
+      />
       <ProcessTimeline
-        title="How Offshore Software Projects Run"
-        description="Short cycles, visible software, written decisions"
+        title="How the work runs"
+        description="Discovery workshop through launch and roadmap."
         steps={process}
       />
 
@@ -345,15 +341,15 @@ export default function SoftwareDevelopment() {
       </section>
 
       <FAQSection
-        title="Software Development FAQs"
-        description="MVP timelines, IP ownership, integrations and offshore quality"
+        title="Frequently asked questions"
+        description="MVP cost, IP ownership, takeovers and handover"
         faqs={softwareDevelopmentFaqs}
       />
 
       <CTABanner
-        title="Ready to Scope Your Software Build?"
-        description="Book a free discovery call — honest fit check and a written USD quote."
-        primaryLabel="Get a USD Quote"
+        title="Get a USD quote for SaaS and software development"
+        description="Book a free discovery call. We reply within one business day with a clear next step."
+        primaryLabel="Get a USD quote for SaaS and software development"
       />
     </Layout>
   );

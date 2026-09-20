@@ -372,7 +372,7 @@ export default function InternationalCityTemplate({ data }: Props) {
               Get Your Free {city} Project Quote
             </h2>
             <p className="text-muted-foreground">
-              Share a few details and we'll connect with you on WhatsApp & Email within 2 business hours — billed in {country.currency}, no obligation.
+              Share a few details and we'll connect with you on WhatsApp & Email within one business day — billed in {country.currency}, no obligation.
             </p>
           </div>
           <CityLeadForm city={city} country={country.country} currency={country.currency} />

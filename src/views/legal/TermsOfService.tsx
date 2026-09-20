@@ -34,7 +34,10 @@ export default function TermsOfService() {
                 <div>
                   <h2 className="text-lg font-heading font-semibold text-foreground mb-2">Agreement to Terms</h2>
                   <p className="text-muted-foreground">
-                    By accessing or using the services of Golax India IT Solutions ("Company," "we," "our," or "us"), you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you may not access or use our services.
+                    By accessing or using the website of Golax India Private Limited (Golax India Pvt Ltd) (&quot;Company,&quot; &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), you agree to these Terms of Service for site use and general commercial relationship. If you do not agree, do not use our website.
+                  </p>
+                  <p className="text-muted-foreground mt-4">
+                    <strong className="text-foreground">Client projects:</strong> Paid software, web, mobile, marketing and consulting work is governed by a separately signed Master Services Agreement (MSA) and statement of work (SOW) or order form. If those documents conflict with this page on project delivery, payment, IP or liability, the signed MSA/SOW controls for that engagement.
                   </p>
                 </div>
               </div>

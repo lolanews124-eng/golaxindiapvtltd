@@ -3,52 +3,31 @@ import OrganizationSchema from "@/components/seo/OrganizationSchema";
 import JsonLd from "@/components/seo/JsonLd";
 import { buildMetadata, BASE_URL } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
-import { ENTITY } from "@/lib/seo/entity";
 
 export const metadata = buildMetadata({
-  title: "Careers in Offshore Software Engineering",
+  title: "Careers | Software Jobs in Patna",
   description:
-    "Join Golax India’s delivery team building products for USA, UK, UAE and global clients. Open roles in web, mobile, design and marketing. Apply today.",
+    "Join Golax India to build software for US, UK and global clients. See open roles for developers, designers and project managers.",
   keywords:
     "Golax India careers, offshore engineering jobs, React developer jobs India, Flutter developer careers",
   canonicalUrl: "/careers",
 });
 
 export default function Page() {
-  const jobs = {
+  const careersPage = {
     "@context": "https://schema.org",
-    "@type": "ItemList",
-    "@id": `${BASE_URL}/careers#jobs`,
-    name: "Open roles at Golax India",
-    itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        item: {
-          "@type": "JobPosting",
-          title: "Full Stack Developer",
-          hiringOrganization: { "@id": `${ENTITY.url}/#organization` },
-          jobLocation: {
-            "@type": "Place",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Patna",
-              addressRegion: "Bihar",
-              addressCountry: "IN",
-            },
-          },
-          employmentType: "FULL_TIME",
-          description:
-            "Build web and SaaS products for international clients using React, Next.js and Node.js.",
-        },
-      },
-    ],
+    "@type": "WebPage",
+    "@id": `${BASE_URL}/careers#webpage`,
+    url: `${BASE_URL}/careers`,
+    name: "Careers at Golax India",
+    description:
+      "Build software for US, UK and global clients from Patna. Roles we hire for in engineering, design and delivery.",
   };
 
   return (
     <>
       <OrganizationSchema />
-      <JsonLd data={jobs} />
+      <JsonLd data={careersPage} />
       <JsonLd
         data={buildBreadcrumbSchema([
           { name: "Home", path: "/" },

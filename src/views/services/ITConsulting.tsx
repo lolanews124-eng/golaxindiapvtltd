@@ -6,65 +6,102 @@ import {
   Cloud,
   Shield,
   GitBranch,
-  KeyRound,
   ClipboardList,
-  Users,
   ArrowRight,
   CheckCircle,
-  AlertTriangle,
+  Gauge,
+  DollarSign,
 } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import ServiceHero from "@/components/shared/ServiceHero";
+import ProcessTimeline from "@/components/shared/ProcessTimeline";
+import TechPills from "@/components/shared/TechPills";
 import FAQSection from "@/components/shared/FAQSection";
 import CTABanner from "@/components/shared/CTABanner";
 import SectionHeader from "@/components/shared/SectionHeader";
 import { Button } from "@/components/ui/button";
 import { itConsultingFaqs } from "@/data/serviceFaqs";
 
-const engagements = [
+const deliverables = [
   {
     icon: ClipboardList,
-    title: "Architecture & risk review",
-    text: "A time-boxed look at your cloud, access, backups and deploy path. You get a written list of fixes ranked by blast radius — not a 90-page PDF.",
+    title: "Architecture review",
+    text: "Architecture review and technical due diligence.",
   },
   {
     icon: Cloud,
-    title: "Migration with a cutover plan",
-    text: "Lift to AWS/Azure/GCP in slices. We care about rollback, DNS timing and who holds production keys during the move.",
+    title: "Cloud migration",
+    text: "AWS and Azure migration planning and execution.",
   },
   {
     icon: GitBranch,
-    title: "DevOps that developers will use",
-    text: "CI/CD, environments and IaC where they reduce fear of shipping — not tooling for tooling’s sake.",
+    title: "DevOps",
+    text: "DevOps: CI/CD pipelines, infrastructure as code, containers and Kubernetes.",
   },
   {
-    icon: Users,
-    title: "India extended team setup",
-    text: "If you want a lasting offshore bench, we help with access model, repos, ceremonies and vendor boundaries before heads join.",
+    icon: DollarSign,
+    title: "Cost optimisation",
+    text: "Cloud cost optimisation and monitoring.",
+  },
+  {
+    icon: Shield,
+    title: "Security & DR",
+    text: "Security hardening, backups and disaster recovery.",
+  },
+  {
+    icon: Gauge,
+    title: "Performance & roadmap",
+    text: "Performance and scalability testing. Roadmap and vendor selection support.",
   },
 ];
 
-const deliverables = [
-  "Current-state diagram (honest, not decorative)",
-  "Priority fix list with effort guesses",
-  "IAM / secrets recommendations",
-  "Backup & restore check notes",
-  "Optional migration runbook",
+const whyChoose = [
+  "Hands-on engineers rather than slideware.",
+  "Security and cost checked from day one.",
+  "Documentation your team can maintain.",
+  "Overlap with US, UK and Singapore hours.",
 ];
 
-const redFlags = [
+const process = [
   {
-    title: "Single shared root account",
-    why: "One leak becomes everyone’s problem. We separate duties early.",
+    step: "01",
+    title: "Assessment",
+    description: "Current systems, risks, cost and team skills.",
   },
   {
-    title: "Prod deploys from a laptop",
-    why: "No audit trail, no repeatability. Pipelines fix more than “speed”.",
+    step: "02",
+    title: "Recommendations",
+    description: "Prioritised, costed action plan.",
   },
   {
-    title: "Backups never restored",
-    why: "A backup you have not tested is a story, not a plan.",
+    step: "03",
+    title: "Implementation",
+    description: "We do the work with your team.",
   },
+  {
+    step: "04",
+    title: "Handover",
+    description: "Runbooks, diagrams and training.",
+  },
+  {
+    step: "05",
+    title: "Ongoing",
+    description: "Optional managed DevOps retainer.",
+  },
+];
+
+const technologies = [
+  "AWS",
+  "Azure",
+  "Terraform",
+  "Docker",
+  "Kubernetes",
+  "GitHub Actions",
+  "GitLab CI",
+  "Datadog",
+  "Grafana",
+  "Prometheus",
+  "Sentry",
 ];
 
 export default function ITConsulting() {
@@ -72,27 +109,23 @@ export default function ITConsulting() {
     <Layout>
       <ServiceHero
         icon={Cloud}
-        badge="Cloud · DevOps · extended teams"
-        title={
-          <>
-            IT Consulting for{" "}
-            <span className="text-accent">Teams That Need Clarity, Not Slides</span>
-          </>
-        }
-        description="Cloud migration, security baselines and DevOps for US and international product companies. Senior consultants from India — USD billing, written recommendations you can action."
-        formContext="IT Consulting — USA & Global"
-        defaultService="IT Consulting & Cloud"
+        badge="IT consulting & cloud"
+        title="IT Consulting and Cloud Services for Global Product Teams"
+        description="Our consultants help product teams choose the right architecture, move to the cloud safely, automate delivery and cut infrastructure waste. We work with CTOs and engineering leads in the US, UK and Singapore who need senior advice and hands-on execution without hiring a full in-house platform team."
+        formContext="IT Consulting and Cloud"
+        defaultService="IT Consulting"
+        formTitle="Book a free discovery call for IT consulting and cloud"
       />
 
       <section className="section-padding bg-card">
         <div className="container mx-auto px-4 sm:px-6">
           <SectionHeader
-            badge="Engagement types"
-            title="Four Ways Clients Use Our Consulting"
-            description="Different problem, different shape. We do not force every company into a “digital transformation package”."
+            badge="What we deliver"
+            title="What we deliver"
+            description="Architecture, migration, DevOps, security and performance for global product teams."
           />
-          <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 max-w-5xl mx-auto">
-            {engagements.map((e, i) => (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
+            {deliverables.map((e, i) => (
               <motion.div
                 key={e.title}
                 initial={{ opacity: 0, y: 14 }}
@@ -111,86 +144,82 @@ export default function ITConsulting() {
       </section>
 
       <section className="section-padding bg-gradient-subtle">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid lg:grid-cols-2 gap-10 max-w-5xl mx-auto items-start">
+        <div className="container mx-auto px-4 sm:px-6 max-w-5xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <div className="flex items-center gap-2 text-primary mb-3">
-                <KeyRound className="h-5 w-5" />
-                <span className="text-sm font-semibold uppercase tracking-wide">Assessment output</span>
-              </div>
-              <h2 className="font-heading text-3xl font-bold mb-4">
-                What You Walk Away With
-              </h2>
-              <p className="text-muted-foreground mb-6">
-                A 2–3 week assessment should leave you able to brief another engineer — or us — without re-explaining
-                everything. That is the bar.
+              <SectionHeader
+                align="left"
+                badge="Who this is for"
+                title="Who this is for"
+                description="Fragile infra, cloud moves and security questionnaires."
+              />
+              <p className="text-muted-foreground leading-relaxed">
+                Startups whose infrastructure has become fragile or expensive, companies planning a cloud migration,
+                and teams that need to pass customer security questionnaires.
               </p>
+            </div>
+            <div className="premium-card p-6 sm:p-8">
+              <h3 className="font-heading text-xl font-semibold mb-4">
+                Why choose Golax India for IT consulting and cloud
+              </h3>
               <ul className="space-y-3">
-                {deliverables.map((d) => (
-                  <li key={d} className="flex items-start gap-2 text-sm">
+                {whyChoose.map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-sm">
                     <CheckCircle className="h-4 w-4 text-success shrink-0 mt-0.5" />
-                    {d}
+                    {item}
                   </li>
                 ))}
               </ul>
-              <Button asChild variant="hero" className="mt-8">
-                <Link href="/contact">
-                  Start with an assessment call <ArrowRight className="ml-2 h-4 w-4" />
+              <p className="text-sm text-muted-foreground mt-6">
+                Building product too? Pair consulting with{" "}
+                <Link href="/services/software-development" className="text-primary hover:underline">
+                  software development
                 </Link>
-              </Button>
-            </div>
-            <div>
-              <div className="flex items-center gap-2 text-amber-600 mb-3">
-                <AlertTriangle className="h-5 w-5" />
-                <span className="text-sm font-semibold uppercase tracking-wide">Common findings</span>
-              </div>
-              <div className="space-y-4">
-                {redFlags.map((r) => (
-                  <div key={r.title} className="bg-card border border-border rounded-xl p-5">
-                    <h3 className="font-semibold mb-1">{r.title}</h3>
-                    <p className="text-sm text-muted-foreground">{r.why}</p>
-                  </div>
-                ))}
-              </div>
+                .
+              </p>
             </div>
           </div>
         </div>
       </section>
 
+      <ProcessTimeline
+        title="How the work runs"
+        description="Assessment through handover and optional managed DevOps."
+        steps={process}
+      />
+
+      <TechPills title="Technology we use" items={technologies} />
+
       <section className="section-padding bg-card">
-        <div className="container mx-auto px-4 sm:px-6 max-w-3xl text-center">
-          <Shield className="h-8 w-8 text-primary mx-auto mb-4" />
-          <h2 className="font-heading text-2xl sm:text-3xl font-bold mb-4">
-            Security Is Access Control + Habits — Not a Logo Wall
-          </h2>
-          <p className="text-muted-foreground mb-6">
-            We implement least-privilege IAM, secrets hygiene, logging and backup drills that match your stage. SOC2 or
-            ISO theatre without basics is wasted spend; we say so if that is what you are buying.
+        <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
+          <SectionHeader
+            badge="Pricing"
+            title="Pricing and engagement models"
+            description="Fixed-fee assessments, milestone implementation and managed DevOps retainers."
+            align="left"
+          />
+          <p className="text-muted-foreground leading-relaxed">
+            Assessments are fixed-fee. Implementation is time-and-material or fixed by milestone. Managed DevOps is a
+            monthly retainer.
           </p>
-          <p className="text-sm text-muted-foreground">
-            Building product too? Pair consulting with{" "}
-            <Link href="/services/software-development" className="text-primary hover:underline">
-              software development
-            </Link>{" "}
-            or a{" "}
-            <Link href="/locations/global/united-states" className="text-primary hover:underline">
-              dedicated USA offshore squad
+          <Button asChild variant="hero" className="mt-8">
+            <Link href="/contact">
+              Get a USD quote for IT consulting and cloud <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
-            .
-          </p>
+          </Button>
         </div>
       </section>
 
       <FAQSection
-        title="IT Consulting FAQs"
-        description="Assessments, migrations, security and managed support"
+        title="Frequently asked questions"
+        description="Cloud migration, security reviews and cost savings"
         faqs={itConsultingFaqs}
       />
 
       <CTABanner
-        title="Need a Straight Answer on Cloud or Access?"
-        description="Book a call. Bring your stack list. We will tell you what to fix first."
-        primaryLabel="Book Consulting Call"
+        title="Get a USD quote for IT consulting and cloud"
+        description="Book a free discovery call. We reply within one business day with a clear next step."
+        primaryLabel="Get a USD quote for IT consulting and cloud"
       />
     </Layout>
   );

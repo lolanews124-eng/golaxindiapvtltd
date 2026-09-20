@@ -61,6 +61,10 @@ export default function PrivacyPolicy() {
               <p className="text-muted-foreground leading-relaxed">
                 Golax India Private Limited is an offshore software, web and mobile development company headquartered in Patna, Bihar, India. We provide IT services to startups and enterprises in the United States, United Kingdom, UAE, Canada, Australia and other international markets.
               </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                <strong className="text-foreground">Data controller:</strong> Golax India Private Limited (Golax India Pvt Ltd), 1st Floor, Flat No-102, Sneh Highway Views, Bypass Rd, Near Jaganpura More, Nalanda Colony, Kankarbagh, Patna, Bihar 800020, India. For privacy requests contact{" "}
+                <a href="mailto:contact@golaxindia.com" className="text-primary hover:underline">contact@golaxindia.com</a>.
+              </p>
             </motion.div>
 
             {/* Section 1 */}
@@ -175,7 +179,7 @@ export default function PrivacyPolicy() {
                 <div className="space-y-4">
                   <div className="border-l-4 border-primary pl-6 py-2">
                     <h3 className="font-semibold text-foreground mb-2">Service Providers</h3>
-                    <p>We may share information with third-party service providers who assist us in operating our website, conducting our business, or providing services to you.</p>
+                    <p>We may share information with third-party service providers who assist us in operating our website, conducting our business, or providing services to you. Typical categories include email delivery, website hosting, analytics (for example Google Analytics when enabled), customer relationship tools, and payment processors when you purchase services. Each provider is engaged for a defined purpose and should not use your data for their own marketing unless disclosed separately.</p>
                   </div>
                   
                   <div className="border-l-4 border-primary pl-6 py-2">
@@ -274,6 +278,39 @@ export default function PrivacyPolicy() {
               </div>
             </motion.div>
 
+            {/* International transfers */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mb-12"
+            >
+              <h2 className="text-2xl font-heading font-bold text-foreground mb-4">6. International Data Transfers</h2>
+              <p className="text-muted-foreground mb-4">
+                We are based in India and serve clients in the United Kingdom, European Economic Area, Canada, Australia, the Gulf region and other countries. When you visit our website or engage our services, personal data may be processed in India and in other countries where our service providers operate.
+              </p>
+              <p className="text-muted-foreground mb-4">
+                Where required by applicable law, we use appropriate safeguards for transfers — such as standard contractual clauses, data processing agreements, or other mechanisms your counsel recognises. You may request more information about safeguards relevant to your engagement by emailing{" "}
+                <a href="mailto:contact@golaxindia.com" className="text-primary hover:underline">contact@golaxindia.com</a>.
+              </p>
+              <p className="text-muted-foreground">
+                <strong className="text-foreground">Retention:</strong> We keep personal data only as long as needed for the purposes described in this policy, to meet legal obligations, resolve disputes and enforce agreements. Enquiry and project records are typically retained for the duration of the relationship and for a reasonable period afterward unless a longer period is required by law or contract.
+              </p>
+            </motion.div>
+
+            {/* Legal basis (summary) */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mb-12"
+            >
+              <h2 className="text-2xl font-heading font-bold text-foreground mb-4">7. Legal Bases for Processing (EEA / UK visitors)</h2>
+              <p className="text-muted-foreground">
+                Where GDPR or UK GDPR applies, we rely on one or more of the following bases: <strong className="text-foreground">contract</strong> (to respond to enquiries and deliver services you request); <strong className="text-foreground">legitimate interests</strong> (to operate and improve our website, prevent fraud and communicate about similar services, balanced against your rights); <strong className="text-foreground">consent</strong> (for non-essential cookies and certain marketing where required); and <strong className="text-foreground">legal obligation</strong> (where we must retain or disclose data). You may object to processing based on legitimate interests or withdraw consent without affecting the lawfulness of processing before withdrawal.
+              </p>
+            </motion.div>
+
             {/* Cookies Section */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -285,7 +322,7 @@ export default function PrivacyPolicy() {
                 <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
                   <Database className="h-6 w-6 text-primary" />
                 </div>
-                <h2 className="text-2xl font-heading font-bold text-foreground">6. Cookies and Tracking Technologies</h2>
+                <h2 className="text-2xl font-heading font-bold text-foreground">8. Cookies and Tracking Technologies</h2>
               </div>
               
               <div className="space-y-4 text-muted-foreground">
@@ -302,7 +339,23 @@ export default function PrivacyPolicy() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <h2 className="text-2xl font-heading font-bold text-foreground mb-4">7. Children's Privacy</h2>
+              <h2 className="text-2xl font-heading font-bold text-foreground mb-4">10. California Privacy Notice (CCPA / CPRA)</h2>
+              <p className="text-muted-foreground mb-4">
+                If you are a California resident, you may have additional rights under the California Consumer Privacy Act (CCPA) as amended by the CPRA, including the right to know categories of personal information collected, to request deletion subject to exceptions, to correct inaccurate information, and to opt out of certain sharing for cross-context behavioural advertising where applicable.
+              </p>
+              <p className="text-muted-foreground">
+                We do not sell personal information for money. If we use analytics or advertising tools that qualify as “sharing” under California law, we will offer appropriate opt-out mechanisms when required. To exercise California rights, email{" "}
+                <a href="mailto:contact@golaxindia.com" className="text-primary hover:underline">contact@golaxindia.com</a> with “California privacy request” in the subject line. We may verify your request as permitted by law. This notice is provided for transparency; whether CCPA thresholds apply to your interaction with us depends on our actual data volumes and business context — consult your counsel if you need a formal determination.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mb-12"
+            >
+              <h2 className="text-2xl font-heading font-bold text-foreground mb-4">11. Children&apos;s Privacy</h2>
               <p className="text-muted-foreground">
                 Our services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately, and we will take steps to delete such information.
               </p>
@@ -315,7 +368,7 @@ export default function PrivacyPolicy() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <h2 className="text-2xl font-heading font-bold text-foreground mb-4">8. Changes to This Privacy Policy</h2>
+              <h2 className="text-2xl font-heading font-bold text-foreground mb-4">12. Changes to This Privacy Policy</h2>
               <p className="text-muted-foreground">
                 We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. We encourage you to review this Privacy Policy periodically.
               </p>
@@ -329,7 +382,7 @@ export default function PrivacyPolicy() {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-primary/5 to-accent/5 rounded-2xl p-8"
             >
-              <h2 className="text-2xl font-heading font-bold text-foreground mb-6">9. Contact Us</h2>
+              <h2 className="text-2xl font-heading font-bold text-foreground mb-6">13. Contact Us</h2>
               <p className="text-muted-foreground mb-6">
                 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
               </p>
@@ -341,7 +394,7 @@ export default function PrivacyPolicy() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                    <a href="mailto:privacy@golaxindiapvtltd.in" className="text-primary hover:underline">privacy@golaxindiapvtltd.in</a>
+                    <a href="mailto:contact@golaxindia.com" className="text-primary hover:underline">contact@golaxindia.com</a>
                   </div>
                 </div>
                 
@@ -360,8 +413,9 @@ export default function PrivacyPolicy() {
                 <h3 className="font-semibold text-foreground mb-2">Registered Office</h3>
                 <p className="text-muted-foreground">
                   Golax India Pvt Ltd<br />
-                  123, IT Park, Boring Road<br />
-                  Patna, Bihar 800001, India
+                  1st Floor, Flat No-102, Sneh Highway Views, Bypass Rd<br />
+                  Near Jaganpura More, Nalanda Colony, Kankarbagh<br />
+                  Patna, Bihar 800020, India
                 </p>
               </div>
             </motion.div>

@@ -4,73 +4,78 @@ export const homeFaqs: FaqItem[] = [
   {
     question: "Why should a US or international business hire Golax India?",
     answer:
-      "US and UK companies typically pay $80–$180/hour for senior engineers locally. Golax India provides equivalent senior talent at $25–$45/hour (USD), with English-fluent PMs, 4–5 hours of daily timezone overlap for US clients, and full NDA + IP assignment before work starts.",
+      "Because you get senior engineering capacity at a fraction of local cost, with legal protection in place before work starts. Typical senior rates in the US and UK are $80-$180 per hour. Our senior engineers are $25-$45 per hour, with English-speaking project managers and daily timezone overlap.",
   },
   {
     question: "How much does it cost to outsource web or software development to India?",
     answer:
-      "Marketing websites for US clients start around $3,500. SaaS MVPs typically range from $15,000–$60,000. Dedicated full-time developers are billed at $25–$45/hour depending on seniority. We quote in USD after a free 30-minute discovery call.",
+      "Marketing websites for international clients start at around $3,500. SaaS MVPs typically range from $15,000 to $60,000 depending on scope. Mobile apps and larger platforms are quoted after a discovery call. Dedicated developers are billed monthly at $25-$45 per hour equivalent.",
   },
   {
     question: "Do you work with clients in the USA, UK, Canada, UAE and Australia?",
     answer:
-      "Yes. Most of our growth comes from offshore clients in the United States, United Kingdom, Canada, UAE, Australia, Germany and Singapore. We bill in USD/GBP/CAD/AED/AUD, use Slack/Teams for daily collaboration, and structure our day for your business hours.",
+      "Yes. Most of our clients are outside India. We support US, UK, Canadian, Australian, Gulf and Singapore business hours and invoice in the currency you prefer.",
   },
   {
     question: "How do you handle NDAs, IP ownership and contracts for overseas clients?",
     answer:
-      "We sign mutual NDAs, MSAs and IP-assignment agreements before any code is written. All work product is assigned to your US/UK/EU entity on payment. We are happy to use your preferred legal templates.",
+      "We sign a mutual NDA, an MSA and an IP assignment agreement before any code is written. All source code, designs and documentation belong to you, and you receive repository ownership from day one.",
   },
   {
     question: "How fast can you start an offshore project?",
     answer:
-      "Most engagements kick off within 5–7 business days of contract signing — including a dedicated project manager, senior lead engineer, shared tooling (GitHub, Jira, Slack) and a clear sprint plan.",
+      "A discovery call can happen within 24-48 hours. After contract signature, a small team can usually start within one to two weeks, depending on the skills required.",
   },
 ];
 
 export const contactFaqs: FaqItem[] = [
+  {
+    question: "How quickly will you reply?",
+    answer:
+      "We reply within one business day, and usually within a few hours during India business hours. Use the contact form, email contact@golaxindia.com, or WhatsApp +91 9128666005.",
+  },
+  {
+    question: "Can we sign an NDA before sharing details?",
+    answer:
+      "Yes. Ask for our mutual NDA in your first message and we will send it before any sensitive discovery.",
+  },
+  {
+    question: "Which time zones do you support?",
+    answer:
+      "US East and West, UK, Gulf, Singapore and Australia, with an agreed daily overlap window written into the contract.",
+  },
   {
     question: "What is the typical project timeline for US and global clients?",
     answer:
       "Marketing websites: 2–4 weeks. SaaS MVPs: 8–14 weeks. Complex enterprise software: 3–6 months. We confirm timelines in writing after the discovery call.",
   },
   {
-    question: "Do you offer post-launch support for international clients?",
-    answer:
-      "Yes — monthly care plans covering bug fixes, security patches, uptime monitoring, feature sprints and Slack support during your business hours.",
-  },
-  {
     question: "How do international clients pay?",
     answer:
       "We invoice in USD, GBP, CAD, AED or AUD. Payments via Wise, bank wire or card. Typical terms: 30% to start, then milestone-based or monthly for dedicated teams.",
-  },
-  {
-    question: "How do I get a free quote from Golax India?",
-    answer:
-      "Fill out the contact form, email contact@golaxindia.com, or message WhatsApp +91 9128666005. We reply within 2 business hours with a free consultation and estimate.",
   },
 ];
 
 export const aboutFaqs: FaqItem[] = [
   {
+    question: "Where is Golax India based?",
+    answer:
+      "Our head office is in Patna, India. Our teams work remotely with clients in North America, Europe, the Middle East and Asia-Pacific.",
+  },
+  {
+    question: "Do I need to travel to India to work with you?",
+    answer:
+      "No. Everything runs remotely through video calls, Slack or Teams and shared tools. We can travel or host you if a project needs on-site workshops.",
+  },
+  {
+    question: "Who owns the code?",
+    answer:
+      "You do. IP assignment is part of the contract and repositories are created under your account.",
+  },
+  {
     question: "When was Golax India Private Limited incorporated?",
     answer:
       "Golax India Private Limited was incorporated on 25 September 2025 under the Companies Act, 2013 (CIN U42102BR2025PTC079250). Our engineering team has shipped for international clients since 2014; the private limited company formalises that delivery brand.",
-  },
-  {
-    question: "Where is Golax India’s delivery headquarters?",
-    answer:
-      "Delivery and correspondence HQ is in Kankarbagh, Patna, Bihar, India (Sneh Highway Views). The MCA registered office is at 5/B, Anand Palace, New Bypass, Kankarbagh, Patna 800020. We serve buyers in the USA, UK, UAE, Canada, Australia and other international markets.",
-  },
-  {
-    question: "Who leads Golax India?",
-    answer:
-      "Leadership includes Founder Vinay Bhaskar, CEO Deepak Bharti and CTO Shekhar Sahani, supported by delivery and engineering leads who run offshore squads for overseas product teams.",
-  },
-  {
-    question: "Is Golax India a registered startup?",
-    answer:
-      "Yes. DPIIT Startup India Certificate of Recognition DIPP225612 (issued 14 October 2025, valid through 24 September 2035) covers IT Services / Application Development.",
   },
 ];
 
@@ -129,7 +134,7 @@ export const industriesFaqs: FaqItem[] = [
   {
     question: "How do I start an industry-specific project?",
     answer:
-      "Book a discovery call or email contact@golaxindia.com with your sector and goals. We reply within 2 business hours with a USD estimate.",
+      "Book a discovery call or email contact@golaxindia.com with your sector and goals. We reply within one business day with a USD estimate.",
   },
 ];
 

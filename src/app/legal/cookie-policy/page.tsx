@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 export const metadata = buildMetadata({
   title: "Cookie Policy",
   description:
-    "How Golax India uses cookies and similar technologies on golaxindiapvtltd.in. Learn what we store, why, and how you can control tracking preferences.",
+    "Which cookies the Golax India website uses, why we use them and how you can control or disable them in your browser.",
   canonicalUrl: "/legal/cookie-policy",
 });
 

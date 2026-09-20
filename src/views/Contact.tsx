@@ -113,10 +113,65 @@ export default function Contact() {
         badge="Contact Us"
         badgeIcon={MessageSquare}
         title={<>Get a USD Quote for Your <span className="text-accent">US or Global Project</span></>}
-        description="Book a free discovery call — offshore web, SaaS or mobile development with senior India engineers. NDA available. We reply within 2 business hours."
+        description="Tell us what you want to build and we will reply within one business day with next steps. Discovery calls are free, and we will sign an NDA first if you prefer."
         showForm={false}
         centered
       />
+
+      <section className="py-16 bg-gradient-subtle border-b border-border">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Share your goals and we will confirm a discovery call, then send a written USD proposal with scope and contract terms.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="premium-card p-6">
+              <h2 className="font-heading text-lg font-semibold text-foreground mb-3">What to include</h2>
+              <ul className="space-y-2 text-sm text-muted-foreground list-disc pl-4">
+                <li>What you are building and who it is for</li>
+                <li>Your target launch date</li>
+                <li>Your budget range, if you have one</li>
+                <li>Your time zone and preferred meeting hours</li>
+              </ul>
+            </div>
+            <div className="premium-card p-6">
+              <h2 className="font-heading text-lg font-semibold text-foreground mb-3">Ways to reach us</h2>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li>
+                  Email:{" "}
+                  <a href="mailto:contact@golaxindia.com" className="text-primary hover:underline">
+                    contact@golaxindia.com
+                  </a>
+                </li>
+                <li>
+                  Phone &amp; WhatsApp:{" "}
+                  <a href="tel:+919128666005" className="text-primary hover:underline">
+                    +91 9128666005
+                  </a>
+                </li>
+                <li>
+                  Office: Kankarbagh, Patna — see map below
+                </li>
+                <li>
+                  Book a call:{" "}
+                  <a href="/contact" className="text-primary hover:underline">
+                    request a time via the form
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="premium-card p-6">
+              <h2 className="font-heading text-lg font-semibold text-foreground mb-3">What happens next</h2>
+              <ol className="space-y-2 text-sm text-muted-foreground list-decimal pl-4">
+                <li>Within one business day: we reply and confirm a call time</li>
+                <li>Discovery call: 30 minutes on goals, stack, budget and timeline</li>
+                <li>Proposal: written scope, estimate and contract within a few days</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Contact Section */}
       <section className="section-padding relative bg-card overflow-hidden">
@@ -127,7 +182,7 @@ export default function Contact() {
             <div className="lg:col-span-1">
               <SectionHeader
                 title="Get in Touch"
-                description="Phone, email or WhatsApp — we reply within 2 business hours for international enquiries."
+                description="Phone, email or WhatsApp — we reply within one business day for international enquiries."
                 align="left"
                 className="mb-8"
               />
@@ -189,7 +244,7 @@ export default function Contact() {
                   Request a Free Quote
                 </h2>
                 <p className="text-muted-foreground mb-8">
-                  Fill out the form below and our team will get back to you within 24 hours.
+                  Fill out the form below and our team will get back to you within one business day.
                 </p>
 
                 <form onSubmit={handleSubmit} className="space-y-6">

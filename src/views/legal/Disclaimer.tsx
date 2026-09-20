@@ -245,6 +245,12 @@ export default function Disclaimer() {
                 <p>
                   We reserve the right to make changes to the content at any time without prior notice.
                 </p>
+                <p className="bg-muted/30 rounded-xl p-4 mt-4">
+                  <strong className="text-foreground">Price ranges and estimates</strong> shown on service pages, location pages or calculators are indicative planning figures only. Your final quote depends on scope, integrations, timeline and team composition. Nothing on this website is a binding offer until confirmed in a signed proposal or SOW.
+                </p>
+                <p className="bg-muted/30 rounded-xl p-4 mt-4">
+                  <strong className="text-foreground">Blog and resource content</strong> (including offshore guides, checklists and trend articles) is general information for business and technology readers. It is not legal, tax, accounting or investment advice. Consult qualified professionals in your jurisdiction before relying on it for compliance or financial decisions.
+                </p>
               </div>
             </motion.div>
 

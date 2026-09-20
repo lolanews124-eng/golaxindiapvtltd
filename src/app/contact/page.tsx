@@ -8,9 +8,9 @@ import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 import { ENTITY } from "@/lib/seo/entity";
 
 export const metadata = buildMetadata({
-  title: "Contact Us for a Free Project Quote",
+  title: "Contact | Get a USD Quote for Your Project",
   description:
-    "Request a free discovery call for offshore web, SaaS or mobile work. Clear quotes, NDA on request. Email contact@golaxindia.com or call +91 9128666005.",
+    "Contact Golax India for a free discovery call and a USD quote. Reply within 24 hours. NDA available before you share project details.",
   keywords:
     "hire offshore developers contact, outsource software development quote, Golax India contact, free development quote",
   canonicalUrl: "/contact",
@@ -24,7 +24,7 @@ export default function Page() {
     url: `${BASE_URL}/contact`,
     name: "Contact Golax India",
     description:
-      "Book a free discovery call for offshore web, SaaS or mobile development. USD quotes within 24 hours. Email contact@golaxindia.com or call +91 9128666005.",
+      "Contact Golax India for a free discovery call and a USD quote. Reply within 24 hours. NDA available before you share project details.",
     mainEntity: {
       "@type": "Organization",
       "@id": `${ENTITY.url}/#organization`,

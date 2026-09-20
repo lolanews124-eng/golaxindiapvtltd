@@ -7,9 +7,9 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
-  title: "About Our Offshore Engineering Team",
+  title: "About Golax India — Offshore Engineering Partner",
   description:
-    "Meet Golax India — an offshore software partner for USA, UK, UAE, Canada and Australia. Senior engineers, USD billing, NDA/IP assignment. Learn how we work.",
+    "Learn how Golax India helps US, UK and global companies build software with senior Indian engineers, clear contracts and reliable delivery.",
   keywords:
     "offshore software development company, hire dedicated developers from India, outsource software development to India, Golax India about",
   canonicalUrl: "/about",

@@ -100,6 +100,9 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
+  experimental: {
+    optimizePackageImports: ["lucide-react", "framer-motion"],
+  },
   typescript: {
     // shadcn ui components copied from Vite project; unused ones have minor type drift
     ignoreBuildErrors: true,

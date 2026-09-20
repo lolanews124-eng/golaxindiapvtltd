@@ -78,7 +78,7 @@ export default function ServiceHero({
               context={formContext}
               defaultService={defaultService}
               title={formTitle ?? `Get a Free ${defaultService} Quote`}
-              subtitle={formSubtitle ?? "Reply on WhatsApp within 2 business hours."}
+              subtitle={formSubtitle ?? "Reply within one business day · NDA available."}
               variant="light"
             />
           </motion.div>

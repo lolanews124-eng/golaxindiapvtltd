@@ -13,6 +13,59 @@ import FAQSection from "@/components/shared/FAQSection";
 import { internationalLocations, slugifyCity } from "@/data/internationalLocations";
 import { locationsFaqs } from "@/data/siteFaqs";
 
+const marketBlurbs: { country: string; slug: string; blurb: string }[] = [
+  {
+    country: "United States",
+    slug: "united-states",
+    blurb: "SaaS, healthcare, fintech and e-commerce teams; US East and West overlap.",
+  },
+  {
+    country: "United Kingdom",
+    slug: "united-kingdom",
+    blurb: "GDPR-aware development with GBP billing and strong morning overlap.",
+  },
+  {
+    country: "Canada",
+    slug: "canada",
+    blurb: "Toronto, Vancouver, Montreal and Calgary teams with CAD billing.",
+  },
+  {
+    country: "Australia",
+    slug: "australia",
+    blurb: "Sydney, Melbourne, Brisbane and Perth, with overlap in the Australian afternoon.",
+  },
+  {
+    country: "United Arab Emirates",
+    slug: "united-arab-emirates",
+    blurb: "Dubai, Abu Dhabi and Sharjah, with almost full working-hour overlap.",
+  },
+  {
+    country: "Saudi Arabia",
+    slug: "saudi-arabia",
+    blurb: "Riyadh, Jeddah and Dammam projects aligned with Vision 2030 digital programmes.",
+  },
+  {
+    country: "Singapore",
+    slug: "singapore",
+    blurb: "Fast-moving fintech and SaaS teams with near-complete overlap.",
+  },
+  {
+    country: "Germany",
+    slug: "germany",
+    blurb: "GDPR-first delivery for Berlin, Munich, Hamburg and Frankfurt.",
+  },
+  {
+    country: "New Zealand",
+    slug: "new-zealand",
+    blurb: "Auckland and Wellington teams with an early-morning overlap plan.",
+  },
+  {
+    country: "Qatar",
+    slug: "qatar",
+    blurb: "Doha and Lusail digital and smart-city projects.",
+  },
+];
+
 export default function Locations() {
   return (
     <Layout>
@@ -24,7 +77,7 @@ export default function Locations() {
             Offshore IT Partner for <span className="text-accent">International Businesses</span>
           </>
         }
-        description="Hire a senior engineering team from India for web, software, mobile apps and digital marketing — serving startups and enterprises across the USA, UK, Canada, UAE, Australia and more."
+        description="We work with clients in ten international markets. Each market page explains local rates, privacy rules, billing currency and how our working hours overlap with yours."
         formContext="Locations"
         actions={
           <>
@@ -37,6 +90,32 @@ export default function Locations() {
           </>
         }
       />
+
+      <section className="py-12 bg-card border-b border-border">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-6 text-center">Choose your market</h2>
+          <ul className="space-y-3">
+            {marketBlurbs.map((m) => (
+              <li key={m.slug} className="text-sm text-muted-foreground">
+                <Link href={`/locations/global/${m.slug}`} className="font-semibold text-foreground hover:text-primary">
+                  {m.country}
+                </Link>
+                : {m.blurb}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="py-12 bg-gradient-subtle border-b border-border">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <h2 className="font-heading text-xl font-semibold text-foreground mb-3">Why market pages matter</h2>
+          <p className="text-muted-foreground leading-relaxed">
+            A US startup and a German manufacturer need different things from an offshore partner. We cover the privacy
+            rules, invoicing and communication habits of each market so onboarding is smooth.
+          </p>
+        </div>
+      </section>
 
       <TrustBar
         stats={[
@@ -119,8 +198,8 @@ export default function Locations() {
       />
 
       <CTABanner
-        title="Don't See Your Country?"
-        description="We work with clients worldwide. Tell us where you're based and we'll share timezone overlap, engagement models, and a free estimate."
+        title="Tell Us Your Country"
+        description="We will tailor the proposal to your market — timezone overlap, currency and compliance. Reply within one business day."
       />
       <div className="bg-card border-t border-border py-8">
         <div className="container mx-auto px-4 flex flex-wrap justify-center gap-4 text-sm">

@@ -15,6 +15,8 @@ import {
   X,
   ZoomIn,
   MapPin,
+  Shield,
+  UserCheck,
 } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import PageHero from "@/components/shared/PageHero";
@@ -28,6 +30,17 @@ import {
   type CertificateItem,
 } from "@/data/certificates";
 import { certificatesFaqs } from "@/data/siteFaqs";
+
+const incorporationCerts = certificates.filter((c) => c.id === "incorporation");
+const startupCerts = certificates.filter((c) => c.id === "startup-india");
+const isoCerts = certificates.filter((c) => c.id.startsWith("iso-"));
+
+const projectProtection = [
+  "Mutual NDA signed before discovery.",
+  "MSA and IP assignment signed before development.",
+  "Access limited to the engineers assigned to your project.",
+  "Source code kept in a repository owned by you.",
+];
 
 const regCards = [
   {
@@ -175,16 +188,20 @@ export default function Certificates() {
         badgeIcon={ShieldCheck}
         title={
           <>
-            Company Registration & <span className="text-accent">Certificates</span>
+            Company Registration and <span className="text-accent">Certificates</span>
           </>
         }
-        description="Golax India Private Limited is registered with the Ministry of Corporate Affairs. View our CIN, GST, TAN and quality / information-security certificates."
+        description="International buyers should be able to verify a vendor before they sign. This page lists the legal and quality credentials of Golax India Pvt Ltd, with registration numbers and documents you can check yourself."
         formContext="Certificates"
         showForm={false}
         actions={
           <>
             <Button asChild variant="accent" size="lg">
-              <Link href="/contact">Book a Discovery Call</Link>
+              <a
+                href="mailto:contact@golaxindia.com?subject=Company%20profile%20request"
+              >
+                Request Company Profile
+              </a>
             </Button>
             <Button asChild variant="heroOutline" size="lg">
               <a href={companyRegistration.mcaVerifyUrl} target="_blank" rel="noopener noreferrer">
@@ -201,8 +218,8 @@ export default function Certificates() {
         <div className="container relative mx-auto px-4">
           <SectionHeader
             badge="MCA Registered"
-            title="Official Company Identifiers"
-            description={`${companyRegistration.legalName} — incorporated ${companyRegistration.incorporationDate} as a ${companyRegistration.companyType.toLowerCase()}.`}
+            title="Company Registration"
+            description={`Legal name: Golax India Pvt Ltd. Registered with the Ministry of Corporate Affairs (MCA), India — incorporated ${companyRegistration.incorporationDate} as a ${companyRegistration.companyType.toLowerCase()}.`}
           />
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
@@ -258,19 +275,105 @@ export default function Certificates() {
         </div>
       </section>
 
-      {/* Certificates gallery */}
-      <section className="section-padding bg-background">
+      {incorporationCerts.length > 0 && (
+        <section className="section-padding bg-background border-t border-border/40">
+          <div className="container mx-auto px-4">
+            <SectionHeader
+              badge="Incorporation"
+              title="Certificate of Incorporation"
+              description="MCA-issued proof of registration — click to view full size."
+            />
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-4xl">
+              {incorporationCerts.map((cert) => (
+                <CertificateCard key={cert.id} cert={cert} onOpen={setActive} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="section-padding bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <SectionHeader
-            badge="Certificates"
-            title="Incorporation & ISO Certifications"
-            description="Click any certificate to view it full-size. Startup India recognition is from DPIIT; ISO certificates are issued by MQA Certification Services."
+            badge="DPIIT"
+            title="Startup and Government Recognition"
+            description={`Startup India Certificate of Recognition ${startupCerts[0]?.certificateNumber ?? "DIPP225612"} — IT Services / Application Development.`}
           />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {certificates.map((cert) => (
+            {startupCerts.map((cert) => (
               <CertificateCard key={cert.id} cert={cert} onOpen={setActive} />
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-background">
+        <div className="container mx-auto px-4">
+          <SectionHeader
+            badge="ISO"
+            title="Quality and Security Standards"
+            description="ISO 9001:2015 (QMS/25M05771) and ISO/IEC 27001:2022 (ISMS/25M05772), issued by MQA Certification Services — valid through 17 November 2028."
+          />
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {isoCerts.map((cert) => (
+              <CertificateCard key={cert.id} cert={cert} onOpen={setActive} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-card">
+        <div className="container mx-auto px-4">
+          <SectionHeader
+            badge="Your data"
+            title="How We Protect Your Project"
+            description="Contractual and operational safeguards for overseas buyers"
+          />
+          <motion.ul
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="premium-card p-8 sm:p-10 max-w-3xl mx-auto space-y-4"
+          >
+            {projectProtection.map((line) => (
+              <li key={line} className="flex gap-3 text-muted-foreground">
+                <Shield className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>{line}</span>
+              </li>
+            ))}
+          </motion.ul>
+        </div>
+      </section>
+
+      <section className="section-padding bg-gradient-subtle">
+        <div className="container mx-auto px-4">
+          <SectionHeader
+            badge="Due diligence"
+            title="Verify Us"
+            description="Check our registration yourself or speak with leadership"
+          />
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="premium-card p-8 sm:p-10 max-w-3xl mx-auto text-center"
+          >
+            <UserCheck className="h-10 w-10 text-primary mx-auto mb-4" />
+            <p className="text-muted-foreground mb-6">
+              Verify our company on the Indian MCA portal using CIN {companyRegistration.cin}, or ask for a video call
+              with our directors. We are happy to provide references on request.
+            </p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <Button asChild variant="hero" size="lg">
+                <a href={companyRegistration.mcaVerifyUrl} target="_blank" rel="noopener noreferrer">
+                  Verify CIN on MCA.gov.in <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="lg">
+                <Link href="/contact">Schedule a call</Link>
+              </Button>
+            </div>
+          </motion.div>
         </div>
       </section>
 
@@ -281,9 +384,10 @@ export default function Certificates() {
       />
 
       <CTABanner
-        title="Work with a registered, certified offshore partner"
-        description="NDA/IP-ready delivery for US, UK, UAE and global clients — backed by MCA registration and ISO quality & security frameworks."
-        primaryLabel="Get a Quote"
+        title="Request our company profile and reference list"
+        description="Email us from the contact page or directly — we reply within 24 hours with registration details and next steps."
+        primaryLabel="Request company profile"
+        primaryHref="mailto:contact@golaxindia.com?subject=Company%20profile%20request"
       />
 
       {/* Lightbox */}

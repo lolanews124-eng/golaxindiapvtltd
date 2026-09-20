@@ -16,63 +16,63 @@ const services = [{
   icon: Globe,
   title: "Web Development",
   slug: "web-development",
-  description: "We create fast, conversion-focused websites and web apps for US, UK, UAE and global businesses — from marketing sites to ecommerce and SaaS shells.",
+  description: "Fast, search-friendly websites and web applications in React, Next.js and Node.js — marketing sites, customer portals and web products.",
   features: ["Custom Website Design & Development", "E-commerce Solutions (Shopify, WooCommerce, Custom)", "Progressive Web Apps (PWA)", "Content Management Systems (WordPress, Custom CMS)", "Web Portal Development", "API Development & Integration"],
   technologies: ["React", "Next.js", "Node.js", "PHP", "WordPress", "Shopify"]
 }, {
   icon: Code,
   title: "Software Development",
   slug: "software-development",
-  description: "Custom SaaS, ERP, CRM and internal tools for international product teams — senior offshore engineers with clear currency billing.",
+  description: "Custom SaaS products, ERP, CRM and internal tools with multi-tenant architecture, billing, roles and analytics.",
   features: ["Custom Enterprise Software", "ERP & CRM Solutions", "Business Process Automation", "Legacy System Modernization", "Database Design & Management", "Software Integration Services"],
   technologies: ["Java", "Python", ".NET", "Node.js", "PostgreSQL", "MongoDB"]
 }, {
   icon: Smartphone,
   title: "Mobile App Development",
   slug: "mobile-app-development",
-  description: "iOS, Android and Flutter/React Native apps for startups and brands abroad — dual-store launch support included when in scope.",
+  description: "Native and cross-platform apps for iOS and Android using Swift, Kotlin, Flutter or React Native, with store submission when in scope.",
   features: ["iOS App Development (Swift)", "Android App Development (Kotlin)", "Cross-Platform Apps (React Native, Flutter)", "Mobile UI/UX Design", "App Store Optimization", "App Maintenance & Support"],
   technologies: ["React Native", "Flutter", "Swift", "Kotlin", "Firebase"]
 }, {
   icon: TrendingUp,
   title: "Digital Marketing & SEO",
   slug: "digital-marketing",
-  description: "SEO, Google Ads and content engines for US, UK and UAE brands that want compounding organic growth — not vanity rankings.",
+  description: "Technical SEO, content and paid campaigns to win customers in international markets.",
   features: ["Search Engine Optimization (SEO)", "Pay-Per-Click Advertising (PPC)", "Social Media Marketing", "Content Marketing", "Email Marketing", "Analytics & Reporting"],
   technologies: ["Google Ads", "Facebook Ads", "SEMrush", "Google Analytics", "Mailchimp"]
 }, {
   icon: Cloud,
   title: "IT Consulting & Cloud Services",
   slug: "it-consulting",
-  description: "Architecture reviews, cloud guidance and dedicated offshore pods for companies that need senior capacity without a local hire cycle.",
+  description: "Architecture reviews, AWS and Azure migration, DevOps and security hardening.",
   features: ["Cloud Migration (AWS, Azure, GCP)", "IT Infrastructure Assessment", "Technology Roadmap Planning", "Cybersecurity Consulting", "DevOps Implementation", "Managed IT Services"],
   technologies: ["AWS", "Microsoft Azure", "Google Cloud", "Docker", "Kubernetes"]
 }, {
   icon: Database,
   title: "E-commerce Development",
   slug: "ecommerce-development",
-  description: "Shopify and headless commerce for international brands — multi-currency checkout, SEO-safe migrations and clear scopes.",
+  description: "Shopify, headless commerce and custom stores with international payments, tax and shipping.",
   features: ["Shopify & Shopify Plus", "Headless Next.js commerce", "Multi-currency & tax", "App integrations", "Migration & redirects", "CRO-ready storefronts"],
   technologies: ["Shopify", "Next.js", "Stripe", "Hydrogen", "TypeScript"]
 }, {
   icon: Layers,
   title: "UI/UX Design",
   slug: "ui-ux-design",
-  description: "Product UI, design systems and conversion-focused landings with developer-ready Figma handoff.",
+  description: "Product design, design systems and conversion-focused landing pages, with research and prototypes tested before build.",
   features: ["SaaS product UI", "Design systems", "Marketing landings", "Prototyping", "Accessibility-minded UI", "Engineering handoff"],
   technologies: ["Figma", "Design tokens", "Storybook", "WCAG"]
 }, {
   icon: Shield,
   title: "CRM & ERP Solutions",
   slug: "crm-erp-solutions",
-  description: "Custom CRM, ERP and internal tools that match your workflows instead of forcing another rigid suite.",
+  description: "Custom business systems that replace spreadsheets and expensive SaaS combinations.",
   features: ["Custom CRM modules", "ERP / ops portals", "Integrations", "Role-based access", "Reporting", "Data migration"],
   technologies: ["React", "Node.js", "Python", "PostgreSQL"]
 }, {
   icon: Code,
   title: "Dedicated Development Teams",
   slug: "dedicated-development-teams",
-  description: "Hire dedicated developers from India — named seniors in your Slack and GitHub with agreed timezone overlap.",
+  description: "A vetted full-time squad of engineers working only on your roadmap under your direction.",
   features: ["Interview-first staffing", "Monthly pods", "US/UK/Gulf overlap", "NDA & IP assignment", "Pilot sprints", "Transparent rates"],
   technologies: ["React", "Node.js", "Flutter", "Python"]
 }];
@@ -101,10 +101,19 @@ export default function Services() {
       <PageHero
         badge="Our Services"
         badgeIcon={Sparkles}
-        title={<>Offshore IT Services for <span className="text-accent">USA & Global Clients</span></>}
-        description="Web, SaaS, mobile, SEO and cloud — hire a senior India engineering team with USD pricing, timezone overlap and NDA/IP assignment."
+        title={<>Offshore IT Services for <span className="text-accent">USA and Global Clients</span></>}
+        description="Golax India provides the full range of software services an international business needs, from first design to production support. Choose a single service or combine several under one team and one contract."
         formContext="Services — USA & Global"
       />
+
+      <section className="py-12 bg-gradient-subtle border-b border-border">
+        <div className="container mx-auto px-4 sm:px-6 max-w-4xl">
+          <p className="text-muted-foreground leading-relaxed text-center mb-8">
+            Each service below links to a dedicated landing page with scope examples, stacks and engagement models.
+            Need named engineers? See our hire-by-technology pages at the bottom of this hub.
+          </p>
+        </div>
+      </section>
 
       <section className="section-padding relative bg-card overflow-hidden">
         <div className="absolute inset-0 bg-mesh pointer-events-none opacity-30" aria-hidden />
@@ -156,6 +165,43 @@ export default function Services() {
                 </div>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-gradient-subtle">
+        <div className="container mx-auto px-4 sm:px-6">
+          <SectionHeader
+            badge="Hire by technology"
+            title="Hire Developers by Technology"
+            description="Dedicated senior engineers in React, Node.js, Flutter and Python — monthly pods with US/UK overlap and NDA before code."
+            className="mb-10"
+          />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { label: "Hire React developers", href: "/services/hire-react-developers" },
+              { label: "Hire Node.js developers", href: "/services/hire-nodejs-developers" },
+              { label: "Hire Flutter developers", href: "/services/hire-flutter-developers" },
+              { label: "Hire Python developers", href: "/services/hire-python-developers" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="premium-card p-5 text-center font-medium text-foreground hover:text-primary transition-colors"
+              >
+                {item.label}
+                <ArrowRight className="inline-block ml-2 h-4 w-4" />
+              </Link>
+            ))}
+          </div>
+          <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
+            Not sure what you need? Tell us the outcome you want and we will recommend the smallest team and timeline
+            that can deliver it. The first call is free.
+          </p>
+          <div className="flex justify-center mt-6">
+            <Button asChild variant="hero" size="lg">
+              <Link href="/contact">Book a Free Discovery Call</Link>
+            </Button>
           </div>
         </div>
       </section>
@@ -239,7 +285,7 @@ export default function Services() {
 
       <CTABanner
         title="Ready to Hire Your Offshore Team?"
-        description="Get a free USD quote for web, SaaS or mobile development — reply within 2 business hours."
+        description="Get a free USD quote for web, SaaS or mobile development — reply within one business day."
       />
     </Layout>
   );

@@ -7,9 +7,9 @@ import { buildMetadata } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
-  title: "Industries We Serve Worldwide",
+  title: "Industry IT Solutions for USA & Global Buyers",
   description:
-    "Offshore IT for education, healthcare, startups, retail, real estate and finance buyers outside India. See how Golax India approaches your sector.",
+    "Software for e-commerce, healthcare, EdTech, finance, real estate, logistics and more. Offshore engineering built for regulated industries.",
   keywords:
     "offshore IT industries, healthcare software development, EdTech development, retail ecommerce development, fintech offshore partner",
   canonicalUrl: "/industries",

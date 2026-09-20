@@ -88,10 +88,10 @@ export default function Sitemap() {
               Website Navigation
             </div>
             <h1 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground leading-tight mb-4">
-              Complete <span className="text-accent">Sitemap</span>
+              Sitemap
             </h1>
             <p className="text-xl text-primary-foreground/80">
-              Explore all international market and service pages from Golax India
+              Find every page on our website. Pages are grouped by topic to make navigation easy.
             </p>
           </motion.div>
         </div>

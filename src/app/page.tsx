@@ -12,7 +12,7 @@ import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 export const metadata: Metadata = buildMetadata({
   title: "Offshore Software Development Company",
   description:
-    "Hire dedicated developers from India for web, SaaS and mobile. Outsource to Golax India with clear USD scopes, timezone overlap and NDA/IP terms. Request a free quote.",
+    "Hire senior engineers from India at $25-45/hr. Web, SaaS and mobile development for US, UK and global teams. NDA, IP assignment and USD billing.",
   keywords:
     "offshore software development company, hire dedicated developers from India, outsource software development to India, SaaS development company India, hire React developers",
   canonicalUrl: "/",

@@ -3,9 +3,9 @@ import ServiceHubSchemas from "@/components/seo/ServiceHubSchemas";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
-  title: "Digital Marketing & SEO Services",
+  title: "SEO & Digital Marketing from India for Global Brands",
   description:
-    "Technical SEO, content and paid acquisition for international brands. Honest reporting and clear retainers — no fake ranking promises. Get a plan.",
+    "Technical SEO, content, Google Ads and Meta campaigns for US, UK and international markets, run by an India team with clear reporting.",
   keywords:
     "digital marketing company India, SEO services for international brands, Google Ads management, offshore SEO agency",
   canonicalUrl: "/services/digital-marketing",

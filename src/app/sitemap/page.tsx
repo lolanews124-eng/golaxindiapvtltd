@@ -2,10 +2,11 @@ import Sitemap from "@/views/Sitemap";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
-  title: "HTML Sitemap of All Pages",
+  title: "HTML Sitemap",
   description:
-    "Browse every public Golax India page — services, international locations, blog posts and legal policies. Find the right offshore development resource fast.",
+    "Browse every page on the Golax India website: services, industries, locations, blog articles and company information in one place.",
   canonicalUrl: "/sitemap",
+  noindex: true,
 });
 
 export default function Page() {

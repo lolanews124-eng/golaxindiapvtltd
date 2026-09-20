@@ -4,9 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {
-  Target,
-  Eye,
-  Heart,
   Award,
   Users,
   MapPin,
@@ -14,6 +11,10 @@ import {
   Shield,
   Clock,
   Banknote,
+  MessageSquare,
+  FileText,
+  Layers,
+  Lock,
 } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import PageHero from "@/components/shared/PageHero";
@@ -25,31 +26,57 @@ import aboutTeam from "@/assets/about-team.jpg";
 import { internationalLocations } from "@/data/internationalLocations";
 import { aboutFaqs } from "@/data/siteFaqs";
 
-const values = [
-  {
-    icon: Target,
-    title: "Product Outcomes",
-    description:
-      "We optimize for shipped software, clean architecture and measurable business results — not billable hours.",
-  },
-  {
-    icon: Heart,
-    title: "Client Partnership",
-    description:
-      "Founders and CTOs get a senior lead, clear communication and long-term ownership of the relationship.",
-  },
-  {
-    icon: Award,
-    title: "Engineering Excellence",
-    description:
-      "Code review, CI/CD, documentation and security baselines are standard on every engagement.",
-  },
+const beliefs = [
   {
     icon: Users,
-    title: "Timezone Collaboration",
+    title: "Senior people do the thinking",
     description:
-      "English-fluent PMs and daily overlap with US, UK, GCC and APAC business hours.",
+      "Every project has a senior lead who reviews architecture and code.",
   },
+  {
+    icon: Shield,
+    title: "Your IP is yours",
+    description:
+      "Contracts assign all work product to you before development begins.",
+  },
+  {
+    icon: MessageSquare,
+    title: "Clear communication beats long reports",
+    description: "Short daily updates, weekly demos and a shared board.",
+  },
+  {
+    icon: Banknote,
+    title: "Fair prices, no hidden costs",
+    description: "Scope, rate and change process are written down.",
+  },
+];
+
+const deliveryModels = [
+  {
+    icon: FileText,
+    title: "Fixed-scope projects",
+    description:
+      "Well-defined builds such as marketing sites and MVPs — clear quote, milestones and delivery date.",
+  },
+  {
+    icon: Clock,
+    title: "Time and materials",
+    description:
+      "Evolving products where requirements change — transparent hours, demos and sprint planning.",
+  },
+  {
+    icon: Layers,
+    title: "Dedicated teams",
+    description:
+      "Engineers working full time on your roadmap under your direction, with a stable squad lead.",
+  },
+];
+
+const securityPractices = [
+  "Mutual NDA signed before we review your ideas or systems.",
+  "Project access granted per engagement and removed when work ends.",
+  "Developers use secured devices and least-privilege access to repos and environments.",
+  "For regulated work we design for GDPR, HIPAA or SOC 2 readiness with your compliance lead.",
 ];
 
 const differentiators = [
@@ -127,7 +154,8 @@ const milestones = [
   },
   {
     year: "2024",
-    event: "150+ projects delivered across USA, UK, UAE, Canada, Australia and Europe",
+    event:
+      "Deepened dedicated offshore squads for USA, UK, UAE, Canada, Australia and European product teams",
   },
   {
     year: "2026",
@@ -144,10 +172,10 @@ export default function About() {
         title={
           <>
             Offshore Engineering Partner for{" "}
-            <span className="text-accent">USA & Global Clients</span>
+            <span className="text-accent">USA and Global Clients</span>
           </>
         }
-        description="Engineering teams shipping since 2014 — incorporated as Golax India Private Limited in 2025. We help US startups, UK scale-ups and international enterprises ship web products, SaaS platforms and mobile apps with senior talent, clear contracts and USD-friendly pricing."
+        description="Golax India Pvt Ltd is headquartered in Patna, India. We work with startups, agencies and established businesses in the United States, United Kingdom, Canada, Australia, the Gulf and Singapore who want to build software without the cost and delay of local hiring."
         formContext="About — USA & Global"
       />
 
@@ -160,21 +188,21 @@ export default function About() {
               viewport={{ once: true }}
             >
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Built for Clients Outside India
+                Who We Are
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Golax India was founded in 2014 to give founders and CTOs abroad access to senior engineering talent
-                  without Bay Area, London or Dubai agency rates.
+                  We are engineers, designers and project managers who have built web platforms, SaaS products and mobile
+                  apps for international customers.
                 </p>
                 <p>
-                  From our delivery HQ in India, we partner with startups and enterprises across the United States,
-                  United Kingdom, Canada, UAE, Australia, Singapore and beyond. Every engagement is led by a senior
-                  engineer and an English-fluent project manager.
+                  Our aim is simple: behave like an extension of your in-house team, not like a distant vendor. That means
+                  overlapping working hours, direct access to engineers, weekly demos and honest estimates.
                 </p>
                 <p>
-                  Today we specialize in SaaS MVPs, dedicated product squads, e-commerce rebuilds and App Store launches
-                  — with NDA/IP assignment, multi-currency billing and timezone-aware collaboration as the default.
+                  Golax India Private Limited was incorporated in 2025 (CIN U42102BR2025PTC079250); our delivery practice
+                  has supported overseas product teams since 2014. Leadership includes Founder Vinay Bhaskar, CEO Deepak
+                  Bharti and CTO Shekhar Sahani.
                 </p>
               </div>
               <div className="flex items-center gap-4 mt-8 p-5 premium-card">
@@ -182,7 +210,7 @@ export default function About() {
                 <div>
                   <div className="font-semibold text-foreground">Delivery HQ in India</div>
                   <div className="text-sm text-muted-foreground">
-                    Serving clients in {internationalLocations.length}+ countries · Patna engineering base
+                    Patna, Bihar · remote delivery across {internationalLocations.length} international markets
                   </div>
                 </div>
               </div>
@@ -203,13 +231,47 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-subtle">
+      <section className="section-padding relative bg-gradient-subtle overflow-hidden">
+        <div className="absolute inset-0 bg-mesh pointer-events-none opacity-30" aria-hidden />
+        <div className="container relative mx-auto px-4">
+          <SectionHeader
+            badge="Principles"
+            title="What We Believe"
+            description="How we behave on every international engagement"
+          />
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+            {beliefs.map((item, index) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="premium-card p-6 text-center"
+              >
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/15 to-accent/10 ring-1 ring-primary/10 flex items-center justify-center mx-auto mb-6">
+                  <item.icon className="h-8 w-8 text-primary" />
+                </div>
+                <h3 className="font-heading text-lg font-semibold text-foreground mb-3">{item.title}</h3>
+                <p className="text-muted-foreground text-sm">{item.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-card">
         <div className="container mx-auto px-4">
           <SectionHeader
-            badge="Why Golax"
+            badge="Remote delivery"
             title="How We Work With International Clients"
-            description="The operating model US, UK and GCC product teams expect from a serious offshore partner."
+            description="Most of our clients are in different time zones and have never visited India."
           />
+          <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 -mt-4">
+            We set up the working model in the first week: a shared Slack or Teams channel, a project board, a Git
+            repository under your account, a defined overlap window and a weekly demo call. You always know who is working
+            on what and what will ship next.
+          </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {differentiators.map((item, index) => (
               <motion.div
@@ -228,79 +290,96 @@ export default function About() {
               </motion.div>
             ))}
           </div>
-          <div className="text-center mt-10">
-            <Button asChild variant="hero" size="lg">
-              <Link href="/locations">Explore Markets We Serve</Link>
-            </Button>
-          </div>
         </div>
       </section>
 
-      <section className="py-20 bg-card">
+      <section className="section-padding bg-gradient-subtle">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="premium-card p-8 sm:p-10"
-            >
-              <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/15 to-accent/10 ring-1 ring-primary/10 flex items-center justify-center mb-6">
-                <Target className="h-8 w-8 text-primary" />
+          <SectionHeader
+            badge="Trust"
+            title="Security and Confidentiality"
+            description="ISO 27001-aligned practices and contractual protection before work begins"
+          />
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="premium-card p-8 sm:p-10 max-w-3xl mx-auto"
+          >
+            <div className="flex items-center gap-3 mb-6">
+              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
+                <Lock className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="font-heading text-2xl font-bold text-foreground mb-4">Our Mission</h3>
-              <p className="text-muted-foreground">
-                To help US and international companies ship high-quality software faster and at a sustainable cost —
-                with senior offshore talent, clear contracts and accountability that feels like an in-house team.
+              <p className="text-sm text-muted-foreground">
+                Certificate numbers and scans are on{" "}
+                <Link href="/certificates" className="text-primary hover:underline">
+                  Company Registration &amp; Certificates
+                </Link>
+                .
               </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="premium-card p-8 sm:p-10"
-            >
-              <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/15 to-accent/10 ring-1 ring-primary/10 flex items-center justify-center mb-6">
-                <Eye className="h-8 w-8 text-primary" />
-              </div>
-              <h3 className="font-heading text-2xl font-bold text-foreground mb-4">Our Vision</h3>
-              <p className="text-muted-foreground">
-                To be the most trusted offshore engineering partner for founders and CTOs outside India — recognized for
-                technical excellence, ethical delivery and long-term product partnerships across the USA, UK, GCC and APAC.
-              </p>
-            </motion.div>
-          </div>
+            </div>
+            <ul className="space-y-3 text-muted-foreground">
+              {securityPractices.map((line) => (
+                <li key={line} className="flex gap-3">
+                  <Shield className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span>{line}</span>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
         </div>
       </section>
 
-      <section className="section-padding relative bg-gradient-subtle overflow-hidden">
-        <div className="absolute inset-0 bg-mesh pointer-events-none opacity-30" aria-hidden />
-        <div className="container relative mx-auto px-4">
+      <section className="section-padding bg-card">
+        <div className="container mx-auto px-4">
           <SectionHeader
-            badge="Our Values"
-            title="Our Core Values"
-            description="The principles that guide every international engagement at Golax India"
+            badge="Engagements"
+            title="Our Delivery Model"
+            description="Choose the commercial model that fits your roadmap"
           />
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-            {values.map((value, index) => (
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {deliveryModels.map((item, index) => (
               <motion.div
-                key={value.title}
+                key={item.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="premium-card p-6 text-center"
+                transition={{ delay: index * 0.08 }}
+                className="premium-card p-6"
               >
-                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/15 to-accent/10 ring-1 ring-primary/10 flex items-center justify-center mx-auto mb-6">
-                  <value.icon className="h-8 w-8 text-primary" />
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary/15 to-accent/10 ring-1 ring-primary/10 flex items-center justify-center mb-4">
+                  <item.icon className="h-6 w-6 text-primary" />
                 </div>
-                <h3 className="font-heading text-xl font-semibold text-foreground mb-3">{value.title}</h3>
-                <p className="text-muted-foreground">{value.description}</p>
+                <h3 className="font-heading text-lg font-semibold text-foreground mb-2">{item.title}</h3>
+                <p className="text-sm text-muted-foreground">{item.description}</p>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-gradient-subtle">
+        <div className="container mx-auto px-4">
+          <SectionHeader
+            badge="Global reach"
+            title="Where We Work"
+            description="Based in Patna, India — serving buyers across ten international markets"
+          />
+          <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+            {internationalLocations.map((loc) => (
+              <Link
+                key={loc.slug}
+                href={`/locations/${loc.slug}`}
+                className="premium-card px-4 py-2.5 text-sm font-medium text-foreground hover:text-primary transition-colors"
+              >
+                {loc.flag} {loc.country}
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <Button asChild variant="hero" size="lg">
+              <Link href="/locations">Explore all markets</Link>
+            </Button>
           </div>
         </div>
       </section>
@@ -388,7 +467,7 @@ export default function About() {
 
       <FAQSection
         title="About Golax India — FAQs"
-        description="Incorporation, HQ and recognition for international buyers"
+        description="Location, remote delivery, IP ownership and incorporation"
         faqs={aboutFaqs}
       />
 
@@ -410,9 +489,10 @@ export default function About() {
       </section>
 
       <CTABanner
-        title="Ready to Hire Your Offshore Team?"
-        description="Book a free discovery call — USD quote within 24 hours. NDA available on request."
-        primaryLabel="Get a USD Quote"
+        title="Talk to our team about your project"
+        description="Email or message us from the contact page — we reply within 24 hours with next steps and an NDA if you need one."
+        primaryLabel="Talk to our team"
+        primaryHref="/contact"
       />
     </Layout>
   );

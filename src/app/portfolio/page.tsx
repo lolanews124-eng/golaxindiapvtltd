@@ -5,9 +5,9 @@ import { buildMetadata, BASE_URL } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
-  title: "Offshore Web & SaaS Project Portfolio",
+  title: "Offshore Development Portfolio",
   description:
-    "See selected web, SaaS and mobile work shipped for international buyers. Review stacks and outcomes, then talk to Golax India about your next build.",
+    "Case studies of web, SaaS and mobile projects delivered by Golax India for US, UK and international clients, with results and tech stacks.",
   keywords:
     "offshore development portfolio, SaaS development company India, custom software development India, Flutter app examples",
   canonicalUrl: "/portfolio",
@@ -18,24 +18,24 @@ const portfolioItemList = {
   "@type": "ItemList",
   "@id": `${BASE_URL}/portfolio#itemlist`,
   name: "Golax India portfolio projects",
-  numberOfItems: 6,
+  numberOfItems: 3,
   itemListElement: [
     {
       "@type": "ListItem",
       position: 1,
-      name: "US SaaS Analytics Dashboard",
+      name: "US SaaS analytics MVP (example)",
       url: `${BASE_URL}/portfolio`,
     },
     {
       "@type": "ListItem",
       position: 2,
-      name: "UK Healthcare Patient App",
+      name: "Telemedicine patient app (example)",
       url: `${BASE_URL}/portfolio`,
     },
     {
       "@type": "ListItem",
       position: 3,
-      name: "UAE Retail ERP Platform",
+      name: "UK e-commerce rebuild (example)",
       url: `${BASE_URL}/portfolio`,
     },
   ],

@@ -63,7 +63,10 @@ export default function CookiePolicy() {
               className="prose prose-lg max-w-none mb-12"
             >
               <p className="text-muted-foreground leading-relaxed">
-                This Cookie Policy explains how Golax India IT Solutions ("we," "our," or "us") uses cookies and similar tracking technologies when you visit our website. By continuing to browse our website, you consent to our use of cookies as described in this policy.
+                This Cookie Policy explains how Golax India Private Limited (&quot;Golax India,&quot; &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) uses cookies and similar technologies on golaxindiapvtltd.in and related pages. Essential cookies may run to deliver the site. Analytics and marketing cookies load only when enabled in our configuration and, where required by law, after you accept them through our consent banner — Accept and Reject are presented with equal prominence for UK and EU visitors.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                This table reflects what the site is designed to load as of the last update date above. Verify in your browser developer tools (Application → Cookies / Network) if you need to audit a specific visit.
               </p>
             </motion.div>
 
@@ -158,46 +161,39 @@ export default function CookiePolicy() {
                     <tr className="bg-muted/50">
                       <th className="text-left p-4 font-semibold text-foreground border-b border-border">Cookie Name</th>
                       <th className="text-left p-4 font-semibold text-foreground border-b border-border">Provider</th>
+                      <th className="text-left p-4 font-semibold text-foreground border-b border-border">Category</th>
                       <th className="text-left p-4 font-semibold text-foreground border-b border-border">Purpose</th>
                       <th className="text-left p-4 font-semibold text-foreground border-b border-border">Duration</th>
                     </tr>
                   </thead>
                   <tbody className="text-muted-foreground">
                     <tr className="border-b border-border">
+                      <td className="p-4">cookie_consent</td>
+                      <td className="p-4">Golax India</td>
+                      <td className="p-4">Essential</td>
+                      <td className="p-4">Stores your cookie consent choice (Accept / Reject)</td>
+                      <td className="p-4">Up to 1 year</td>
+                    </tr>
+                    <tr className="border-b border-border bg-muted/20">
                       <td className="p-4">_ga</td>
-                      <td className="p-4">Google Analytics</td>
-                      <td className="p-4">Distinguishes unique users</td>
+                      <td className="p-4">Google Analytics 4</td>
+                      <td className="p-4">Analytics (optional)</td>
+                      <td className="p-4">Distinguishes users for aggregated traffic statistics when GA is configured and allowed</td>
+                      <td className="p-4">2 years</td>
+                    </tr>
+                    <tr className="border-b border-border">
+                      <td className="p-4">_ga_*</td>
+                      <td className="p-4">Google Analytics 4</td>
+                      <td className="p-4">Analytics (optional)</td>
+                      <td className="p-4">Persists session state for GA4 measurement ID</td>
                       <td className="p-4">2 years</td>
                     </tr>
                     <tr className="border-b border-border bg-muted/20">
                       <td className="p-4">_gid</td>
-                      <td className="p-4">Google Analytics</td>
-                      <td className="p-4">Distinguishes unique users</td>
+                      <td className="p-4">Google Analytics 4</td>
+                      <td className="p-4">Analytics (optional)</td>
+                      <td className="p-4">Distinguishes users on a short-term basis</td>
                       <td className="p-4">24 hours</td>
-                    </tr>
-                    <tr className="border-b border-border">
-                      <td className="p-4">_gat</td>
-                      <td className="p-4">Google Analytics</td>
-                      <td className="p-4">Throttles request rate</td>
-                      <td className="p-4">1 minute</td>
-                    </tr>
-                    <tr className="border-b border-border bg-muted/20">
-                      <td className="p-4">_fbp</td>
-                      <td className="p-4">Facebook</td>
-                      <td className="p-4">Tracks visits across websites</td>
-                      <td className="p-4">3 months</td>
-                    </tr>
-                    <tr className="border-b border-border">
-                      <td className="p-4">session_id</td>
-                      <td className="p-4">Golax India</td>
-                      <td className="p-4">Session management</td>
-                      <td className="p-4">Session</td>
-                    </tr>
-                    <tr className="border-b border-border bg-muted/20">
-                      <td className="p-4">cookie_consent</td>
-                      <td className="p-4">Golax India</td>
-                      <td className="p-4">Stores cookie preferences</td>
-                      <td className="p-4">1 year</td>
                     </tr>
                   </tbody>
                 </table>
@@ -288,15 +284,11 @@ export default function CookiePolicy() {
             >
               <h2 className="text-2xl font-heading font-bold text-foreground mb-6">Third-Party Services</h2>
               <div className="space-y-4 text-muted-foreground">
-                <p>We use the following third-party services that may place cookies on your device:</p>
+                <p>We currently integrate analytics as follows. Marketing or chat tools are listed here only when actively enabled on the site:</p>
                 <div className="grid md:grid-cols-2 gap-4">
                   {[
-                    { name: "Google Analytics", purpose: "Website analytics and performance tracking" },
-                    { name: "Google Ads", purpose: "Advertising and remarketing" },
-                    { name: "Facebook Pixel", purpose: "Social media advertising" },
-                    { name: "LinkedIn Insights", purpose: "B2B marketing analytics" },
-                    { name: "Hotjar", purpose: "User behavior analysis" },
-                    { name: "Intercom", purpose: "Customer support chat" }
+                    { name: "Google Analytics 4", purpose: "Aggregated website analytics when NEXT_PUBLIC_GA_MEASUREMENT_ID is configured and you allow analytics cookies" },
+                    { name: "Google Tag Manager (optional)", purpose: "Tag container if deployed in future — would load only after consent where required" }
                   ].map((service, index) => (
                     <div key={index} className="bg-card border border-border rounded-xl p-4">
                       <h4 className="font-semibold text-foreground mb-1">{service.name}</h4>

@@ -11,7 +11,7 @@ import { ENTITY } from "@/lib/seo/entity";
 export const metadata = buildMetadata({
   title: "Company Registration & Certificates",
   description:
-    "View Golax India MCA incorporation, GST, Startup India recognition and ISO certificates. Verify who you are hiring before you outsource. Open the docs.",
+    "View Golax India company registration, quality and security credentials so international buyers can verify who they are hiring.",
   keywords:
     "Golax India CIN, Golax India GST, Startup India DIPP225612, ISO 9001 Golax India, ISO 27001 Golax India",
   canonicalUrl: "/certificates",

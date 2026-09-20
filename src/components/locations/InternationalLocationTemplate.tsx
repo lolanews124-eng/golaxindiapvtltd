@@ -145,12 +145,10 @@ export default function InternationalLocationTemplate({ location }: Props) {
                 <span className="font-medium">Serving {location.country} · {location.region}</span>
               </div>
               <h1 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground leading-tight mb-6">
-                {location.heroTagline.split(location.country)[0]}
-                <strong className="text-accent font-bold not-italic">{location.country}</strong>
-                {location.heroTagline.split(location.country)[1]}
+                {location.heroTagline}
               </h1>
               <p className="text-xl text-primary-foreground/85 leading-relaxed mb-8">
-                {description}
+                {location.about}
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <Button asChild variant="accent" size="lg">

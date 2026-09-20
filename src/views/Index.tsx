@@ -93,12 +93,12 @@ const industries = [
 ];
 const techStack = ["React", "Next.js", "Node.js", "TypeScript", "Python", "Flutter", "React Native", "AWS", "Azure", "MongoDB", "PostgreSQL", "Tailwind", "Laravel", "WordPress", "Shopify", "Firebase"];
 const process = [
-  { icon: MessageSquare, step: "01", title: "Discovery Call", desc: "Free 30-minute call to align on goals, stack, budget and timezone overlap for your US or global team." },
-  { icon: Lightbulb, step: "02", title: "Proposal & Contract", desc: "Written scope, USD/multi-currency quote, MSA, NDA and IP assignment before any engineering starts." },
-  { icon: Palette, step: "03", title: "Design & Prototype", desc: "Wireframes, UI and interactive prototypes reviewed in your working hours before build begins." },
-  { icon: Code, step: "04", title: "Agile Delivery", desc: "Senior squad, Slack/Teams standups, GitHub + CI/CD, and demos on your calendar." },
-  { icon: Rocket, step: "05", title: "Launch & Handover", desc: "Production deploy, docs, runbooks and knowledge transfer so your team owns the product." },
-  { icon: Shield, step: "06", title: "Support & Scale", desc: "Optional care plans, dedicated retainers or expanded squads as you grow across markets." },
+  { icon: MessageSquare, step: "01", title: "Discovery Call", desc: "Free 30-minute call to align on goals, stack, budget and timezone — no surprises from day one." },
+  { icon: Lightbulb, step: "02", title: "Proposal & Contract", desc: "Written scope, price, MSA, NDA and IP assignment before any engineering starts." },
+  { icon: Palette, step: "03", title: "Design & Prototype", desc: "Design and prototyping reviewed in your working hours before build begins." },
+  { icon: Code, step: "04", title: "Agile Delivery", desc: "Two-week sprints with Slack or Teams stand-ups, GitHub, CI/CD and a demo at the end of each sprint." },
+  { icon: Rocket, step: "05", title: "Launch & Handover", desc: "Launch and handover with documentation and runbooks so your team owns the product." },
+  { icon: Shield, step: "06", title: "Support & Scale", desc: "Optional support, retainers or a larger squad as you grow." },
 ];
 export default function Index() {
   return <Layout>
@@ -156,7 +156,7 @@ export default function Index() {
                 className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 glass-dark text-primary-foreground rounded-full text-xs sm:text-sm font-semibold mb-4 sm:mb-6 tracking-wide"
               >
                 <span className="w-2 h-2 bg-accent rounded-full animate-pulse" />
-                Offshore Partner · USA · UK · 12+ Countries
+                Offshore Partner · USA · UK · UAE · Global
               </motion.span>
               
               <motion.h1 
@@ -165,8 +165,9 @@ export default function Index() {
                 transition={{ delay: 0.3 }}
                 className="heading-display text-[1.65rem] sm:text-4xl md:text-5xl lg:text-[3.25rem] text-primary-foreground mb-4 sm:mb-6"
               >
-                Offshore Software Development Company —{" "}
-                <span className="text-accent">Hire Dedicated Developers from India</span>
+                Hire{" "}
+                <span className="text-accent">Senior Engineers from India</span>{" "}
+                for Your US and Global Product
               </motion.h1>
               
               <motion.p 
@@ -175,7 +176,7 @@ export default function Index() {
                 transition={{ delay: 0.4 }}
                 className="text-base sm:text-lg text-primary-foreground/90 mb-6 sm:mb-8 leading-relaxed max-w-xl"
               >
-                Outsource software development to India with Golax India — senior web, SaaS and mobile engineers, clear multi-currency scopes, timezone overlap, and NDA/IP assignment before coding.
+                Golax India is an offshore software development company that builds web platforms, SaaS products and mobile apps for businesses in the United States, United Kingdom, Canada, Australia, the UAE and other international markets. You get senior engineers, English-speaking project managers and a working schedule that overlaps with your business hours, at a cost that is well below local hiring.
               </motion.p>
               
               <motion.div 
@@ -191,9 +192,9 @@ export default function Index() {
                   </Link>
                 </Button>
                 <Button asChild variant="heroOutline" size="xl" className="group w-full sm:w-auto">
-                  <Link href="/locations/global/united-states">
+                  <Link href="/contact">
                     <Globe className="mr-2 h-5 w-5" />
-                    USA Offshore Services
+                    Book a Free Discovery Call
                   </Link>
                 </Button>
               </motion.div>
@@ -226,7 +227,7 @@ export default function Index() {
               <HeroLeadForm
                 context="Home — USA & Global Offshore"
                 title="Book a Free Discovery Call"
-                subtitle="USD quotes · reply in 2 hours · NDA available."
+                subtitle="USD quotes · reply within 24 hours · NDA available."
               />
             </motion.div>
           </div>
@@ -315,13 +316,13 @@ export default function Index() {
             once: true
           }}>
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Why US & Global Companies Choose Golax India
+                Why international companies outsource to Golax India
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                An offshore engineering partner built for founders and CTOs in the USA, UK, Canada, UAE and Australia — senior talent, clear contracts, predictable USD pricing.
+                Hiring senior engineers in the US or UK typically costs $80–$180 per hour once salary, benefits and overhead are counted. Golax India provides equivalent senior talent at $25–$45 per hour, so a founder or CTO can fund a larger team, ship faster and keep runway longer — while you keep control of the product and we handle recruiting, tooling, management and delivery.
               </p>
               <ul className="space-y-4">
-                {["Senior engineers with transparent multi-currency quotes", "Business-hour overlap for USA, UK, UAE and APAC buyers", "NDA, MSA & IP assignment before any code is written", "Dedicated squads or fixed-scope projects — your choice", "Slack/Teams collaboration with English-fluent PMs", "MCA registered · Startup India · ISO 9001 & ISO 27001"].map((item, index) => <motion.li key={index} initial={{
+                {["Senior engineers, not juniors — production experience in your stack", "Timezone overlap with US, UK, Gulf and Singapore business hours", "Legal protection first — mutual NDA, MSA and IP assignment before code", "Transparent billing — USD, GBP, CAD, AUD or AED with written scope", "Flexible engagement — fixed scope, time-and-material, or dedicated squad"].map((item, index) => <motion.li key={index} initial={{
                 opacity: 0,
                 x: -20
               }} whileInView={{
@@ -397,7 +398,7 @@ export default function Index() {
                 Trusted by Businesses Across Industries
               </h2>
               <p className="text-lg text-muted-foreground">
-                From startups to enterprises, we deliver custom IT solutions for diverse industries across the USA, UK, UAE and beyond.
+                We build for e-commerce, EdTech, healthcare, real estate, manufacturing, travel, finance and logistics. Where an industry has regulation — for example HIPAA for US healthcare or GDPR for UK and EU customers — we design for compliance from the first sprint.
               </p>
             </motion.div>
           </div>
@@ -437,7 +438,7 @@ export default function Index() {
                 How Offshore Engagements Run
               </h2>
               <p className="text-lg text-muted-foreground">
-                A clear 6-step delivery model used by US startups and international brands outsourcing to Golax India.
+                Every project follows the same six steps so there are no surprises — from a free discovery call through proposal, design, agile sprints, launch and optional support as you grow.
               </p>
             </motion.div>
           </div>
@@ -565,9 +566,9 @@ export default function Index() {
       />
 
       <CTABanner
-        title="Ready to hire dedicated developers from India?"
-        description="Book a free discovery call. Clear proposal after scope — NDA available on request."
-        primaryLabel="Get a project quote"
+        title="Ready to hire your offshore team?"
+        description="Book a free discovery call — USD quote within 24 hours. NDA available on request."
+        primaryLabel="Book a Free Discovery Call"
       />
     </Layout>;
 }

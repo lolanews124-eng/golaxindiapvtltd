@@ -3,9 +3,9 @@ import ServiceHubSchemas from "@/components/seo/ServiceHubSchemas";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
-  title: "Mobile App Development Company",
+  title: "Mobile App Development Company India",
   description:
-    "Flutter, React Native, iOS and Android apps for international launches. Store-ready builds and clear USD quotes. Start with Golax India today.",
+    "iOS, Android, Flutter and React Native apps built by senior Indian engineers for US, UK and global clients. Store launch included.",
   keywords:
     "mobile app development company India, hire Flutter developers, React Native developers India, outsource app development to India",
   canonicalUrl: "/services/mobile-app-development",

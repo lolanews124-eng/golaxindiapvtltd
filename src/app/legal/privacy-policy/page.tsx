@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 export const metadata = buildMetadata({
   title: "Privacy Policy",
   description:
-    "How Golax India Private Limited collects, uses and protects personal data when you use our website or enquire about offshore software services. Read the full policy.",
+    "How Golax India collects, uses and protects personal data from website visitors and clients, including your rights under GDPR and other laws.",
   canonicalUrl: "/legal/privacy-policy",
 });
 

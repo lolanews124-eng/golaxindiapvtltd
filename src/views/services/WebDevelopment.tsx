@@ -10,8 +10,8 @@ import {
   ShoppingCart,
   Laptop,
   Gauge,
-  Lock,
   Search,
+  RefreshCw,
   DollarSign,
   Clock,
   Shield,
@@ -32,138 +32,144 @@ import { webDevelopmentFaqs } from "@/data/serviceFaqs";
 const features = [
   {
     icon: Palette,
-    title: "Conversion-Focused Design",
+    title: "Marketing & corporate websites",
     description:
-      "Brand-led UI built for US and global buyers — clear CTAs, trust signals and CRO-ready layouts.",
-  },
-  {
-    icon: ShoppingCart,
-    title: "E-Commerce & Headless",
-    description:
-      "Shopify, WooCommerce and Next.js headless stores with Stripe, Apple Pay and tax-ready checkout.",
+      "Marketing and corporate websites built for speed, accessibility and SEO.",
   },
   {
     icon: Laptop,
-    title: "React & Next.js Apps",
+    title: "Web apps & customer portals",
     description:
-      "Marketing sites, dashboards and SaaS frontends on modern React/Next.js stacks your team can extend.",
+      "Custom web applications and customer portals with login, roles and dashboards.",
+  },
+  {
+    icon: ShoppingCart,
+    title: "Headless CMS",
+    description:
+      "Headless CMS setups with Sanity, Strapi, Contentful or WordPress so your team can edit content without developers.",
+  },
+  {
+    icon: Code,
+    title: "APIs & integrations",
+    description:
+      "API design and third-party integrations: payments, CRM, email, analytics and booking tools.",
+  },
+  {
+    icon: RefreshCw,
+    title: "Redesign & migration",
+    description:
+      "Website redesign and migration with redirect mapping so search rankings are protected.",
   },
   {
     icon: Gauge,
-    title: "Core Web Vitals Performance",
+    title: "Core Web Vitals",
     description:
-      "Fast LCP, optimized images and edge-friendly hosting so paid traffic and SEO actually convert.",
-  },
-  {
-    icon: Lock,
-    title: "Security & Compliance Basics",
-    description:
-      "HTTPS, hardened headers, backups and access controls that pass common US vendor questionnaires.",
-  },
-  {
-    icon: Search,
-    title: "SEO-Ready Structure",
-    description:
-      "Clean URLs, metadata, schema hooks and content structure built for US English search intent.",
+      "Performance tuning for Core Web Vitals: LCP, CLS and INP.",
   },
 ];
 
 const webTypes = [
   {
-    title: "Marketing & Corporate Sites",
-    description: "High-trust websites for US startups and international brands that need credibility fast.",
-    features: ["Service & pricing pages", "Case study layouts", "Lead forms + CRM", "Blog / resources hub"],
+    title: "Marketing & corporate sites",
+    description: "Fast, accessible sites that rank and convert for international buyers.",
+    features: ["Speed & SEO baseline", "Accessibility", "Lead capture", "Content you can edit"],
   },
   {
-    title: "E-Commerce Stores",
-    description: "Stores built for US checkout habits — speed, payments and ops that scale.",
-    features: ["Product catalog", "Stripe / PayPal", "Inventory sync", "Order workflows"],
+    title: "Custom web applications",
+    description: "Portals and products with auth, roles and dashboards.",
+    features: ["Login & roles", "Dashboards", "API integrations", "Admin tools"],
   },
   {
-    title: "Web Applications & Portals",
-    description: "Authenticated apps for customers, partners or internal US teams.",
-    features: ["Auth & roles", "Dashboards", "API integrations", "Admin tools"],
+    title: "Headless CMS & content",
+    description: "Sanity, Strapi, Contentful or WordPress — your team updates without developers.",
+    features: ["Headless CMS", "Editor workflows", "Preview & publish", "Multi-language ready"],
   },
   {
-    title: "Landing Pages & CRO",
-    description: "Pages tuned for Google Ads and Meta campaigns with measurable conversion goals.",
-    features: ["A/B-ready structure", "Tracking (GA4/GTM)", "Fast load", "Lead capture"],
+    title: "Migration & performance",
+    description: "Redesigns and migrations with redirects; Core Web Vitals tuning.",
+    features: ["301 redirect maps", "Search Console checks", "LCP / CLS / INP", "Staging before launch"],
   },
 ];
 
 const pricing = [
   {
-    title: "Marketing Website",
-    price: "From $3,500",
-    detail: "5–10 pages, responsive, SEO baseline, forms, analytics — typical 2–4 weeks.",
+    title: "Marketing websites",
+    price: "From ~$3,500",
+    detail:
+      "Marketing websites for international clients start at around $3,500 — scoped after discovery for page count and integrations.",
   },
   {
-    title: "E-Commerce / Headless",
-    price: "From $8,000",
-    detail: "Catalog, checkout, payments and ops integrations — scoped after discovery.",
+    title: "Custom web applications",
+    price: "Low five figures",
+    detail:
+      "Custom web applications are scoped after discovery and usually start in the low five figures.",
   },
   {
-    title: "Custom Web App",
-    price: "Scoped in USD",
-    detail: "Dashboards, portals and product UIs — fixed or capped quote after discovery call.",
+    title: "Fixed price",
+    price: "Clear scope",
+    detail: "Fixed price for a clear scope when requirements are well defined.",
   },
   {
-    title: "Dedicated Web Engineer",
-    price: "$25–$45/hr",
-    detail: "Full-time senior capacity inside your Slack/GitHub — monthly USD invoice.",
+    title: "Time & material / dedicated",
+    price: "Flexible",
+    detail:
+      "Time-and-material for evolving products, or a dedicated developer billed monthly.",
   },
 ];
 
 const whyOffshore = [
-  "40–60% lower cost vs typical US agency or loaded in-house rates",
-  "4–5 hours daily EST/PST overlap for live collaboration",
-  "NDA, MSA and IP assignment to your US entity before coding",
-  "Senior React/Next.js engineers — not junior body-shop staffing",
-  "Written USD quotes with clear milestones",
-  "Kickoff in 5–7 business days for most projects",
+  "Search-friendly by default: server-side rendering, clean URLs, schema and fast pages.",
+  "Senior engineers lead every build.",
+  "You own the code and hosting accounts from day one.",
+  "US, UK, Gulf and Singapore working-hour overlap.",
 ];
 
 const process = [
   {
     step: "01",
-    title: "Discovery Call",
-    description: "30-minute call to align goals, audience, stack, budget and timezone overlap.",
+    title: "Discovery",
+    description: "Goals, audience, competitors, keywords and content plan.",
   },
   {
     step: "02",
-    title: "Proposal & Contracts",
-    description: "USD quote, SOW, NDA/MSA and IP assignment — ready for your counsel.",
+    title: "Design",
+    description: "Wireframes and a clickable prototype reviewed in your working hours.",
   },
   {
     step: "03",
-    title: "Design & Prototype",
-    description: "Wireframes and UI reviewed in your working hours before build.",
+    title: "Build",
+    description: "Two-week sprints with a live staging site you can test at any time.",
   },
   {
     step: "04",
-    title: "Agile Build",
-    description: "Weekly demos, GitHub PRs, staging previews and measurable milestones.",
+    title: "Quality",
+    description: "Cross-browser, mobile, accessibility and speed testing before launch.",
   },
   {
     step: "05",
-    title: "Launch & Care",
-    description: "Production deploy, docs handover and optional monthly care plan.",
+    title: "Launch",
+    description: "DNS, redirects, analytics, Search Console and monitoring set up.",
+  },
+  {
+    step: "06",
+    title: "Support",
+    description: "Optional monthly plan for updates, security patches and improvements.",
   },
 ];
 
 const technologies = [
-  "React",
   "Next.js",
-  "TypeScript",
+  "React",
   "Node.js",
-  "Tailwind CSS",
-  "Shopify",
-  "WordPress",
+  "TypeScript",
   "PostgreSQL",
   "MongoDB",
+  "Tailwind CSS",
   "Vercel",
   "AWS",
-  "Cloudflare",
+  "Azure",
+  "WordPress",
+  "Laravel",
 ];
 
 export default function WebDevelopment() {
@@ -171,16 +177,12 @@ export default function WebDevelopment() {
     <Layout>
       <ServiceHero
         icon={Globe}
-        badge="Offshore Web Development"
-        title={
-          <>
-            Outsource Web Development to India —{" "}
-            <span className="text-accent">Built for USA & Global Clients</span>
-          </>
-        }
-        description="Senior React and Next.js engineers for marketing sites, headless commerce and web apps. USD pricing, EST/PST overlap, NDA & IP ready."
-        formContext="Web Development — USA & Global"
+        badge="Web development"
+        title="Web Development Services for US, UK and Global Businesses"
+        description="Golax India designs and builds fast, secure and search-friendly websites and web applications for companies outside India. We use React, Next.js and Node.js to deliver marketing sites, customer portals and full web products that load quickly, rank well and convert visitors into leads or customers."
+        formContext="Web Development"
         defaultService="Web Development"
+        formTitle="Book a free discovery call for web development"
       />
 
       <section className="py-12 bg-card border-b border-border">
@@ -208,9 +210,9 @@ export default function WebDevelopment() {
       </section>
 
       <FeatureGrid
-        badge="What We Build"
-        title="End-to-End Offshore Web Development"
-        description="From first landing page to production web apps — delivered the way US product and marketing teams work."
+        badge="What we deliver"
+        title="What we deliver"
+        description="Marketing sites, web apps, CMS, integrations and migrations — built for international clients."
         features={features}
       />
 
@@ -255,8 +257,8 @@ export default function WebDevelopment() {
               <SectionHeader
                 align="left"
                 badge="Why Golax"
-                title="Why US & Global Teams Outsource Web Development to Us"
-                description="An offshore partner that feels like an extended in-house squad — without US agency burn rates."
+                title="Why choose Golax India for web development"
+                description="Search-friendly builds, senior engineers and full ownership from day one."
               />
               <ul className="space-y-3 mt-6">
                 {whyOffshore.map((item) => (
@@ -280,16 +282,12 @@ export default function WebDevelopment() {
             <div className="premium-card p-6 sm:p-8 space-y-4">
               <div className="flex items-center gap-2 text-primary font-medium">
                 <Code className="h-5 w-5" />
-                Ideal for
+                Who this is for
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                US founders launching an MVP site, UK brands rebuilding ecommerce, UAE companies needing a bilingual
-                marketing site, or any international team that wants senior Next.js/React capacity without a local
-                full-time hire.
-              </p>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                You keep product ownership. We supply design, engineering, QA and optional ongoing care — with
-                documentation so your team can take over anytime.
+                Startups that need a credible site fast, agencies that need a reliable white-label build partner, and
+                established businesses replacing a slow or outdated site. If your current site loads slowly, does not
+                appear in Google or cannot be updated without a developer, this service is for you.
               </p>
             </div>
           </div>
@@ -299,9 +297,9 @@ export default function WebDevelopment() {
       <section className="section-padding bg-gradient-subtle">
         <div className="container mx-auto px-4 sm:px-6">
           <SectionHeader
-            badge="USD Pricing"
-            title="Transparent Web Development Pricing"
-            description="Indicative ranges for international clients — final quote after a free discovery call"
+            badge="Pricing"
+            title="Pricing and engagement models"
+            description="Marketing websites from around $3,500; custom apps scoped after discovery — fixed price, T&M or dedicated developer."
           />
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {pricing.map((tier, index) => (
@@ -323,14 +321,14 @@ export default function WebDevelopment() {
       </section>
 
       <TechPills
-        title="Technologies We Use"
-        description="Modern stacks US and global product teams already trust"
+        title="Technology we use"
+        description="Next.js and React for front ends, Node.js and TypeScript for back ends — hosting on Vercel, AWS or Azure."
         items={technologies}
       />
 
       <ProcessTimeline
-        title="How Offshore Web Projects Run"
-        description="Clear steps from discovery to launch — optimized for remote collaboration"
+        title="How the work runs"
+        description="Discovery through launch, with optional ongoing support."
         steps={process}
       />
 
@@ -360,15 +358,15 @@ export default function WebDevelopment() {
       </section>
 
       <FAQSection
-        title="Web Development FAQs for International Clients"
-        description="Pricing, timelines, SEO migrations and how offshore delivery works"
+        title="Frequently asked questions"
+        description="Timelines, SEO, migrations and hosting"
         faqs={webDevelopmentFaqs}
       />
 
       <CTABanner
-        title="Ready to Outsource Your Website?"
-        description="Book a free discovery call — USD quote within 24 hours. NDA available on request."
-        primaryLabel="Get a USD Quote"
+        title="Get a USD quote for web development"
+        description="Book a free discovery call. We reply within one business day with a clear next step."
+        primaryLabel="Get a USD quote for web development"
       />
     </Layout>
   );

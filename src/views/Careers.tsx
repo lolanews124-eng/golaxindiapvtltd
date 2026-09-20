@@ -26,73 +26,74 @@ import { useToast } from "@/hooks/use-toast";
 const benefits = [
   {
     icon: TrendingUp,
-    title: "Career Growth",
-    description: "Clear career paths with regular promotions and skill development opportunities.",
-  },
-  {
-    icon: Heart,
-    title: "Health Benefits",
-    description: "Comprehensive health insurance for you and your family.",
+    title: "International products",
+    description: "Work on real US, UK and global products — not maintenance-only tickets.",
   },
   {
     icon: Users,
-    title: "Great Team",
-    description: "Work with talented, supportive colleagues who love what they do.",
+    title: "Senior mentors",
+    description: "Learn through code review and pairing with engineers who ship production systems.",
+  },
+  {
+    icon: Heart,
+    title: "Clear growth path",
+    description: "A defined path from developer to tech lead with regular feedback.",
   },
   {
     icon: Coffee,
-    title: "Work-Life Balance",
-    description: "Flexible hours, work from home options, and paid time off.",
+    title: "Client exposure",
+    description: "Direct collaboration with overseas clients and modern tooling (Slack, GitHub, CI/CD).",
   },
 ];
 
-const openings = [
+/** Roles we regularly hire for — not a live job board; apply anytime via email. */
+const rolesWeHireFor = [
   {
     id: 1,
-    title: "Senior React Developer",
+    title: "Senior React / Next.js Developer",
     department: "Development",
     type: "Full-time",
     location: "Patna HQ · Remote-friendly",
-    experience: "3-5 years",
-    description: "Build React/TypeScript web products for USA, UK, UAE and other international clients with senior mentors and clear ownership.",
+    experience: "3+ years",
+    description:
+      "Build React and Next.js products for US and UK clients with TypeScript, testing and performance in mind.",
     requirements: [
-      "3+ years of experience with React.js",
-      "Strong understanding of JavaScript/TypeScript",
-      "Experience with state management (Redux, Context API)",
-      "Familiarity with RESTful APIs and GraphQL",
-      "Experience with testing frameworks",
+      "Strong React.js and Next.js experience",
+      "TypeScript and modern CSS (Tailwind or similar)",
+      "REST or GraphQL APIs in production",
+      "Comfortable joining client stand-ups in US/UK overlap hours",
     ],
   },
   {
     id: 2,
-    title: "Mobile App Developer (React Native)",
+    title: "Node.js / TypeScript Backend Developer",
     department: "Development",
     type: "Full-time",
     location: "Patna HQ · Remote-friendly",
-    experience: "2-4 years",
-    description: "Ship cross-platform iOS/Android apps with React Native for global product teams—store releases, not demos.",
+    experience: "3+ years",
+    description:
+      "Design APIs, data models and integrations for SaaS and web platforms serving international buyers.",
     requirements: [
-      "2+ years of React Native experience",
-      "Published apps on App Store/Play Store",
-      "Understanding of mobile UI/UX principles",
-      "Experience with Firebase and push notifications",
-      "Knowledge of native modules integration",
+      "Node.js and TypeScript in production",
+      "PostgreSQL or MongoDB experience",
+      "Authentication, billing or multi-tenant patterns",
+      "Clear written communication for overseas stakeholders",
     ],
   },
   {
     id: 3,
-    title: "Digital Marketing Executive",
-    department: "Marketing",
+    title: "Flutter Developer",
+    department: "Development",
     type: "Full-time",
     location: "Patna HQ · Remote-friendly",
-    experience: "1-3 years",
-    description: "Drive SEO, content and paid acquisition for international client brands and Golax India’s own growth channels.",
+    experience: "2+ years",
+    description:
+      "Ship cross-platform iOS and Android apps for global product teams, including store submission when in scope.",
     requirements: [
-      "Experience with SEO and Google Analytics",
-      "Knowledge of social media marketing",
-      "Experience with Google Ads and Facebook Ads",
-      "Content creation and copywriting skills",
-      "Understanding of marketing automation tools",
+      "Published Flutter apps",
+      "Firebase or similar backend integration",
+      "Mobile UI/UX fundamentals",
+      "Experience with push notifications and offline flows",
     ],
   },
   {
@@ -101,14 +102,46 @@ const openings = [
     department: "Design",
     type: "Full-time",
     location: "Patna HQ · Hybrid",
-    experience: "2-4 years",
-    description: "Design conversion-focused web and mobile experiences for SaaS and commerce products serving global markets.",
+    experience: "2+ years",
+    description:
+      "Product UI, design systems and conversion-focused marketing pages with developer-ready Figma handoff.",
     requirements: [
-      "Proficiency in Figma and Adobe Creative Suite",
-      "Strong portfolio showcasing UI/UX projects",
-      "Understanding of design systems",
-      "Experience with user research and testing",
-      "Knowledge of front-end development is a plus",
+      "Figma proficiency and a strong portfolio",
+      "Design systems and component thinking",
+      "User research and usability testing basics",
+      "Bonus: familiarity with React or Tailwind",
+    ],
+  },
+  {
+    id: 5,
+    title: "Technical Project Manager",
+    department: "Delivery",
+    type: "Full-time",
+    location: "Patna HQ · US/UK overlap required",
+    experience: "4+ years",
+    description:
+      "Run agile delivery for offshore squads with daily overlap for US East/West or UK hours.",
+    requirements: [
+      "Agile/scrum with distributed teams",
+      "Technical enough to review scope and risks",
+      "Excellent written English for client updates",
+      "Experience with Jira, Slack and GitHub workflows",
+    ],
+  },
+  {
+    id: 6,
+    title: "SEO and Content Specialist",
+    department: "Marketing",
+    type: "Full-time",
+    location: "Patna HQ · Remote-friendly",
+    experience: "2+ years",
+    description:
+      "Technical SEO, content strategy and measurement for international B2B brands and Golax India growth.",
+    requirements: [
+      "Technical SEO and on-page best practices",
+      "Content planning for English-speaking markets",
+      "Google Analytics / Search Console",
+      "B2B or SaaS experience preferred",
     ],
   },
 ];
@@ -185,8 +218,9 @@ export default function Careers() {
                 <span className="text-accent">Golax India</span>
               </h1>
               <p className="text-xl text-primary-foreground/80 leading-relaxed">
-                Join an India delivery team shipping for USA, UK, UAE and global product companies.
-                Build real products with senior mentors — remote-friendly culture, clear growth paths.
+                Golax India builds software for customers across the United States, United Kingdom, Canada,
+                Australia and the Gulf. If you want to work on international products with a small, senior team,
+                we would like to hear from you.
               </p>
             </motion.div>
           </div>
@@ -200,6 +234,9 @@ export default function Careers() {
       {/* Benefits */}
       <section className="py-16 bg-card border-b border-border">
         <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <h2 className="font-heading text-2xl font-bold text-foreground mb-3">Why work with us</h2>
+          </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
               <motion.div
@@ -233,16 +270,17 @@ export default function Careers() {
               viewport={{ once: true }}
             >
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Open Positions
+                Roles we hire for
               </h2>
               <p className="text-lg text-muted-foreground">
-                Explore current opportunities at Golax India
+                We keep this list updated with the skills we staff most often. If you do not see an exact title,
+                send an open application — we reply to every message.
               </p>
             </motion.div>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-4">
-            {openings.map((job, index) => (
+            {rolesWeHireFor.map((job, index) => (
               <motion.div
                 key={job.id}
                 initial={{ opacity: 0, y: 20 }}
@@ -303,6 +341,23 @@ export default function Careers() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-card border-b border-border">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4 text-center">How we hire</h2>
+          <p className="text-muted-foreground text-center leading-relaxed mb-6">
+            One application, a short technical conversation, a practical task related to real work, and a final
+            interview with a director. We reply to every application within one business day.
+          </p>
+          <p className="text-sm text-muted-foreground text-center">
+            Apply by email:{" "}
+            <a href="mailto:contact@golaxindia.com?subject=Career%20application" className="text-primary hover:underline">
+              contact@golaxindia.com
+            </a>{" "}
+            with your CV and links to your work.
+          </p>
         </div>
       </section>
 
@@ -394,7 +449,7 @@ export default function Careers() {
                   className="w-full h-10 px-3 py-2 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
                 >
                   <option value="">Select a position</option>
-                  {openings.map((job) => (
+                  {rolesWeHireFor.map((job) => (
                     <option key={job.id} value={job.title}>
                       {job.title}
                     </option>

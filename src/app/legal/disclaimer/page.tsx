@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 export const metadata = buildMetadata({
   title: "Disclaimer",
   description:
-    "Important limitations and disclaimers for Golax India’s website content and offshore IT information. Read before relying on any material on this site.",
+    "General information disclaimer for the Golax India website, covering content accuracy, estimates, third-party links and results.",
   canonicalUrl: "/legal/disclaimer",
 });
 

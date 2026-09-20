@@ -1,6 +1,6 @@
 /**
  * Dedicated service / hire landing pages (international buyer focus).
- * Word count targets ~800–1200 useful words per page via sections + FAQs.
+ * Content aligned with SEO Part 2 (tmp-seo-plan / tmp-services-copy).
  */
 
 export interface ServiceLandingFaq {
@@ -51,68 +51,88 @@ export type ServiceLandingSlug = (typeof serviceLandingSlugs)[number];
 export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
   "ecommerce-development": {
     slug: "ecommerce-development",
-    h1: "Shopify & Headless E-commerce Development Company",
+    h1: "E-commerce Development for International Online Stores",
     heroLead:
-      "Launch or rebuild stores that convert internationally — Shopify, headless Next.js commerce, and custom checkout flows with clear USD (or local-currency) scopes, NDA/IP assignment, and timezone overlap for USA, UK, UAE, Canada and Australia buyers.",
-    seoTitle: "Shopify & Headless E-commerce Development",
+      "We build online stores that sell in more than one country. Our team creates Shopify stores, headless Next.js storefronts and custom platforms with fast checkout, international payments, tax and shipping so you can sell to the US, UK, Canada, Australia and the Gulf.",
+    seoTitle: "E-commerce Development Company India | Shopify & Headless",
     metaDescription:
-      "Shopify and headless e-commerce development from India for global brands. Multi-currency checkout, SEO-safe migrations and clear scopes. Get a free store quote.",
+      "Shopify, headless commerce and custom online stores with Stripe, PayPal and tax-ready checkout for US, UK and global retailers.",
     keywords:
-      "Shopify development company India, headless commerce development, e-commerce development company, outsource Shopify development",
+      "e-commerce development company India, Shopify development, headless commerce, international online store development",
     sections: [
       {
-        heading: "What we build for international stores",
+        heading: "What we deliver",
         body: [
-          "Golax India designs and engineers commerce experiences for brands selling across borders. Typical work includes Shopify Plus and standard Shopify themes, custom Shopify apps, and headless storefronts on Next.js with Shopify, Commerce Layer or custom backends. We plan tax, multi-currency and shipping rules with your ops team — not as an afterthought the week before launch.",
-          "Migrations are a common brief: move from Magento, WooCommerce or a brittle theme without losing organic rankings. That means redirect maps, URL preservation, structured data for products, and Core Web Vitals budgets before paid traffic is switched on. We also wire analytics and consent so marketing can measure funnels without dark-pattern tracking.",
-          "If you need B2B wholesale, subscription boxes, or marketplace-style multi-vendor flows, we scope those as product features with clear acceptance criteria. Kitchen-sink “AI shopping assistants” without a catalog or fulfilment plan get an honest pushback on the discovery call.",
+          "Shopify and Shopify Plus stores, themes and apps. Headless commerce with Next.js and Shopify, BigCommerce or Medusa. Custom marketplace and B2B ordering portals. Checkout optimisation and abandoned-cart flows.",
+          "Payments: Stripe, PayPal, Apple Pay, Google Pay and local methods. Tax, VAT and multi-currency setup. Inventory, ERP and shipping integrations. Speed and conversion optimisation.",
         ],
       },
       {
-        heading: "Process from discovery to go-live",
+        heading: "Who this is for",
         body: [
-          "Discovery covers catalog size, markets, payment rails, ERP/OMS integrations and who owns content. You receive a written proposal with inclusions, assumptions and a launch window. Design and information architecture come next — mobile-first checkout, trust signals near the buy button, and accessibility basics.",
-          "Engineering runs in weekly staging demos. Theme or headless work stays in your Shopify partner / GitHub accounts whenever possible so you are never locked into a black-box agency login. QA covers checkout paths, inventory edge cases and locale/currency switches before production cutover.",
-          "After launch we can retain for CRO experiments, app upgrades and peak-season hardening. IP and theme code are assigned to your company; we do not keep production secrets after handover unless you engage ongoing support.",
+          "Direct-to-consumer brands, retailers moving from an old platform, and B2B sellers who need portals for repeat orders.",
         ],
       },
       {
-        heading: "Timezone overlap, NDA and IP",
+        heading: "Why choose Golax India for e-commerce development",
         body: [
-          "Collaboration is remote-first with usable overlap for EST, GMT, Gulf and AEST buyers. Slack, shared boards and weekly demos keep decisions from waiting overnight. Mutual NDA is available before deep catalog or customer-data access. Work-for-hire / IP assignment is signed before production coding.",
-          "Hosting and store ownership stay with you. We recommend Shopify’s infrastructure for most catalogues; headless builds typically sit on Vercel or your cloud with your DNS and CDN. That keeps vendor diligence simple for US and EU counsel.",
+          "Store speed as a priority because it affects conversion and SEO. Experience with multi-currency and multi-region setups. Clean migrations that preserve SEO. Ongoing optimisation, not just launch.",
         ],
       },
     ],
     process: [
-      { title: "Commerce discovery", description: "Catalog, markets, payments, integrations and SEO constraints documented." },
-      { title: "UX & IA", description: "Mobile checkout, trust, navigation and content model signed off." },
-      { title: "Build & migrate", description: "Theme or headless implementation with redirects and staging demos." },
-      { title: "Launch & optimise", description: "Cutover checklist, monitoring and optional CRO retainers." },
+      {
+        title: "Store strategy",
+        description: "Catalogue, markets, payments and integrations.",
+      },
+      {
+        title: "Design",
+        description: "Product page and checkout focused on conversion.",
+      },
+      {
+        title: "Build and migrate",
+        description: "Products, customers and orders.",
+      },
+      {
+        title: "Test",
+        description: "Payments, tax, shipping and mobile flows.",
+      },
+      {
+        title: "Launch",
+        description: "Monitor performance.",
+      },
+      {
+        title: "Grow",
+        description: "A/B tests and merchandising tools.",
+      },
     ],
-    stack: ["Shopify", "Shopify Plus", "Next.js", "Hydrogen / headless", "Stripe", "Stripe Tax", "Algolia", "Klaviyo", "TypeScript"],
+    stack: [
+      "Shopify",
+      "Liquid",
+      "Next.js",
+      "Node.js",
+      "Stripe",
+      "PayPal",
+      "Klaviyo",
+      "Algolia",
+      "Cloud hosting (headless)",
+    ],
     pricingNote:
-      "Focused Shopify theme builds and marketing storefronts are typically fixed-scope after discovery. Headless and complex migrations are capped or phased. Dedicated commerce engineers are available on monthly retainers. Ranges depend on catalog complexity, apps and languages — we quote in USD, GBP, AED, AUD or CAD as preferred. No fabricated “average project cost” claims; you get a written estimate for your brief.",
+      "Standard Shopify stores start in the low thousands of dollars. Headless and custom platforms are scoped after discovery. Monthly support covers updates and campaigns.",
     faqs: [
       {
-        question: "Do you rebuild existing Shopify stores or only greenfield?",
+        question: "Shopify or custom store?",
         answer:
-          "Both. Rebuilds and migrations include redirect planning and checkout QA so SEO and conversion do not collapse at launch.",
+          "Shopify suits most brands and launches faster. Custom or headless suits complex catalogues, unique experiences or high-volume needs.",
       },
       {
-        question: "Can you support Arabic/English or multi-currency Gulf stores?",
-        answer:
-          "Yes when in scope — RTL layouts, language switchers and currency rules are designed up front for UAE and regional buyers.",
+        question: "Can you migrate my store without losing SEO?",
+        answer: "Yes. We map URLs, keep metadata and set 301 redirects.",
       },
       {
-        question: "Who owns the Shopify store and code?",
+        question: "Do you handle tax and VAT?",
         answer:
-          "You do. Partner access is temporary; theme/app repos and IP assignment transfer to your entity at handover.",
-      },
-      {
-        question: "How do you handle peak-season readiness?",
-        answer:
-          "We load-test critical paths, review apps that slow checkout, and document rollback steps before major campaigns.",
+          "We configure the tools and rules. Your accountant confirms your tax obligations.",
       },
     ],
     relatedServices: [
@@ -129,66 +149,85 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
 
   "ui-ux-design": {
     slug: "ui-ux-design",
-    h1: "UI/UX Design for SaaS & Marketing Products",
+    h1: "UI/UX Design Services for Web and Mobile Products",
     heroLead:
-      "Conversion-focused product UI, design systems and landing pages for international SaaS and commerce teams — Figma-first delivery, engineering handoff that developers can ship, and clear scopes from Golax India.",
-    seoTitle: "UI/UX Design for SaaS & Web Products",
+      "Good design reduces development cost and raises conversion. Our designers work with product teams abroad to turn ideas into clear flows, clean interfaces and tested prototypes that developers can build without guesswork.",
+    seoTitle: "UI/UX Design Services for SaaS & Apps | Golax India",
     metaDescription:
-      "UI/UX design for SaaS, marketing sites and apps. Design systems, CRO-minded landings and developer-ready Figma. Book a design discovery with Golax India.",
+      "Product design, design systems and conversion-focused landing pages by an India-based team, tested with users before development.",
     keywords:
-      "UI UX design company, SaaS product design, conversion rate design, design system Figma, hire UI designers India",
+      "UI UX design services, SaaS product design, Figma design company India, conversion-focused landing pages",
     sections: [
       {
-        heading: "Design that ships with engineering",
+        heading: "What we deliver",
         body: [
-          "Pretty mockups that ignore edge states waste sprints. Golax India designs for the product you will actually build: empty states, errors, loading, responsive breakpoints and accessibility. Deliverables live in Figma with components, variants and redlines your React or Flutter engineers can implement without guesswork.",
-          "For marketing sites we prioritise hierarchy, trust near CTAs and mobile thumb reach — the same principles behind our conversion UX writing. For SaaS we map user journeys with your PM, then prototype critical flows before visual polish so you do not pay twice for wrong information architecture.",
-          "Design systems are scoped honestly. A startup may need a lightweight token set and 20 components; an enterprise portal may need denser patterns and documentation. We match the system to team size, not a fashionable library screenshot.",
+          "User research, personas and journey maps. Wireframes and interactive prototypes in Figma. High-fidelity UI for web, SaaS dashboards and mobile apps. Design systems and component libraries.",
+          "Conversion-focused landing pages for paid and organic traffic. Usability testing and accessibility (WCAG) review. Developer handoff with specs and assets.",
         ],
       },
       {
-        heading: "Research, iteration and handoff",
+        heading: "Who this is for",
         body: [
-          "Where budgets allow, we run lightweight interviews or heuristic reviews of your current product. Where they do not, we still document assumptions and success metrics (signup completion, checkout step drop-off, time-to-task). Wireframes and mid-fi flows come before high-fi so stakeholders debate structure, not button gradients.",
-          "Handoff includes specs, asset export rules and a walkthrough with engineering. Optional pairing during the first implementation sprint catches interpretation gaps early. If you already have brand guidelines, we extend them; we do not silently invent a second brand.",
+          "Founders shaping an MVP, product managers redesigning a confusing interface, and marketers who need landing pages that convert.",
         ],
       },
       {
-        heading: "Engagement, IP and collaboration",
+        heading: "Why choose Golax India for UI/UX design",
         body: [
-          "Fixed design sprints suit launches; retainers suit ongoing product teams. Files and source components are yours under IP assignment. Collaboration overlaps US, UK and Gulf hours for reviews. NDA is available before you share unreleased product screens.",
+          "Design and development under one roof, so designs are buildable. Accessibility and performance considered from the start. Designs made for international audiences and languages. Clear documentation and handoff.",
         ],
       },
     ],
     process: [
-      { title: "Brief & metrics", description: "Goals, audiences, constraints and success metrics written down." },
-      { title: "Flows & wireframes", description: "IA and critical paths agreed before visual polish." },
-      { title: "UI system", description: "Components, states and responsive layouts in Figma." },
-      { title: "Handoff", description: "Specs, assets and engineer walkthrough — optional build pairing." },
+      {
+        title: "Understand",
+        description: "Goals, users, competitors and constraints.",
+      },
+      {
+        title: "Structure",
+        description: "User flows and wireframes.",
+      },
+      {
+        title: "Design",
+        description: "Visual language and screens.",
+      },
+      {
+        title: "Test",
+        description: "Prototype testing with real users.",
+      },
+      {
+        title: "Handoff",
+        description: "Design system and specs.",
+      },
+      {
+        title: "Support",
+        description: "Review of the built product against the design.",
+      },
     ],
-    stack: ["Figma", "FigJam", "Design tokens", "Storybook (with eng)", "WCAG-minded components", "Hotjar / analytics review"],
+    stack: [
+      "Figma",
+      "FigJam",
+      "Maze / UserTesting",
+      "Storybook",
+      "Hotjar / Microsoft Clarity",
+    ],
     pricingNote:
-      "Landing-page and marketing UI packs are usually fixed after a short brief. Product UI and design systems are phased by flow count. We quote in your preferred currency after discovery — without invented “industry average” design fees.",
+      "Design sprints and landing pages are fixed-price. Full product design is scoped by screens and complexity, or provided as a monthly design retainer.",
     faqs: [
       {
-        question: "Do you only design, or also build frontends?",
+        question: "Can you design and build?",
         answer:
-          "Both. Many clients keep design and React/Next implementation with the same Golax squad for fewer handoff losses.",
+          "Yes. Combining both avoids handoff problems and shortens delivery.",
       },
       {
-        question: "Can you work inside our existing Figma library?",
+        question: "Do you test designs with users?",
         answer:
-          "Yes. We extend tokens and components rather than creating a parallel kit unless the current system blocks shipping.",
+          "Yes. We run moderated or unmoderated tests using prototypes before development.",
       },
       {
-        question: "Do you run formal user testing?",
+        question: "Will you follow my brand?",
         answer:
-          "When budgeted. Otherwise we use heuristics, analytics and stakeholder task walkthroughs — and we say which method we used.",
-      },
-      {
-        question: "Who owns the Figma files?",
-        answer:
-          "Your company. Source files transfer at milestone acceptance under the IP terms in the SOW.",
+          "Yes. We can work within an existing brand or build a new visual identity.",
       },
     ],
     relatedServices: [
@@ -205,66 +244,88 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
 
   "crm-erp-solutions": {
     slug: "crm-erp-solutions",
-    h1: "Custom CRM & ERP Software Development",
+    h1: "Custom CRM and ERP Solutions",
     heroLead:
-      "Replace spreadsheet sprawl and rigid off-the-shelf suites with CRM, ERP and internal tools tailored to your workflows — senior engineers, clear modules, and IP assigned to your company before coding.",
-    seoTitle: "Custom CRM & ERP Software Development",
+      "Many growing businesses run on spreadsheets and a patchwork of subscriptions that do not talk to each other. We design and build custom CRM, ERP and internal tools that match how you actually work, reduce manual effort and give you one source of truth.",
+    seoTitle: "Custom CRM & ERP Development Company India | Golax",
     metaDescription:
-      "Custom CRM and ERP development from India for international operators. Modular builds, integrations and NDA/IP-ready delivery. Scope your system with Golax India.",
+      "Build custom CRM, ERP and internal tools that replace spreadsheets and costly SaaS stacks. Senior engineers, NDA and full IP ownership.",
     keywords:
-      "custom CRM development, ERP software development India, custom software development India, internal tools development",
+      "custom CRM development, ERP development company India, internal tools development, replace spreadsheets",
     sections: [
       {
-        heading: "When custom CRM/ERP is the right call",
+        heading: "What we deliver",
         body: [
-          "Off-the-shelf CRMs work until your sales process, inventory rules or compliance needs stop fitting checkboxes. Golax India builds modular business systems: lead pipelines, quoting, inventory, procurement, field ops and finance handoffs — with roles, audit logs and APIs your other tools can use.",
-          "We do not pretend every company needs a greenfield ERP. Often the winning move is a focused ops portal plus integrations to Salesforce, HubSpot, QuickBooks, Xero or your warehouse system. Discovery maps build-vs-buy so you do not fund a multi-year rewrite you will abandon.",
-          "Security defaults matter for international buyers: least-privilege roles, encrypted secrets, environment separation and documentation that survives vendor questionnaires. Licence and regulatory obligations for your industry stay with your compliance lead; we implement the controls you specify.",
+          "Custom CRM: leads, pipeline, contacts, quotes and follow-ups. ERP modules: inventory, purchasing, invoicing, HR and production. Workflow automation and approvals. Customer and supplier portals.",
+          "Reporting dashboards and data exports. Integrations with accounting, e-commerce, email and payment tools. Migration from spreadsheets and legacy systems.",
         ],
       },
       {
-        heading: "Delivery model",
+        heading: "Who this is for",
         body: [
-          "Work is split into modules with acceptance criteria. You see weekly demos on staging data (anonymised where required). Integrations are contract-tested so a third-party API change does not silently break fulfilment. Reporting starts from the decisions managers actually make — not vanity dashboards.",
-          "Tech defaults are TypeScript, React/Next.js admin UIs, Node or Python services, and PostgreSQL unless your estate already standardises elsewhere. Mobile companions for field teams use Flutter or React Native when the workflow leaves the desk.",
+          "Manufacturers, distributors, service firms and agencies that have outgrown off-the-shelf tools or pay for many overlapping subscriptions.",
         ],
       },
       {
-        heading: "Commercials and ownership",
+        heading: "Why choose Golax India for CRM and ERP development",
         body: [
-          "Fixed phases suit well-defined modules; dedicated pods suit evolving ops products. Quotes use your preferred currency. NDA before production data access; IP assignment before coding. Repos and infrastructure live in your cloud accounts whenever diligence requires it.",
+          "We compare build versus buy honestly and tell you if an existing tool is better. Modular design so you pay only for what you need. Data ownership and export at all times. Training and documentation for your team.",
         ],
       },
     ],
     process: [
-      { title: "Process mapping", description: "As-is workflows, pain points and must-have modules." },
-      { title: "Architecture", description: "Build-vs-buy, data model, integrations and security baseline." },
-      { title: "Module sprints", description: "Weekly demos, UAT per module, migration scripts as needed." },
-      { title: "Handover", description: "Docs, training sessions and optional hypercare." },
+      {
+        title: "Process mapping",
+        description: "How work flows today.",
+      },
+      {
+        title: "Blueprint",
+        description: "Modules, users, permissions and reports.",
+      },
+      {
+        title: "Phased build",
+        description: "Start with the module that saves most time.",
+      },
+      {
+        title: "Data migration and training",
+        description: "Clean imports and team readiness.",
+      },
+      {
+        title: "Go-live with support",
+        description: "Launch with hands-on help.",
+      },
+      {
+        title: "Continuous improvements",
+        description: "Iterate as your operations evolve.",
+      },
     ],
-    stack: ["TypeScript", "React / Next.js", "Node.js", "Python", "PostgreSQL", "REST / GraphQL", "Queue workers", "AWS / GCP / Azure"],
+    stack: [
+      "React",
+      "Node.js",
+      "Laravel",
+      "Python",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "REST / GraphQL APIs",
+      "AWS / Azure",
+    ],
     pricingNote:
-      "Module-based fixed scopes and dedicated pods are both available. Complexity of integrations and data migration drives effort more than UI screens — discovery produces a written estimate without fabricated industry averages.",
+      "Delivered in phases so you see value early. Phase one is often fixed-price, followed by monthly development or support.",
     faqs: [
       {
-        question: "Can you integrate with Salesforce or HubSpot instead of replacing them?",
+        question: "Is custom software better than a SaaS tool?",
         answer:
-          "Yes. Many projects keep the CRM of record and build ops tooling around it via APIs.",
+          "It is better when your process is unique or when subscription costs and workarounds are high. If a standard tool fits, we will say so.",
       },
       {
-        question: "Do you migrate legacy Excel or Access data?",
-        answer:
-          "Yes with staged import, validation reports and rollback plans. Dirty data is called out early — not after go-live.",
+        question: "Can you connect it to QuickBooks or Xero?",
+        answer: "Yes, through their APIs.",
       },
       {
-        question: "How do you handle permissions and audit trails?",
+        question: "How do you handle our existing data?",
         answer:
-          "Role-based access and audit logging are planned in the architecture phase for admin-heavy systems.",
-      },
-      {
-        question: "Who hosts the system?",
-        answer:
-          "Preferably your cloud account. We can operate under a support retainer after handover if you want ongoing changes.",
+          "We map, clean and import your data, and test it with your team before go-live.",
       },
     ],
     relatedServices: [
@@ -281,66 +342,94 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
 
   "dedicated-development-teams": {
     slug: "dedicated-development-teams",
-    h1: "Hire Dedicated Developers from India",
+    h1: "Hire a Dedicated Development Team from India",
     heroLead:
-      "Embed a vetted offshore squad into your Slack, GitHub and ceremonies — senior React, Node, Flutter and Python engineers with business-hour overlap, monthly transparency, and IP assigned to your company.",
-    seoTitle: "Hire Dedicated Developers from India",
+      "A dedicated team gives you full-time engineers who work only on your product, take direction from you and join your stand-ups, tools and roadmap. You get the control of an in-house team with lower cost, faster hiring and no local employment overhead.",
+    seoTitle: "Hire Dedicated Development Team from India | Golax",
     metaDescription:
-      "Hire dedicated developers from India with timezone overlap, senior staffing and clear monthly pods. NDA/IP ready. Talk to Golax India about your team shape.",
+      "Hire a vetted dedicated team of engineers from India at $25-45/hr with US/UK overlap. Month-to-month, NDA and IP assignment included.",
     keywords:
-      "hire dedicated developers from India, dedicated development team India, outsource software development to India, offshore dedicated team",
+      "hire dedicated development team India, dedicated developers, offshore development team, $25-45 per hour developers",
     sections: [
       {
-        heading: "What “dedicated” means here",
+        heading: "What we deliver",
         body: [
-          "A dedicated team is not a random ticket bazaar. You get named engineers (and optionally a tech lead / PM) reserved for your backlog, working in your tools, measured on your outcomes. Golax India staffs pods for product companies that need capacity without a nine-month local hiring cycle or coastal salary bands.",
-          "Overlap windows are agreed up front for USA, UK, UAE, Canada, Australia, Singapore and Germany buyers. Stand-ups, pairing and design reviews happen in shared hours; async covers the rest. You keep product ownership and prioritisation — we supply execution muscle.",
-          "Staffing is senior-leaning. Juniors appear only when you explicitly want mentorship capacity and we disclose experience levels in the proposal. No bait-and-switch resumes after kickoff.",
+          "Full-time developers, QA engineers, designers, DevOps and a project manager as needed. Team set-up in one to two weeks after contract. Working overlap with US, UK, Gulf or Singapore hours.",
+          "Weekly reports, sprint demos and transparent timesheets. Flexible scaling: add or reduce members with notice. Knowledge transfer and documentation.",
         ],
       },
       {
-        heading: "How pods are assembled and managed",
+        heading: "Who this is for",
         body: [
-          "Discovery clarifies stack, seniority mix, hours and security constraints. You interview proposed engineers. Kickoff covers access, coding standards and Definition of Done. Weekly demos and written progress notes keep stakeholders aligned without theatre status decks.",
-          "Scaling up or down happens on agreed notice periods so finance can plan. Knowledge is kept in your repos and docs — not in a private Golax silo — so offboarding does not strand the product.",
+          "Product companies with a long roadmap, agencies that need capacity, and startups that want engineers without hiring locally.",
         ],
       },
       {
-        heading: "Legal posture",
+        heading: "Why choose Golax India for dedicated development teams",
         body: [
-          "NDA before sensitive access. IP assignment to your entity. Optional DPA when personal data is processed for UK/EU work. Invoices match the SOW in USD or your preferred currency. Delivery HQ is in India; commercials and ceremonies stay buyer-friendly.",
+          "You interview and approve every team member. Team members stay on your project, not shared across clients. If a team member is not the right fit, we work with you on a replacement within the terms in your contract. Legal protection and secure access controls.",
         ],
       },
     ],
     process: [
-      { title: "Role & stack brief", description: "Skills, seniority, hours and tools defined." },
-      { title: "Candidate interviews", description: "You meet proposed engineers before commitment." },
-      { title: "Pilot sprint", description: "2–4 weeks to validate collaboration and quality." },
-      { title: "Steady pod", description: "Monthly retainer, demos and transparent staffing." },
+      {
+        title: "Define roles",
+        description: "Roles and skills you need.",
+      },
+      {
+        title: "Shortlist and interview",
+        description: "We shortlist candidates; you interview them.",
+      },
+      {
+        title: "Contract",
+        description: "NDA, MSA and IP assignment; monthly billing.",
+      },
+      {
+        title: "Onboarding",
+        description: "Tools, repositories, access and rituals.",
+      },
+      {
+        title: "Delivery",
+        description: "Sprints, code review and reporting.",
+      },
+      {
+        title: "Review",
+        description: "Monthly review and adjust team size.",
+      },
     ],
-    stack: ["React", "Next.js", "Node.js", "Python", "Flutter", "PostgreSQL", "AWS / GCP", "Your CI and backlog tools"],
+    stack: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "TypeScript",
+      "Python",
+      "Laravel",
+      "Flutter",
+      "React Native",
+      "AWS / Azure",
+      "PostgreSQL",
+      "MongoDB",
+    ],
     pricingNote:
-      "Dedicated seniors are typically scoped as monthly pods after a pilot. Published site ranges for hourly work are indicative only; your proposal lists named roles and rates. No invented utilisation statistics — you see who works on your account.",
+      "Senior engineers are billed at roughly $25-$45 per hour equivalent on a monthly basis, depending on skill and seniority. There are no hidden fees, and notice periods are stated in the contract.",
     faqs: [
       {
-        question: "Can the team join our existing Jira and Slack?",
+        question: "What is the minimum team size?",
         answer:
-          "Yes. Staff-augmentation into your ceremonies is the default for dedicated pods.",
+          "One engineer is possible, though two or three with a lead work best.",
       },
       {
-        question: "What if someone leaves the pod?",
-        answer:
-          "We propose a replacement for your interview, with overlap handover documented in your repo.",
+        question: "Can I scale the team up or down?",
+        answer: "Yes, with notice as stated in the contract.",
       },
       {
-        question: "Is part-time dedication available?",
+        question: "Who manages the team?",
         answer:
-          "Yes for some roles, with clear hour caps. Full-time dedication is clearer for product velocity.",
+          "You direct the product and priorities. Our project manager handles day-to-day coordination if you want.",
       },
       {
-        question: "Do you sign MSAs for US or UK companies?",
-        answer:
-          "Yes. Mutual NDA, MSA/SOW and IP schedules are standard before production access.",
+        question: "How quickly can the team start?",
+        answer: "Usually within one to two weeks after signing.",
       },
     ],
     relatedServices: [
@@ -359,63 +448,83 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "hire-react-developers",
     h1: "Hire React Developers from India",
     heroLead:
-      "Senior React and Next.js engineers for SaaS dashboards, marketing sites and design-system frontends — TypeScript-first, timezone overlap, and dedicated or project-based hiring through Golax India.",
-    seoTitle: "Hire React Developers from India",
+      "Hire experienced React and Next.js developers who build fast, accessible and maintainable interfaces. Our engineers work full time on your product or on a fixed-scope project, with code you can hand to any future team.",
+    seoTitle: "Hire React Developers from India | Golax India",
     metaDescription:
-      "Hire React and Next.js developers from India for SaaS and web products. TypeScript, design-system fluency and clear pods. Interview candidates with Golax India.",
+      "Hire senior React and Next.js developers from India at $25-45/hr with US/UK overlap. Trial period, NDA and full IP assignment.",
     keywords:
-      "hire React developers, hire Next.js developers India, React development company, offshore React team",
+      "hire React developers India, hire Next.js developers, React development company, senior React engineers",
     sections: [
       {
-        heading: "React talent that product teams keep",
+        heading: "What we deliver",
         body: [
-          "Hiring React developers is easy on paper and hard in production: hooks discipline, performance, accessibility and clean data fetching separate senior work from tutorial portfolios. Golax India proposes engineers who have shipped Next.js apps, design systems and authenticated SaaS UIs — then you interview them before you buy a pod.",
-          "Common placements include marketing sites on the App Router, customer dashboards, admin tools and headless commerce storefronts. We align on React Query/SWR or server components patterns your codebase already uses rather than rewriting for fashion.",
-          "Pairing with our UI/UX or Node teams is optional when you want vertical feature delivery instead of a frontend-only slice.",
+          "React and Next.js web apps and dashboards. Server-side rendering and static generation for SEO. Component libraries and design system implementation. State management with Redux, Zustand or React Query.",
+          "TypeScript migration and code refactoring. Performance profiling and Core Web Vitals work. Testing with Jest, React Testing Library and Playwright.",
         ],
       },
       {
-        heading: "Quality bar and tooling",
+        heading: "Who this is for",
         body: [
-          "TypeScript is the default. ESLint, testing where valuable, Storybook for shared components, and CI checks are expected. We document folder conventions so your next local hire is not decoding folklore. Code reviews happen inside your GitHub/GitLab — not in a shadow process.",
+          "Product teams that need front-end capacity, agencies that need reliable React talent, and startups building SaaS dashboards.",
         ],
       },
       {
-        heading: "Engagement options",
+        heading: "Why choose Golax India for React developers",
         body: [
-          "Dedicated React developers on monthly retainers, or fixed UI buildouts with acceptance criteria. NDA/IP standard. Overlap scheduled for your primary market.",
+          "Vetted through code tests and interviews. Comfortable with pull requests, CI and agile ceremonies. Attention to accessibility and speed. Clean, typed, documented code.",
         ],
       },
     ],
     process: [
-      { title: "Stack interview", description: "Your repo patterns, design system and Definition of Done." },
-      { title: "Candidate match", description: "CVs and live technical conversation with you." },
-      { title: "Trial tickets", description: "Real PRs in your backlog during a short pilot." },
-      { title: "Scale", description: "Add specialists (Next.js, React Native bridge) as needed." },
+      {
+        title: "Share requirements",
+        description: "Your requirements and stack.",
+      },
+      {
+        title: "Interview",
+        description: "Interview shortlisted developers.",
+      },
+      {
+        title: "Trial sprint",
+        description: "Optional paid trial sprint to validate fit before a longer engagement.",
+      },
+      {
+        title: "Work in your tools",
+        description: "Your repository, tools and time zone.",
+      },
+      {
+        title: "Continue monthly",
+        description: "Monthly engagement with notice terms.",
+      },
     ],
-    stack: ["React", "Next.js", "TypeScript", "Tailwind / CSS Modules", "React Query", "Playwright / Jest", "Storybook"],
+    stack: [
+      "React 18+",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "TanStack Query",
+      "GraphQL",
+      "Storybook",
+      "Vite",
+      "Jest",
+      "Cypress / Playwright",
+    ],
     pricingNote:
-      "Dedicated React seniors are proposed with monthly rates after interview. Fixed UI scopes are quoted from wireframes or Figma. Indicative public hourly bands on our site are guidance only — your SOW wins.",
+      "Roughly $25-$45 per hour equivalent, billed monthly for full-time engineers. Part-time and project-based options are available.",
     faqs: [
       {
-        question: "Do you work with React Server Components / App Router?",
+        question: "How do you vet React developers?",
         answer:
-          "Yes when the project uses Next.js App Router. We match the rendering model already in your repo.",
+          "Through a technical interview, a practical coding task and a review of previous work.",
       },
       {
-        question: "Can developers follow our Storybook and tokens?",
-        answer:
-          "Yes. Extending an existing system is preferred over inventing a parallel UI kit.",
+        question: "Can they work in my time zone?",
+        answer: "Yes. We agree an overlap window that fits your team.",
       },
       {
-        question: "Do you offer React Native as well?",
-        answer:
-          "React Native is available via our mobile practice; Flutter is offered when cross-platform fit is better.",
-      },
-      {
-        question: "How fast can someone start?",
-        answer:
-          "After interviews and contracts, kickoff is often within about a week — depending on access provisioning on your side.",
+        question: "Do you offer part-time developers?",
+        answer: "Yes, from half-time upwards.",
       },
     ],
     relatedServices: [
@@ -434,62 +543,83 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "hire-nodejs-developers",
     h1: "Hire Node.js Developers from India",
     heroLead:
-      "API, SaaS backend and integration engineers who write maintainable TypeScript Node services — queues, Postgres, auth and observability included, with dedicated pods or scoped builds from Golax India.",
-    seoTitle: "Hire Node.js Developers from India",
+      "Our Node.js and TypeScript engineers build secure, scalable back ends: REST and GraphQL APIs, real-time features, background jobs and integrations. Hire one engineer or a full back-end team to work alongside your product and front-end developers.",
+    seoTitle: "Hire Node.js Developers from India | Golax India",
     metaDescription:
-      "Hire Node.js developers from India for APIs, SaaS backends and integrations. TypeScript, Postgres and clear pods. Start candidate interviews with Golax India.",
+      "Hire senior Node.js and TypeScript backend developers from India for APIs, SaaS and real-time apps. NDA, IP assignment, US/UK overlap.",
     keywords:
-      "hire Node.js developers, Node.js development company India, offshore Node.js team, hire backend developers India",
+      "hire Node.js developers India, TypeScript backend developers, API development, NestJS Express developers",
     sections: [
       {
-        heading: "Backend work international products need",
+        heading: "What we deliver",
         body: [
-          "Golax India places Node.js developers for REST/GraphQL APIs, webhook processors, billing integrations, multi-tenant SaaS backends and internal automation. We favour boring, observable systems: structured logging, metrics, migrations and idempotent jobs over clever one-liners.",
-          "Security basics — secrets management, input validation, rate limits, least-privilege cloud roles — are part of delivery for buyers who face SOC2 questionnaires or enterprise procurement. We implement agreed controls; we do not invent compliance certifications you do not hold.",
+          "REST and GraphQL API development. Microservices and event-driven systems. Real-time features with WebSockets. Authentication, authorisation and payments.",
+          "Database design in PostgreSQL, MongoDB and Redis. Queues and background processing. Third-party integrations and webhooks. Testing, logging and monitoring.",
         ],
       },
       {
-        heading: "Collaboration with frontend and DevOps",
+        heading: "Who this is for",
         body: [
-          "Node engineers pair with React/Flutter clients on contract shapes and error models. CI pipelines, preview environments and infrastructure-as-code stay in your accounts when required. Dedicated pods join your on-call expectations only when explicitly contracted.",
+          "SaaS startups, marketplaces and enterprises needing dependable back-end engineers.",
         ],
       },
       {
-        heading: "Hiring model",
+        heading: "Why choose Golax India for Node.js developers",
         body: [
-          "Interview-first staffing, pilot tickets, then monthly dedication or fixed backend milestones. IP and NDA as standard.",
+          "Strong TypeScript and testing habits. Security practice: input validation, rate limiting and secrets management. Experience with scale and observability. Straightforward communication.",
         ],
       },
     ],
     process: [
-      { title: "API & data brief", description: "Domains, SLAs, tenancy and integration map." },
-      { title: "Engineer interviews", description: "You validate backend depth before commitment." },
-      { title: "Pilot delivery", description: "Real services merged via your CI." },
-      { title: "Steady ownership", description: "Module ownership with docs and runbooks." },
+      {
+        title: "Define scope",
+        description: "Back-end scope and stack.",
+      },
+      {
+        title: "Interview",
+        description: "Interview shortlisted engineers.",
+      },
+      {
+        title: "Onboard",
+        description: "Onboard into your repository and CI.",
+      },
+      {
+        title: "Sprints",
+        description: "Work in sprints with code review.",
+      },
+      {
+        title: "Scale",
+        description: "Scale the team as needed.",
+      },
     ],
-    stack: ["Node.js", "TypeScript", "Nest / Express / Fastify", "PostgreSQL", "Redis", "Queues", "Prisma / Drizzle", "AWS / GCP"],
+    stack: [
+      "Node.js",
+      "TypeScript",
+      "Express",
+      "NestJS",
+      "Fastify",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "RabbitMQ / SQS",
+      "Docker",
+      "AWS / Azure",
+    ],
     pricingNote:
-      "Backend pods and fixed API milestones are quoted after discovery. Complexity of integrations and data migrations dominates cost more than endpoint count.",
+      "Roughly $25-$45 per hour equivalent on monthly billing, depending on seniority.",
     faqs: [
       {
-        question: "Do you only write JavaScript, or TypeScript?",
+        question: "Do you work with NestJS or Express?",
         answer:
-          "TypeScript is the default for maintainable services unless your estate standardises on something else.",
+          "Both, and Fastify. We follow your existing standards or recommend one.",
       },
       {
-        question: "Can you take over an existing Node monolith?",
-        answer:
-          "Yes — with an audit of tests, deployments and hotspots before committing to velocity targets.",
+        question: "Can you build our API from scratch?",
+        answer: "Yes. We can design and build it or extend your current one.",
       },
       {
-        question: "Do you handle DevOps as well?",
-        answer:
-          "Lightweight CI/CD and container deploys are common; deeper platform engineering can be staffed via IT consulting.",
-      },
-      {
-        question: "How is IP handled?",
-        answer:
-          "Assigned to your company before coding. Repos live under your org.",
+        question: "Can you help with database performance?",
+        answer: "Yes. Indexing, query tuning and caching are part of the service.",
       },
     ],
     relatedServices: [
@@ -508,62 +638,82 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "hire-flutter-developers",
     h1: "Hire Flutter Developers from India",
     heroLead:
-      "Cross-platform Flutter engineers for iOS and Android MVPs and production apps — store pipelines, offline-friendly UX, and dedicated or project hiring through Golax India.",
-    seoTitle: "Hire Flutter Developers from India",
+      "Flutter lets you ship iOS and Android from a single codebase, cutting cost and time. Our Flutter developers build polished apps with native-feeling performance, and integrate them with your back end, payments and analytics.",
+    seoTitle: "Hire Flutter Developers from India | Golax India",
     metaDescription:
-      "Hire Flutter developers from India for iOS and Android apps. Store-ready builds, timezone overlap and clear pods. Interview engineers with Golax India.",
+      "Hire experienced Flutter developers from India to build iOS and Android apps from one codebase. Trial sprint, NDA and IP assignment.",
     keywords:
-      "hire Flutter developers, Flutter development company India, mobile app development company India, cross-platform app developers",
+      "hire Flutter developers India, Flutter app development, cross-platform mobile developers, iOS Android one codebase",
     sections: [
       {
-        heading: "Flutter when dual-store speed matters",
+        heading: "What we deliver",
         body: [
-          "Flutter remains a strong default when you need iOS and Android from one codebase without sacrificing custom UI. Golax India staffs Flutter developers for consumer apps, field-workforce tools and SaaS companions — with attention to performance on mid-range Android devices, not only flagship demos.",
-          "We plan navigation, state management, offline sync and push notifications with your backend contracts. Store compliance (privacy labels, account deletion, permission copy) is scheduled into the release plan so submission is not a last-night scramble.",
+          "Cross-platform Flutter apps for iOS and Android. Custom UI and animations. State management with Riverpod, Bloc or Provider. REST, GraphQL and Firebase integrations.",
+          "Payments, maps, push notifications and offline mode. Play Store and App Store release. Migration from native or React Native.",
         ],
       },
       {
-        heading: "Quality and release discipline",
+        heading: "Who this is for",
         body: [
-          "CI builds, crash reporting and staged rollouts are normal expectations. You keep Apple and Google developer accounts; we operate inside your access policy. Native modules are used when platform APIs demand them — with documentation so you are not trapped.",
+          "Startups that want to launch on both stores quickly, and companies extending a web product to mobile.",
         ],
       },
       {
-        heading: "Engagement",
+        heading: "Why choose Golax India for Flutter developers",
         body: [
-          "Dedicated Flutter developers or fixed MVP scopes after discovery. NDA/IP standard. Overlap for your primary market.",
+          "Store release experience. Clean architecture and tests. Design-friendly developers. Overlap with your team hours.",
         ],
       },
     ],
     process: [
-      { title: "Product & platform brief", description: "Stores, offline needs, devices and API contracts." },
-      { title: "Engineer match", description: "You interview Flutter candidates." },
-      { title: "Build / pilot", description: "Weekly TestFlight and Play builds." },
-      { title: "Launch support", description: "Store submission help and hypercare options." },
+      {
+        title: "Share your brief",
+        description: "App idea or designs.",
+      },
+      {
+        title: "Interview",
+        description: "Interview developers.",
+      },
+      {
+        title: "Trial sprint",
+        description: "Trial sprint with a working build.",
+      },
+      {
+        title: "Ongoing sprints",
+        description: "Test builds each week.",
+      },
+      {
+        title: "Release and maintain",
+        description: "Store release and ongoing support.",
+      },
     ],
-    stack: ["Flutter", "Dart", "Firebase", "REST / GraphQL", "CI for iOS/Android", "Sentry / Crashlytics"],
+    stack: [
+      "Flutter",
+      "Dart",
+      "Riverpod",
+      "Bloc",
+      "Firebase",
+      "Supabase",
+      "REST APIs",
+      "GraphQL",
+      "Fastlane",
+      "Codemagic",
+    ],
     pricingNote:
-      "MVP scopes are fixed or capped after discovery. Dedicated Flutter seniors are monthly. Store fees and third-party SDKs are yours; engineering time is ours.",
+      "Roughly $25-$45 per hour equivalent on monthly billing, with fixed-price options for defined apps.",
     faqs: [
       {
-        question: "Flutter or React Native — which do you recommend?",
+        question: "Is Flutter good for production apps?",
         answer:
-          "We recommend based on your team skills, UI needs and existing code. Both are available; we do not force a single hammer.",
+          "Yes. It is widely used for consumer and business apps with strong performance.",
       },
       {
-        question: "Do you submit to the App Store and Play Console?",
-        answer:
-          "We prepare builds and listings; you retain account ownership. Submission support is included when scoped.",
+        question: "Can you add Flutter to an existing app?",
+        answer: "Yes, module-by-module if needed.",
       },
       {
-        question: "Can you maintain an app after launch?",
-        answer:
-          "Yes via retainer — OS updates, dependency bumps and feature iterations.",
-      },
-      {
-        question: "How do you handle offline use?",
-        answer:
-          "Local persistence and sync rules are designed with your domain conflicts — not bolted on after demos.",
+        question: "Do you handle store submission?",
+        answer: "Yes.",
       },
     ],
     relatedServices: [
@@ -582,62 +732,85 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "hire-python-developers",
     h1: "Hire Python Developers from India",
     heroLead:
-      "Python engineers for APIs, data workflows, automation and AI-assisted features — Django/FastAPI services, reliable jobs, and dedicated pods with Golax India’s interview-first hiring.",
-    seoTitle: "Hire Python Developers from India",
+      "Our Python developers build web back ends, data pipelines, automation and AI features. Whether you need Django or FastAPI services, integrations, or machine-learning-powered functions, you can add proven engineers to your team within weeks.",
+    seoTitle: "Hire Python Developers from India | Golax India",
     metaDescription:
-      "Hire Python developers from India for APIs, automation and data-heavy services. Django/FastAPI, clear pods and NDA/IP terms. Interview candidates with Golax India.",
+      "Hire senior Python developers from India for Django, FastAPI, data and AI projects. US/UK time overlap, NDA and IP assignment included.",
     keywords:
-      "hire Python developers, Python development company India, Django developers India, FastAPI offshore team",
+      "hire Python developers India, Django developers, FastAPI developers, Python AI development",
     sections: [
       {
-        heading: "Where Python fits your product",
+        heading: "What we deliver",
         body: [
-          "Python shines for APIs, ETL/automation, internal tools and ML-adjacent services that must stay maintainable. Golax India places Python developers who write typed, tested services — not notebook sprawl copied into production. Frameworks commonly include FastAPI and Django, with Celery/RQ or cloud queues for background work.",
-          "For AI features we treat models as components with evaluation sets, logging and human override — not magic demos. Data privacy constraints from your counsel are implemented as requirements.",
+          "Django and FastAPI web applications and APIs. Data pipelines and ETL. Automation, scraping and integrations (within legal limits). AI and machine learning features using LLM APIs and standard libraries.",
+          "Dashboards and analytics back ends. Testing and CI/CD. Legacy Python upgrades.",
         ],
       },
       {
-        heading: "Engineering standards",
+        heading: "Who this is for",
         body: [
-          "Packaging, dependency pinning, migrations and observability are part of Definition of Done. We integrate with your React or mobile clients on clear contracts. Dedicated Python developers join your backlog tools and review culture.",
+          "Product teams adding data or AI features, and companies needing solid back-end capacity.",
         ],
       },
       {
-        heading: "Commercials",
+        heading: "Why choose Golax India for Python developers",
         body: [
-          "Pods or fixed service milestones after discovery. NDA before data access; IP to your entity.",
+          "Clean, tested, typed Python. Understanding of data privacy in AI projects. Experience across web and data work. Honest advice on what AI can and cannot do.",
         ],
       },
     ],
     process: [
-      { title: "Use-case brief", description: "APIs, data stores, SLAs and compliance notes." },
-      { title: "Interviews", description: "You validate Python depth and communication." },
-      { title: "Pilot service", description: "Shipped endpoint or job with tests in your CI." },
-      { title: "Expand", description: "Add data/ML-adjacent help only when justified." },
+      {
+        title: "Define needs",
+        description: "Needs and data sources.",
+      },
+      {
+        title: "Interview",
+        description: "Interview developers.",
+      },
+      {
+        title: "Onboard",
+        description: "Onboard into your codebase.",
+      },
+      {
+        title: "Sprints",
+        description: "Sprints with code review.",
+      },
+      {
+        title: "Monitor and improve",
+        description: "Monitor and improve in production.",
+      },
     ],
-    stack: ["Python", "FastAPI", "Django", "PostgreSQL", "Redis", "Celery / queues", "pytest", "AWS / GCP"],
+    stack: [
+      "Python 3",
+      "Django",
+      "FastAPI",
+      "Flask",
+      "Celery",
+      "PostgreSQL",
+      "Pandas",
+      "scikit-learn",
+      "PyTorch",
+      "LangChain",
+      "Docker",
+      "AWS",
+    ],
     pricingNote:
-      "Monthly Python pods and fixed automation/API scopes are quoted after discovery. Third-party model API costs are passed through transparently when used.",
+      "Roughly $25-$45 per hour equivalent on monthly billing, depending on seniority and specialisation.",
     faqs: [
       {
         question: "Django or FastAPI?",
         answer:
-          "Depends on admin needs, team familiarity and service shape. We recommend explicitly in discovery.",
+          "Django suits full applications with admin and ORM. FastAPI suits lightweight, high-performance APIs. We recommend based on your case.",
       },
       {
-        question: "Do you build ML models from scratch?",
+        question: "Can you build AI features?",
         answer:
-          "We implement applied ML features and pipelines when scoped; research-grade model training is a different engagement and we say so up front.",
+          "Yes, including LLM integrations, retrieval and classification. We use your data under strict confidentiality.",
       },
       {
-        question: "Can Python developers work with our React frontend team?",
-        answer:
-          "Yes — shared OpenAPI contracts and staging environments are standard.",
-      },
-      {
-        question: "How is code ownership handled?",
-        answer:
-          "Your repositories and IP assignment before coding begins.",
+        question: "Can you work on our data pipeline?",
+        answer: "Yes.",
       },
     ],
     relatedServices: [

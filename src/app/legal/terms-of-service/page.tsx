@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo/metadata";
 export const metadata = buildMetadata({
   title: "Terms of Service",
   description:
-    "Terms governing use of Golax India’s website and offshore software services for international clients. Review obligations before you engage our team.",
+    "The terms that apply to use of the Golax India website and to services provided by Golax India Pvt Ltd to international clients.",
   canonicalUrl: "/legal/terms-of-service",
 });
 

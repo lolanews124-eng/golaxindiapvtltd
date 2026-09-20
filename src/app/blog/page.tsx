@@ -5,9 +5,9 @@ import { buildMetadata, BASE_URL } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
-  title: "Offshore Development Insights Blog",
+  title: "Offshore Development & SEO Guides",
   description:
-    "Practical guides on outsourcing to India, SaaS costs, dedicated teams and choosing an offshore partner. Written for international buyers. Read more.",
+    "Guides on outsourcing software development to India, costs, tech stacks, e-commerce, mobile apps, security and SEO for global businesses.",
   keywords:
     "outsource software development to India, dedicated team vs fixed price, SaaS MVP development cost, how to choose offshore partner",
   canonicalUrl: "/blog",

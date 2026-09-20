@@ -3,9 +3,9 @@ import ServiceHubSchemas from "@/components/seo/ServiceHubSchemas";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 export const metadata = buildMetadata({
-  title: "IT Consulting & Cloud Services",
+  title: "IT Consulting & Cloud DevOps Services",
   description:
-    "Architecture reviews, cloud migration and DevOps baselines for global product teams. Written recommendations you can action. Talk to Golax India.",
+    "AWS and Azure migration, DevOps, security and architecture reviews from senior engineers for product teams shipping globally.",
   keywords:
     "IT consulting India, cloud migration partner, DevOps outsourcing, AWS Azure GCP consulting for startups",
   canonicalUrl: "/services/it-consulting",

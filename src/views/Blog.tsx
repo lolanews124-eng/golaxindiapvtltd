@@ -158,6 +158,15 @@ const categories = [
   "Design",
 ];
 
+const popularTopics = [
+  "Costs and pricing of offshore development",
+  "How to choose an offshore partner",
+  "Technology choices: React, Next.js, WordPress, Flutter",
+  "E-commerce and mobile apps",
+  "Security and cloud",
+  "SEO for international websites",
+];
+
 const trendingTopics = [
   "React.js Development",
   "SEO Optimization",
@@ -202,12 +211,12 @@ export default function Blog() {
                 Our Blog
               </span>
               <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6">
-                Offshore Development &{" "}
+                Offshore Development and{" "}
                 <span className="text-accent">SEO Guides</span>
               </h1>
               <p className="text-lg md:text-xl text-primary-foreground/85 leading-relaxed mb-8 max-w-2xl">
-                Practical playbooks for US, UK, UAE and global buyers — outsourcing to India,
-                web/SaaS costs, mobile apps and SEO that drives pipeline.
+                Practical guides for founders, CTOs and marketing leaders who are planning software projects or
+                considering an offshore team.
               </p>
               
               {/* Search Bar */}
@@ -227,6 +236,20 @@ export default function Blog() {
                 <HeroLeadForm context="Blog" variant="light" />
               </div>
             </div>
+        </div>
+      </section>
+
+      <section className="py-12 bg-gradient-subtle border-b border-border">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-heading text-xl font-bold text-foreground mb-4 flex items-center gap-2">
+            <Tag className="h-5 w-5 text-primary" />
+            Popular topics
+          </h2>
+          <ul className="grid sm:grid-cols-2 gap-2 text-sm text-muted-foreground list-disc pl-5">
+            {popularTopics.map((topic) => (
+              <li key={topic}>{topic}</li>
+            ))}
+          </ul>
         </div>
       </section>
 

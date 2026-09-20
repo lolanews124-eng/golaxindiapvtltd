@@ -6,101 +6,63 @@ import {
   Globe,
   Smartphone,
   Code,
-  TrendingUp,
-  Briefcase,
-  Star,
-  Users,
-  Award,
   Sparkles,
   ArrowRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import PageHero from "@/components/shared/PageHero";
-import TrustBar from "@/components/shared/TrustBar";
 import CTABanner from "@/components/shared/CTABanner";
 
 const projects = [
   {
-    title: "US SaaS Analytics Dashboard",
+    title: "US SaaS Analytics MVP",
     category: "Software Development",
     serviceHref: "/services/software-development",
     market: "United States",
     icon: Code,
     description:
-      "Multi-tenant analytics SaaS for a US B2B startup — React/Next.js front end, Node APIs, Stripe billing and role-based access for enterprise seats.",
+      "Example shape: a Series-A-stage US analytics startup needed a first product in one quarter on a tight budget. We delivered a multi-tenant web app with dashboards, user roles, billing hooks and CI/CD, following SOC 2-ready logging practices.",
     technologies: ["Next.js", "Node.js", "PostgreSQL", "AWS"],
-    results: ["MVP in 11 weeks", "40% faster report loads", "SOC2-ready logging"],
+    outcomes: [
+      "MVP scope delivered in a single quarter (client timeline)",
+      "Multi-tenant roles and billing foundation",
+      "Automated deploy pipeline from sprint one",
+    ],
     color: "from-blue-500 to-cyan-500",
   },
   {
-    title: "UK Healthcare Patient App",
+    title: "Telemedicine Patient App",
     category: "Mobile Development",
     serviceHref: "/services/mobile-app-development",
-    market: "United Kingdom",
+    market: "International",
     icon: Smartphone,
     description:
-      "iOS/Android patient app for a UK clinic group — appointments, prescriptions and secure messaging with GDPR-first defaults.",
+      "Example shape: a telemedicine provider wanted patients to book appointments and consult on iOS and Android. We built scheduling, video consultation flows and Stripe billing with privacy-first defaults suitable for regulated healthcare markets.",
     technologies: ["Flutter", "Firebase", "Node.js", "Stripe"],
-    results: ["35% fewer no-shows", "4.6★ store rating", "NHS-friendly UX patterns"],
+    outcomes: [
+      "Dual-store release under client brand (NDA)",
+      "Appointment and video consult flows",
+      "Stripe billing integrated for subscriptions",
+    ],
     color: "from-green-500 to-emerald-500",
   },
   {
-    title: "UAE Multi-Store Retail ERP",
-    category: "Software Development",
-    serviceHref: "/services/software-development",
-    market: "United Arab Emirates",
-    icon: Code,
-    description:
-      "Inventory, POS and multi-branch ops platform for a Dubai retail group — AED invoicing, Arabic/English UI and warehouse sync.",
-    technologies: ["Python", "Django", "PostgreSQL", "Docker"],
-    results: ["60% faster stock ops", "8 branches live", "Same-day reconciliation"],
-    color: "from-purple-500 to-pink-500",
-  },
-  {
-    title: "Australia Travel Booking Site",
+    title: "UK E-commerce Rebuild",
     category: "Web Development",
-    serviceHref: "/services/web-development",
-    market: "Australia",
+    serviceHref: "/services/ecommerce-development",
+    market: "United Kingdom",
     icon: Globe,
     description:
-      "High-conversion booking website for an Australian travel brand — Next.js, AUD payments, tour packages and SEO-ready content.",
-    technologies: ["Next.js", "Stripe", "PostgreSQL", "Vercel"],
-    results: ["2× online bookings", "Core Web Vitals green", "AUD checkout live"],
-    color: "from-orange-500 to-red-500",
+      "Example shape: a UK online retailer had a slow legacy storefront and rising hosting spend. We rebuilt on headless Next.js with a streamlined checkout, improved Core Web Vitals and lower infrastructure footprint.",
+    technologies: ["Next.js", "Headless CMS", "Stripe", "Vercel"],
+    outcomes: [
+      "Faster checkout and product pages (measured in client staging)",
+      "Hosting cost reduced versus prior stack (client-reported)",
+      "SEO-safe migration with redirect map",
+    ],
+    color: "from-purple-500 to-pink-500",
   },
-  {
-    title: "Canada Field Ops Mobile App",
-    category: "Mobile Development",
-    serviceHref: "/services/mobile-app-development",
-    market: "Canada",
-    icon: Smartphone,
-    description:
-      "Flutter field app for a Canadian logistics SME — job dispatch, offline sync, photo proof and CAD reporting for crews.",
-    technologies: ["Flutter", "Firebase", "Maps", "Node.js"],
-    results: ["30% faster close-outs", "Offline-first crews", "CAD export"],
-    color: "from-green-600 to-lime-500",
-  },
-  {
-    title: "US Fintech SEO & Content Engine",
-    category: "Digital Marketing",
-    serviceHref: "/services/digital-marketing",
-    market: "United States",
-    icon: TrendingUp,
-    description:
-      "Technical SEO + content system for a US fintech — topic clusters, landing pages and measurement tied to demo requests.",
-    technologies: ["SEO", "Google Ads", "Content", "Analytics"],
-    results: ["3× organic traffic", "Top-3 for 18 intents", "Pipeline-linked reporting"],
-    color: "from-indigo-500 to-blue-500",
-  },
-];
-
-const categories = [
-  "All",
-  "Web Development",
-  "Mobile Development",
-  "Software Development",
-  "Digital Marketing",
 ];
 
 export default function Portfolio() {
@@ -111,12 +73,22 @@ export default function Portfolio() {
         badgeIcon={Sparkles}
         title={
           <>
-            Offshore Projects for <span className="text-accent">USA & Global Clients</span>
+            Offshore Projects for <span className="text-accent">USA and Global Clients</span>
           </>
         }
-        description="Selected web, SaaS, mobile and growth engagements delivered by Golax India — senior engineers, USD/multi-currency billing and NDA/IP-ready delivery."
+        description="Examples of web, SaaS and mobile work we deliver for clients outside India. Each summary describes the problem, what we built, the stack and the outcome — anonymised where NDAs apply."
         formContext="Portfolio"
       />
+
+      <section className="py-12 bg-gradient-subtle border-b border-border">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <p className="text-muted-foreground leading-relaxed">
+            These case studies are representative of our offshore delivery model. Numbers and client names are shared only
+            with permission; where a client is under NDA we describe industry, scope and architecture instead of
+            publishing unverified metrics.
+          </p>
+        </div>
+      </section>
 
       <section
         className="section-padding relative bg-card overflow-hidden"
@@ -124,19 +96,9 @@ export default function Portfolio() {
       >
         <div className="absolute inset-0 bg-mesh pointer-events-none opacity-30" aria-hidden />
         <div className="container relative mx-auto px-4">
-          <h2 id="portfolio-projects-heading" className="sr-only">
-            Our Projects
+          <h2 id="portfolio-projects-heading" className="font-heading text-2xl font-bold text-foreground mb-8 text-center">
+            Selected case study shapes
           </h2>
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {categories.map((category) => (
-              <span
-                key={category}
-                className={`filter-pill ${category === "All" ? "filter-pill-active" : "filter-pill-inactive"}`}
-              >
-                {category}
-              </span>
-            ))}
-          </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
@@ -172,9 +134,9 @@ export default function Portfolio() {
                     ))}
                   </div>
                   <div className="border-t border-border pt-4 mb-4">
-                    <h4 className="font-semibold text-foreground text-sm mb-2">Key Results</h4>
+                    <h4 className="font-semibold text-foreground text-sm mb-2">Outcomes</h4>
                     <ul className="space-y-1">
-                      {project.results.map((result) => (
+                      {project.outcomes.map((result) => (
                         <li
                           key={result}
                           className="text-xs text-muted-foreground flex items-center gap-2"
@@ -204,24 +166,15 @@ export default function Portfolio() {
               <Link href="/about">About Golax India</Link>
             </Button>
             <Button asChild variant="hero" size="lg">
-              <Link href="/contact">Start Your Project</Link>
+              <Link href="/contact">Request a Proposal</Link>
             </Button>
           </div>
         </div>
       </section>
 
-      <TrustBar
-        stats={[
-          { icon: Briefcase, value: "150+", label: "Projects Completed" },
-          { icon: Users, value: "50+", label: "Happy Clients" },
-          { icon: Star, value: "98%", label: "Client Satisfaction" },
-          { icon: Award, value: "10+", label: "Markets Served" },
-        ]}
-      />
-
       <CTABanner
-        title="Ready to Be Our Next Success Story?"
-        description="Book a free discovery call — USD quote for web, SaaS or mobile within 24 hours."
+        title="Want Results Like These?"
+        description="Tell us your goals — we reply within one business day with discovery next steps and a USD proposal outline."
         primaryLabel="Get a USD Quote"
       />
     </Layout>

@@ -2,72 +2,115 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { TrendingUp, Search, MousePointerClick, FileText, CheckCircle, ArrowRight, Ban } from "lucide-react";
+import {
+  TrendingUp,
+  Search,
+  MousePointerClick,
+  FileText,
+  CheckCircle,
+  ArrowRight,
+  Globe,
+  BarChart3,
+  Link2,
+} from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import ServiceHero from "@/components/shared/ServiceHero";
+import ProcessTimeline from "@/components/shared/ProcessTimeline";
+import TechPills from "@/components/shared/TechPills";
 import FAQSection from "@/components/shared/FAQSection";
 import CTABanner from "@/components/shared/CTABanner";
 import SectionHeader from "@/components/shared/SectionHeader";
 import { Button } from "@/components/ui/button";
 import { digitalMarketingFaqs } from "@/data/serviceFaqs";
 
-const workstreams = [
+const deliverables = [
   {
     icon: Search,
-    title: "Technical SEO that unlocks content",
-    text: "Crawl issues, index bloat, Core Web Vitals, broken canonicals — fixed before we promise rankings. US/UK English intent research, not India-local keyword dumps.",
+    title: "Technical SEO",
+    text: "Technical SEO audit and fixes: crawlability, speed, schema, internal links and indexation.",
+  },
+  {
+    icon: Globe,
+    title: "Keyword & content strategy",
+    text: "Keyword research and content strategy for each target country.",
   },
   {
     icon: FileText,
-    title: "Content that matches search jobs",
-    text: "Pages and briefs written for the question the buyer actually typed. We prefer fewer strong pages over fifty thin posts.",
+    title: "Page optimisation",
+    text: "Service and location page optimisation.",
+  },
+  {
+    icon: BarChart3,
+    title: "Buyer-focused content",
+    text: "Blog and thought-leadership content written for buyers.",
   },
   {
     icon: MousePointerClick,
-    title: "Paid search & paid social with ROAS rules",
-    text: "Google Ads and Meta/LinkedIn when paid makes sense. Budgets gated by target CPA/ROAS — we do not “spend to learn” forever.",
+    title: "Google & Meta Ads",
+    text: "Google Ads and Meta Ads for lead generation.",
+  },
+  {
+    icon: Link2,
+    title: "Link building",
+    text: "Link building through directories, partnerships and digital PR.",
+  },
+  {
+    icon: BarChart3,
+    title: "Monthly reporting",
+    text: "Monthly reporting on rankings, traffic and leads.",
   },
 ];
 
-const markets = [
+const whyChoose = [
+  "Developers and marketers on one team, so technical fixes ship quickly.",
+  "International focus: country-specific keywords, currencies and search behaviour.",
+  "No guaranteed rankings, only honest plans and transparent reports.",
+  "Ethical link building, with no spam networks.",
+];
+
+const process = [
   {
-    market: "United States",
-    focus: "Competitive head terms need technical + content depth. We plan for longer cycles and clear conversion tracking.",
+    step: "01",
+    title: "Audit",
+    description: "Technical, content and competitor analysis.",
   },
   {
-    market: "United Kingdom",
-    focus: "UK spelling and buyer language. Local modifiers where they matter; national intent where they do not.",
+    step: "02",
+    title: "Plan",
+    description: "Priority keywords, page map and 90-day roadmap.",
   },
   {
-    market: "UAE / Gulf",
-    focus: "English campaigns first for many brands; Arabic expansion when content and site RTL are ready.",
+    step: "03",
+    title: "Fix",
+    description: "Implement technical and on-page improvements.",
   },
   {
-    market: "Canada / Australia",
-    focus: "English markets with local modifiers and currency/landing alignment so ads do not bounce.",
+    step: "04",
+    title: "Publish",
+    description: "Content and link acquisition on a steady calendar.",
+  },
+  {
+    step: "05",
+    title: "Measure",
+    description: "Rankings, traffic, leads and cost per lead.",
+  },
+  {
+    step: "06",
+    title: "Refine",
+    description: "Double down on what converts.",
   },
 ];
 
-const notThis = [
-  "Guaranteed #1 rankings",
-  "Fake “500% ROI” vanity stats",
-  "Link schemes and PBNs",
-  "Reporting that hides spend and CPA",
-];
-
-const retainers = [
-  {
-    name: "SEO foundation",
-    blurb: "Audit, fixes, keyword map, and a realistic 90-day plan. Best when the site is broken technically.",
-  },
-  {
-    name: "SEO + content",
-    blurb: "Ongoing technical care plus a steady publish cadence aimed at commercial pages — not random blogs.",
-  },
-  {
-    name: "SEO + paid",
-    blurb: "Organic and paid under one view of pipeline. Useful when you need leads while SEO compounds.",
-  },
+const technologies = [
+  "Google Search Console",
+  "GA4",
+  "Looker Studio",
+  "Ahrefs",
+  "Semrush",
+  "Screaming Frog",
+  "PageSpeed Insights",
+  "Google Ads",
+  "Meta Ads Manager",
 ];
 
 export default function DigitalMarketing() {
@@ -75,27 +118,23 @@ export default function DigitalMarketing() {
     <Layout>
       <ServiceHero
         icon={TrendingUp}
-        badge="SEO & acquisition · USD retainers"
-        title={
-          <>
-            Digital Marketing for{" "}
-            <span className="text-accent">US & International Search Buyers</span>
-          </>
-        }
-        description="Technical SEO, content and paid acquisition aimed at English-language markets — US, UK, Canada, Australia and the Gulf. Clear retainers. No fake ranking guarantees."
-        formContext="Digital Marketing — USA & Global"
+        badge="Digital marketing & SEO"
+        title="Digital Marketing and SEO for International Markets"
+        description="Golax India helps businesses win customers in the US, UK and other international markets through technical SEO, content, Google Ads and social campaigns. We combine engineering skills with marketing so your site is fast and crawlable and your content targets the searches that bring buyers."
+        formContext="Digital Marketing and SEO"
         defaultService="Digital Marketing"
+        formTitle="Book a free discovery call for digital marketing and SEO"
       />
 
       <section className="section-padding bg-card">
         <div className="container mx-auto px-4 sm:px-6">
           <SectionHeader
-            badge="How we work"
-            title="Three Workstreams — Not a Buffet of Buzzwords"
-            description="Most brands need fewer channels done properly. We start with what is broken, then add what can scale."
+            badge="What we deliver"
+            title="What we deliver"
+            description="Technical SEO, content, paid media and ethical link building with clear reporting."
           />
-          <div className="grid md:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
-            {workstreams.map((w, i) => (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
+            {deliverables.map((w, i) => (
               <motion.div
                 key={w.title}
                 initial={{ opacity: 0, y: 14 }}
@@ -114,90 +153,78 @@ export default function DigitalMarketing() {
       </section>
 
       <section className="section-padding bg-gradient-subtle">
-        <div className="container mx-auto px-4 sm:px-6">
-          <SectionHeader
-            title="Market-Specific Search — Not One Global Keyword Sheet"
-            description="Intent and spelling differ by country. Campaigns and content should too."
-          />
-          <div className="grid sm:grid-cols-2 gap-4 max-w-4xl mx-auto">
-            {markets.map((m, i) => (
-              <motion.div
-                key={m.market}
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.05 }}
-                className="bg-card border border-border rounded-xl p-5"
-              >
-                <h3 className="font-semibold text-foreground mb-2">{m.market}</h3>
-                <p className="text-sm text-muted-foreground">{m.focus}</p>
-              </motion.div>
-            ))}
-          </div>
-          <div className="text-center mt-8">
-            <Button asChild variant="outline">
-              <Link href="/locations">
-                View country pages <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      <section className="section-padding bg-card">
-        <div className="container mx-auto px-4 sm:px-6">
-          <div className="grid lg:grid-cols-2 gap-10 max-w-5xl mx-auto items-start">
+        <div className="container mx-auto px-4 sm:px-6 max-w-5xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <div className="flex items-center gap-2 text-destructive mb-3">
-                <Ban className="h-5 w-5" />
-                <span className="text-sm font-semibold uppercase tracking-wide">What we refuse</span>
-              </div>
-              <h2 className="font-heading text-3xl font-bold mb-4">No Theatre Marketing</h2>
-              <p className="text-muted-foreground mb-6">
-                If a vendor promises overnight page-one rankings or shows inflated ROI graphics with no methodology,
-                walk away. We would rather lose a deal than sell that.
+              <SectionHeader
+                align="left"
+                badge="Who this is for"
+                title="Who this is for"
+                description="B2B, SaaS and e-commerce brands selling outside India."
+              />
+              <p className="text-muted-foreground leading-relaxed">
+                B2B service companies, SaaS startups and e-commerce brands that want more qualified leads from outside
+                India and need a partner who understands both search and code.
               </p>
+              <Button asChild variant="outline" className="mt-6">
+                <Link href="/locations">
+                  View country pages <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+            <div className="premium-card p-6 sm:p-8">
+              <h3 className="font-heading text-xl font-semibold mb-4">
+                Why choose Golax India for digital marketing and SEO
+              </h3>
               <ul className="space-y-3">
-                {notThis.map((item) => (
+                {whyChoose.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-sm">
-                    <CheckCircle className="h-4 w-4 text-muted-foreground shrink-0 mt-0.5" />
+                    <CheckCircle className="h-4 w-4 text-success shrink-0 mt-0.5" />
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
-            <div>
-              <h3 className="font-heading text-xl font-semibold mb-4">Retainer shapes (USD)</h3>
-              <div className="space-y-4">
-                {retainers.map((r) => (
-                  <div key={r.name} className="premium-card p-5">
-                    <h4 className="font-semibold text-foreground mb-1">{r.name}</h4>
-                    <p className="text-sm text-muted-foreground">{r.blurb}</p>
-                  </div>
-                ))}
-              </div>
-              <p className="text-xs text-muted-foreground mt-4">
-                Exact USD fees depend on competition, site size and whether paid media is included. We quote after a
-                short audit call — not from a one-size price card.
-              </p>
-              <Button asChild variant="hero" className="mt-6">
-                <Link href="/contact">Request a growth audit call</Link>
-              </Button>
-            </div>
           </div>
         </div>
       </section>
 
+      <ProcessTimeline
+        title="How the work runs"
+        description="Audit through measurement and refinement."
+        steps={process}
+      />
+
+      <TechPills title="Technology we use" description="Search, analytics, ads and your CMS." items={technologies} />
+
+      <section className="section-padding bg-card">
+        <div className="container mx-auto px-4 sm:px-6 max-w-3xl">
+          <SectionHeader
+            badge="Pricing"
+            title="Pricing and engagement models"
+            description="Monthly retainers, one-off audits and direct platform ad spend."
+            align="left"
+          />
+          <p className="text-muted-foreground leading-relaxed">
+            Monthly retainers start at a level that fits small businesses and scale with the number of pages, articles
+            and campaigns. One-off SEO audits are available. Ad spend is paid directly by you to the platforms.
+          </p>
+          <Button asChild variant="hero" className="mt-8">
+            <Link href="/contact">Get a USD quote for digital marketing and SEO</Link>
+          </Button>
+        </div>
+      </section>
+
       <FAQSection
-        title="SEO & Marketing FAQs"
-        description="Timelines, markets, measurement and what “done” looks like"
+        title="Frequently asked questions"
+        description="SEO timelines, guarantees, paid search and market targeting"
         faqs={digitalMarketingFaqs}
       />
 
       <CTABanner
-        title="Need Traffic That Turns Into Conversations?"
-        description="Send your URL and target market. We will say what is broken first — SEO, content or tracking."
-        primaryLabel="Book Marketing Call"
+        title="Get a USD quote for digital marketing and SEO"
+        description="Book a free discovery call. We reply within one business day with a clear next step."
+        primaryLabel="Get a USD quote for digital marketing and SEO"
       />
     </Layout>
   );

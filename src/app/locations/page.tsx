@@ -8,9 +8,9 @@ import { buildMetadata, BASE_URL } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
 export const metadata = buildMetadata({
-  title: "International Markets We Serve",
+  title: "Offshore IT Partner for International Businesses",
   description:
-    "Outsource software development to India from the USA, UK, Canada, UAE, Australia, Singapore, Germany and more. Pick your market and talk to us.",
+    "Golax India serves businesses in the US, UK, Canada, Australia, UAE, Saudi Arabia, Singapore, Germany, New Zealand and Qatar.",
   keywords:
     "outsource software development to India from USA, software development partner for UK startups, offshore development Canada UAE Australia",
   canonicalUrl: "/locations",

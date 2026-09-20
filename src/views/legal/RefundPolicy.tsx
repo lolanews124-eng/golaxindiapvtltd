@@ -75,6 +75,34 @@ export default function RefundPolicy() {
               </div>
             </motion.div>
 
+            {/* Payment & billing */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mb-12"
+            >
+              <h2 className="text-2xl font-heading font-bold text-foreground mb-6">How billing works</h2>
+              <div className="space-y-4 text-muted-foreground">
+                <p>
+                  <strong className="text-foreground">Fixed-price projects</strong> are usually invoiced in milestones — for example a deposit to schedule work, payments tied to design approval, development milestones and a final invoice on acceptance testing. Exact percentages and deliverables are listed in your signed SOW or order form, not on this page alone.
+                </p>
+                <p>
+                  <strong className="text-foreground">Dedicated development teams</strong> and monthly retainers are billed in advance for each calendar month (or agreed period). Hours or capacity not used within the period typically do not roll over unless your contract says otherwise.
+                </p>
+                <p>
+                  <strong className="text-foreground">Ending a dedicated team:</strong> Either party should give written notice as specified in the MSA (commonly 15–30 days). Work completed through the notice period remains billable. We deliver source code and handover documentation for work paid through the effective end date.
+                </p>
+                <p>
+                  <strong className="text-foreground">Deliverables already accepted</strong> (signed UAT, production release or explicit written approval) are generally not refundable. Disputes should be raised promptly at{" "}
+                  <a href="mailto:contact@golaxindia.com" className="text-primary hover:underline">contact@golaxindia.com</a> with project name, invoice reference and a clear description of the issue.
+                </p>
+                <p className="text-sm bg-muted/50 rounded-lg p-4">
+                  This summary is for readability. Your signed MSA/SOW prevails if anything here differs. Have counsel review before relying on it for contractual decisions.
+                </p>
+              </div>
+            </motion.div>
+
             {/* Refund Eligibility */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}

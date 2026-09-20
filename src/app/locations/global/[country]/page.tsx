@@ -21,39 +21,39 @@ export async function generateMetadata({
 
   const geo = getCountryGeo(data.slug);
   const titleBySlug: Record<string, string> = {
-    "united-states": "Offshore Partner for USA Product Teams",
-    "united-kingdom": "Offshore Partner for UK Companies",
-    canada: "Offshore Partner for Canada Startups",
-    australia: "Offshore Partner for Australia Teams",
-    "united-arab-emirates": "Offshore Partner for UAE Businesses",
-    "saudi-arabia": "Offshore Partner for Saudi Arabia",
-    singapore: "Offshore Partner for Singapore Teams",
-    germany: "Offshore Partner for Germany Teams",
-    "new-zealand": "Offshore Partner for New Zealand",
-    qatar: "Offshore Partner for Qatar Businesses",
+    "united-states": "Offshore Software Development for United States",
+    "united-kingdom": "Offshore Software Development for United Kingdom",
+    canada: "Offshore Software Development for Canada",
+    australia: "Offshore Software Development for Australia",
+    "united-arab-emirates": "Offshore Software Development for UAE",
+    "saudi-arabia": "Offshore Software Development for Saudi Arabia",
+    singapore: "Offshore Software Development for Singapore",
+    germany: "Offshore Software Development for Germany",
+    "new-zealand": "Offshore Software Development for New Zealand",
+    qatar: "Offshore Software Development for Qatar",
   };
 
   const descriptionBySlug: Record<string, string> = {
     "united-states":
-      "Outsource software development to India from the USA. USD billing, EST/PST overlap, NDA/IP ready. Hire Golax India as your offshore product partner today.",
+      "Offshore web, SaaS and mobile development for United States businesses. Senior Indian engineers, USD billing, NDA and IP assignment.",
     "united-kingdom":
-      "Outsource software development to India from the UK. GBP quotes, GMT overlap and GDPR-aware delivery. Talk to Golax India about your next build.",
+      "Offshore web, SaaS and mobile development for United Kingdom businesses. Senior Indian engineers, GBP billing, NDA and IP assignment.",
     canada:
-      "Outsource software development to India from Canada. CAD billing, timezone overlap and clear IP assignment. Partner with Golax India for your product.",
+      "Offshore web, SaaS and mobile development for Canada businesses. Senior Indian engineers, CAD billing, NDA and IP assignment.",
     australia:
-      "Outsource software development to India from Australia. AUD quotes and AEST-friendly collaboration. Start a discovery call with Golax India now.",
+      "Offshore web, SaaS and mobile development for Australia businesses. Senior Indian engineers, AUD billing, NDA and IP assignment.",
     "united-arab-emirates":
-      "Software development partner for UAE startups and free-zone teams. AED quotes, Gulf-hour overlap, bilingual web when needed. Contact Golax India.",
+      "Offshore web, SaaS and mobile development for United Arab Emirates businesses. Senior Indian engineers, AED billing, NDA and IP assignment.",
     "saudi-arabia":
-      "Software development partner for Saudi Arabia. SAR/USD quotes, Arabic/English RTL capability and Gulf-hour collaboration. Reach Golax India today.",
+      "Offshore web, SaaS and mobile development for Saudi Arabia businesses. Senior Indian engineers, SAR billing, NDA and IP assignment.",
     singapore:
-      "Outsource software development to India from Singapore. SGD billing and full SGT overlap. Hire Golax India for SaaS and secure product engineering.",
+      "Offshore web, SaaS and mobile development for Singapore businesses. Senior Indian engineers, SGD billing, NDA and IP assignment.",
     germany:
-      "Software development partner for Germany. EUR billing, CET overlap and GDPR-first defaults. Discuss your roadmap with Golax India.",
+      "Offshore web, SaaS and mobile development for Germany businesses. Senior Indian engineers, EUR billing, NDA and IP assignment.",
     "new-zealand":
-      "Outsource software development to India from New Zealand. NZD-friendly commercials and clear IP terms. Book a discovery call with Golax India.",
+      "Offshore web, SaaS and mobile development for New Zealand businesses. Senior Indian engineers, NZD billing, NDA and IP assignment.",
     qatar:
-      "Software development partner for Qatar. QAR/USD quotes, bilingual Arabic/English delivery and Gulf-hour overlap. Contact Golax India to start.",
+      "Offshore web, SaaS and mobile development for Qatar businesses. Senior Indian engineers, QAR billing, NDA and IP assignment.",
   };
 
   return buildMetadata({
