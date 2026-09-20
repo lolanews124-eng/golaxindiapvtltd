@@ -46,22 +46,22 @@ const services = [{
   icon: ShoppingCart,
   title: "E-commerce Development",
   description: "Shopify, headless commerce and custom stores with Stripe, Apple Pay and tax-ready checkout.",
-  href: "/services/web-development"
+  href: "/services/ecommerce-development"
 }, {
   icon: Users,
   title: "Dedicated Dev Teams",
   description: "Hire a vetted remote squad from India — full-time engineers with US/UK business-hour overlap.",
-  href: "/locations/global/united-states"
+  href: "/services/dedicated-development-teams"
 }, {
   icon: Palette,
   title: "UI/UX Design",
   description: "Product UI, design systems and CRO-focused landing pages that convert paid traffic.",
-  href: "/services/web-development"
+  href: "/services/ui-ux-design"
 }, {
   icon: Database,
   title: "CRM & ERP Solutions",
   description: "Bespoke CRM, ERP and internal tools that replace expensive SaaS sprawl.",
-  href: "/services/software-development"
+  href: "/services/crm-erp-solutions"
 }];
 const portfolioPreview = [
   { title: "US SaaS Analytics MVP", category: "Software", icon: Code, description: "Series-A analytics product for a US founder — shipped in 12 weeks with CI/CD and SOC2-ready practices.", highlight: "12-week MVP", color: "from-blue-500 to-cyan-500" },

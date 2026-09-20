@@ -10,7 +10,7 @@ import {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Stable stamp — bump when content meaningfully changes (avoids fake daily freshness)
-  const contentUpdated = new Date("2026-09-17");
+  const contentUpdated = new Date("2026-09-20");
   const entry = (
     path: string,
     priority = 0.7,

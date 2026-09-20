@@ -22,6 +22,22 @@ const navigation = [
   { name: "Contact", href: "/contact" },
 ];
 
+const serviceQuickLinks = [
+  { name: "Web Development", href: "/services/web-development" },
+  { name: "Software & SaaS", href: "/services/software-development" },
+  { name: "Mobile Apps", href: "/services/mobile-app-development" },
+  { name: "E-commerce", href: "/services/ecommerce-development" },
+  { name: "UI/UX Design", href: "/services/ui-ux-design" },
+  { name: "CRM & ERP", href: "/services/crm-erp-solutions" },
+  { name: "Dedicated Teams", href: "/services/dedicated-development-teams" },
+  { name: "Hire React Developers", href: "/services/hire-react-developers" },
+  { name: "Hire Node.js Developers", href: "/services/hire-nodejs-developers" },
+  { name: "Hire Flutter Developers", href: "/services/hire-flutter-developers" },
+  { name: "Hire Python Developers", href: "/services/hire-python-developers" },
+  { name: "Digital Marketing", href: "/services/digital-marketing" },
+  { name: "IT Consulting", href: "/services/it-consulting" },
+];
+
 const PHONE_DISPLAY = "+91 9128666005";
 const PHONE_HREF = "+919128666005";
 
@@ -30,13 +46,17 @@ const globalLinks = internationalLocations.slice(0, 8);
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [locationsOpen, setLocationsOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileLocationsOpen, setMobileLocationsOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const servicesDropdownRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
 
   const closeMobileMenu = useCallback(() => {
     setMobileMenuOpen(false);
     setMobileLocationsOpen(false);
+    setMobileServicesOpen(false);
   }, []);
 
   useEffect(() => {
@@ -57,6 +77,7 @@ export default function Header() {
   useEffect(() => {
     closeMobileMenu();
     setLocationsOpen(false);
+    setServicesOpen(false);
   }, [pathname, closeMobileMenu]);
 
   useEffect(() => {
@@ -73,12 +94,16 @@ export default function Header() {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
         setLocationsOpen(false);
       }
+      if (servicesDropdownRef.current && !servicesDropdownRef.current.contains(e.target as Node)) {
+        setServicesOpen(false);
+      }
     };
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   const isLocationsActive = pathname.startsWith("/locations");
+  const isServicesActive = pathname.startsWith("/services");
 
   const navClass = (active: boolean) =>
     `relative px-2 xl:px-2.5 2xl:px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap ${
@@ -128,16 +153,71 @@ export default function Header() {
               <Link href="/" className={navClass(pathname === "/")}>
                 Home
               </Link>
-              {navigation.slice(1, 4).map((item) => (
-                <Link key={item.name} href={item.href} className={navClass(pathname === item.href)}>
-                  {item.name}
-                </Link>
-              ))}
+              <Link href="/about" className={navClass(pathname === "/about")}>
+                About
+              </Link>
+
+              <div className="relative" ref={servicesDropdownRef}>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setServicesOpen((o) => !o);
+                    setLocationsOpen(false);
+                  }}
+                  className={`flex items-center gap-1 ${navClass(isServicesActive)}`}
+                  aria-expanded={servicesOpen}
+                  aria-haspopup="true"
+                >
+                  Services
+                  <ChevronDown className={`h-4 w-4 transition-transform ${servicesOpen ? "rotate-180" : ""}`} />
+                </button>
+                <AnimatePresence>
+                  {servicesOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: 8 }}
+                      className="absolute top-full left-0 mt-2 w-[min(92vw,420px)] glass-card rounded-2xl p-5 z-50"
+                    >
+                      <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2">
+                        Services & hiring
+                      </p>
+                      <ul className="grid grid-cols-2 gap-1">
+                        {serviceQuickLinks.map((s) => (
+                          <li key={s.href}>
+                            <Link
+                              href={s.href}
+                              className="flex items-center min-h-10 px-2 py-2 text-sm rounded-md hover:bg-muted"
+                              onClick={() => setServicesOpen(false)}
+                            >
+                              {s.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                      <Link
+                        href="/services"
+                        className="text-xs text-primary font-medium mt-3 inline-flex min-h-10 items-center hover:underline"
+                        onClick={() => setServicesOpen(false)}
+                      >
+                        All services →
+                      </Link>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              <Link href="/industries" className={navClass(pathname === "/industries")}>
+                Industries
+              </Link>
 
               <div className="relative" ref={dropdownRef}>
                 <button
                   type="button"
-                  onClick={() => setLocationsOpen((o) => !o)}
+                  onClick={() => {
+                    setLocationsOpen((o) => !o);
+                    setServicesOpen(false);
+                  }}
                   className={`flex items-center gap-1 ${navClass(isLocationsActive)}`}
                   aria-expanded={locationsOpen}
                   aria-haspopup="true"
@@ -251,7 +331,9 @@ export default function Header() {
 
               <div className="flex-1 overflow-y-auto overscroll-contain px-3 py-3">
                 <nav className="space-y-1">
-                  {navigation.map((item) => (
+                  {navigation
+                    .filter((item) => item.name !== "Services")
+                    .map((item) => (
                     <Link
                       key={item.name}
                       href={item.href}
@@ -262,6 +344,33 @@ export default function Header() {
                       {item.name}
                     </Link>
                   ))}
+                  <button
+                    type="button"
+                    onClick={() => setMobileServicesOpen((o) => !o)}
+                    className="flex items-center justify-between w-full min-h-[48px] px-4 rounded-xl text-base font-medium text-foreground hover:bg-muted"
+                  >
+                    Services
+                    <ChevronDown className={`h-5 w-5 transition-transform ${mobileServicesOpen ? "rotate-180" : ""}`} />
+                  </button>
+                  {mobileServicesOpen && (
+                    <div className="pl-2 pb-2 space-y-1">
+                      {serviceQuickLinks.map((s) => (
+                        <Link
+                          key={s.href}
+                          href={s.href}
+                          className="flex items-center min-h-[44px] px-4 text-sm text-foreground hover:bg-muted rounded-lg"
+                        >
+                          {s.name}
+                        </Link>
+                      ))}
+                      <Link
+                        href="/services"
+                        className="flex items-center min-h-[44px] px-4 text-sm text-primary font-medium"
+                      >
+                        All services →
+                      </Link>
+                    </div>
+                  )}
                   <button
                     type="button"
                     onClick={() => setMobileLocationsOpen((o) => !o)}

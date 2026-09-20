@@ -63,4 +63,12 @@ export const serviceHubSlugs = [
   "mobile-app-development",
   "digital-marketing",
   "it-consulting",
+  "ecommerce-development",
+  "ui-ux-design",
+  "crm-erp-solutions",
+  "dedicated-development-teams",
+  "hire-react-developers",
+  "hire-nodejs-developers",
+  "hire-flutter-developers",
+  "hire-python-developers",
 ];

@@ -47,6 +47,34 @@ const services = [{
   description: "Architecture reviews, cloud guidance and dedicated offshore pods for companies that need senior capacity without a local hire cycle.",
   features: ["Cloud Migration (AWS, Azure, GCP)", "IT Infrastructure Assessment", "Technology Roadmap Planning", "Cybersecurity Consulting", "DevOps Implementation", "Managed IT Services"],
   technologies: ["AWS", "Microsoft Azure", "Google Cloud", "Docker", "Kubernetes"]
+}, {
+  icon: Database,
+  title: "E-commerce Development",
+  slug: "ecommerce-development",
+  description: "Shopify and headless commerce for international brands — multi-currency checkout, SEO-safe migrations and clear scopes.",
+  features: ["Shopify & Shopify Plus", "Headless Next.js commerce", "Multi-currency & tax", "App integrations", "Migration & redirects", "CRO-ready storefronts"],
+  technologies: ["Shopify", "Next.js", "Stripe", "Hydrogen", "TypeScript"]
+}, {
+  icon: Layers,
+  title: "UI/UX Design",
+  slug: "ui-ux-design",
+  description: "Product UI, design systems and conversion-focused landings with developer-ready Figma handoff.",
+  features: ["SaaS product UI", "Design systems", "Marketing landings", "Prototyping", "Accessibility-minded UI", "Engineering handoff"],
+  technologies: ["Figma", "Design tokens", "Storybook", "WCAG"]
+}, {
+  icon: Shield,
+  title: "CRM & ERP Solutions",
+  slug: "crm-erp-solutions",
+  description: "Custom CRM, ERP and internal tools that match your workflows instead of forcing another rigid suite.",
+  features: ["Custom CRM modules", "ERP / ops portals", "Integrations", "Role-based access", "Reporting", "Data migration"],
+  technologies: ["React", "Node.js", "Python", "PostgreSQL"]
+}, {
+  icon: Code,
+  title: "Dedicated Development Teams",
+  slug: "dedicated-development-teams",
+  description: "Hire dedicated developers from India — named seniors in your Slack and GitHub with agreed timezone overlap.",
+  features: ["Interview-first staffing", "Monthly pods", "US/UK/Gulf overlap", "NDA & IP assignment", "Pilot sprints", "Transparent rates"],
+  technologies: ["React", "Node.js", "Flutter", "Python"]
 }];
 
 const process = [{
