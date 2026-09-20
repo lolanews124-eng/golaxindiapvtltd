@@ -13,7 +13,6 @@ import FAQSection from "@/components/shared/FAQSection";
 import CTABanner from "@/components/shared/CTABanner";
 import SectionHeader from "@/components/shared/SectionHeader";
 import GeoReachSection from "@/components/shared/GeoReachSection";
-import DirectAnswersSection from "@/components/seo/DirectAnswersSection";
 import { homeFaqs } from "@/data/siteFaqs";
 import heroBanner from "@/assets/hero-banner.jpg";
 import techPattern from "@/assets/tech-pattern.jpg";
@@ -64,33 +63,24 @@ const services = [{
   href: "/services/crm-erp-solutions"
 }];
 const portfolioPreview = [
-  { title: "US SaaS Analytics MVP", category: "Software", icon: Code, description: "Series-A analytics product for a US founder — shipped in 12 weeks with CI/CD and SOC2-ready practices.", highlight: "12-week MVP", color: "from-blue-500 to-cyan-500" },
-  { title: "HealthFirst Patient App", category: "Mobile App", icon: Smartphone, description: "Telemedicine and appointments app with Stripe billing — live on App Store & Play Store.", highlight: "15,000+ downloads", color: "from-green-500 to-emerald-500" },
-  { title: "UK E-commerce Rebuild", category: "Web Development", icon: Globe, description: "Headless Next.js store for a UK retailer — faster checkout and 40% lower hosting cost.", highlight: "40% cost cut", color: "from-purple-500 to-pink-500" },
+  { title: "SaaS analytics MVP", category: "Software", icon: Code, description: "Example shape: analytics SaaS MVP with CI/CD for an international product team — details published when clients approve case studies.", highlight: "SaaS MVP", color: "from-blue-500 to-cyan-500" },
+  { title: "Healthcare companion app", category: "Mobile App", icon: Smartphone, description: "Example shape: appointments and billing companion for iOS/Android — anonymized until a named case study is approved.", highlight: "Mobile", color: "from-green-500 to-emerald-500" },
+  { title: "Headless commerce rebuild", category: "Web Development", icon: Globe, description: "Example shape: Next.js headless storefront with improved checkout UX for an overseas retailer.", highlight: "Commerce", color: "from-purple-500 to-pink-500" },
 ];
 
 const trustStats = [
-  { icon: Briefcase, value: "150+", label: "Projects Delivered" },
-  { icon: Users, value: "50+", label: "Happy Clients" },
-  { icon: Globe, value: "12+", label: "Countries Served" },
-  { icon: MapPin, value: "$25–45", label: "Hourly (USD)" },
+  { icon: Briefcase, value: "Web · SaaS · Mobile", label: "Delivery focus" },
+  { icon: Users, value: "Dedicated pods", label: "Staffing model" },
+  { icon: Globe, value: "10+ markets", label: "Buyer regions" },
+  { icon: MapPin, value: "Multi-currency", label: "Billing options" },
 ];
-const testimonials = [{
-  name: "Michael Torres",
-  role: "Founder, SaaS Startup — Austin, TX",
-  content: "We needed a senior squad without SF Bay Area rates. Golax shipped our MVP in 12 weeks, joined our Slack daily, and the code quality passed investor diligence.",
-  rating: 5
-}, {
-  name: "Sarah Mitchell",
-  role: "CTO, E-commerce Brand — London",
-  content: "Clear GBP invoicing, GDPR-aware engineering, and a PM who works our hours. Feels like an extended in-house team — at a fraction of local cost.",
-  rating: 5
-}, {
-  name: "James Chen",
-  role: "Product Lead, Fintech — Toronto",
-  content: "Dedicated React and Node engineers, transparent CAD billing, and strong communication. Our release cadence doubled in the first quarter.",
-  rating: 5
-}];
+const testimonials: {
+  name: string;
+  role: string;
+  content: string;
+  rating: number;
+}[] = [];
+/* Real testimonials: add only verified quotes with company attribution (see trust config). */
 const industries = [
   { icon: ShoppingCart, name: "E-commerce & Retail" },
   { icon: GraduationCap, name: "Education & EdTech" },
@@ -110,7 +100,6 @@ const process = [
   { icon: Rocket, step: "05", title: "Launch & Handover", desc: "Production deploy, docs, runbooks and knowledge transfer so your team owns the product." },
   { icon: Shield, step: "06", title: "Support & Scale", desc: "Optional care plans, dedicated retainers or expanded squads as you grow across markets." },
 ];
-const faqs = homeFaqs.map((f) => ({ q: f.question, a: f.answer }));
 export default function Index() {
   return <Layout>
       
@@ -120,12 +109,11 @@ export default function Index() {
         <div className="absolute inset-0">
           <Image
             src={heroBanner}
-            alt=""
+            alt="Golax India offshore software team collaborating for international product clients"
             fill
             priority
             sizes="100vw"
             className="object-cover"
-            aria-hidden
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/88 to-primary/75" />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-primary/20" />
@@ -177,8 +165,8 @@ export default function Index() {
                 transition={{ delay: 0.3 }}
                 className="heading-display text-[1.65rem] sm:text-4xl md:text-5xl lg:text-[3.25rem] text-primary-foreground mb-4 sm:mb-6"
               >
-                Hire Senior Engineers from India —{" "}
-                <span className="text-accent">For Your US & Global Product</span>
+                Offshore Software Development Company —{" "}
+                <span className="text-accent">Hire Dedicated Developers from India</span>
               </motion.h1>
               
               <motion.p 
@@ -187,7 +175,7 @@ export default function Index() {
                 transition={{ delay: 0.4 }}
                 className="text-base sm:text-lg text-primary-foreground/90 mb-6 sm:mb-8 leading-relaxed max-w-xl"
               >
-                Outsource web, SaaS and mobile development to a trusted India team. USD billing, 4–5 hours US timezone overlap, NDA & IP assignment — save 40–60% vs local hiring.
+                Outsource software development to India with Golax India — senior web, SaaS and mobile engineers, clear multi-currency scopes, timezone overlap, and NDA/IP assignment before coding.
               </motion.p>
               
               <motion.div 
@@ -218,22 +206,13 @@ export default function Index() {
                 className="flex flex-col sm:flex-row flex-wrap items-start sm:items-center gap-4 sm:gap-6 pt-4 sm:pt-6 border-t border-primary-foreground/20"
               >
                 <div className="flex items-center gap-2">
-                  <div className="flex -space-x-2">
-                    {[1,2,3,4].map((i) => (
-                      <div key={i} className="w-8 h-8 rounded-full bg-accent/80 border-2 border-primary flex items-center justify-center text-xs font-bold text-white">
-                        {i === 1 ? 'A' : i === 2 ? 'R' : i === 3 ? 'S' : 'P'}
-                      </div>
-                    ))}
-                  </div>
                   <div className="text-sm text-primary-foreground/80">
-                    <span className="font-semibold text-primary-foreground">50+</span> Happy Clients
+                    <span className="font-semibold text-primary-foreground">USA · UK · UAE · Global</span> buyers
                   </div>
                 </div>
-                <div className="flex items-center gap-1">
-                  {[1,2,3,4,5].map((i) => (
-                    <Star key={i} className="w-4 h-4 fill-accent text-accent" />
-                  ))}
-                  <span className="text-sm text-primary-foreground/80 ml-1">4.9/5 Rating</span>
+                <div className="flex items-center gap-1 text-sm text-primary-foreground/80">
+                  <Shield className="w-4 h-4 text-accent" />
+                  NDA &amp; IP assignment ready
                 </div>
               </motion.div>
             </motion.div>
@@ -342,7 +321,7 @@ export default function Index() {
                 An offshore engineering partner built for founders and CTOs in the USA, UK, Canada, UAE and Australia — senior talent, clear contracts, predictable USD pricing.
               </p>
               <ul className="space-y-4">
-                {["Senior engineers at $25–$45/hr — 40–60% below US rates", "4–5 hours daily overlap with US EST/PST business hours", "NDA, MSA & IP assignment before any code is written", "Dedicated squads or fixed-scope projects — your choice", "Slack/Teams collaboration with English-fluent PMs", "MCA registered · Startup India · ISO 9001 & ISO 27001"].map((item, index) => <motion.li key={index} initial={{
+                {["Senior engineers with transparent multi-currency quotes", "Business-hour overlap for USA, UK, UAE and APAC buyers", "NDA, MSA & IP assignment before any code is written", "Dedicated squads or fixed-scope projects — your choice", "Slack/Teams collaboration with English-fluent PMs", "MCA registered · Startup India · ISO 9001 & ISO 27001"].map((item, index) => <motion.li key={index} initial={{
                 opacity: 0,
                 x: -20
               }} whileInView={{
@@ -379,15 +358,26 @@ export default function Index() {
           }} viewport={{
             once: true
           }} className="relative pb-10 sm:pb-12">
-              <Image src={techPattern} alt="Technology innovation at Golax India" className="rounded-2xl shadow-2xl w-full h-auto" loading="lazy" />
-              <div className="absolute bottom-2 left-4 right-4 sm:bottom-4 sm:left-4 sm:right-auto sm:max-w-[220px] glass-card rounded-2xl p-4 sm:p-6">
+              <Image
+                src={techPattern}
+                alt="Abstract technology pattern representing Golax India engineering delivery"
+                width={800}
+                height={600}
+                className="rounded-2xl shadow-2xl w-full h-auto"
+                loading="lazy"
+              />
+              <div className="absolute bottom-2 left-4 right-4 sm:bottom-4 sm:left-4 sm:right-auto sm:max-w-[240px] glass-card rounded-2xl p-4 sm:p-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-success flex items-center justify-center">
                     <Award className="h-6 w-6 text-success-foreground" />
                   </div>
                   <div>
-                    <div className="font-heading font-bold text-2xl text-gradient">4.8/5</div>
-                    <div className="text-sm text-muted-foreground">Client Rating</div>
+                    <div className="font-heading font-bold text-lg text-gradient">MCA · GST · ISO</div>
+                    <div className="text-sm text-muted-foreground">
+                      <Link href="/certificates" className="hover:text-primary underline-offset-2 hover:underline">
+                        View certificates
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -507,46 +497,35 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* Testimonials — only render when verified entries exist */}
+      {testimonials.length > 0 ? (
       <section className="section-padding relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-hero" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_hsl(199_89%_48%_/_0.15),transparent_60%)]" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
-            <motion.div initial={{
-            opacity: 0,
-            y: 20
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }}>
+            <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
               <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs sm:text-sm font-semibold tracking-wide bg-white/10 text-primary-foreground border border-white/20 mb-4">Client Reviews</span>
               <div className="accent-line mx-auto mb-5 bg-gradient-to-r from-accent to-primary-foreground/50" />
               <h2 className="heading-display text-3xl md:text-4xl text-primary-foreground mb-4">
                 What Our Clients Say
               </h2>
-              <p className="text-lg text-primary-foreground/80">
-                Here&apos;s what founders and product leaders in the US, UK and Canada say about working with Golax India.
-              </p>
             </motion.div>
           </div>
-
           <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
-            {testimonials.map((testimonial, index) => <motion.div key={testimonial.name} initial={{
-            opacity: 0,
-            y: 20
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            delay: index * 0.1
-          }} className="glass-card rounded-2xl p-7 sm:p-8">
+            {testimonials.map((testimonial, index) => (
+              <motion.div
+                key={testimonial.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="glass-card rounded-2xl p-7 sm:p-8"
+              >
                 <div className="flex gap-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => <Star key={i} className="h-5 w-5 fill-accent text-accent" />)}
+                  {[...Array(testimonial.rating)].map((_, i) => (
+                    <Star key={i} className="h-5 w-5 fill-accent text-accent" />
+                  ))}
                 </div>
                 <p className="text-foreground mb-6 leading-relaxed text-[15px]">&ldquo;{testimonial.content}&rdquo;</p>
                 <div className="flex items-center gap-4 pt-4 border-t border-border/60">
@@ -558,29 +537,37 @@ export default function Index() {
                     <div className="text-sm text-muted-foreground">{testimonial.role}</div>
                   </div>
                 </div>
-              </motion.div>)}
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
+      ) : (
+      <section className="section-padding bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 max-w-3xl text-center">
+          <SectionHeader
+            title="Client stories"
+            description="Verified case studies and testimonials will appear here once approved for publication — we do not display invented reviews."
+          />
+          <Button asChild variant="outline">
+            <Link href="/portfolio">View portfolio placeholders</Link>
+          </Button>
+        </div>
+      </section>
+      )}
 
       <GeoReachSection />
 
-      <DirectAnswersSection
-        title="Direct Answers for Buyers"
-        description="Short, citation-ready answers for US, UK and UAE teams evaluating an offshore partner"
-        items={homeFaqs}
-      />
-
       <FAQSection
         title="Frequently Asked Questions"
-        description="Common questions from US and international clients about outsourcing to Golax India"
-        faqs={faqs.map((f) => ({ question: f.q, answer: f.a }))}
+        description="Common questions from international buyers about outsourcing software development to India with Golax India"
+        faqs={homeFaqs}
       />
 
       <CTABanner
-        title="Ready to Hire Your Offshore Team?"
-        description="Book a free discovery call — USD quote within 24 hours. NDA available on request."
-        primaryLabel="Get a USD Quote"
+        title="Ready to hire dedicated developers from India?"
+        description="Book a free discovery call. Clear proposal after scope — NDA available on request."
+        primaryLabel="Get a project quote"
       />
     </Layout>;
 }
