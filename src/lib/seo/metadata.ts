@@ -87,7 +87,7 @@ export function formatSeoTitle(primary: string): string {
 
 /** Clamp description to 140–155 chars without cutting mid-word when possible. */
 export function formatSeoDescription(text: string): string {
-  let d = text.replace(/\s+/g, " ").trim();
+  const d = text.replace(/\s+/g, " ").trim();
   if (d.length <= DESC_MAX) {
     if (d.length < DESC_MIN && process.env.NODE_ENV === "development") {
       console.warn(
