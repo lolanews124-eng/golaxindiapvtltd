@@ -125,6 +125,8 @@ export interface BlogPostingInput {
   headline: string;
   description: string;
   datePublished: string;
+  /** Optional ISO or display date; defaults to datePublished */
+  dateModified?: string;
   author?: string;
   category?: string;
 }
@@ -142,18 +144,22 @@ export function buildBlogPostingSchema({
   headline,
   description,
   datePublished,
+  dateModified,
   author = "Golax India",
   category,
 }: BlogPostingInput) {
   const url = `${BASE_URL}/blog/${slug}`;
+  const published = parseBlogDateToIso(datePublished);
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "@id": `${url}#article`,
     headline,
     description,
-    datePublished: parseBlogDateToIso(datePublished),
-    dateModified: parseBlogDateToIso(datePublished),
+    datePublished: published,
+    dateModified: dateModified
+      ? parseBlogDateToIso(dateModified)
+      : published,
     author: {
       "@type": "Person",
       name: author,

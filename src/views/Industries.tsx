@@ -2,15 +2,15 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { 
-  GraduationCap, 
-  Heart, 
-  Rocket, 
+import {
+  GraduationCap,
+  Heart,
+  Rocket,
   Store,
   Building,
   Landmark,
   ArrowRight,
-  CheckCircle
+  CheckCircle,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import HeroLeadForm from "@/components/forms/HeroLeadForm";
@@ -19,119 +19,129 @@ import Layout from "@/components/layout/Layout";
 const industries = [
   {
     icon: GraduationCap,
-    title: "Education",
-    description: "Transforming education in Bihar with technology. From learning management systems to student portals, we help educational institutions deliver better learning experiences.",
+    title: "Education & EdTech",
+    description:
+      "LMS portals, student apps and assessment platforms for schools, universities and EdTech startups serving learners in the USA, UK, UAE and beyond.",
     solutions: [
       "Learning Management Systems (LMS)",
-      "Student Information Systems",
-      "Online Examination Platforms",
-      "Virtual Classroom Solutions",
-      "Educational Mobile Apps",
+      "Student portals & SIS",
+      "Online examination platforms",
+      "Virtual classroom tools",
+      "EdTech mobile apps",
     ],
-    clients: ["Schools", "Colleges", "Coaching Centers", "EdTech Startups"],
+    clients: ["Schools", "Universities", "EdTech Startups", "Training Orgs"],
+    serviceHref: "/services/web-development",
   },
   {
     icon: Heart,
     title: "Healthcare",
-    description: "Empowering healthcare providers in Patna with digital solutions. We build systems that improve patient care and streamline hospital operations.",
+    description:
+      "Patient apps, clinic portals and telemedicine workflows for healthcare providers who need GDPR/HIPAA-aware delivery and reliable offshore capacity.",
     solutions: [
-      "Hospital Management Systems",
-      "Patient Portal Development",
-      "Telemedicine Platforms",
-      "Appointment Booking Systems",
-      "Healthcare Mobile Apps",
+      "Hospital & clinic management",
+      "Patient portals",
+      "Telemedicine platforms",
+      "Appointment booking",
+      "Healthcare mobile apps",
     ],
-    clients: ["Hospitals", "Clinics", "Diagnostic Centers", "Pharmacies"],
+    clients: ["Clinics", "Hospitals", "Diagnostics", "Healthtech"],
+    serviceHref: "/services/mobile-app-development",
   },
   {
     icon: Rocket,
-    title: "Startups",
-    description: "Partner with Bihar's most promising startups to build their digital products. We help turn ideas into scalable, market-ready solutions.",
+    title: "Startups & Scale-ups",
+    description:
+      "MVP to growth-stage product engineering for founders abroad — React/Next.js, Flutter and SaaS backends with USD billing and NDA/IP assignment.",
     solutions: [
-      "MVP Development",
-      "Product Scaling",
-      "Tech Consulting",
-      "Full-Stack Development",
-      "Growth Hacking",
+      "MVP & product discovery",
+      "SaaS platform builds",
+      "Dedicated engineering pods",
+      "Tech consulting",
+      "Full-stack delivery",
     ],
-    clients: ["Tech Startups", "D2C Brands", "FinTech", "AgriTech"],
+    clients: ["SaaS", "D2C", "FinTech", "Marketplaces"],
+    serviceHref: "/services/software-development",
   },
   {
     icon: Store,
-    title: "Local Businesses",
-    description: "Helping Patna's local businesses go digital. From restaurants to retail stores, we create solutions that drive growth and customer engagement.",
+    title: "Retail & E-commerce",
+    description:
+      "Storefronts, inventory systems and omnichannel experiences for retailers and brands selling across US, UK, UAE and APAC markets.",
     solutions: [
-      "E-commerce Websites",
-      "POS Systems",
-      "Inventory Management",
-      "Customer Apps",
-      "Digital Marketing",
+      "E-commerce websites",
+      "Headless / Shopify builds",
+      "Inventory & POS",
+      "Customer apps",
+      "Performance SEO",
     ],
-    clients: ["Retail Stores", "Restaurants", "Service Providers", "Wholesalers"],
+    clients: ["Retail chains", "D2C brands", "Marketplaces"],
+    serviceHref: "/services/web-development",
   },
   {
     icon: Building,
-    title: "Real Estate",
-    description: "Digital solutions for the real estate sector in Bihar. We help builders and agents manage properties and reach more customers.",
+    title: "Real Estate & PropTech",
+    description:
+      "Listing portals, CRM and agent apps for brokers and PropTech teams that need fast iteration without local hire overhead.",
     solutions: [
-      "Property Listing Portals",
-      "CRM for Real Estate",
-      "Virtual Tour Solutions",
-      "Lead Management Systems",
-      "Agent Mobile Apps",
+      "Property listing portals",
+      "Real-estate CRM",
+      "Virtual tour flows",
+      "Lead management",
+      "Agent mobile apps",
     ],
-    clients: ["Builders", "Real Estate Agents", "Property Managers"],
+    clients: ["Brokerages", "Builders", "PropTech"],
+    serviceHref: "/services/software-development",
   },
   {
     icon: Landmark,
-    title: "Government & PSUs",
-    description: "Supporting digital governance initiatives in Bihar. We develop secure, scalable solutions for government departments and public sector units.",
+    title: "Finance & Professional Services",
+    description:
+      "Secure portals, dashboards and marketing sites for fintech and professional services firms that care about audit trails and clear SLAs.",
     solutions: [
-      "E-Governance Portals",
-      "Citizen Service Apps",
-      "Document Management Systems",
-      "Public Grievance Systems",
-      "Data Analytics Dashboards",
+      "Client portals",
+      "Analytics dashboards",
+      "Document workflows",
+      "Compliance-friendly UX",
+      "SEO & paid acquisition",
     ],
-    clients: ["Government Departments", "Municipal Bodies", "PSUs"],
+    clients: ["FinTech", "Advisory", "Insurance"],
+    serviceHref: "/services/digital-marketing",
   },
 ];
 
 export default function Industries() {
   return (
     <Layout>
-      
-      {/* Hero Section */}
       <section className="relative py-20 bg-gradient-hero overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-[1fr_400px] xl:grid-cols-[1fr_420px] gap-10 items-start">
-              <div className="max-w-2xl">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              <span className="inline-block px-4 py-2 bg-accent/20 text-accent rounded-full text-sm font-medium mb-6">
-                Industries We Serve
-              </span>
-              <h1 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground leading-tight mb-6">
-                IT Solutions for{" "}
-                <span className="text-accent">Every Industry</span>
-              </h1>
-              <p className="text-xl text-primary-foreground/80 leading-relaxed">
-                From education to healthcare, startups to government, we deliver tailored 
-                technology solutions that address unique industry challenges in Bihar.
-              </p>
-            </motion.div>
-          </div>
-              <div className="w-full">
-                <HeroLeadForm context="Industries We Serve" variant="light" />
-              </div>
+            <div className="max-w-2xl">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                <span className="inline-block px-4 py-2 bg-accent/20 text-accent rounded-full text-sm font-medium mb-6">
+                  Industries We Serve
+                </span>
+                <h1 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground leading-tight mb-6">
+                  Industry IT Solutions for{" "}
+                  <span className="text-accent">USA & Global Buyers</span>
+                </h1>
+                <p className="text-xl text-primary-foreground/80 leading-relaxed">
+                  Tailored offshore web, SaaS and mobile delivery for education, healthcare,
+                  startups, retail, real estate and finance — senior India engineers, multi-currency
+                  billing and NDA/IP-ready contracts.
+                </p>
+              </motion.div>
             </div>
+            <div className="w-full">
+              <HeroLeadForm context="Industries We Serve" variant="light" />
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Industries Grid */}
       <section className="py-20 bg-card">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-8">
@@ -152,16 +162,17 @@ export default function Industries() {
                     {industry.title}
                   </h2>
                 </div>
-                
-                <p className="text-muted-foreground mb-6">
-                  {industry.description}
-                </p>
+
+                <p className="text-muted-foreground mb-6">{industry.description}</p>
 
                 <div className="mb-6">
-                  <h4 className="font-semibold text-foreground mb-3">Solutions We Offer:</h4>
+                  <h3 className="font-semibold text-foreground mb-3">Solutions we offer</h3>
                   <ul className="space-y-2">
-                    {industry.solutions.map((solution, i) => (
-                      <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
+                    {industry.solutions.map((solution) => (
+                      <li
+                        key={solution}
+                        className="flex items-center gap-2 text-sm text-muted-foreground"
+                      >
                         <CheckCircle className="h-4 w-4 text-success flex-shrink-0" />
                         {solution}
                       </li>
@@ -169,23 +180,29 @@ export default function Industries() {
                   </ul>
                 </div>
 
-                <div className="flex flex-wrap gap-2">
-                  {industry.clients.map((client, i) => (
+                <div className="flex flex-wrap gap-2 mb-5">
+                  {industry.clients.map((client) => (
                     <span
-                      key={i}
+                      key={client}
                       className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-xs"
                     >
                       {client}
                     </span>
                   ))}
                 </div>
+
+                <Link
+                  href={industry.serviceHref}
+                  className="inline-flex items-center text-sm font-medium text-primary hover:underline"
+                >
+                  Related services <ArrowRight className="ml-1 h-3.5 w-3.5" />
+                </Link>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-hero" />
         <div className="container mx-auto px-4 relative z-10">
@@ -196,18 +213,23 @@ export default function Industries() {
               viewport={{ once: true }}
             >
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-                Don't See Your Industry?
+                Don&apos;t See Your Industry?
               </h2>
               <p className="text-xl text-primary-foreground/80 mb-8">
-                We work with businesses across all sectors. Let's discuss how we can help 
-                your industry with custom IT solutions.
+                We work across sectors for international product teams. Tell us your use case —
+                we&apos;ll map the right stack and delivery model.
               </p>
-              <Button asChild variant="accent" size="xl">
-                <Link href="/contact">
-                  Contact Us Today
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
+              <div className="flex flex-wrap justify-center gap-3">
+                <Button asChild variant="accent" size="xl">
+                  <Link href="/contact">
+                    Contact Us
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Link>
+                </Button>
+                <Button asChild variant="heroOutline" size="xl">
+                  <Link href="/services">Browse Services</Link>
+                </Button>
+              </div>
             </motion.div>
           </div>
         </div>

@@ -1,7 +1,9 @@
 import Locations from "@/views/Locations";
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
+import FAQPageSchema from "@/components/seo/FAQPageSchema";
 import JsonLd from "@/components/seo/JsonLd";
 import { internationalLocations } from "@/data/internationalLocations";
+import { locationsFaqs } from "@/data/siteFaqs";
 import { buildMetadata, BASE_URL } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
@@ -9,6 +11,8 @@ export const metadata = buildMetadata({
   title: "International Locations – Offshore Markets We Serve",
   description:
     "Golax India delivers offshore web, software and app development for clients in the USA, UK, Canada, UAE, Australia, Singapore, Germany and more.",
+  keywords:
+    "offshore development USA, hire developers UK, IT outsourcing UAE, software development Canada, web development Australia, Golax India locations",
   canonicalUrl: "/locations",
 });
 
@@ -31,6 +35,7 @@ export default function Page() {
   return (
     <>
       <OrganizationSchema />
+      <FAQPageSchema faqs={locationsFaqs} />
       <JsonLd data={itemList} />
       <JsonLd
         data={buildBreadcrumbSchema([

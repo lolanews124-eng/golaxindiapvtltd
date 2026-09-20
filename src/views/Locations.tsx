@@ -9,7 +9,9 @@ import PageHero from "@/components/shared/PageHero";
 import SectionHeader from "@/components/shared/SectionHeader";
 import TrustBar from "@/components/shared/TrustBar";
 import CTABanner from "@/components/shared/CTABanner";
+import FAQSection from "@/components/shared/FAQSection";
 import { internationalLocations, slugifyCity } from "@/data/internationalLocations";
+import { locationsFaqs } from "@/data/siteFaqs";
 
 export default function Locations() {
   return (
@@ -110,10 +112,32 @@ export default function Locations() {
         </div>
       </section>
 
+      <FAQSection
+        title="Locations FAQs"
+        description="Where we deliver and how international collaboration works"
+        faqs={locationsFaqs}
+      />
+
       <CTABanner
         title="Don't See Your Country?"
         description="We work with clients worldwide. Tell us where you're based and we'll share timezone overlap, engagement models, and a free estimate."
       />
+      <div className="bg-card border-t border-border py-8">
+        <div className="container mx-auto px-4 flex flex-wrap justify-center gap-4 text-sm">
+          <Link href="/services/web-development" className="text-primary hover:underline">
+            Web Development
+          </Link>
+          <Link href="/services/software-development" className="text-primary hover:underline">
+            Software Development
+          </Link>
+          <Link href="/services/mobile-app-development" className="text-primary hover:underline">
+            Mobile Apps
+          </Link>
+          <Link href="/contact" className="text-primary hover:underline">
+            Get a Quote
+          </Link>
+        </div>
+      </div>
     </Layout>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { 
   Briefcase, 
@@ -51,9 +52,9 @@ const openings = [
     title: "Senior React Developer",
     department: "Development",
     type: "Full-time",
-    location: "Patna, Bihar",
+    location: "Patna HQ · Remote-friendly",
     experience: "3-5 years",
-    description: "We're looking for an experienced React developer to join our team and work on exciting projects for clients across Bihar.",
+    description: "Build React/TypeScript web products for USA, UK, UAE and other international clients with senior mentors and clear ownership.",
     requirements: [
       "3+ years of experience with React.js",
       "Strong understanding of JavaScript/TypeScript",
@@ -67,9 +68,9 @@ const openings = [
     title: "Mobile App Developer (React Native)",
     department: "Development",
     type: "Full-time",
-    location: "Patna, Bihar",
+    location: "Patna HQ · Remote-friendly",
     experience: "2-4 years",
-    description: "Join our mobile team to build cross-platform applications for iOS and Android using React Native.",
+    description: "Ship cross-platform iOS/Android apps with React Native for global product teams—store releases, not demos.",
     requirements: [
       "2+ years of React Native experience",
       "Published apps on App Store/Play Store",
@@ -83,9 +84,9 @@ const openings = [
     title: "Digital Marketing Executive",
     department: "Marketing",
     type: "Full-time",
-    location: "Patna, Bihar",
+    location: "Patna HQ · Remote-friendly",
     experience: "1-3 years",
-    description: "Help our clients grow their online presence through SEO, social media, and paid advertising.",
+    description: "Drive SEO, content and paid acquisition for international client brands and Golax India’s own growth channels.",
     requirements: [
       "Experience with SEO and Google Analytics",
       "Knowledge of social media marketing",
@@ -99,9 +100,9 @@ const openings = [
     title: "UI/UX Designer",
     department: "Design",
     type: "Full-time",
-    location: "Patna, Bihar (Hybrid)",
+    location: "Patna HQ · Hybrid",
     experience: "2-4 years",
-    description: "Create beautiful, user-centered designs for web and mobile applications.",
+    description: "Design conversion-focused web and mobile experiences for SaaS and commerce products serving global markets.",
     requirements: [
       "Proficiency in Figma and Adobe Creative Suite",
       "Strong portfolio showcasing UI/UX projects",
@@ -184,8 +185,8 @@ export default function Careers() {
                 <span className="text-accent">Golax India</span>
               </h1>
               <p className="text-xl text-primary-foreground/80 leading-relaxed">
-                Join Patna's leading IT company and work on exciting projects that make a difference. 
-                We're always looking for talented individuals to join our team.
+                Join an India delivery team shipping for USA, UK, UAE and global product companies.
+                Build real products with senior mentors — remote-friendly culture, clear growth paths.
               </p>
             </motion.div>
           </div>
@@ -435,6 +436,23 @@ export default function Careers() {
               </Button>
             </motion.form>
           </div>
+        </div>
+      </section>
+
+      <section className="py-10 border-t border-border bg-card">
+        <div className="container mx-auto px-4 flex flex-wrap justify-center gap-4 text-sm">
+          <Link href="/about" className="text-primary hover:underline">
+            About Golax India
+          </Link>
+          <Link href="/services" className="text-primary hover:underline">
+            Our Services
+          </Link>
+          <Link href="/certificates" className="text-primary hover:underline">
+            Certificates
+          </Link>
+          <Link href="/contact" className="text-primary hover:underline">
+            Contact
+          </Link>
         </div>
       </section>
     </Layout>

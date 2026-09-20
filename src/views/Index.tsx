@@ -310,6 +310,13 @@ export default function Index() {
                 </Link>
               </motion.div>)}
           </div>
+          <div className="mt-10 text-center">
+            <Button asChild variant="outline" size="lg">
+              <Link href="/services">
+                View All Services <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -356,6 +363,9 @@ export default function Index() {
                 </Button>
                 <Button asChild variant="outline" size="lg">
                   <Link href="/certificates">View Certificates</Link>
+                </Button>
+                <Button asChild variant="outline" size="lg">
+                  <Link href="/blog">Read Insights</Link>
                 </Button>
               </div>
             </motion.div>

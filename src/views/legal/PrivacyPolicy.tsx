@@ -56,10 +56,10 @@ export default function PrivacyPolicy() {
               className="prose prose-lg max-w-none mb-12"
             >
               <p className="text-muted-foreground leading-relaxed">
-                At Golax India IT Solutions ("we," "our," or "us"), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our services, or engage with us in any way. By accessing or using our services, you agree to the terms of this Privacy Policy.
+                At Golax India Private Limited ("we," "our," or "us"), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, use our services, or engage with us in any way. By accessing or using our services, you agree to the terms of this Privacy Policy.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Golax India IT Solutions is a leading IT company headquartered in Patna, Bihar, India. We provide web development, software development, mobile app development, digital marketing, and IT consulting services to clients across Bihar and India.
+                Golax India Private Limited is an offshore software, web and mobile development company headquartered in Patna, Bihar, India. We provide IT services to startups and enterprises in the United States, United Kingdom, UAE, Canada, Australia and other international markets.
               </p>
             </motion.div>
 

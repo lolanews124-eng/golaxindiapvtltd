@@ -114,3 +114,39 @@ export const servicesFaqs: FaqItem[] = [
       "No — we serve the United States, United Kingdom, UAE, Canada, Australia, Singapore, Germany, Saudi Arabia, New Zealand and Qatar. Browse markets under /locations.",
   },
 ];
+
+export const industriesFaqs: FaqItem[] = [
+  {
+    question: "Which industries does Golax India support for offshore delivery?",
+    answer:
+      "Education/EdTech, healthcare, startups and scale-ups, retail/e-commerce, real estate/PropTech, and finance/professional services — with sector-aware UX, security and compliance defaults.",
+  },
+  {
+    question: "Can you build industry-specific SaaS or portals for overseas buyers?",
+    answer:
+      "Yes. We ship custom portals, mobile apps and SaaS products for international clients, with multi-currency billing and IP assignment to your foreign entity.",
+  },
+  {
+    question: "How do I start an industry-specific project?",
+    answer:
+      "Book a discovery call or email contact@golaxindia.com with your sector and goals. We reply within 2 business hours with a USD estimate.",
+  },
+];
+
+export const locationsFaqs: FaqItem[] = [
+  {
+    question: "Which countries does Golax India serve?",
+    answer:
+      "United States, United Kingdom, United Arab Emirates, Canada, Australia, Singapore, Germany, Saudi Arabia, New Zealand and Qatar — with timezone-aware delivery from India.",
+  },
+  {
+    question: "Do you have offices in the USA or UK?",
+    answer:
+      "Delivery HQ is in Patna, India. We collaborate remotely with US/UK/UAE teams via Slack/Teams, with billing in local currencies (USD, GBP, AED, etc.).",
+  },
+  {
+    question: "Can I hire for a specific city like New York, London or Dubai?",
+    answer:
+      "Yes — we publish city pages under /locations/global for major markets. Engagements remain offshore from India with senior engineers assigned to your product.",
+  },
+];

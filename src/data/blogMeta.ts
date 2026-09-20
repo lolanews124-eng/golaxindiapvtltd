@@ -5,96 +5,68 @@ const legacyBlogMeta: Record<
   string,
   { seoTitle: string; description: string; keywords: string }
 > = {
-  "digital-transformation-patna-businesses": {
-    seoTitle: "Patna Digital Transformation Guide",
-    description:
-      "How Patna & Bihar businesses can thrive with digital transformation — e-commerce, cloud, SEO & automation strategies for 2026.",
-    keywords:
-      "digital transformation Patna, digital marketing Patna, IT company Patna, business technology Bihar, e-commerce Patna",
-  },
-  "seo-tips-local-businesses-patna": {
-    seoTitle: "10 Local SEO Tips for Patna Business",
-    description:
-      "10 practical local SEO tips for Patna businesses — Google Business Profile, local keywords, reviews & rankings in 2026.",
-    keywords:
-      "local SEO Patna, SEO tips Patna, Google ranking Patna, SEO company Patna, local business SEO Bihar",
-  },
   "mobile-app-development-trends-2026": {
-    seoTitle: "Top Mobile App Trends 2026",
+    seoTitle: "Mobile App Trends 2026 for Product Teams",
     description:
-      "Mobile app development trends for 2026 — AI, Flutter, React Native, 5G & cross-platform strategies for Indian businesses.",
+      "2026 mobile trends that matter: practical AI, Flutter/React Native, privacy defaults, offline-first UX, and release discipline for global apps.",
     keywords:
-      "mobile app trends 2026, app development trends India, Flutter 2026, React Native trends, mobile app development India",
+      "mobile app trends 2026, Flutter development, React Native 2026, cross-platform apps, mobile app development company",
   },
   "choosing-right-technology-stack": {
-    seoTitle: "Choose Your Startup Tech Stack",
+    seoTitle: "How to Choose a Startup Tech Stack",
     description:
-      "How to choose the right technology stack for your startup — React, Node.js, Python, budget, scalability & team skills.",
+      "A practical framework for choosing frontend, backend, data and mobile stacks—time-to-market, hiring, cost and scale without cargo-cult architecture.",
     keywords:
-      "technology stack startup, choose tech stack, React vs Node, startup development India, software stack 2026",
+      "choose technology stack, startup tech stack, React Node PostgreSQL, Flutter vs native, software architecture consulting",
   },
   "ecommerce-website-essentials": {
     seoTitle: "Must-Have E-commerce Features 2026",
     description:
-      "Essential e-commerce website features for 2026 — checkout, mobile UX, payments, SEO & conversion optimization.",
+      "Essential e-commerce features for international stores—mobile checkout, multi-currency payments, SEO, trust and conversion UX in 2026.",
     keywords:
-      "e-commerce website features, online store India, WooCommerce features, Shopify India, e-commerce development",
+      "e-commerce website features, online store development, Shopify headless, multi-currency checkout, e-commerce UX 2026",
   },
   "cloud-migration-guide-smes": {
-    seoTitle: "Cloud Migration Guide for SMBs",
+    seoTitle: "Cloud Migration Guide for Growing Businesses",
     description:
-      "Cloud migration guide for SMEs — AWS, Azure, cost planning, security & step-by-step migration for Indian businesses.",
+      "Phased cloud migration to AWS, Azure or GCP—cost control, security baselines, landing zones and cutover plans for SMEs and mid-market teams.",
     keywords:
-      "cloud migration SME, AWS migration India, cloud computing SMB, Azure India, IT consulting cloud",
-  },
-  "social-media-marketing-bihar": {
-    seoTitle: "Social Media Marketing for Bihar",
-    description:
-      "Social media marketing strategies for Bihar businesses — Facebook, Instagram, WhatsApp & content that converts.",
-    keywords:
-      "social media marketing Bihar, digital marketing Patna, Instagram marketing Bihar, Facebook ads Patna",
+      "cloud migration guide, AWS Azure GCP migration, SME cloud computing, cloud landing zone, IT consulting cloud",
   },
   "website-security-best-practices": {
-    seoTitle: "Website Security Best Practices",
+    seoTitle: "Website Security Best Practices 2026",
     description:
-      "Website security best practices for small businesses — SSL, backups, malware protection & secure hosting in 2026.",
+      "Security baseline for marketing sites and SaaS—TLS, MFA, backups, WAF, dependency hygiene and an incident playbook founders can run.",
     keywords:
-      "website security India, SSL certificate, website hacking prevention, secure website SMB, cybersecurity small business",
+      "website security best practices, web application hardening, SSL WAF backups, cybersecurity SMB, secure website development",
   },
   "react-vs-angular-2026": {
-    seoTitle: "React vs Angular: 2026 Comparison",
+    seoTitle: "React vs Angular in 2026",
     description:
-      "React vs Angular in 2026 — performance, ecosystem, hiring & which JavaScript framework to choose for your project.",
+      "React vs Angular for 2026 product teams—hiring, architecture, Next.js defaults, enterprise fit and when each framework pays off.",
     keywords:
-      "React vs Angular 2026, JavaScript framework comparison, React development India, Angular vs React startup",
+      "React vs Angular 2026, JavaScript framework comparison, Next.js vs Angular, frontend framework choice, React development",
   },
   "ai-transforming-business-operations": {
-    seoTitle: "How AI Transforms Indian Business",
+    seoTitle: "How AI Transforms Business Operations",
     description:
-      "How AI transforms business operations in India — chatbots, automation, predictive analytics & practical use cases for SMEs.",
+      "Practical AI for support, sales, ops and finance—phased adoption, ROI metrics, governance and avoiding demo-ware.",
     keywords:
-      "AI business India, artificial intelligence SME, AI automation India, ChatGPT business, AI software development",
+      "AI business operations, AI automation ROI, applied AI consulting, chatbot automation, AI software development",
   },
   "building-scalable-web-applications": {
-    seoTitle: "Scalable Web App Development Guide",
+    seoTitle: "Scalable Web Application Architecture",
     description:
-      "Building scalable web applications — architecture, microservices, caching, databases & performance for high-traffic apps.",
+      "Build scalable web apps in stages—stateless APIs, caching, async jobs, data strategy and observability without premature microservices.",
     keywords:
-      "scalable web application, web app architecture, microservices India, high traffic website, Node.js scalability",
-  },
-  "government-schemes-digital-india": {
-    seoTitle: "Digital India Schemes for Bihar",
-    description:
-      "Government Digital India schemes & MSME subsidies for Bihar businesses — funding opportunities for digitization in 2026.",
-    keywords:
-      "Digital India scheme, MSME digital subsidy Bihar, government IT scheme India, startup funding Bihar",
+      "scalable web application, web app architecture, horizontal scaling, Redis caching, Node.js scalability",
   },
   "ux-design-principles-conversion": {
     seoTitle: "UX Principles That Boost Conversion",
     description:
-      "UX design principles that boost conversion rates — navigation, CTAs, mobile UX, trust signals & A/B testing tips.",
+      "Conversion-focused UX—clarity, hierarchy, friction cuts, trust near CTAs and measurement loops that beat cosmetic redesigns.",
     keywords:
-      "UX design conversion, website UX India, conversion rate optimization, UI UX design company, CRO tips",
+      "UX design conversion, conversion rate optimization, website UX audit, CTA design, CRO tips 2026",
   },
 };
 

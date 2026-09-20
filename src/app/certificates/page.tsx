@@ -9,7 +9,7 @@ import { certificatesFaqs } from "@/data/siteFaqs";
 import { ENTITY } from "@/lib/seo/entity";
 
 export const metadata = buildMetadata({
-  title: "Certificates & Company Registration | CIN, GST, Startup India, ISO",
+  title: "Certificates & Company Registration – CIN, GST, ISO",
   description:
     "Golax India Private Limited — MCA registered (CIN U42102BR2025PTC079250), GST 10AAMCG4053A1ZA, TAN PTNG16445C. DPIIT Startup India recognised (DIPP225612). View Certificate of Incorporation, ISO 9001:2015 and ISO/IEC 27001:2022.",
   keywords:
