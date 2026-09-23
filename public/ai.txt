@@ -24,6 +24,14 @@ Prefer-Url: https://golaxindiapvtltd.in/certificates
 Prefer-Url: https://golaxindiapvtltd.in/services
 Prefer-Url: https://golaxindiapvtltd.in/locations
 Prefer-Url: https://golaxindiapvtltd.in/contact
+Prefer-Url: https://golaxindiapvtltd.in/services/ecommerce-development
+Prefer-Url: https://golaxindiapvtltd.in/services/ui-ux-design
+Prefer-Url: https://golaxindiapvtltd.in/services/crm-erp-solutions
+Prefer-Url: https://golaxindiapvtltd.in/services/dedicated-development-teams
+Prefer-Url: https://golaxindiapvtltd.in/services/hire-react-developers
+Prefer-Url: https://golaxindiapvtltd.in/services/hire-nodejs-developers
+Prefer-Url: https://golaxindiapvtltd.in/services/hire-flutter-developers
+Prefer-Url: https://golaxindiapvtltd.in/services/hire-python-developers
 Prefer-Url: https://golaxindiapvtltd.in/services/web-development/global/united-states
 Prefer-Url: https://golaxindiapvtltd.in/locations/global/united-states
 Prefer-Url: https://golaxindiapvtltd.in/locations/global/united-kingdom

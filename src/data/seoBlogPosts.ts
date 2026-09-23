@@ -431,7 +431,7 @@ Choose an offshore partner experienced with international contracts, USD/GBP bil
 
 ## Why Businesses Choose Golax India
 
-- 10+ years experience, 150+ projects delivered
+- Senior engineers lead every engagement, with NDA and IP assignment before coding
 - Senior engineers lead every project — no bait-and-switch
 - Transparent pricing in USD / GBP / AED (and INR when needed) with written proposals
 - Web, software, mobile, SEO under one roof

@@ -25,8 +25,7 @@ import { InternationalCityData } from "@/data/internationalLocations";
 import { getCityPageContent } from "@/data/cityPageContent";
 import { getServiceCountryHref } from "@/data/serviceCountryContent";
 import JsonLd from "@/components/seo/JsonLd";
-import KeywordTopicsSection from "@/components/seo/KeywordTopicsSection";
-import { buildCitySeoSections, getCitySearchTerms } from "@/lib/seo/internationalKeywords";
+import { buildCitySeoSections } from "@/lib/seo/internationalKeywords";
 import CityLeadForm from "./CityLeadForm";
 
 const PHONE_DISPLAY = "+91 9128666005";
@@ -53,7 +52,6 @@ export default function InternationalCityTemplate({ data }: Props) {
   const description =
     unique?.metaDescription ??
     `Offshore web development, mobile app, SaaS, and digital marketing partner for ${city} businesses in ${country.country}. ${country.timezoneOverlap} overlap, transparent ${country.currency} pricing, senior India-based engineers. Hire developers from India for your ${city} project.`;
-  const searchTerms = getCitySearchTerms(city, country);
   const seoSections = unique?.seoSections ?? buildCitySeoSections(city, country);
   const heroH1 = unique?.h1 ?? (
     <>
@@ -262,13 +260,7 @@ export default function InternationalCityTemplate({ data }: Props) {
         </div>
       </section>
 
-      <KeywordTopicsSection
-        title={`What ${city} Businesses Search For`}
-        subtitle={`From "web development company in ${city}" to "hire offshore developers" — Golax India covers every high-intent IT search term for ${city} and ${country.country}.`}
-        terms={searchTerms}
-      />
-
-      {/* Long-form SEO — city-specific keyword content */}
+      {/* Long-form SEO — city-specific content */}
       <section className="py-16 bg-gradient-subtle">
         <div className="container mx-auto px-4 max-w-4xl">
           {seoSections.map((section, i) => (

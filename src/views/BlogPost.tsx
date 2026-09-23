@@ -2475,7 +2475,7 @@ export default function BlogPost({ slug }: { slug: string }) {
                 <div className="bg-gradient-hero p-5 text-primary-foreground">
                   <h3 className="font-heading font-semibold mb-1.5">Need IT Solutions?</h3>
                   <p className="text-xs text-primary-foreground/80 mb-4 leading-relaxed">
-                    Free consultation — reply within 2 hours on WhatsApp.
+                    Free consultation — reply within one business day.
                   </p>
                   <Button asChild variant="accent" size="sm" className="w-full">
                     <Link href="/contact">Get Free Quote</Link>

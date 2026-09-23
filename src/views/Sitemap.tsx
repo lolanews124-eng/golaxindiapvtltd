@@ -20,9 +20,13 @@ import {
   Search,
   FileCode,
   ExternalLink,
+  ShoppingCart,
+  Palette,
+  Database,
 } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import { services } from "@/data/serviceLocations";
+import { isServiceCountryAllowed } from "@/data/serviceCountryContent";
 import { internationalLocations, slugifyCity } from "@/data/internationalLocations";
 import { seoBlogPosts } from "@/data/seoBlogPosts";
 
@@ -54,24 +58,30 @@ const mainPages = [
 
 const servicePages = [
   { name: "Web Development", href: "/services/web-development", icon: Globe },
-  { name: "Software Development", href: "/services/software-development", icon: Code },
+  { name: "Software & SaaS", href: "/services/software-development", icon: Code },
   { name: "Mobile App Development", href: "/services/mobile-app-development", icon: Smartphone },
+  { name: "E-commerce Development", href: "/services/ecommerce-development", icon: ShoppingCart },
+  { name: "UI/UX Design", href: "/services/ui-ux-design", icon: Palette },
+  { name: "CRM & ERP", href: "/services/crm-erp-solutions", icon: Database },
+  { name: "IT Consulting & Cloud", href: "/services/it-consulting", icon: Cloud },
   { name: "Digital Marketing & SEO", href: "/services/digital-marketing", icon: TrendingUp },
-  { name: "IT Consulting", href: "/services/it-consulting", icon: Cloud },
+  { name: "Dedicated Development Teams", href: "/services/dedicated-development-teams", icon: Users },
+  { name: "Hire React Developers", href: "/services/hire-react-developers", icon: Code },
+  { name: "Hire Node.js Developers", href: "/services/hire-nodejs-developers", icon: Code },
+  { name: "Hire Flutter Developers", href: "/services/hire-flutter-developers", icon: Smartphone },
+  { name: "Hire Python Developers", href: "/services/hire-python-developers", icon: FileCode },
 ];
 
 const legalPages = [
-  { name: "Privacy Policy", href: "/privacy-policy" },
-  { name: "Terms of Service", href: "/terms-of-service" },
-  { name: "Cookie Policy", href: "/cookie-policy" },
-  { name: "Disclaimer", href: "/disclaimer" },
-  { name: "Refund Policy", href: "/refund-policy" },
+  { name: "Privacy Policy", href: "/legal/privacy-policy" },
+  { name: "Terms of Service", href: "/legal/terms-of-service" },
+  { name: "Cookie Policy", href: "/legal/cookie-policy" },
+  { name: "Disclaimer", href: "/legal/disclaimer" },
+  { name: "Refund Policy", href: "/legal/refund-policy" },
 ];
 
 export default function Sitemap() {
-  const hubServices = services.filter((s) =>
-    servicePages.some((p) => p.href.endsWith(s.slug))
-  );
+  const cityCount = internationalLocations.reduce((n, c) => n + c.majorCities.length, 0);
 
   return (
     <Layout>
@@ -235,7 +245,9 @@ export default function Sitemap() {
                   ))}
                 </div>
                 <div className="mt-4 pt-4 border-t border-border space-y-1">
-                  {hubServices.map((s) => (
+                  {services
+                    .filter((s) => isServiceCountryAllowed(s.slug, country.slug))
+                    .map((s) => (
                     <Link
                       key={`${country.slug}-${s.slug}`}
                       href={`/services/${s.slug}/global/${country.slug}`}
@@ -351,13 +363,10 @@ export default function Sitemap() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { value: "9+", label: "Main Pages" },
-              { value: "5", label: "Service Hubs" },
-              { value: `${internationalLocations.length}`, label: "Countries" },
-              {
-                value: `${internationalLocations.reduce((n, c) => n + c.majorCities.length, 0)}+`,
-                label: "Global Cities",
-              },
+              { value: String(mainPages.length), label: "Main Pages" },
+              { value: String(servicePages.length), label: "Service Pages" },
+              { value: String(internationalLocations.length), label: "Countries" },
+              { value: String(cityCount), label: "City Pages" },
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}

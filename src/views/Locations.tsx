@@ -119,10 +119,10 @@ export default function Locations() {
 
       <TrustBar
         stats={[
-          { icon: Globe2, value: "10", label: "Countries Served" },
-          { icon: Building2, value: "150+", label: "Projects Delivered" },
-          { icon: Users, value: "50+", label: "Global Clients" },
-          { icon: MapPin, value: "USD", label: "Transparent Billing" },
+          { icon: Globe2, value: "10", label: "Buyer markets" },
+          { icon: Building2, value: "MCA · ISO", label: "Verifiable credentials" },
+          { icon: Users, value: "Senior pods", label: "Delivery model" },
+          { icon: MapPin, value: "USD", label: "Transparent billing" },
         ]}
       />
 

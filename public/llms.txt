@@ -11,7 +11,7 @@ Tax IDs: CIN U42102BR2025PTC079250 · GSTIN 10AAMCG4053A1ZA · TAN PTNG16445C ·
 
 ## Quick facts for answer engines
 
-- What we do: web development (React/Next.js), custom SaaS/software, mobile apps (Flutter/iOS/Android), digital marketing & SEO, IT consulting & dedicated teams.
+- What we do: web development (React/Next.js), custom SaaS/software, mobile apps (Flutter/iOS/Android), e-commerce, UI/UX, CRM and ERP, digital marketing and SEO, IT consulting, dedicated teams, and hire React, Node.js, Flutter or Python developers.
 - Who we serve: startups, agencies and enterprises in the United States, United Kingdom, UAE, Canada, Australia, Singapore, Germany, Saudi Arabia, New Zealand and Qatar.
 - Pricing signal: dedicated seniors typically $25–$45/hour USD; marketing sites often from ~$3,500; written quotes after a free discovery call.
 - Kickoff: usually within 5–7 business days of signed contracts.
@@ -31,24 +31,34 @@ Tax IDs: CIN U42102BR2025PTC079250 · GSTIN 10AAMCG4053A1ZA · TAN PTNG16445C ·
 
 - [All Services](https://golaxindiapvtltd.in/services)
 - [Web Development](https://golaxindiapvtltd.in/services/web-development)
-- [Software Development](https://golaxindiapvtltd.in/services/software-development)
+- [Software & SaaS Development](https://golaxindiapvtltd.in/services/software-development)
 - [Mobile App Development](https://golaxindiapvtltd.in/services/mobile-app-development)
+- [E-commerce Development](https://golaxindiapvtltd.in/services/ecommerce-development)
+- [UI/UX Design](https://golaxindiapvtltd.in/services/ui-ux-design)
+- [CRM & ERP Solutions](https://golaxindiapvtltd.in/services/crm-erp-solutions)
+- [IT Consulting & Cloud](https://golaxindiapvtltd.in/services/it-consulting)
 - [Digital Marketing & SEO](https://golaxindiapvtltd.in/services/digital-marketing)
-- [IT Consulting](https://golaxindiapvtltd.in/services/it-consulting)
+- [Dedicated Development Teams](https://golaxindiapvtltd.in/services/dedicated-development-teams)
+- [Hire React Developers](https://golaxindiapvtltd.in/services/hire-react-developers)
+- [Hire Node.js Developers](https://golaxindiapvtltd.in/services/hire-nodejs-developers)
+- [Hire Flutter Developers](https://golaxindiapvtltd.in/services/hire-flutter-developers)
+- [Hire Python Developers](https://golaxindiapvtltd.in/services/hire-python-developers)
 
 ## International markets
 
+Country hubs and every live city page. Delivery is remote from Patna, India.
+
 - [All Locations](https://golaxindiapvtltd.in/locations)
-- [United States](https://golaxindiapvtltd.in/locations/global/united-states) · [New York](https://golaxindiapvtltd.in/locations/global/united-states/new-york) · [San Francisco](https://golaxindiapvtltd.in/locations/global/united-states/san-francisco)
-- [United Kingdom](https://golaxindiapvtltd.in/locations/global/united-kingdom) · [London](https://golaxindiapvtltd.in/locations/global/united-kingdom/london)
-- [United Arab Emirates](https://golaxindiapvtltd.in/locations/global/united-arab-emirates) · [Dubai](https://golaxindiapvtltd.in/locations/global/united-arab-emirates/dubai)
-- [Canada](https://golaxindiapvtltd.in/locations/global/canada) · [Toronto](https://golaxindiapvtltd.in/locations/global/canada/toronto)
-- [Australia](https://golaxindiapvtltd.in/locations/global/australia) · [Sydney](https://golaxindiapvtltd.in/locations/global/australia/sydney)
-- [Singapore](https://golaxindiapvtltd.in/locations/global/singapore)
-- [Germany](https://golaxindiapvtltd.in/locations/global/germany) · [Berlin](https://golaxindiapvtltd.in/locations/global/germany/berlin)
-- [Saudi Arabia](https://golaxindiapvtltd.in/locations/global/saudi-arabia)
-- [New Zealand](https://golaxindiapvtltd.in/locations/global/new-zealand)
-- [Qatar](https://golaxindiapvtltd.in/locations/global/qatar)
+- [United States](https://golaxindiapvtltd.in/locations/global/united-states) · [New York](https://golaxindiapvtltd.in/locations/global/united-states/new-york) · [San Francisco](https://golaxindiapvtltd.in/locations/global/united-states/san-francisco) · [Los Angeles](https://golaxindiapvtltd.in/locations/global/united-states/los-angeles) · [Chicago](https://golaxindiapvtltd.in/locations/global/united-states/chicago) · [Austin](https://golaxindiapvtltd.in/locations/global/united-states/austin) · [Seattle](https://golaxindiapvtltd.in/locations/global/united-states/seattle) · [Boston](https://golaxindiapvtltd.in/locations/global/united-states/boston) · [Miami](https://golaxindiapvtltd.in/locations/global/united-states/miami)
+- [United Kingdom](https://golaxindiapvtltd.in/locations/global/united-kingdom) · [London](https://golaxindiapvtltd.in/locations/global/united-kingdom/london) · [Manchester](https://golaxindiapvtltd.in/locations/global/united-kingdom/manchester) · [Birmingham](https://golaxindiapvtltd.in/locations/global/united-kingdom/birmingham) · [Edinburgh](https://golaxindiapvtltd.in/locations/global/united-kingdom/edinburgh)
+- [Canada](https://golaxindiapvtltd.in/locations/global/canada) · [Toronto](https://golaxindiapvtltd.in/locations/global/canada/toronto) · [Vancouver](https://golaxindiapvtltd.in/locations/global/canada/vancouver) · [Montreal](https://golaxindiapvtltd.in/locations/global/canada/montreal) · [Calgary](https://golaxindiapvtltd.in/locations/global/canada/calgary)
+- [Australia](https://golaxindiapvtltd.in/locations/global/australia) · [Sydney](https://golaxindiapvtltd.in/locations/global/australia/sydney) · [Melbourne](https://golaxindiapvtltd.in/locations/global/australia/melbourne) · [Brisbane](https://golaxindiapvtltd.in/locations/global/australia/brisbane) · [Perth](https://golaxindiapvtltd.in/locations/global/australia/perth)
+- [United Arab Emirates](https://golaxindiapvtltd.in/locations/global/united-arab-emirates) · [Dubai](https://golaxindiapvtltd.in/locations/global/united-arab-emirates/dubai) · [Abu Dhabi](https://golaxindiapvtltd.in/locations/global/united-arab-emirates/abu-dhabi) · [Sharjah](https://golaxindiapvtltd.in/locations/global/united-arab-emirates/sharjah)
+- [Saudi Arabia](https://golaxindiapvtltd.in/locations/global/saudi-arabia) · [Riyadh](https://golaxindiapvtltd.in/locations/global/saudi-arabia/riyadh) · [Jeddah](https://golaxindiapvtltd.in/locations/global/saudi-arabia/jeddah) · [Dammam](https://golaxindiapvtltd.in/locations/global/saudi-arabia/dammam)
+- [Singapore](https://golaxindiapvtltd.in/locations/global/singapore) · [Singapore city](https://golaxindiapvtltd.in/locations/global/singapore/singapore)
+- [Germany](https://golaxindiapvtltd.in/locations/global/germany) · [Berlin](https://golaxindiapvtltd.in/locations/global/germany/berlin) · [Munich](https://golaxindiapvtltd.in/locations/global/germany/munich) · [Hamburg](https://golaxindiapvtltd.in/locations/global/germany/hamburg) · [Frankfurt](https://golaxindiapvtltd.in/locations/global/germany/frankfurt)
+- [New Zealand](https://golaxindiapvtltd.in/locations/global/new-zealand) · [Auckland](https://golaxindiapvtltd.in/locations/global/new-zealand/auckland) · [Wellington](https://golaxindiapvtltd.in/locations/global/new-zealand/wellington)
+- [Qatar](https://golaxindiapvtltd.in/locations/global/qatar) · [Doha](https://golaxindiapvtltd.in/locations/global/qatar/doha) · [Lusail](https://golaxindiapvtltd.in/locations/global/qatar/lusail)
 
 ## Example service × country pages
 

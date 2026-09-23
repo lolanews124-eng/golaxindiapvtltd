@@ -9,8 +9,8 @@ import {
 } from "@/lib/static-params";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // Stable stamp — bump when content meaningfully changes (avoids fake daily freshness)
-  const contentUpdated = new Date("2026-09-20");
+  // Bump when indexable copy changes so crawlers recrawl location and service URLs.
+  const contentUpdated = new Date("2026-09-23");
   const entry = (
     path: string,
     priority = 0.7,
@@ -33,7 +33,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry("/blog", 0.9, "weekly"),
     entry("/contact", 0.9, "weekly"),
     entry("/locations", 0.9, "weekly"),
-    entry("/sitemap", 0.5),
     ...serviceHubSlugs.map((s) => entry(`/services/${s}`, 0.9, "weekly")),
     ...getInternationalCountryParams().map((p) =>
       entry(`/locations/global/${p.country}`, 0.85, "weekly")

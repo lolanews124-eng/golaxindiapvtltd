@@ -23,8 +23,6 @@ import { Button } from "@/components/ui/button";
 import HeroLeadForm from "@/components/forms/HeroLeadForm";
 import Layout from "@/components/layout/Layout";
 import JsonLd from "@/components/seo/JsonLd";
-import KeywordTopicsSection from "@/components/seo/KeywordTopicsSection";
-import { getCountrySearchTerms } from "@/lib/seo/internationalKeywords";
 import { InternationalLocationData, internationalLocations } from "@/data/internationalLocations";
 import { getCountryGeo } from "@/data/countryGeo";
 import { getServiceCountryHref } from "@/data/serviceCountryContent";
@@ -53,7 +51,6 @@ export default function InternationalLocationTemplate({ location }: Props) {
 
   const title = `Offshore Web & Software Development Company for ${location.country} | Golax India`;
   const description = location.description;
-  const searchTerms = getCountrySearchTerms(location);
 
   return (
     <Layout>
@@ -287,12 +284,6 @@ export default function InternationalLocationTemplate({ location }: Props) {
           </div>
         </div>
       </section>
-
-      <KeywordTopicsSection
-        title={`Popular IT & Development Searches in ${location.country}`}
-        subtitle={`Businesses in ${location.country} search for offshore web development, software, mobile apps, SEO, and dedicated developers — we deliver all of these from India with ${location.currency} pricing.`}
-        terms={searchTerms}
-      />
 
       {/* Long-form SEO body */}
       <section className="py-20 bg-gradient-subtle">

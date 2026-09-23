@@ -30,15 +30,11 @@ import Layout from "@/components/layout/Layout";
 import JsonLd from "@/components/seo/JsonLd";
 import { ServiceInternationalData, internationalLocations } from "@/data/internationalLocations";
 import { getCountryGeo } from "@/data/countryGeo";
-import { getServiceKeywords } from "@/data/serviceKeywords";
-import KeywordTopicsSection from "@/components/seo/KeywordTopicsSection";
-import { slugifyCity } from "@/data/internationalLocations";
 import {
   getServiceCountryContent,
   getServiceCountryHref,
   isServiceCountryAllowed,
 } from "@/data/serviceCountryContent";
-import type { SearchTermLink } from "@/lib/seo/internationalKeywords";
 
 const primaryPhoneDisplay = "+91 9128666005";
 const primaryPhoneHref = "+919128666005";
@@ -68,20 +64,6 @@ export default function ServiceInternationalTemplate({ data }: Props) {
   const description =
     unique?.metaDescription ??
     `${service.title} for ${location.country} businesses — senior offshore team from India, transparent ${location.currency} pricing, ${location.timezoneOverlap} of daily overlap. Book a free discovery call.`;
-  const servicePool = getServiceKeywords(service.slug);
-  const searchTerms: SearchTermLink[] = [
-    { label: `${service.title.toLowerCase()} company in ${location.country}` },
-    { label: `offshore ${service.title.toLowerCase()} for ${location.country}` },
-    { label: `outsource ${service.title.toLowerCase()} from ${location.country} to India` },
-    { label: `hire ${service.shortTitle.toLowerCase()} team for ${location.country}` },
-    { label: `best ${service.slug.replace(/-/g, " ")} agency for ${location.country}` },
-    ...servicePool.slice(0, 12).map((k) => ({ label: `${k} in ${location.country}` })),
-    ...location.majorCities.slice(0, 6).flatMap((c) => [
-      { label: `${service.title.toLowerCase()} company in ${c}`, href: `/locations/global/${location.slug}/${slugifyCity(c)}` },
-      ...servicePool.slice(0, 2).map((k) => ({ label: `${k} in ${c}`, href: `/locations/global/${location.slug}/${slugifyCity(c)}` })),
-    ]),
-  ].slice(0, 32);
-
   const longFormSections = unique
     ? unique.sections.map((s) => ({ heading: s.heading, body: s.body, emphasize: false }))
     : ([
@@ -229,12 +211,6 @@ export default function ServiceInternationalTemplate({ data }: Props) {
           </div>
         </div>
       </section>
-
-      <KeywordTopicsSection
-        title={`${service.title} Keywords & Searches in ${location.country}`}
-        subtitle={`High-intent searches like "${servicePool[0] ?? service.title.toLowerCase()} in ${location.country}" and city-specific terms across ${location.majorCities.slice(0, 3).join(", ")}.`}
-        terms={searchTerms}
-      />
 
       {/* Long-form */}
       <section className="py-20 bg-gradient-subtle">

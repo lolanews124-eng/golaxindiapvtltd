@@ -59,7 +59,7 @@ export const cityPageContent: Record<string, CityPageContent> = {
       },
       {
         question: "What does it cost to hire from India for a New York company?",
-        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD or USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
+        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
       },
       {
         question: "How quickly does Golax India reply to project enquiries?",
@@ -69,27 +69,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why New York companies choose an offshore team",
-        body: "Wall Street firms and media brands need secure, high-availability software and fast release cycles. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Wall Street firms and media brands need secure, high-availability software and fast release cycles. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nNew York companies in finance, media, advertising technology and retail often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for New York companies",
-        body: "Businesses in New York commonly work in finance, media, advertising technology and retail. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in New York commonly work in finance, media, advertising technology and retail. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor New York we most often ship secure portals, campaign sites and internal tools for Manhattan and Brooklyn teams. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in New York time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in New York time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for New York are booked in local time, using US Eastern mornings. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.\n\nWork for New York is planned around the NY SHIELD Act and, for health data, HIPAA. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nNew York teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your New York project",
-        body: "Senior engineers work remotely from India with overlap for New York business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for New York business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in New York, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during US Eastern mornings. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for New York Businesses | Golax India",
@@ -121,7 +121,7 @@ export const cityPageContent: Record<string, CityPageContent> = {
       },
       {
         question: "What does it cost to hire from India for a San Francisco company?",
-        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD or USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
+        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
       },
       {
         question: "How quickly does Golax India reply to project enquiries?",
@@ -131,27 +131,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why San Francisco companies choose an offshore team",
-        body: "Bay Area startups compete for scarce senior engineers and often need to extend runway without slowing product velocity. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Bay Area startups compete for scarce senior engineers and often need to extend runway without slowing product velocity. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nSan Francisco companies in SaaS, AI products and venture-backed startups often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for San Francisco companies",
-        body: "Businesses in San Francisco commonly work in SaaS, AI and venture-backed startups. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in San Francisco commonly work in SaaS, AI and venture-backed startups. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor San Francisco we most often ship MVP web apps and admin tools for Bay Area product teams. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in San Francisco time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in San Francisco time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for San Francisco are booked in local time, using a shorter, planned Pacific-time window. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.\n\nWork for San Francisco is planned around CCPA/CPRA. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nSan Francisco teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your San Francisco project",
-        body: "Senior engineers work remotely from India with overlap for San Francisco business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for San Francisco business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in San Francisco, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during a shorter, planned Pacific-time window. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Offshore Developers for San Francisco Businesses | Golax",
@@ -184,7 +184,7 @@ export const cityPageContent: Record<string, CityPageContent> = {
       },
       {
         question: "What does it cost to hire from India for a Los Angeles company?",
-        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD or USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
+        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
       },
       {
         question: "How quickly does Golax India reply to project enquiries?",
@@ -194,27 +194,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Los Angeles companies choose an offshore team",
-        body: "Content and consumer brands need platforms that handle spikes in traffic and rich media. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Content and consumer brands need platforms that handle spikes in traffic and rich media. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nLos Angeles companies in entertainment, consumer brands and e-commerce often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Los Angeles companies",
-        body: "Businesses in Los Angeles commonly work in entertainment, media, e-commerce and aerospace. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Los Angeles commonly work in entertainment, media, e-commerce and aerospace. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Los Angeles we most often ship brand sites, streaming-adjacent portals and DTC stores. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Los Angeles time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Los Angeles time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Los Angeles are booked in local time, using Pacific time, with meetings clustered in the LA morning. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.\n\nWork for Los Angeles is planned around CCPA/CPRA. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nLos Angeles teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Los Angeles project",
-        body: "Senior engineers work remotely from India with overlap for Los Angeles business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Los Angeles business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Los Angeles, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Pacific time, with meetings clustered in the LA morning. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Offshore Developers for Los Angeles Businesses | Golax",
@@ -247,7 +247,7 @@ export const cityPageContent: Record<string, CityPageContent> = {
       },
       {
         question: "What does it cost to hire from India for a Chicago company?",
-        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD or USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
+        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
       },
       {
         question: "How quickly does Golax India reply to project enquiries?",
@@ -257,27 +257,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Chicago companies choose an offshore team",
-        body: "Midwest logistics and industrial firms often need custom workflow and tracking software rather than generic tools. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Midwest logistics and industrial firms often need custom workflow and tracking software rather than generic tools. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nChicago companies in trading firms, logistics and manufacturing often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Chicago companies",
-        body: "Businesses in Chicago commonly work in logistics, trading technology, manufacturing and healthcare. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Chicago commonly work in logistics, trading technology, manufacturing and healthcare. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Chicago we most often ship operations dashboards, customer portals and B2B catalogs. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Chicago time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Chicago time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Chicago are booked in local time, using Central time mornings. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.\n\nWork for Chicago is planned around US state privacy expectations you confirm with counsel. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nChicago teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Chicago project",
-        body: "Senior engineers work remotely from India with overlap for Chicago business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Chicago business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Chicago, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Central time mornings. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Chicago Businesses | Golax India",
@@ -309,7 +309,7 @@ export const cityPageContent: Record<string, CityPageContent> = {
       },
       {
         question: "What does it cost to hire from India for a Austin company?",
-        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD or USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
+        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
       },
       {
         question: "How quickly does Golax India reply to project enquiries?",
@@ -319,27 +319,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Austin companies choose an offshore team",
-        body: "Austin's tech scene has strong product startups that need to scale engineering quickly. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Austin's tech scene has strong product startups that need to scale engineering quickly. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nAustin companies in startups, semiconductors and product studios often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Austin companies",
-        body: "Businesses in Austin commonly work in startups, enterprise software and hardware. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Austin commonly work in startups, enterprise software and hardware. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Austin we most often ship SaaS MVPs and marketing sites for Austin product teams. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Austin time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Austin time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Austin are booked in local time, using Central time. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.\n\nWork for Austin is planned around US privacy and security baselines you specify. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nAustin teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Austin project",
-        body: "Senior engineers work remotely from India with overlap for Austin business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Austin business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Austin, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Central time. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Austin Businesses | Golax India",
@@ -372,7 +372,7 @@ export const cityPageContent: Record<string, CityPageContent> = {
       },
       {
         question: "What does it cost to hire from India for a Seattle company?",
-        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD or USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
+        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
       },
       {
         question: "How quickly does Golax India reply to project enquiries?",
@@ -382,27 +382,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Seattle companies choose an offshore team",
-        body: "Teams here are cloud-native and expect strong AWS, DevOps and security practice. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Teams here are cloud-native and expect strong AWS, DevOps and security practice. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nSeattle companies in cloud software, retail technology and gaming often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Seattle companies",
-        body: "Businesses in Seattle commonly work in cloud, e-commerce, gaming and life sciences. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Seattle commonly work in cloud, e-commerce, gaming and life sciences. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Seattle we most often ship web platforms and internal tools that sit beside AWS-heavy stacks. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Seattle time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Seattle time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Seattle are booked in local time, using Pacific time. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.\n\nWork for Seattle is planned around CCPA-style consumer privacy where it applies to your users. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nSeattle teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Seattle project",
-        body: "Senior engineers work remotely from India with overlap for Seattle business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Seattle business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Seattle, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Pacific time. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Seattle Businesses | Golax India",
@@ -435,7 +435,7 @@ export const cityPageContent: Record<string, CityPageContent> = {
       },
       {
         question: "What does it cost to hire from India for a Boston company?",
-        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD or USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
+        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
       },
       {
         question: "How quickly does Golax India reply to project enquiries?",
@@ -445,27 +445,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Boston companies choose an offshore team",
-        body: "Regulated life-science and health companies need software designed around privacy and audit requirements. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Regulated life-science and health companies need software designed around privacy and audit requirements. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nBoston companies in healthtech, education and life sciences often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Boston companies",
-        body: "Businesses in Boston commonly work in biotech, healthtech, education technology and fintech. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Boston commonly work in biotech, healthtech, education technology and fintech. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Boston we most often ship patient-adjacent portals and research or campus tools designed with access control. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Boston time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Boston time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Boston are booked in local time, using US Eastern mornings. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.\n\nWork for Boston is planned around HIPAA when patient data is in scope. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nBoston teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Boston project",
-        body: "Senior engineers work remotely from India with overlap for Boston business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Boston business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Boston, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during US Eastern mornings. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Boston Businesses | Golax India",
@@ -498,7 +498,7 @@ export const cityPageContent: Record<string, CityPageContent> = {
       },
       {
         question: "What does it cost to hire from India for a Miami company?",
-        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD or USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
+        answer: "Senior engineers are $25-$45 per hour equivalent, billed in USD. Websites start around $3,500 and SaaS MVPs range from $15,000 to $60,000.",
       },
       {
         question: "How quickly does Golax India reply to project enquiries?",
@@ -508,27 +508,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Miami companies choose an offshore team",
-        body: "Miami companies often serve bilingual and cross-border customers and need flexible payment and localisation features. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Miami companies often serve bilingual and cross-border customers and need flexible payment and localisation features. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nMiami companies in cross-border fintech, real estate and Latin American HQs often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Miami companies",
-        body: "Businesses in Miami commonly work in fintech, crypto-adjacent services, real estate and trade with Latin America. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Miami commonly work in fintech, crypto-adjacent services, real estate and trade with Latin America. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Miami we most often ship bilingual marketing sites and investor or broker portals. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Miami time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "US East mornings overlap with our India afternoon and evening. We stagger hours so you get a daily window of about three to five hours with US East, and a shorter, planned window with US West. Meetings happen in Miami time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Miami are booked in local time, using US Eastern time. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United States we plan around State privacy laws such as CCPA/CPRA in California, HIPAA for health data, and customer-driven SOC 2 expectations. We sign NDA, MSA and IP assignment before starting.\n\nWork for Miami is planned around US privacy rules plus any LatAm obligations your counsel flags. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nMiami teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Miami project",
-        body: "Senior engineers work remotely from India with overlap for Miami business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Miami business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Miami, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during US Eastern time. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Miami Businesses | Golax India",
@@ -571,27 +571,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why London companies choose an offshore team",
-        body: "London fintech and e-commerce teams need GDPR-aware engineering and fast delivery. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "London fintech and e-commerce teams need GDPR-aware engineering and fast delivery. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nLondon companies in fintech, professional services and marketplaces often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for London companies",
-        body: "Businesses in London commonly work in fintech, e-commerce, media and professional services. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in London commonly work in fintech, e-commerce, media and professional services. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor London we most often ship client portals and SaaS used by City and Shoreditch teams. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "UK working hours (9:00 to 17:00) fall in the India afternoon and early evening, giving a natural overlap of about four hours in summer and about three to four in winter. Meetings happen in London time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "UK working hours (9:00 to 17:00) fall in the India afternoon and early evening, giving a natural overlap of about four hours in summer and about three to four in winter. Meetings happen in London time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for London are booked in local time, using UK office hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United Kingdom we plan around UK GDPR and the Data Protection Act 2018. Because India does not have UK adequacy status, personal-data transfers need a lawful mechanism such as the UK International Data Transfer Agreement or Addendum, which we sign with you. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United Kingdom we plan around UK GDPR and the Data Protection Act 2018. Because India does not have UK adequacy status, personal-data transfers need a lawful mechanism such as the UK International Data Transfer Agreement or Addendum, which we sign with you. We sign NDA, MSA and IP assignment before starting.\n\nWork for London is planned around UK GDPR and the Data Protection Act 2018. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nLondon teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your London project",
-        body: "Senior engineers work remotely from India with overlap for London business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for London business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in London, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during UK office hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for London Businesses | Golax India",
@@ -634,27 +634,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Manchester companies choose an offshore team",
-        body: "Northern digital agencies and online retailers often need reliable delivery partners for overflow work. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Northern digital agencies and online retailers often need reliable delivery partners for overflow work. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nManchester companies in digital agencies, media and e-commerce often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Manchester companies",
-        body: "Businesses in Manchester commonly work in digital agencies, e-commerce, media and health technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Manchester commonly work in digital agencies, e-commerce, media and health technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Manchester we most often ship storefronts, content sites and agency white-label builds. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "UK working hours (9:00 to 17:00) fall in the India afternoon and early evening, giving a natural overlap of about four hours in summer and about three to four in winter. Meetings happen in Manchester time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "UK working hours (9:00 to 17:00) fall in the India afternoon and early evening, giving a natural overlap of about four hours in summer and about three to four in winter. Meetings happen in Manchester time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Manchester are booked in local time, using UK office hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United Kingdom we plan around UK GDPR and the Data Protection Act 2018. Because India does not have UK adequacy status, personal-data transfers need a lawful mechanism such as the UK International Data Transfer Agreement or Addendum, which we sign with you. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United Kingdom we plan around UK GDPR and the Data Protection Act 2018. Because India does not have UK adequacy status, personal-data transfers need a lawful mechanism such as the UK International Data Transfer Agreement or Addendum, which we sign with you. We sign NDA, MSA and IP assignment before starting.\n\nWork for Manchester is planned around UK GDPR. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nManchester teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Manchester project",
-        body: "Senior engineers work remotely from India with overlap for Manchester business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Manchester business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Manchester, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during UK office hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Manchester Businesses | Golax India",
@@ -696,27 +696,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Birmingham companies choose an offshore team",
-        body: "Midlands manufacturers and service firms are modernising legacy systems and need practical, affordable software. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Midlands manufacturers and service firms are modernising legacy systems and need practical, affordable software. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nBirmingham companies in manufacturing, logistics and professional services often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Birmingham companies",
-        body: "Businesses in Birmingham commonly work in manufacturing, professional services and logistics. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Birmingham commonly work in manufacturing, professional services and logistics. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Birmingham we most often ship supplier portals, inventory tools and corporate websites. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "UK working hours (9:00 to 17:00) fall in the India afternoon and early evening, giving a natural overlap of about four hours in summer and about three to four in winter. Meetings happen in Birmingham time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "UK working hours (9:00 to 17:00) fall in the India afternoon and early evening, giving a natural overlap of about four hours in summer and about three to four in winter. Meetings happen in Birmingham time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Birmingham are booked in local time, using UK office hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United Kingdom we plan around UK GDPR and the Data Protection Act 2018. Because India does not have UK adequacy status, personal-data transfers need a lawful mechanism such as the UK International Data Transfer Agreement or Addendum, which we sign with you. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United Kingdom we plan around UK GDPR and the Data Protection Act 2018. Because India does not have UK adequacy status, personal-data transfers need a lawful mechanism such as the UK International Data Transfer Agreement or Addendum, which we sign with you. We sign NDA, MSA and IP assignment before starting.\n\nWork for Birmingham is planned around UK GDPR. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nBirmingham teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Birmingham project",
-        body: "Senior engineers work remotely from India with overlap for Birmingham business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Birmingham business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Birmingham, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during UK office hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Birmingham Businesses | Golax India",
@@ -758,27 +758,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Edinburgh companies choose an offshore team",
-        body: "Scotland's fintech and data sector needs secure, well-documented systems. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Scotland's fintech and data sector needs secure, well-documented systems. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nEdinburgh companies in financial services, universities and tourism often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Edinburgh companies",
-        body: "Businesses in Edinburgh commonly work in financial services, data and education technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Edinburgh commonly work in financial services, data and education technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Edinburgh we most often ship secure web apps and public-facing sites for Scottish organisations. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "UK working hours (9:00 to 17:00) fall in the India afternoon and early evening, giving a natural overlap of about four hours in summer and about three to four in winter. Meetings happen in Edinburgh time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "UK working hours (9:00 to 17:00) fall in the India afternoon and early evening, giving a natural overlap of about four hours in summer and about three to four in winter. Meetings happen in Edinburgh time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Edinburgh are booked in local time, using UK office hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United Kingdom we plan around UK GDPR and the Data Protection Act 2018. Because India does not have UK adequacy status, personal-data transfers need a lawful mechanism such as the UK International Data Transfer Agreement or Addendum, which we sign with you. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United Kingdom we plan around UK GDPR and the Data Protection Act 2018. Because India does not have UK adequacy status, personal-data transfers need a lawful mechanism such as the UK International Data Transfer Agreement or Addendum, which we sign with you. We sign NDA, MSA and IP assignment before starting.\n\nWork for Edinburgh is planned around UK GDPR. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nEdinburgh teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Edinburgh project",
-        body: "Senior engineers work remotely from India with overlap for Edinburgh business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Edinburgh business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Edinburgh, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during UK office hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Edinburgh Businesses | Golax India",
@@ -821,27 +821,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Toronto companies choose an offshore team",
-        body: "Toronto's startup and enterprise ecosystem shares US working hours and expects strong security and privacy practice. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Toronto's startup and enterprise ecosystem shares US working hours and expects strong security and privacy practice. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nToronto companies in banks, fintech and enterprise SaaS often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Toronto companies",
-        body: "Businesses in Toronto commonly work in fintech, AI, health technology and e-commerce. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Toronto commonly work in fintech, AI, health technology and e-commerce. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Toronto we most often ship client portals and SaaS for teams along the downtown corridor. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Eastern Canada (Toronto, Montreal) overlaps with India in the same way as US East. Vancouver and Calgary overlap is shorter and planned around early India evening hours. Meetings happen in Toronto time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Eastern Canada (Toronto, Montreal) overlaps with India in the same way as US East. Vancouver and Calgary overlap is shorter and planned around early India evening hours. Meetings happen in Toronto time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Toronto are booked in local time, using Eastern time mornings. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Canada we plan around PIPEDA at federal level, Quebec's Law 25 for Quebec residents, and provincial health-privacy rules such as PHIPA in Ontario. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Canada we plan around PIPEDA at federal level, Quebec's Law 25 for Quebec residents, and provincial health-privacy rules such as PHIPA in Ontario. We sign NDA, MSA and IP assignment before starting.\n\nWork for Toronto is planned around PIPEDA. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nToronto teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Toronto project",
-        body: "Senior engineers work remotely from India with overlap for Toronto business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Toronto business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Toronto, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Eastern time mornings. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Toronto Businesses | Golax India",
@@ -884,27 +884,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Vancouver companies choose an offshore team",
-        body: "West Coast teams need planned overlap and clear asynchronous hand-offs. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "West Coast teams need planned overlap and clear asynchronous hand-offs. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nVancouver companies in games, film, cleantech and trade with Asia often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Vancouver companies",
-        body: "Businesses in Vancouver commonly work in gaming, clean technology, film technology and SaaS. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Vancouver commonly work in gaming, clean technology, film technology and SaaS. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Vancouver we most often ship product sites, game-adjacent tools and member portals. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Eastern Canada (Toronto, Montreal) overlaps with India in the same way as US East. Vancouver and Calgary overlap is shorter and planned around early India evening hours. Meetings happen in Vancouver time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Eastern Canada (Toronto, Montreal) overlaps with India in the same way as US East. Vancouver and Calgary overlap is shorter and planned around early India evening hours. Meetings happen in Vancouver time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Vancouver are booked in local time, using a shorter Pacific overlap. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Canada we plan around PIPEDA at federal level, Quebec's Law 25 for Quebec residents, and provincial health-privacy rules such as PHIPA in Ontario. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Canada we plan around PIPEDA at federal level, Quebec's Law 25 for Quebec residents, and provincial health-privacy rules such as PHIPA in Ontario. We sign NDA, MSA and IP assignment before starting.\n\nWork for Vancouver is planned around PIPEDA and British Columbia privacy rules where they apply. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nVancouver teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Vancouver project",
-        body: "Senior engineers work remotely from India with overlap for Vancouver business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Vancouver business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Vancouver, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during a shorter Pacific overlap. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Vancouver Businesses | Golax India",
@@ -947,27 +947,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Montreal companies choose an offshore team",
-        body: "Montreal companies must consider Quebec's Law 25 and often need bilingual English and French products. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Montreal companies must consider Quebec's Law 25 and often need bilingual English and French products. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nMontreal companies in AI research, games and aerospace suppliers often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Montreal companies",
-        body: "Businesses in Montreal commonly work in AI, gaming, design and aerospace. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Montreal commonly work in AI, gaming, design and aerospace. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Montreal we most often ship English and French interfaces when both languages are in scope. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Eastern Canada (Toronto, Montreal) overlaps with India in the same way as US East. Vancouver and Calgary overlap is shorter and planned around early India evening hours. Meetings happen in Montreal time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Eastern Canada (Toronto, Montreal) overlaps with India in the same way as US East. Vancouver and Calgary overlap is shorter and planned around early India evening hours. Meetings happen in Montreal time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Montreal are booked in local time, using Eastern time. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Canada we plan around PIPEDA at federal level, Quebec's Law 25 for Quebec residents, and provincial health-privacy rules such as PHIPA in Ontario. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Canada we plan around PIPEDA at federal level, Quebec's Law 25 for Quebec residents, and provincial health-privacy rules such as PHIPA in Ontario. We sign NDA, MSA and IP assignment before starting.\n\nWork for Montreal is planned around Quebec privacy rules (Law 25) as your counsel defines them, plus PIPEDA. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nMontreal teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Montreal project",
-        body: "Senior engineers work remotely from India with overlap for Montreal business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Montreal business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Montreal, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Eastern time. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Montreal Businesses | Golax India",
@@ -1009,27 +1009,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Calgary companies choose an offshore team",
-        body: "Energy and industrial firms need dashboards, field tools and integrations with operational data. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Energy and industrial firms need dashboards, field tools and integrations with operational data. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nCalgary companies in energy, logistics and industrial services often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Calgary companies",
-        body: "Businesses in Calgary commonly work in energy, agriculture technology and logistics. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Calgary commonly work in energy, agriculture technology and logistics. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Calgary we most often ship field dashboards, vendor portals and corporate sites. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Eastern Canada (Toronto, Montreal) overlaps with India in the same way as US East. Vancouver and Calgary overlap is shorter and planned around early India evening hours. Meetings happen in Calgary time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Eastern Canada (Toronto, Montreal) overlaps with India in the same way as US East. Vancouver and Calgary overlap is shorter and planned around early India evening hours. Meetings happen in Calgary time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Calgary are booked in local time, using Mountain time. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Canada we plan around PIPEDA at federal level, Quebec's Law 25 for Quebec residents, and provincial health-privacy rules such as PHIPA in Ontario. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Canada we plan around PIPEDA at federal level, Quebec's Law 25 for Quebec residents, and provincial health-privacy rules such as PHIPA in Ontario. We sign NDA, MSA and IP assignment before starting.\n\nWork for Calgary is planned around PIPEDA and Alberta privacy requirements you confirm. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nCalgary teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Calgary project",
-        body: "Senior engineers work remotely from India with overlap for Calgary business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Calgary business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Calgary, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Mountain time. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Calgary Businesses | Golax India",
@@ -1072,27 +1072,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Sydney companies choose an offshore team",
-        body: "Sydney's fintech and enterprise teams need engineers who can start in the India morning to overlap with Australian afternoons. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Sydney's fintech and enterprise teams need engineers who can start in the India morning to overlap with Australian afternoons. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nSydney companies in fintech, professional services and consumer brands often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Sydney companies",
-        body: "Businesses in Sydney commonly work in fintech, retail, health and government services. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Sydney commonly work in fintech, retail, health and government services. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Sydney we most often ship member portals and marketing sites for harbour-city companies. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Australian mornings fall in the early India morning, so the overlap is strongest from the Australian late morning to mid-afternoon. We can start early to give you several hours of shared time each day. Meetings happen in Sydney time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Australian mornings fall in the early India morning, so the overlap is strongest from the Australian late morning to mid-afternoon. We can start early to give you several hours of shared time each day. Meetings happen in Sydney time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Sydney are booked in local time, using the Sydney afternoon. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Australia we plan around the Privacy Act 1988 and the Australian Privacy Principles, including rules on sending personal information overseas (APP 8). We sign NDA, MSA and IP assignment before starting.",
+        body: "For Australia we plan around the Privacy Act 1988 and the Australian Privacy Principles, including rules on sending personal information overseas (APP 8). We sign NDA, MSA and IP assignment before starting.\n\nWork for Sydney is planned around the Australian Privacy Principles. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nSydney teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Sydney project",
-        body: "Senior engineers work remotely from India with overlap for Sydney business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Sydney business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Sydney, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during the Sydney afternoon. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Sydney Businesses | Golax India",
@@ -1135,27 +1135,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Melbourne companies choose an offshore team",
-        body: "Melbourne's health and education organisations need accessible, privacy-aware platforms. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Melbourne's health and education organisations need accessible, privacy-aware platforms. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nMelbourne companies in retail, education, sport and creative businesses often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Melbourne companies",
-        body: "Businesses in Melbourne commonly work in healthcare, education technology, retail and creative industries. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Melbourne commonly work in healthcare, education technology, retail and creative industries. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Melbourne we most often ship commerce sites, course portals and campaign landing pages. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Australian mornings fall in the early India morning, so the overlap is strongest from the Australian late morning to mid-afternoon. We can start early to give you several hours of shared time each day. Meetings happen in Melbourne time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Australian mornings fall in the early India morning, so the overlap is strongest from the Australian late morning to mid-afternoon. We can start early to give you several hours of shared time each day. Meetings happen in Melbourne time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Melbourne are booked in local time, using the Melbourne afternoon. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Australia we plan around the Privacy Act 1988 and the Australian Privacy Principles, including rules on sending personal information overseas (APP 8). We sign NDA, MSA and IP assignment before starting.",
+        body: "For Australia we plan around the Privacy Act 1988 and the Australian Privacy Principles, including rules on sending personal information overseas (APP 8). We sign NDA, MSA and IP assignment before starting.\n\nWork for Melbourne is planned around the Australian Privacy Principles. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nMelbourne teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Melbourne project",
-        body: "Senior engineers work remotely from India with overlap for Melbourne business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Melbourne business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Melbourne, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during the Melbourne afternoon. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Melbourne Businesses | Golax India",
@@ -1198,27 +1198,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Brisbane companies choose an offshore team",
-        body: "Queensland businesses often need field, logistics and reporting software. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Queensland businesses often need field, logistics and reporting software. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nBrisbane companies in resources services, tourism and regional HQs often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Brisbane companies",
-        body: "Businesses in Brisbane commonly work in resources, logistics, agriculture technology and government. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Brisbane commonly work in resources, logistics, agriculture technology and government. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Brisbane we most often ship booking tools, corporate sites and lightweight internal apps. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Australian mornings fall in the early India morning, so the overlap is strongest from the Australian late morning to mid-afternoon. We can start early to give you several hours of shared time each day. Meetings happen in Brisbane time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Australian mornings fall in the early India morning, so the overlap is strongest from the Australian late morning to mid-afternoon. We can start early to give you several hours of shared time each day. Meetings happen in Brisbane time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Brisbane are booked in local time, using the Brisbane afternoon. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Australia we plan around the Privacy Act 1988 and the Australian Privacy Principles, including rules on sending personal information overseas (APP 8). We sign NDA, MSA and IP assignment before starting.",
+        body: "For Australia we plan around the Privacy Act 1988 and the Australian Privacy Principles, including rules on sending personal information overseas (APP 8). We sign NDA, MSA and IP assignment before starting.\n\nWork for Brisbane is planned around the Australian Privacy Principles. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nBrisbane teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Brisbane project",
-        body: "Senior engineers work remotely from India with overlap for Brisbane business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Brisbane business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Brisbane, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during the Brisbane afternoon. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Brisbane Businesses | Golax India",
@@ -1260,27 +1260,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Perth companies choose an offshore team",
-        body: "Perth is closer to India in time than the east coast, so overlap is easier than for Sydney or Melbourne. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Perth is closer to India in time than the east coast, so overlap is easier than for Sydney or Melbourne. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nPerth companies in mining services, energy and regional trade often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Perth companies",
-        body: "Businesses in Perth commonly work in mining, energy and resources technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Perth commonly work in mining, energy and resources technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Perth we most often ship operations portals and contractor tools. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Australian mornings fall in the early India morning, so the overlap is strongest from the Australian late morning to mid-afternoon. We can start early to give you several hours of shared time each day. Meetings happen in Perth time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Australian mornings fall in the early India morning, so the overlap is strongest from the Australian late morning to mid-afternoon. We can start early to give you several hours of shared time each day. Meetings happen in Perth time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Perth are booked in local time, using a shorter Perth afternoon window, agreed up front because the time difference is larger. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Australia we plan around the Privacy Act 1988 and the Australian Privacy Principles, including rules on sending personal information overseas (APP 8). We sign NDA, MSA and IP assignment before starting.",
+        body: "For Australia we plan around the Privacy Act 1988 and the Australian Privacy Principles, including rules on sending personal information overseas (APP 8). We sign NDA, MSA and IP assignment before starting.\n\nWork for Perth is planned around the Australian Privacy Principles. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nPerth teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Perth project",
-        body: "Senior engineers work remotely from India with overlap for Perth business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Perth business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Perth, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during a shorter Perth afternoon window, agreed up front because the time difference is larger. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Perth Businesses | Golax India",
@@ -1324,27 +1324,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Dubai companies choose an offshore team",
-        body: "Dubai businesses move quickly and value near-complete working-hour overlap and bilingual interfaces. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Dubai businesses move quickly and value near-complete working-hour overlap and bilingual interfaces. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nDubai companies in free-zone companies, real estate, logistics and tourism often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Dubai companies",
-        body: "Businesses in Dubai commonly work in real estate, e-commerce, tourism, logistics and fintech. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Dubai commonly work in real estate, e-commerce, tourism, logistics and fintech. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Dubai we most often ship English and Arabic sites, broker portals and booking flows. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "The UAE is only 1.5 hours behind India, so nearly the whole working day overlaps. Meetings happen in Dubai time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "The UAE is only 1.5 hours behind India, so nearly the whole working day overlaps. Meetings happen in Dubai time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Dubai are booked in local time, using Gulf hours with near-full overlap. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United Arab Emirates we plan around the UAE Federal Decree-Law No. 45 of 2021 on personal data protection, plus free-zone regimes such as DIFC and ADGM where relevant. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United Arab Emirates we plan around the UAE Federal Decree-Law No. 45 of 2021 on personal data protection, plus free-zone regimes such as DIFC and ADGM where relevant. We sign NDA, MSA and IP assignment before starting.\n\nWork for Dubai is planned around UAE data-protection expectations confirmed by your adviser. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nDubai teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Dubai project",
-        body: "Senior engineers work remotely from India with overlap for Dubai business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Dubai business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Dubai, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Gulf hours with near-full overlap. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Dubai Businesses | Golax India",
@@ -1387,27 +1387,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Abu Dhabi companies choose an offshore team",
-        body: "Government-linked and regulated organisations need strong security and clear documentation. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Government-linked and regulated organisations need strong security and clear documentation. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nAbu Dhabi companies in energy, government suppliers and finance often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Abu Dhabi companies",
-        body: "Businesses in Abu Dhabi commonly work in government services, energy, finance and healthcare. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Abu Dhabi commonly work in government services, energy, finance and healthcare. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Abu Dhabi we most often ship formal corporate sites and approval-heavy internal portals. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "The UAE is only 1.5 hours behind India, so nearly the whole working day overlaps. Meetings happen in Abu Dhabi time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "The UAE is only 1.5 hours behind India, so nearly the whole working day overlaps. Meetings happen in Abu Dhabi time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Abu Dhabi are booked in local time, using Gulf hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United Arab Emirates we plan around the UAE Federal Decree-Law No. 45 of 2021 on personal data protection, plus free-zone regimes such as DIFC and ADGM where relevant. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United Arab Emirates we plan around the UAE Federal Decree-Law No. 45 of 2021 on personal data protection, plus free-zone regimes such as DIFC and ADGM where relevant. We sign NDA, MSA and IP assignment before starting.\n\nWork for Abu Dhabi is planned around UAE data-protection expectations confirmed by your adviser. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nAbu Dhabi teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Abu Dhabi project",
-        body: "Senior engineers work remotely from India with overlap for Abu Dhabi business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Abu Dhabi business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Abu Dhabi, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Gulf hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Abu Dhabi Businesses | Golax India",
@@ -1450,27 +1450,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Sharjah companies choose an offshore team",
-        body: "Sharjah companies often want cost-effective portals, e-commerce and internal systems. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Sharjah companies often want cost-effective portals, e-commerce and internal systems. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nSharjah companies in manufacturing, education and logistics often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Sharjah companies",
-        body: "Businesses in Sharjah commonly work in education, trade, manufacturing and publishing. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Sharjah commonly work in education, trade, manufacturing and publishing. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Sharjah we most often ship catalog sites, dealer portals and bilingual company pages. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "The UAE is only 1.5 hours behind India, so nearly the whole working day overlaps. Meetings happen in Sharjah time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "The UAE is only 1.5 hours behind India, so nearly the whole working day overlaps. Meetings happen in Sharjah time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Sharjah are booked in local time, using Gulf hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For United Arab Emirates we plan around the UAE Federal Decree-Law No. 45 of 2021 on personal data protection, plus free-zone regimes such as DIFC and ADGM where relevant. We sign NDA, MSA and IP assignment before starting.",
+        body: "For United Arab Emirates we plan around the UAE Federal Decree-Law No. 45 of 2021 on personal data protection, plus free-zone regimes such as DIFC and ADGM where relevant. We sign NDA, MSA and IP assignment before starting.\n\nWork for Sharjah is planned around UAE data-protection expectations confirmed by your adviser. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nSharjah teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Sharjah project",
-        body: "Senior engineers work remotely from India with overlap for Sharjah business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Sharjah business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Sharjah, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Gulf hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Sharjah Businesses | Golax India",
@@ -1513,27 +1513,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Riyadh companies choose an offshore team",
-        body: "Riyadh organisations are delivering digital programmes aligned with Vision 2030 and need reliable technical capacity. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Riyadh organisations are delivering digital programmes aligned with Vision 2030 and need reliable technical capacity. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nRiyadh companies in ministries' suppliers, finance and large enterprises often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Riyadh companies",
-        body: "Businesses in Riyadh commonly work in government digital services, finance, retail and technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Riyadh commonly work in government digital services, finance, retail and technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Riyadh we most often ship Arabic-first portals and enterprise websites. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Saudi Arabia is 2.5 hours behind India and works Sunday to Thursday, so we adjust our schedule and agree which weekend days are covered. Meetings happen in Riyadh time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Saudi Arabia is 2.5 hours behind India and works Sunday to Thursday, so we adjust our schedule and agree which weekend days are covered. Meetings happen in Riyadh time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Riyadh are booked in local time, using Gulf hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Saudi Arabia we plan around the Personal Data Protection Law (PDPL) overseen by SDAIA, together with cloud and cybersecurity requirements from national authorities. Some regulated and government workloads require in-Kingdom hosting, which we plan for early. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Saudi Arabia we plan around the Personal Data Protection Law (PDPL) overseen by SDAIA, together with cloud and cybersecurity requirements from national authorities. Some regulated and government workloads require in-Kingdom hosting, which we plan for early. We sign NDA, MSA and IP assignment before starting.\n\nWork for Riyadh is planned around the Saudi Personal Data Protection Law as your counsel applies it. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nRiyadh teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Riyadh project",
-        body: "Senior engineers work remotely from India with overlap for Riyadh business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Riyadh business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Riyadh, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Gulf hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Riyadh Businesses | Golax India",
@@ -1576,27 +1576,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Jeddah companies choose an offshore team",
-        body: "Jeddah's port and commerce sector needs booking, tracking and e-commerce platforms. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Jeddah's port and commerce sector needs booking, tracking and e-commerce platforms. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nJeddah companies in trade, logistics, retail and religious tourism services often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Jeddah companies",
-        body: "Businesses in Jeddah commonly work in trade, logistics, tourism and retail. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Jeddah commonly work in trade, logistics, tourism and retail. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Jeddah we most often ship commerce sites and customer apps for a port city. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Saudi Arabia is 2.5 hours behind India and works Sunday to Thursday, so we adjust our schedule and agree which weekend days are covered. Meetings happen in Jeddah time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Saudi Arabia is 2.5 hours behind India and works Sunday to Thursday, so we adjust our schedule and agree which weekend days are covered. Meetings happen in Jeddah time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Jeddah are booked in local time, using Gulf hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Saudi Arabia we plan around the Personal Data Protection Law (PDPL) overseen by SDAIA, together with cloud and cybersecurity requirements from national authorities. Some regulated and government workloads require in-Kingdom hosting, which we plan for early. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Saudi Arabia we plan around the Personal Data Protection Law (PDPL) overseen by SDAIA, together with cloud and cybersecurity requirements from national authorities. Some regulated and government workloads require in-Kingdom hosting, which we plan for early. We sign NDA, MSA and IP assignment before starting.\n\nWork for Jeddah is planned around the Saudi Personal Data Protection Law as your counsel applies it. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nJeddah teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Jeddah project",
-        body: "Senior engineers work remotely from India with overlap for Jeddah business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Jeddah business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Jeddah, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Gulf hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Jeddah Businesses | Golax India",
@@ -1638,27 +1638,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Dammam companies choose an offshore team",
-        body: "Eastern Province energy and industrial suppliers need operational and reporting software. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Eastern Province energy and industrial suppliers need operational and reporting software. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nDammam companies in energy services, industrial suppliers and the Eastern Province often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Dammam companies",
-        body: "Businesses in Dammam commonly work in energy, industrial services and logistics. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Dammam commonly work in energy, industrial services and logistics. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Dammam we most often ship vendor portals and industrial corporate sites. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Saudi Arabia is 2.5 hours behind India and works Sunday to Thursday, so we adjust our schedule and agree which weekend days are covered. Meetings happen in Dammam time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Saudi Arabia is 2.5 hours behind India and works Sunday to Thursday, so we adjust our schedule and agree which weekend days are covered. Meetings happen in Dammam time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Dammam are booked in local time, using Gulf hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Saudi Arabia we plan around the Personal Data Protection Law (PDPL) overseen by SDAIA, together with cloud and cybersecurity requirements from national authorities. Some regulated and government workloads require in-Kingdom hosting, which we plan for early. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Saudi Arabia we plan around the Personal Data Protection Law (PDPL) overseen by SDAIA, together with cloud and cybersecurity requirements from national authorities. Some regulated and government workloads require in-Kingdom hosting, which we plan for early. We sign NDA, MSA and IP assignment before starting.\n\nWork for Dammam is planned around the Saudi Personal Data Protection Law as your counsel applies it. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nDammam teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Dammam project",
-        body: "Senior engineers work remotely from India with overlap for Dammam business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Dammam business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Dammam, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Gulf hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Dammam Businesses | Golax India",
@@ -1701,27 +1701,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Berlin companies choose an offshore team",
-        body: "Berlin startups need GDPR-compliant products and cost-efficient engineering capacity. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Berlin startups need GDPR-compliant products and cost-efficient engineering capacity. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nBerlin companies in startups, marketplaces and creative technology often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Berlin companies",
-        body: "Businesses in Berlin commonly work in startups, e-commerce, mobility and creative technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Berlin commonly work in startups, e-commerce, mobility and creative technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Berlin we most often ship product MVPs and German or English marketing sites. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Germany is 3.5 to 4.5 hours behind India, so the German morning and early afternoon overlap with our afternoon and evening. Meetings happen in Berlin time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Germany is 3.5 to 4.5 hours behind India, so the German morning and early afternoon overlap with our afternoon and evening. Meetings happen in Berlin time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Berlin are booked in local time, using Central European mornings. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Germany we plan around GDPR and the German Federal Data Protection Act (BDSG). Because India does not have EU adequacy status, transfers rely on a data-processing agreement (Auftragsverarbeitungsvertrag) and Standard Contractual Clauses, which we sign with you. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Germany we plan around GDPR and the German Federal Data Protection Act (BDSG). Because India does not have EU adequacy status, transfers rely on a data-processing agreement (Auftragsverarbeitungsvertrag) and Standard Contractual Clauses, which we sign with you. We sign NDA, MSA and IP assignment before starting.\n\nWork for Berlin is planned around GDPR. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nBerlin teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Berlin project",
-        body: "Senior engineers work remotely from India with overlap for Berlin business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Berlin business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Berlin, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Central European mornings. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Berlin Businesses | Golax India",
@@ -1764,27 +1764,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Munich companies choose an offshore team",
-        body: "Munich's industrial and insurance companies need reliable, well-documented systems and strong data-protection practice. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Munich's industrial and insurance companies need reliable, well-documented systems and strong data-protection practice. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nMunich companies in automotive suppliers, industrial software and insurers often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Munich companies",
-        body: "Businesses in Munich commonly work in automotive, manufacturing, insurance and industrial technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Munich commonly work in automotive, manufacturing, insurance and industrial technology. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Munich we most often ship integration-heavy business software and precise B2B sites. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Germany is 3.5 to 4.5 hours behind India, so the German morning and early afternoon overlap with our afternoon and evening. Meetings happen in Munich time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Germany is 3.5 to 4.5 hours behind India, so the German morning and early afternoon overlap with our afternoon and evening. Meetings happen in Munich time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Munich are booked in local time, using Central European mornings. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Germany we plan around GDPR and the German Federal Data Protection Act (BDSG). Because India does not have EU adequacy status, transfers rely on a data-processing agreement (Auftragsverarbeitungsvertrag) and Standard Contractual Clauses, which we sign with you. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Germany we plan around GDPR and the German Federal Data Protection Act (BDSG). Because India does not have EU adequacy status, transfers rely on a data-processing agreement (Auftragsverarbeitungsvertrag) and Standard Contractual Clauses, which we sign with you. We sign NDA, MSA and IP assignment before starting.\n\nWork for Munich is planned around GDPR. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nMunich teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Munich project",
-        body: "Senior engineers work remotely from India with overlap for Munich business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Munich business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Munich, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Central European mornings. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Munich Businesses | Golax India",
@@ -1827,27 +1827,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Hamburg companies choose an offshore team",
-        body: "Hamburg's logistics and media companies need tracking, booking and content platforms. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Hamburg's logistics and media companies need tracking, booking and content platforms. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nHamburg companies in logistics, media and trade often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Hamburg companies",
-        body: "Businesses in Hamburg commonly work in logistics, ports, media and e-commerce. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Hamburg commonly work in logistics, ports, media and e-commerce. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Hamburg we most often ship tracking portals, media sites and B2B catalogs. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Germany is 3.5 to 4.5 hours behind India, so the German morning and early afternoon overlap with our afternoon and evening. Meetings happen in Hamburg time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Germany is 3.5 to 4.5 hours behind India, so the German morning and early afternoon overlap with our afternoon and evening. Meetings happen in Hamburg time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Hamburg are booked in local time, using Central European mornings. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Germany we plan around GDPR and the German Federal Data Protection Act (BDSG). Because India does not have EU adequacy status, transfers rely on a data-processing agreement (Auftragsverarbeitungsvertrag) and Standard Contractual Clauses, which we sign with you. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Germany we plan around GDPR and the German Federal Data Protection Act (BDSG). Because India does not have EU adequacy status, transfers rely on a data-processing agreement (Auftragsverarbeitungsvertrag) and Standard Contractual Clauses, which we sign with you. We sign NDA, MSA and IP assignment before starting.\n\nWork for Hamburg is planned around GDPR. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nHamburg teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Hamburg project",
-        body: "Senior engineers work remotely from India with overlap for Hamburg business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Hamburg business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Hamburg, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Central European mornings. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Hamburg Businesses | Golax India",
@@ -1889,27 +1889,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Frankfurt companies choose an offshore team",
-        body: "Frankfurt's financial firms need software built with strict security and audit practices. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Frankfurt's financial firms need software built with strict security and audit practices. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nFrankfurt companies in banking, payments and European HQs often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Frankfurt companies",
-        body: "Businesses in Frankfurt commonly work in banking, financial services and fintech. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Frankfurt commonly work in banking, financial services and fintech. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Frankfurt we most often ship secure dashboards and corporate sites, without us providing a financial licence. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Germany is 3.5 to 4.5 hours behind India, so the German morning and early afternoon overlap with our afternoon and evening. Meetings happen in Frankfurt time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Germany is 3.5 to 4.5 hours behind India, so the German morning and early afternoon overlap with our afternoon and evening. Meetings happen in Frankfurt time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Frankfurt are booked in local time, using Central European mornings. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Germany we plan around GDPR and the German Federal Data Protection Act (BDSG). Because India does not have EU adequacy status, transfers rely on a data-processing agreement (Auftragsverarbeitungsvertrag) and Standard Contractual Clauses, which we sign with you. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Germany we plan around GDPR and the German Federal Data Protection Act (BDSG). Because India does not have EU adequacy status, transfers rely on a data-processing agreement (Auftragsverarbeitungsvertrag) and Standard Contractual Clauses, which we sign with you. We sign NDA, MSA and IP assignment before starting.\n\nWork for Frankfurt is planned around GDPR and the security reviews your bank or auditor expects. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nFrankfurt teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Frankfurt project",
-        body: "Senior engineers work remotely from India with overlap for Frankfurt business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Frankfurt business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Frankfurt, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Central European mornings. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Frankfurt Businesses | Golax India",
@@ -1952,27 +1952,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Auckland companies choose an offshore team",
-        body: "Auckland companies need efficient engineering capacity and clear asynchronous processes. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Auckland companies need efficient engineering capacity and clear asynchronous processes. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nAuckland companies in commerce, logistics and consumer brands often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Auckland companies",
-        body: "Businesses in Auckland commonly work in SaaS, retail, tourism and agritech. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Auckland commonly work in SaaS, retail, tourism and agritech. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Auckland we most often ship retail sites, booking tools and internal ops apps. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "New Zealand is 6.5 to 7.5 hours ahead of India, so overlap is limited to the New Zealand morning, which is our late evening or early morning. We plan a fixed shared window and use written hand-offs for the rest. Meetings happen in Auckland time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "New Zealand is 6.5 to 7.5 hours ahead of India, so overlap is limited to the New Zealand morning, which is our late evening or early morning. We plan a fixed shared window and use written hand-offs for the rest. Meetings happen in Auckland time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Auckland are booked in local time, using an early Auckland morning overlap. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For New Zealand we plan around the Privacy Act 2020, including the rules on disclosing personal information overseas. We sign NDA, MSA and IP assignment before starting.",
+        body: "For New Zealand we plan around the Privacy Act 2020, including the rules on disclosing personal information overseas. We sign NDA, MSA and IP assignment before starting.\n\nWork for Auckland is planned around the Privacy Act 2020. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nAuckland teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Auckland project",
-        body: "Senior engineers work remotely from India with overlap for Auckland business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Auckland business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Auckland, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during an early Auckland morning overlap. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Auckland Businesses | Golax India",
@@ -2015,27 +2015,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Wellington companies choose an offshore team",
-        body: "Wellington's public-sector and creative technology teams need privacy-aware, accessible software. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Wellington's public-sector and creative technology teams need privacy-aware, accessible software. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nWellington companies in public-sector suppliers, film and professional services often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Wellington companies",
-        body: "Businesses in Wellington commonly work in government, film technology, SaaS and education. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Wellington commonly work in government, film technology, SaaS and education. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Wellington we most often ship formal websites and workflow tools for government-adjacent teams. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "New Zealand is 6.5 to 7.5 hours ahead of India, so overlap is limited to the New Zealand morning, which is our late evening or early morning. We plan a fixed shared window and use written hand-offs for the rest. Meetings happen in Wellington time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "New Zealand is 6.5 to 7.5 hours ahead of India, so overlap is limited to the New Zealand morning, which is our late evening or early morning. We plan a fixed shared window and use written hand-offs for the rest. Meetings happen in Wellington time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Wellington are booked in local time, using an early Wellington morning overlap. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For New Zealand we plan around the Privacy Act 2020, including the rules on disclosing personal information overseas. We sign NDA, MSA and IP assignment before starting.",
+        body: "For New Zealand we plan around the Privacy Act 2020, including the rules on disclosing personal information overseas. We sign NDA, MSA and IP assignment before starting.\n\nWork for Wellington is planned around the Privacy Act 2020. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nWellington teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Wellington project",
-        body: "Senior engineers work remotely from India with overlap for Wellington business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Wellington business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Wellington, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during an early Wellington morning overlap. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Wellington Businesses | Golax India",
@@ -2079,27 +2079,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Doha companies choose an offshore team",
-        body: "Doha organisations need reliable delivery and bilingual Arabic and English interfaces. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Doha organisations need reliable delivery and bilingual Arabic and English interfaces. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nDoha companies in energy, hospitality and corporate headquarters often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Doha companies",
-        body: "Businesses in Doha commonly work in energy, finance, hospitality, education and government. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Doha commonly work in energy, finance, hospitality, education and government. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Doha we most often ship bilingual corporate sites and guest or staff portals. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Qatar is 2.5 hours behind India and works Sunday to Thursday, so we align our schedule to your week. Meetings happen in Doha time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Qatar is 2.5 hours behind India and works Sunday to Thursday, so we align our schedule to your week. Meetings happen in Doha time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Doha are booked in local time, using Gulf hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Qatar we plan around Qatar's Personal Data Privacy Protection Law (Law No. 13 of 2016) and National Cyber Security Agency guidance. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Qatar we plan around Qatar's Personal Data Privacy Protection Law (Law No. 13 of 2016) and National Cyber Security Agency guidance. We sign NDA, MSA and IP assignment before starting.\n\nWork for Doha is planned around Qatar personal-data rules confirmed by your adviser. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nDoha teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Doha project",
-        body: "Senior engineers work remotely from India with overlap for Doha business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Doha business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Doha, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Gulf hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Doha Businesses | Golax India",
@@ -2142,27 +2142,27 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Why Lusail companies choose an offshore team",
-        body: "Lusail's new-build city projects need modern digital platforms for services and visitors. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.",
+        body: "Lusail's new-build city projects need modern digital platforms for services and visitors. An offshore team adds capacity within weeks and can be scaled as your roadmap changes.\n\nLusail companies in new districts, real estate and smart-city programmes often need senior engineers faster than a local hire allows. An offshore squad from Golax India can join in one to two weeks after the contract, work only on your roadmap, and scale up or down with notice. You keep product decisions. We handle recruiting, code review and delivery. The first call covers budget, stack and whether a fixed build or a monthly team fits. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "What we build for Lusail companies",
-        body: "Businesses in Lusail commonly work in smart-city projects, hospitality, sports and real estate. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.",
+        body: "Businesses in Lusail commonly work in smart-city projects, hospitality, sports and real estate. We build customer-facing websites, SaaS products, mobile apps, e-commerce stores, internal tools, and integrations with the systems you already use.\n\nFor Lusail we most often ship property portals and project-status tools. That includes marketing websites, customer portals, SaaS MVPs, iOS and Android apps, and the integrations those products need. If a standard SaaS tool already fits, we say so instead of building a custom system. Every repository is created in your account and assigned to you in the contract. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Working hours and communication",
-        body: "Qatar is 2.5 hours behind India and works Sunday to Thursday, so we align our schedule to your week. Meetings happen in Lusail time. We use Slack or Teams, a shared board and weekly demos.",
+        body: "Qatar is 2.5 hours behind India and works Sunday to Thursday, so we align our schedule to your week. Meetings happen in Lusail time. We use Slack or Teams, a shared board and weekly demos.\n\nMeetings for Lusail are booked in local time, using Gulf hours. You get a shared Slack or Teams channel, a board, and a weekly demo. Daily written updates cover what shipped, what is blocked and what is next, so a missed call does not stall the sprint. The overlap window is written into the statement of work. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Compliance and security",
-        body: "For Qatar we plan around Qatar's Personal Data Privacy Protection Law (Law No. 13 of 2016) and National Cyber Security Agency guidance. We sign NDA, MSA and IP assignment before starting.",
+        body: "For Qatar we plan around Qatar's Personal Data Privacy Protection Law (Law No. 13 of 2016) and National Cyber Security Agency guidance. We sign NDA, MSA and IP assignment before starting.\n\nWork for Lusail is planned around Qatar personal-data rules confirmed by your adviser. We sign a mutual NDA before detailed discovery, then an MSA and IP assignment before coding. Access is limited to the people on your project and removed when the engagement ends. We do not claim a certification your counsel has not asked us to evidence. Confirm your own legal duties with a local adviser. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Engagement options",
-        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.",
+        body: "Fixed-scope project for a defined build. Time-and-material for evolving products. Dedicated team billed monthly. Email contact@golaxindia.com for a written quote — we aim to reply within 24 hours on business days.\n\nLusail teams can buy a fixed-scope launch, a time-and-material runway, or a dedicated pod billed monthly. Senior engineering is quoted around $25–$45 per hour equivalent. Websites often start near $3,500 and SaaS MVPs are usually $15,000–$60,000 after discovery. Invoices can be raised in local currency or USD. Email contact@golaxindia.com — we reply within one business day. Written scopes stay in your repository from the first sprint.",
       },
       {
         heading: "Talk to us about your Lusail project",
-        body: "Senior engineers work remotely from India with overlap for Lusail business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for Lusail business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Lusail, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Gulf hours. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Lusail Businesses | Golax India",
@@ -2194,7 +2194,7 @@ export const cityPageContent: Record<string, CityPageContent> = {
     seoSections: [
       {
         heading: "Talk to us about your your city project",
-        body: "Senior engineers work remotely from India with overlap for your city business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.",
+        body: "Senior engineers work remotely from India with overlap for your city business hours. Book a discovery call or email contact@golaxindia.com — we reply within 24 hours on business days.\n\nTell us what you want to launch in Singapore, who it is for, and your target date. A 30-minute discovery call is free. If you prefer, we sign an NDA before you share documents. Delivery stays in Patna, India, with collaboration during Singapore hours, which overlap most of the India day. Written scopes stay in your repository from the first sprint.",
       },
     ],
     metaTitle: "Software Development for Singapore Companies | Golax",
