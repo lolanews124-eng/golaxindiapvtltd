@@ -369,13 +369,20 @@ export default function About() {
             {internationalLocations.map((loc) => (
               <Link
                 key={loc.slug}
-                href={`/locations/${loc.slug}`}
+                href={`/locations/global/${loc.slug}`}
                 className="premium-card px-4 py-2.5 text-sm font-medium text-foreground hover:text-primary transition-colors"
               >
                 {loc.flag} {loc.country}
               </Link>
             ))}
           </div>
+          <p className="text-muted-foreground text-center max-w-2xl mx-auto mt-8 text-sm leading-relaxed">
+            Golax India Private Limited is MCA-registered with ISO 9001 and ISO 27001 certifications — see{" "}
+            <Link href="/certificates" className="text-primary hover:underline">
+              company registration and certificates
+            </Link>{" "}
+            before your first discovery call.
+          </p>
           <div className="text-center mt-10">
             <Button asChild variant="hero" size="lg">
               <Link href="/locations">Explore all markets</Link>

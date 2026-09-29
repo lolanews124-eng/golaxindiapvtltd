@@ -1,6 +1,8 @@
 import Careers from "@/views/Careers";
 import OrganizationSchema from "@/components/seo/OrganizationSchema";
+import FAQPageSchema from "@/components/seo/FAQPageSchema";
 import JsonLd from "@/components/seo/JsonLd";
+import { careersFaqs } from "@/data/siteFaqs";
 import { buildMetadata, BASE_URL } from "@/lib/seo/metadata";
 import { buildBreadcrumbSchema } from "@/lib/seo/schema";
 
@@ -27,6 +29,7 @@ export default function Page() {
   return (
     <>
       <OrganizationSchema />
+      <FAQPageSchema faqs={careersFaqs} />
       <JsonLd data={careersPage} />
       <JsonLd
         data={buildBreadcrumbSchema([

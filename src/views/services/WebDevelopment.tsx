@@ -335,7 +335,11 @@ export default function WebDevelopment() {
       <section className="py-12 bg-card">
         <div className="container mx-auto px-4 sm:px-6 text-center">
           <p className="text-muted-foreground mb-4">
-            Serving clients across the United States, UK, Canada, UAE, Australia and more
+            Serving clients across the United States, UK, Canada, UAE, Australia and more — verify our MCA, GST and ISO credentials on{" "}
+            <Link href="/certificates" className="text-primary hover:underline">
+              /certificates
+            </Link>
+            .
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[

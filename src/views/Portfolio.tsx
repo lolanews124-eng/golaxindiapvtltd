@@ -13,6 +13,8 @@ import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import PageHero from "@/components/shared/PageHero";
 import CTABanner from "@/components/shared/CTABanner";
+import FAQSection from "@/components/shared/FAQSection";
+import { portfolioFaqs } from "@/data/siteFaqs";
 
 const projects = [
   {
@@ -81,11 +83,31 @@ export default function Portfolio() {
       />
 
       <section className="py-12 bg-gradient-subtle border-b border-border">
-        <div className="container mx-auto px-4 max-w-3xl text-center">
-          <p className="text-muted-foreground leading-relaxed">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4 text-center">
+            How we scope work and document results
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-4">
             These case studies are representative of our offshore delivery model. Numbers and client names are shared only
             with permission; where a client is under NDA we describe industry, scope and architecture instead of
             publishing unverified metrics.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            Every engagement starts with a written scope, milestones and acceptance criteria in your repository. We run
+            weekly demos, keep a shared board, and record outcomes as shipped features, performance checks in staging, or
+            client-approved release notes — not vanity KPIs. When you evaluate Golax India, you can review our{" "}
+            <Link href="/certificates" className="text-primary hover:underline">
+              MCA registration and ISO certificates
+            </Link>
+            , compare delivery models on{" "}
+            <Link href="/services" className="text-primary hover:underline">
+              services
+            </Link>
+            , and read how we collaborate across{" "}
+            <Link href="/locations" className="text-primary hover:underline">
+              international markets
+            </Link>
+            . Ask on a discovery call for anonymised references when NDAs allow.
           </p>
         </div>
       </section>
@@ -171,6 +193,12 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+
+      <FAQSection
+        title="Portfolio — FAQs"
+        description="NDAs, documentation and starting a similar project"
+        faqs={portfolioFaqs}
+      />
 
       <CTABanner
         title="Want Results Like These?"

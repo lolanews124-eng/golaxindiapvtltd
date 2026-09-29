@@ -10,7 +10,7 @@ import {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Bump when indexable copy changes so crawlers recrawl location and service URLs.
-  const contentUpdated = new Date("2026-09-23");
+  const contentUpdated = new Date("2026-09-29");
   const entry = (
     path: string,
     priority = 0.7,

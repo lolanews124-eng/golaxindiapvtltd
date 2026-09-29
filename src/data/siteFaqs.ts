@@ -138,6 +138,52 @@ export const industriesFaqs: FaqItem[] = [
   },
 ];
 
+export const portfolioFaqs: FaqItem[] = [
+  {
+    question: "Can you publish our company name and exact metrics?",
+    answer:
+      "Only with written permission. Many clients are under NDA, so we describe industry, scope, stack and outcome shapes instead of unverified numbers. On a discovery call we can share relevant references when allowed.",
+  },
+  {
+    question: "How does Golax India document project results?",
+    answer:
+      "We capture scope, milestones and acceptance criteria in writing, demo on a fixed cadence, and hand over repos, runbooks and release notes. Case summaries on this page reflect that documentation — not marketing claims we cannot substantiate.",
+  },
+  {
+    question: "Which international markets do these projects represent?",
+    answer:
+      "Examples span US SaaS, UK e-commerce and cross-border healthcare apps. We deliver from India with timezone overlap; see /locations for market-specific delivery notes and /services for how we staff each engagement type.",
+  },
+  {
+    question: "How do I start a project similar to a case study here?",
+    answer:
+      "Email contact@golaxindia.com or use the contact form with your goals and timeline. We reply within one business day, offer an NDA if needed, then send a written USD scope after discovery.",
+  },
+];
+
+export const careersFaqs: FaqItem[] = [
+  {
+    question: "How long does the Golax India hiring process take?",
+    answer:
+      "We acknowledge every application within one business day. Typical path: recruiter screen, technical conversation, a short practical task, then a final interview with a director — often two to three weeks depending on your availability.",
+  },
+  {
+    question: "Can I work remotely if I am not in Patna?",
+    answer:
+      "Many engineering roles are remote-friendly within India. Client-facing delivery roles may require US or UK overlap hours. Location notes are listed on each role above.",
+  },
+  {
+    question: "What should I send with my application?",
+    answer:
+      "CV, GitHub or portfolio links, and a short note on the stack you want to work in. Apply via the form below or email contact@golaxindia.com with subject “Career application”.",
+  },
+  {
+    question: "Is Golax India a registered employer I can verify?",
+    answer:
+      "Yes. Golax India Private Limited is MCA-registered (CIN U42102BR2025PTC079250) with ISO 9001 and ISO 27001 certificates published at /certificates. Learn more about the team on /about.",
+  },
+];
+
 export const locationsFaqs: FaqItem[] = [
   {
     question: "Which countries does Golax India serve?",

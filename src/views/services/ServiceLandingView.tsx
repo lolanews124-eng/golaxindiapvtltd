@@ -3,10 +3,14 @@
 import Link from "next/link";
 import {
   ArrowRight,
+  Award,
   CheckCircle,
   Code,
   Database,
+  FolderOpen,
+  Globe,
   LayoutTemplate,
+  MapPin,
   ShoppingCart,
   Users,
   Smartphone,
@@ -100,6 +104,74 @@ export default function ServiceLandingView({ data }: { data: ServiceLanding }) {
               Request a quote <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
+        </div>
+      </section>
+
+      <section className="section-padding bg-card border-y border-border">
+        <div className="container mx-auto px-4 sm:px-6 max-w-4xl">
+          <SectionHeader
+            title="Credentials and related resources"
+            description="Verify how we work, then explore delivery options and markets."
+            align="left"
+          />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
+            <Link
+              href="/certificates"
+              className="flex gap-3 rounded-xl border border-border p-4 hover:border-accent transition-colors"
+            >
+              <Award className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <div>
+                <span className="font-heading font-semibold text-foreground block">Certificates</span>
+                <span className="text-sm text-muted-foreground">Registrations and credentials</span>
+              </div>
+            </Link>
+            <Link
+              href="/portfolio"
+              className="flex gap-3 rounded-xl border border-border p-4 hover:border-accent transition-colors"
+            >
+              <FolderOpen className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <div>
+                <span className="font-heading font-semibold text-foreground block">Portfolio</span>
+                <span className="text-sm text-muted-foreground">Recent web, app and platform work</span>
+              </div>
+            </Link>
+            <Link
+              href="/locations"
+              className="flex gap-3 rounded-xl border border-border p-4 hover:border-accent transition-colors"
+            >
+              <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <div>
+                <span className="font-heading font-semibold text-foreground block">Locations</span>
+                <span className="text-sm text-muted-foreground">Country-specific outsourcing guides</span>
+              </div>
+            </Link>
+            <Link
+              href="/services"
+              className="flex gap-3 rounded-xl border border-border p-4 hover:border-accent transition-colors"
+            >
+              <Globe className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <div>
+                <span className="font-heading font-semibold text-foreground block">All services</span>
+                <span className="text-sm text-muted-foreground">Full Golax India service list</span>
+              </div>
+            </Link>
+          </div>
+          {data.relatedServices.length > 0 ? (
+            <div className="mt-8">
+              <p className="text-sm font-medium text-foreground mb-3">Related services</p>
+              <div className="flex flex-wrap gap-2">
+                {data.relatedServices.map((r) => (
+                  <Link
+                    key={r.href}
+                    href={r.href}
+                    className="inline-flex items-center rounded-full border border-border px-4 py-2 text-sm font-medium hover:border-primary hover:text-primary transition-colors"
+                  >
+                    {r.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ) : null}
         </div>
       </section>
 

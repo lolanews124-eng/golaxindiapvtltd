@@ -3,6 +3,7 @@ import {
   buildBreadcrumbSchema,
   buildFAQPageSchema,
   buildServiceSchema,
+  buildWebPageSchema,
 } from "@/lib/seo/schema";
 import {
   serviceFaqsBySlug,
@@ -27,9 +28,18 @@ export default function ServiceHubSchemas({ slug }: Props) {
   const faqs = serviceFaqsBySlug[slug] ?? landing?.faqs;
   if (!meta) return null;
 
+  const pageDescription = landing?.metaDescription ?? meta.description;
+
   return (
     <>
       <JsonLd data={buildServiceSchema({ ...meta, slug })} />
+      <JsonLd
+        data={buildWebPageSchema({
+          name: meta.name,
+          description: pageDescription,
+          slug,
+        })}
+      />
       <JsonLd
         data={buildBreadcrumbSchema([
           { name: "Home", path: "/" },

@@ -18,6 +18,8 @@ import { Button } from "@/components/ui/button";
 import HeroLeadForm from "@/components/forms/HeroLeadForm";
 import Layout from "@/components/layout/Layout";
 import CTABanner from "@/components/shared/CTABanner";
+import FAQSection from "@/components/shared/FAQSection";
+import { industriesFaqs } from "@/data/siteFaqs";
 
 const industries = [
   {
@@ -214,7 +216,30 @@ export default function Industries() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-subtle">
+      <section className="section-padding bg-gradient-subtle">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-4 text-center">
+            Compliance for regulated industries
+          </h2>
+          <p className="text-muted-foreground leading-relaxed text-center">
+            Healthcare, finance, education and cross-border SaaS often need more than clean code. We plan encryption,
+            role-based access, audit logging and data-processing agreements with your legal or compliance lead — aligned
+            to HIPAA, GDPR, COPPA or sector audit expectations where your product requires it. Golax India holds ISO
+            9001 and ISO 27001 certifications; registration details and certificate scans are on{" "}
+            <Link href="/certificates" className="text-primary hover:underline">
+              Company Registration &amp; Certificates
+            </Link>
+            . Delivery runs from India with documented overlap for US, UK, Gulf and APAC buyers — see{" "}
+            <Link href="/locations" className="text-primary hover:underline">
+              international locations
+            </Link>{" "}
+            for market-specific notes. We do not provide legal advice or regulated licences; we build software your
+            licensed business operates.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-16 bg-card">
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
             Do you have experience in my industry?
@@ -225,6 +250,12 @@ export default function Industries() {
           </p>
         </div>
       </section>
+
+      <FAQSection
+        title="Industries — FAQs"
+        description="Sectors we serve, custom SaaS and how to start"
+        faqs={industriesFaqs}
+      />
 
       <CTABanner
         title="Discuss Your Industry Requirements"

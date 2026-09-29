@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { 
   Phone, 
@@ -121,8 +122,19 @@ export default function Contact() {
       <section className="py-16 bg-gradient-subtle border-b border-border">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
               Share your goals and we will confirm a discovery call, then send a written USD proposal with scope and contract terms.
+            </p>
+            <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
+              Golax India Private Limited is MCA-registered with ISO 9001 and ISO 27001 certifications — see{" "}
+              <Link href="/certificates" className="text-primary hover:underline">
+                company registration and certificates
+              </Link>
+              . We deliver remotely to the US, UK, UAE, Canada, Australia and other markets listed under{" "}
+              <Link href="/locations" className="text-primary hover:underline">
+                locations
+              </Link>
+              , with mutual NDA and IP assignment available before discovery.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">

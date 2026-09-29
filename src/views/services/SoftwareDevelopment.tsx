@@ -319,7 +319,13 @@ export default function SoftwareDevelopment() {
 
       <section className="py-12 bg-card">
         <div className="container mx-auto px-4 sm:px-6 text-center">
-          <p className="text-muted-foreground mb-4">Also see market pages for local currency and timezone detail</p>
+          <p className="text-muted-foreground mb-4">
+            Also see market pages for local currency and timezone detail, or verify{" "}
+            <Link href="/certificates" className="text-primary hover:underline">
+              MCA and ISO credentials
+            </Link>
+            .
+          </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
               { name: "United States", href: "/locations/global/united-states" },

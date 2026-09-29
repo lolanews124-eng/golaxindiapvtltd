@@ -13,6 +13,9 @@ import {
   ArrowRight,
   Shield,
   Rocket,
+  DollarSign,
+  Clock,
+  Users,
 } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import ServiceHero from "@/components/shared/ServiceHero";
@@ -124,6 +127,30 @@ export default function MobileAppDevelopment() {
         formTitle="Book a free discovery call for mobile app development"
       />
 
+      <section className="py-12 bg-card border-b border-border">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { icon: DollarSign, label: "Quotes in", value: "USD" },
+              { icon: Clock, label: "Sprint overlap", value: "4–5 hrs/day" },
+              { icon: Shield, label: "Store listings", value: "Your accounts" },
+              { icon: Users, label: "Discovery to estimate", value: "5–7 days" },
+            ].map((item) => (
+              <div
+                key={item.label}
+                className="flex items-center gap-3 p-4 rounded-xl border border-border bg-gradient-subtle"
+              >
+                <item.icon className="h-5 w-5 text-primary shrink-0" />
+                <div>
+                  <div className="text-xs text-muted-foreground">{item.label}</div>
+                  <div className="font-semibold text-foreground">{item.value}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section-padding bg-card">
         <div className="container mx-auto px-4 sm:px-6">
           <SectionHeader
@@ -181,6 +208,42 @@ export default function MobileAppDevelopment() {
                 ))}
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-card border-t border-border">
+        <div className="container mx-auto px-4 sm:px-6 max-w-5xl">
+          <SectionHeader
+            badge="Store readiness"
+            title="App Store and Play release with your brand on the line"
+            description="Cross-platform or native—scoped for startups selling to the US, UK, Australia and the Gulf."
+          />
+          <div className="grid lg:grid-cols-2 gap-8 mt-4">
+            <p className="text-muted-foreground leading-relaxed">
+              We publish under your Apple and Google developer accounts, prepare privacy nutrition labels and respond to
+              review rejection notes until approval. Weekly TestFlight and Play internal builds let stakeholders in the{" "}
+              <Link href="/locations/global/united-states" className="text-primary hover:underline">
+                United States
+              </Link>{" "}
+              test flows before public release. Backend, auth and payments stay aligned with your web product when you
+              extend an existing SaaS to mobile.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Need dedicated Flutter capacity after launch? See{" "}
+              <Link href="/services/hire-flutter-developers" className="text-primary hover:underline">
+                hire Flutter developers
+              </Link>
+              . For credentials your investors or enterprise buyers request, visit{" "}
+              <Link href="/certificates" className="text-primary hover:underline">
+                certificates
+              </Link>{" "}
+              and our{" "}
+              <Link href="/locations/global/australia" className="text-primary hover:underline">
+                Australia outsourcing guide
+              </Link>
+              . We respond to new app enquiries within one business day.
+            </p>
           </div>
         </div>
       </section>

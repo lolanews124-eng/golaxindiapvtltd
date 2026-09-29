@@ -16,16 +16,23 @@ const services = [
   { name: "Web Development", href: "/services/web-development" },
   { name: "Software Development", href: "/services/software-development" },
   { name: "Mobile Apps", href: "/services/mobile-app-development" },
+  { name: "E-commerce", href: "/services/ecommerce-development" },
+  { name: "UI/UX Design", href: "/services/ui-ux-design" },
+  { name: "CRM & ERP", href: "/services/crm-erp-solutions" },
   { name: "Digital Marketing", href: "/services/digital-marketing" },
   { name: "IT Consulting", href: "/services/it-consulting" },
+  { name: "Dedicated Teams", href: "/services/dedicated-development-teams" },
+  { name: "Hire React", href: "/services/hire-react-developers" },
 ];
 
 const quickLinks = [
   { name: "About", href: "/about" },
   { name: "Certificates", href: "/certificates" },
   { name: "Locations", href: "/locations" },
+  { name: "Industries", href: "/industries" },
   { name: "Portfolio", href: "/portfolio" },
   { name: "Blog", href: "/blog" },
+  { name: "Careers", href: "/careers" },
   { name: "Contact", href: "/contact" },
 ];
 

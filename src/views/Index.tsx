@@ -559,6 +559,29 @@ export default function Index() {
 
       <GeoReachSection />
 
+      <section className="section-padding bg-muted/20">
+        <div className="container mx-auto px-4 sm:px-6 max-w-3xl text-center space-y-4">
+          <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground">
+            Credentials and proof before you hire
+          </h2>
+          <p className="text-muted-foreground leading-relaxed">
+            International buyers should verify who they are contracting with. Review our{" "}
+            <Link href="/certificates" className="text-primary hover:underline">
+              company registration and certificates
+            </Link>
+            , browse{" "}
+            <Link href="/portfolio" className="text-primary hover:underline">
+              portfolio shapes
+            </Link>
+            , and pick your market under{" "}
+            <Link href="/locations" className="text-primary hover:underline">
+              locations
+            </Link>
+            . Discovery calls are free; we reply within one business day.
+          </p>
+        </div>
+      </section>
+
       <FAQSection
         title="Frequently Asked Questions"
         description="Common questions from international buyers about outsourcing software development to India with Golax India"

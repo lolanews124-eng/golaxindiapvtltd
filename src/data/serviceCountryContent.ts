@@ -97,7 +97,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United States companies outsource web development",
-        body: "US senior engineers commonly cost $80-$180 per hour fully loaded. Companies in United States working in SaaS, healthcare, fintech, e-commerce and B2B services use an offshore team to add capacity without a long hiring cycle.",
+        body: "Fully loaded US web engineers often sit in a higher hourly band than offshore delivery. Teams in the United States working in SaaS, healthcare, fintech, e-commerce and B2B services bring in Golax India when hiring cycles slow launches.",
       },
       {
         heading: "What we deliver",
@@ -117,7 +117,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for web development in United States",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Need a web development quote for United States? Email contact@golaxindia.com with your sitemap or redesign brief — we respond within 24 hours on business days with USD pricing and a suggested meeting window for US Eastern mornings and a planned Pacific window when your team sits on the West Coast. You can also reach us via golaxindia.com/contact or the /services/web-development/global/united-states page. NDA, MSA and IP assignment are signed before we touch production code.",
       },
     ],
   },
@@ -144,7 +144,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United Kingdom companies outsource web development",
-        body: "UK senior engineers commonly cost £70-£140 per hour through agencies [VERIFY current market rates before publishing]. Companies in United Kingdom working in fintech, e-commerce, healthcare, property and professional services use an offshore team to add capacity without a long hiring cycle.",
+        body: "UK agency day rates for web work are commonly steep relative to offshore benches. Organisations in the United Kingdom — fintech, e-commerce, healthcare, property and professional services — use us to ship sites and portals without pausing roadmaps.",
       },
       {
         heading: "What we deliver",
@@ -164,7 +164,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for web development in United Kingdom",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Need a web development quote for United Kingdom? Email contact@golaxindia.com with your sitemap or redesign brief — we respond within 24 hours on business days with GBP pricing and a suggested meeting window for UK office hours with roughly three to four hours of overlap. You can also reach us via golaxindia.com/contact or the /services/web-development/global/united-kingdom page. NDA, MSA and IP assignment are signed before we touch production code.",
       },
     ],
   },
@@ -191,7 +191,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United Arab Emirates companies outsource web development",
-        body: "UAE agency rates are often high compared with offshore delivery. Companies in United Arab Emirates working in real estate, e-commerce, logistics, tourism, government services and fintech use an offshore team to add capacity without a long hiring cycle.",
+        body: "UAE buyers frequently compare agency retainers with offshore web delivery. Companies in the United Arab Emirates across real estate, e-commerce, logistics, tourism and fintech add capacity while keeping Arabic/English experiences on brand.",
       },
       {
         heading: "What we deliver",
@@ -211,7 +211,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for web development in United Arab Emirates",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Need a web development quote for United Arab Emirates? Email contact@golaxindia.com with your sitemap or redesign brief — we respond within 24 hours on business days with AED pricing and a suggested meeting window for Gulf business hours with near-full overlap with India. You can also reach us via golaxindia.com/contact or the /services/web-development/global/united-arab-emirates page. NDA, MSA and IP assignment are signed before we touch production code.",
       },
     ],
   },
@@ -238,7 +238,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why Australia companies outsource web development",
-        body: "Australian senior engineer rates through agencies are commonly reported as high relative to offshore delivery. Companies in Australia working in fintech, mining and resources, healthcare, education and retail use an offshore team to add capacity without a long hiring cycle.",
+        body: "Australian web agencies are often priced above offshore teams for the same throughput. Fintech, resources, healthcare, education and retail businesses in Australia use Golax India to keep Core Web Vitals and CMS work moving.",
       },
       {
         heading: "What we deliver",
@@ -258,7 +258,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for web development in Australia",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Need a web development quote for Australia? Email contact@golaxindia.com with your sitemap or redesign brief — we respond within 24 hours on business days with AUD pricing and a suggested meeting window for Australian afternoon slots that line up with India mornings. You can also reach us via golaxindia.com/contact or the /services/web-development/global/australia page. NDA, MSA and IP assignment are signed before we touch production code.",
       },
     ],
   },
@@ -285,7 +285,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why Canada companies outsource web development",
-        body: "Canadian senior engineer rates through agencies are commonly reported as high relative to offshore delivery. Companies in Canada working in fintech, AI, clean technology, gaming, energy and e-commerce use an offshore team to add capacity without a long hiring cycle.",
+        body: "Canadian product companies report long searches for senior web engineers. Fintech, AI, cleantech, gaming, energy and e-commerce teams in Canada use offshore delivery for marketing sites and logged-in portals.",
       },
       {
         heading: "What we deliver",
@@ -305,7 +305,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for web development in Canada",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Need a web development quote for Canada? Email contact@golaxindia.com with your sitemap or redesign brief — we respond within 24 hours on business days with CAD pricing and a suggested meeting window for Toronto mornings with a shorter Pacific overlap for Vancouver teams. You can also reach us via golaxindia.com/contact or the /services/web-development/global/canada page. NDA, MSA and IP assignment are signed before we touch production code.",
       },
     ],
   },
@@ -332,7 +332,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why Singapore companies outsource web development",
-        body: "Singapore engineering salaries and agency rates are commonly reported among the highest in Asia. Companies in Singapore working in fintech, logistics and trade, e-commerce, SaaS and regional platforms use an offshore team to add capacity without a long hiring cycle.",
+        body: "Singapore web talent is competitive and costly to bench. Fintech, logistics, trade, e-commerce and regional SaaS firms in Singapore engage us for SGD-priced delivery with SGT overlap.",
       },
       {
         heading: "What we deliver",
@@ -352,7 +352,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for web development in Singapore",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Need a web development quote for Singapore? Email contact@golaxindia.com with your sitemap or redesign brief — we respond within 24 hours on business days with SGD pricing and a suggested meeting window for Singapore time across most of the India working day. You can also reach us via golaxindia.com/contact or the /services/web-development/global/singapore page. NDA, MSA and IP assignment are signed before we touch production code.",
       },
     ],
   },
@@ -379,7 +379,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why Germany companies outsource web development",
-        body: "German senior engineers are expensive and hard to hire [VERIFY numbers before publishing]. Companies in Germany working in automotive, manufacturing, logistics, finance and B2B platforms use an offshore team to add capacity without a long hiring cycle.",
+        body: "German B2B sites demand precision; local senior web capacity is not always available on short notice. Automotive, manufacturing, logistics, finance and platform companies in Germany use offshore squads for accessible, fast sites.",
       },
       {
         heading: "What we deliver",
@@ -399,7 +399,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for web development in Germany",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Need a web development quote for Germany? Email contact@golaxindia.com with your sitemap or redesign brief — we respond within 24 hours on business days with EUR pricing and a suggested meeting window for Central European mornings overlapping India afternoons. You can also reach us via golaxindia.com/contact or the /services/web-development/global/germany page. NDA, MSA and IP assignment are signed before we touch production code.",
       },
     ],
   },
@@ -426,7 +426,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United States companies outsource software and saas development",
-        body: "US senior engineers commonly cost $80-$180 per hour fully loaded. Companies in United States working in SaaS, healthcare, fintech, e-commerce and B2B services use an offshore team to add capacity without a long hiring cycle.",
+        body: "US SaaS and platform engineers are expensive to hire and retain. Product companies in the United States — SaaS, healthcare, fintech, e-commerce and B2B services — extend engineering with Golax India instead of freezing features.",
       },
       {
         heading: "What we deliver",
@@ -446,7 +446,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for software and SaaS development in United States",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Planning software and SaaS development for United States? Write to contact@golaxindia.com with your product outline and integration list — replies land within 24 hours on business days, including USD options and overlap for US Eastern mornings and a planned Pacific window when your team sits on the West Coast. Use golaxindia.com/contact or /services/software-development/global/united-states to start. Contracts include NDA, MSA and IP assignment ahead of the first sprint.",
       },
     ],
   },
@@ -473,7 +473,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United Kingdom companies outsource software and saas development",
-        body: "UK senior engineers commonly cost £70-£140 per hour through agencies [VERIFY current market rates before publishing]. Companies in United Kingdom working in fintech, e-commerce, healthcare, property and professional services use an offshore team to add capacity without a long hiring cycle.",
+        body: "UK scale-ups often wait months for senior backend hires. Fintech, e-commerce, healthcare, property and professional services firms in the United Kingdom add an offshore squad for APIs, workflows and admin tools.",
       },
       {
         heading: "What we deliver",
@@ -493,7 +493,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for software and SaaS development in United Kingdom",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Planning software and SaaS development for United Kingdom? Write to contact@golaxindia.com with your product outline and integration list — replies land within 24 hours on business days, including GBP options and overlap for UK office hours with roughly three to four hours of overlap. Use golaxindia.com/contact or /services/software-development/global/united-kingdom to start. Contracts include NDA, MSA and IP assignment ahead of the first sprint.",
       },
     ],
   },
@@ -520,7 +520,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United Arab Emirates companies outsource software and saas development",
-        body: "UAE agency rates are often high compared with offshore delivery. Companies in United Arab Emirates working in real estate, e-commerce, logistics, tourism, government services and fintech use an offshore team to add capacity without a long hiring cycle.",
+        body: "UAE enterprises modernise quickly; local software headcount may lag demand. Real estate, logistics, tourism and fintech operators in the United Arab Emirates use us for custom platforms and integrations.",
       },
       {
         heading: "What we deliver",
@@ -540,7 +540,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for software and SaaS development in United Arab Emirates",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Planning software and SaaS development for United Arab Emirates? Write to contact@golaxindia.com with your product outline and integration list — replies land within 24 hours on business days, including AED options and overlap for Gulf business hours with near-full overlap with India. Use golaxindia.com/contact or /services/software-development/global/united-arab-emirates to start. Contracts include NDA, MSA and IP assignment ahead of the first sprint.",
       },
     ],
   },
@@ -567,7 +567,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why Australia companies outsource software and saas development",
-        body: "Australian senior engineer rates through agencies are commonly reported as high relative to offshore delivery. Companies in Australia working in fintech, mining and resources, healthcare, education and retail use an offshore team to add capacity without a long hiring cycle.",
+        body: "Australian SaaS teams face timezone-friendly hiring pressure. Mining services, fintech, healthcare, education and retail companies in Australia offshore product engineering to keep release cadence.",
       },
       {
         heading: "What we deliver",
@@ -587,7 +587,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for software and SaaS development in Australia",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Planning software and SaaS development for Australia? Write to contact@golaxindia.com with your product outline and integration list — replies land within 24 hours on business days, including AUD options and overlap for Australian afternoon slots that line up with India mornings. Use golaxindia.com/contact or /services/software-development/global/australia to start. Contracts include NDA, MSA and IP assignment ahead of the first sprint.",
       },
     ],
   },
@@ -614,7 +614,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why Canada companies outsource software and saas development",
-        body: "Canadian senior engineer rates through agencies are commonly reported as high relative to offshore delivery. Companies in Canada working in fintech, AI, clean technology, gaming, energy and e-commerce use an offshore team to add capacity without a long hiring cycle.",
+        body: "Canadian founders stretch runway by mixing local product leadership with offshore build capacity. AI, cleantech, gaming, energy and e-commerce companies in Canada use Golax India for SaaS MVPs and internal tools.",
       },
       {
         heading: "What we deliver",
@@ -634,7 +634,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for software and SaaS development in Canada",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Planning software and SaaS development for Canada? Write to contact@golaxindia.com with your product outline and integration list — replies land within 24 hours on business days, including CAD options and overlap for Toronto mornings with a shorter Pacific overlap for Vancouver teams. Use golaxindia.com/contact or /services/software-development/global/canada to start. Contracts include NDA, MSA and IP assignment ahead of the first sprint.",
       },
     ],
   },
@@ -661,7 +661,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why Singapore companies outsource software and saas development",
-        body: "Singapore engineering salaries and agency rates are commonly reported among the highest in Asia. Companies in Singapore working in fintech, logistics and trade, e-commerce, SaaS and regional platforms use an offshore team to add capacity without a long hiring cycle.",
+        body: "Singapore SaaS salaries push burn rates up. Regional fintech, logistics and trade platforms in Singapore partner with us for PDPA-aware product delivery in SGD.",
       },
       {
         heading: "What we deliver",
@@ -681,7 +681,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for software and SaaS development in Singapore",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Planning software and SaaS development for Singapore? Write to contact@golaxindia.com with your product outline and integration list — replies land within 24 hours on business days, including SGD options and overlap for Singapore time across most of the India working day. Use golaxindia.com/contact or /services/software-development/global/singapore to start. Contracts include NDA, MSA and IP assignment ahead of the first sprint.",
       },
     ],
   },
@@ -708,7 +708,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United States companies outsource mobile app development",
-        body: "US senior engineers commonly cost $80-$180 per hour fully loaded. Companies in United States working in SaaS, healthcare, fintech, e-commerce and B2B services use an offshore team to add capacity without a long hiring cycle.",
+        body: "US mobile specialists are among the hardest roles to fill quickly. SaaS, healthcare, fintech and consumer brands in the United States offshore iOS and Android work to ship store builds on schedule.",
       },
       {
         heading: "What we deliver",
@@ -728,7 +728,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for mobile app development in United States",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "For mobile app development in United States, send store targets and device list to contact@golaxindia.com — we answer within 24 hours on business days with USD estimates and demo slots aligned to US Eastern mornings and a planned Pacific window when your team sits on the West Coast. The /services/mobile-app-development/global/united-states page and golaxindia.com/contact both reach the same team. NDA, MSA and IP assignment precede TestFlight or Play builds.",
       },
     ],
   },
@@ -755,7 +755,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United Kingdom companies outsource mobile app development",
-        body: "UK senior engineers commonly cost £70-£140 per hour through agencies [VERIFY current market rates before publishing]. Companies in United Kingdom working in fintech, e-commerce, healthcare, property and professional services use an offshore team to add capacity without a long hiring cycle.",
+        body: "UK agencies quote premium rates for dual-store delivery. Fintech, retail and healthcare product teams in the United Kingdom use Golax India for Flutter, React Native or native builds with GBP billing.",
       },
       {
         heading: "What we deliver",
@@ -775,7 +775,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for mobile app development in United Kingdom",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "For mobile app development in United Kingdom, send store targets and device list to contact@golaxindia.com — we answer within 24 hours on business days with GBP estimates and demo slots aligned to UK office hours with roughly three to four hours of overlap. The /services/mobile-app-development/global/united-kingdom page and golaxindia.com/contact both reach the same team. NDA, MSA and IP assignment precede TestFlight or Play builds.",
       },
     ],
   },
@@ -802,7 +802,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United Arab Emirates companies outsource mobile app development",
-        body: "UAE agency rates are often high compared with offshore delivery. Companies in United Arab Emirates working in real estate, e-commerce, logistics, tourism, government services and fintech use an offshore team to add capacity without a long hiring cycle.",
+        body: "UAE consumer apps often need bilingual UX; local mobile capacity can be scarce. Real estate, tourism and fintech companies in the United Arab Emirates offshore app sprints with Gulf-hour collaboration.",
       },
       {
         heading: "What we deliver",
@@ -822,7 +822,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for mobile app development in United Arab Emirates",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "For mobile app development in United Arab Emirates, send store targets and device list to contact@golaxindia.com — we answer within 24 hours on business days with AED estimates and demo slots aligned to Gulf business hours with near-full overlap with India. The /services/mobile-app-development/global/united-arab-emirates page and golaxindia.com/contact both reach the same team. NDA, MSA and IP assignment precede TestFlight or Play builds.",
       },
     ],
   },
@@ -849,7 +849,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why Australia companies outsource mobile app development",
-        body: "Australian senior engineer rates through agencies are commonly reported as high relative to offshore delivery. Companies in Australia working in fintech, mining and resources, healthcare, education and retail use an offshore team to add capacity without a long hiring cycle.",
+        body: "Australian apps must pass strict store review; hiring both iOS and Android seniors takes time. Fintech, resources and retail brands in Australia use us for weekly TestFlight and Play builds.",
       },
       {
         heading: "What we deliver",
@@ -869,7 +869,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for mobile app development in Australia",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "For mobile app development in Australia, send store targets and device list to contact@golaxindia.com — we answer within 24 hours on business days with AUD estimates and demo slots aligned to Australian afternoon slots that line up with India mornings. The /services/mobile-app-development/global/australia page and golaxindia.com/contact both reach the same team. NDA, MSA and IP assignment precede TestFlight or Play builds.",
       },
     ],
   },
@@ -896,7 +896,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United States companies outsource digital marketing and seo",
-        body: "US senior engineers commonly cost $80-$180 per hour fully loaded. Companies in United States working in SaaS, healthcare, fintech, e-commerce and B2B services use an offshore team to add capacity without a long hiring cycle.",
+        body: "US retainers for technical SEO and landing-page work add up fast. SaaS, healthcare, fintech and e-commerce marketers in the United States use Golax India for fixes on sites we build or inherit.",
       },
       {
         heading: "What we deliver",
@@ -916,7 +916,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for digital marketing and SEO in United States",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Want digital marketing and SEO support in United States? Email contact@golaxindia.com with your site URL and goals — expect a reply within 24 hours on business days, USD packaging options, and calls scheduled for US Eastern mornings and a planned Pacific window when your team sits on the West Coast. Start from golaxindia.com/contact or /services/digital-marketing/global/united-states. NDA and IP terms are agreed before we access analytics or ad accounts.",
       },
     ],
   },
@@ -943,7 +943,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United Kingdom companies outsource digital marketing and seo",
-        body: "UK senior engineers commonly cost £70-£140 per hour through agencies [VERIFY current market rates before publishing]. Companies in United Kingdom working in fintech, e-commerce, healthcare, property and professional services use an offshore team to add capacity without a long hiring cycle.",
+        body: "UK search competition rewards fast technical fixes; specialist contractors are not always available. Fintech, property and e-commerce teams in the United Kingdom outsource SEO implementation and content support.",
       },
       {
         heading: "What we deliver",
@@ -963,7 +963,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for digital marketing and SEO in United Kingdom",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Want digital marketing and SEO support in United Kingdom? Email contact@golaxindia.com with your site URL and goals — expect a reply within 24 hours on business days, GBP packaging options, and calls scheduled for UK office hours with roughly three to four hours of overlap. Start from golaxindia.com/contact or /services/digital-marketing/global/united-kingdom. NDA and IP terms are agreed before we access analytics or ad accounts.",
       },
     ],
   },
@@ -990,7 +990,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United Arab Emirates companies outsource digital marketing and seo",
-        body: "UAE agency rates are often high compared with offshore delivery. Companies in United Arab Emirates working in real estate, e-commerce, logistics, tourism, government services and fintech use an offshore team to add capacity without a long hiring cycle.",
+        body: "UAE campaigns often need Arabic and English landing pages at pace. Real estate, tourism and e-commerce brands in the United Arab Emirates use offshore delivery for on-page SEO and analytics setup.",
       },
       {
         heading: "What we deliver",
@@ -1010,7 +1010,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for digital marketing and SEO in United Arab Emirates",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Want digital marketing and SEO support in United Arab Emirates? Email contact@golaxindia.com with your site URL and goals — expect a reply within 24 hours on business days, AED packaging options, and calls scheduled for Gulf business hours with near-full overlap with India. Start from golaxindia.com/contact or /services/digital-marketing/global/united-arab-emirates. NDA and IP terms are agreed before we access analytics or ad accounts.",
       },
     ],
   },
@@ -1037,7 +1037,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United States companies outsource it consulting and cloud",
-        body: "US senior engineers commonly cost $80-$180 per hour fully loaded. Companies in United States working in SaaS, healthcare, fintech, e-commerce and B2B services use an offshore team to add capacity without a long hiring cycle.",
+        body: "US cloud assessments and remediations compete with product roadmaps for the same senior engineers. SaaS, healthcare and fintech operators in the United States use Golax India for architecture reviews and implementation sprints.",
       },
       {
         heading: "What we deliver",
@@ -1057,7 +1057,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for IT consulting and cloud in United States",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Book IT consulting and cloud for United States by mailing contact@golaxindia.com with your environment diagram — we respond within 24 hours on business days with USD assessment pricing and workshop times for US Eastern mornings and a planned Pacific window when your team sits on the West Coast. Use /services/it-consulting/global/united-states or golaxindia.com/contact. NDA, MSA and IP assignment are in place before production changes.",
       },
     ],
   },
@@ -1084,7 +1084,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why United Kingdom companies outsource it consulting and cloud",
-        body: "UK senior engineers commonly cost £70-£140 per hour through agencies [VERIFY current market rates before publishing]. Companies in United Kingdom working in fintech, e-commerce, healthcare, property and professional services use an offshore team to add capacity without a long hiring cycle.",
+        body: "UK teams modernising Azure or AWS stacks need senior help without permanent headcount. Fintech, property and professional services firms in the United Kingdom engage us for assessments and phased migrations.",
       },
       {
         heading: "What we deliver",
@@ -1104,7 +1104,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for IT consulting and cloud in United Kingdom",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Book IT consulting and cloud for United Kingdom by mailing contact@golaxindia.com with your environment diagram — we respond within 24 hours on business days with GBP assessment pricing and workshop times for UK office hours with roughly three to four hours of overlap. Use /services/it-consulting/global/united-kingdom or golaxindia.com/contact. NDA, MSA and IP assignment are in place before production changes.",
       },
     ],
   },
@@ -1131,7 +1131,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
     sections: [
       {
         heading: "Why Singapore companies outsource it consulting and cloud",
-        body: "Singapore engineering salaries and agency rates are commonly reported among the highest in Asia. Companies in Singapore working in fintech, logistics and trade, e-commerce, SaaS and regional platforms use an offshore team to add capacity without a long hiring cycle.",
+        body: "Singapore regulated buyers expect documented cloud changes. Fintech, logistics and SaaS companies in Singapore use Golax India for SGT-aligned consulting and DevOps retainers billed in SGD.",
       },
       {
         heading: "What we deliver",
@@ -1151,7 +1151,7 @@ export const serviceCountryContent: Record<string, ServiceCountryPageContent> = 
       },
       {
         heading: "Book a discovery call for IT consulting and cloud in Singapore",
-        body: "Email contact@golaxindia.com for a quote in your billing currency — we reply within 24 hours on business days. NDA, MSA and IP assignment are signed before work starts.",
+        body: "Book IT consulting and cloud for Singapore by mailing contact@golaxindia.com with your environment diagram — we respond within 24 hours on business days with SGD assessment pricing and workshop times for Singapore time across most of the India working day. Use /services/it-consulting/global/singapore or golaxindia.com/contact. NDA, MSA and IP assignment are in place before production changes.",
       },
     ],
   },

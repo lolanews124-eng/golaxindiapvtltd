@@ -19,7 +19,12 @@ export const webDevelopmentFaqs: FaqItem[] = [
   {
     question: "Do I need to pay hosting to you?",
     answer:
-      "No. Hosting is set up in your own account. We can manage it for a fee if you prefer.",
+      "No. Hosting is set up in your own account on Vercel, AWS, Azure or your preferred provider. We can manage it for a monthly fee if you prefer hands-off operations.",
+  },
+  {
+    question: "How do you handle NDAs and IP for web projects?",
+    answer:
+      "We sign an NDA before sensitive discovery and assign IP to your company in the development agreement before coding starts. Repositories and hosting remain in accounts you control.",
   },
 ];
 
@@ -42,7 +47,12 @@ export const softwareDevelopmentFaqs: FaqItem[] = [
   {
     question: "Can my team continue after the MVP?",
     answer:
-      "Yes. We document everything and can hand over or continue as a dedicated team.",
+      "Yes. We document architecture, APIs and deployment steps and can hand over cleanly or continue as a dedicated team on monthly terms.",
+  },
+  {
+    question: "Do you work in US or UK time zones?",
+    answer:
+      "Yes. We agree four to five hours of daily overlap for stand-ups, demos and planning with US, UK, Canada or Gulf teams, with async progress between sessions.",
   },
 ];
 
@@ -65,7 +75,12 @@ export const mobileAppDevelopmentFaqs: FaqItem[] = [
   {
     question: "Do you maintain apps after launch?",
     answer:
-      "Yes. Monthly support covers bug fixes, dependency updates and new OS versions.",
+      "Yes. Monthly support covers bug fixes, dependency updates, store policy changes and new iOS or Android OS versions that affect your build.",
+  },
+  {
+    question: "Who owns the app source code?",
+    answer:
+      "You do. Code lives in your repository with IP assigned in the contract. Store listings remain under your Apple and Google developer accounts.",
   },
 ];
 
@@ -90,6 +105,16 @@ export const digitalMarketingFaqs: FaqItem[] = [
     answer:
       "Yes. We build country-specific pages and content so search engines and buyers see that you serve those markets.",
   },
+  {
+    question: "Will you fix technical SEO on our Next.js or WordPress site?",
+    answer:
+      "Yes. Crawl errors, Core Web Vitals, schema, internal links and indexation issues are in scope. We coordinate with your developers or implement fixes directly when you grant access.",
+  },
+  {
+    question: "How do you report progress?",
+    answer:
+      "Monthly reports cover keyword movement, traffic, leads and ad performance where applicable. We explain what changed, what we did and what is planned next—no vanity metrics without context.",
+  },
 ];
 
 export const itConsultingFaqs: FaqItem[] = [
@@ -107,6 +132,16 @@ export const itConsultingFaqs: FaqItem[] = [
     question: "Will you reduce our AWS bill?",
     answer:
       "Most teams find savings through right-sizing, reserved capacity and removing unused resources. We quantify the potential in the assessment.",
+  },
+  {
+    question: "Do you sign NDAs before accessing our infrastructure?",
+    answer:
+      "Yes. We execute an NDA before read-only access to cloud consoles, repos or runbooks. Access is least-privilege and revoked when the engagement ends.",
+  },
+  {
+    question: "Can consulting overlap with US or UK hours?",
+    answer:
+      "Yes. Workshops, incident reviews and steering calls are scheduled in overlap windows with US Eastern, UK or Singapore time as you prefer.",
   },
 ];
 
@@ -151,5 +186,53 @@ export const serviceMetaForSchema: Record<
     description:
       "AWS/Azure migration, DevOps and IT strategy consulting for US and global product teams.",
     serviceType: "IT Consulting",
+  },
+  "ecommerce-development": {
+    name: "E-commerce Development",
+    description:
+      "Shopify, headless commerce and custom online stores with international payments and tax-ready checkout.",
+    serviceType: "E-commerce Development",
+  },
+  "ui-ux-design": {
+    name: "UI/UX Design Services",
+    description:
+      "Product design, design systems and conversion-focused interfaces for web and mobile.",
+    serviceType: "UI/UX Design",
+  },
+  "crm-erp-solutions": {
+    name: "Custom CRM & ERP Solutions",
+    description:
+      "Custom CRM, ERP and internal tools that replace spreadsheets and overlapping SaaS subscriptions.",
+    serviceType: "CRM and ERP Development",
+  },
+  "dedicated-development-teams": {
+    name: "Dedicated Development Teams",
+    description:
+      "Full-time offshore engineers dedicated to your product with NDA, IP assignment and timezone overlap.",
+    serviceType: "Dedicated Software Team",
+  },
+  "hire-react-developers": {
+    name: "Hire React Developers",
+    description:
+      "Senior React and Next.js developers for dashboards, marketing sites and SaaS front ends.",
+    serviceType: "React Development",
+  },
+  "hire-nodejs-developers": {
+    name: "Hire Node.js Developers",
+    description:
+      "Node.js and TypeScript backend engineers for APIs, SaaS and real-time applications.",
+    serviceType: "Node.js Development",
+  },
+  "hire-flutter-developers": {
+    name: "Hire Flutter Developers",
+    description:
+      "Flutter developers for cross-platform iOS and Android apps with store-ready delivery.",
+    serviceType: "Flutter Development",
+  },
+  "hire-python-developers": {
+    name: "Hire Python Developers",
+    description:
+      "Python developers for Django, FastAPI, data pipelines and AI-enabled product features.",
+    serviceType: "Python Development",
   },
 };

@@ -12,6 +12,10 @@ import {
   Globe,
   BarChart3,
   Link2,
+  DollarSign,
+  Clock,
+  Shield,
+  Users,
 } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import ServiceHero from "@/components/shared/ServiceHero";
@@ -126,6 +130,30 @@ export default function DigitalMarketing() {
         formTitle="Book a free discovery call for digital marketing and SEO"
       />
 
+      <section className="py-12 bg-card border-b border-border">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { icon: DollarSign, label: "Retainers billed in", value: "USD" },
+              { icon: Clock, label: "Reporting calls", value: "Your timezone" },
+              { icon: Shield, label: "SEO ethics", value: "No spam links" },
+              { icon: Users, label: "Audit turnaround", value: "5–7 days" },
+            ].map((item) => (
+              <div
+                key={item.label}
+                className="flex items-center gap-3 p-4 rounded-xl border border-border bg-gradient-subtle"
+              >
+                <item.icon className="h-5 w-5 text-primary shrink-0" />
+                <div>
+                  <div className="text-xs text-muted-foreground">{item.label}</div>
+                  <div className="font-semibold text-foreground">{item.value}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section-padding bg-card">
         <div className="container mx-auto px-4 sm:px-6">
           <SectionHeader
@@ -185,6 +213,39 @@ export default function DigitalMarketing() {
                 ))}
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-card border-t border-border">
+        <div className="container mx-auto px-4 sm:px-6 max-w-5xl">
+          <SectionHeader
+            badge="Technical SEO"
+            title="Engineering-backed SEO for international markets"
+            description="Fixes ship in code—not only in spreadsheets—when your site is slow or hard to crawl."
+          />
+          <div className="grid lg:grid-cols-2 gap-8 mt-4">
+            <p className="text-muted-foreground leading-relaxed">
+              Because Golax India also builds web and SaaS products, we implement schema, sitemap, redirect and Core
+              Web Vitals changes in Next.js, WordPress or headless stacks instead of handing developers a vague ticket.
+              Service and location pages for{" "}
+              <Link href="/locations/global/united-states" className="text-primary hover:underline">
+                US buyers
+              </Link>{" "}
+              and the{" "}
+              <Link href="/locations/global/united-kingdom" className="text-primary hover:underline">
+                United Kingdom
+              </Link>{" "}
+              are part of how we structure content—not bolt-on keyword stuffing.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              We do not guarantee rankings. We do commit to transparent reporting and ethical link acquisition. See{" "}
+              <Link href="/certificates" className="text-primary hover:underline">
+                certificates and company credentials
+              </Link>{" "}
+              if your procurement team needs documentation alongside marketing scope. New enquiries receive a reply
+              within one business day with audit or retainer options.
+            </p>
           </div>
         </div>
       </section>

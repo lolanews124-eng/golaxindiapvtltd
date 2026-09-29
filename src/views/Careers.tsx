@@ -21,6 +21,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import Layout from "@/components/layout/Layout";
+import FAQSection from "@/components/shared/FAQSection";
+import { careersFaqs } from "@/data/siteFaqs";
 import { useToast } from "@/hooks/use-toast";
 
 const benefits = [
@@ -347,9 +349,23 @@ export default function Careers() {
       <section className="py-16 bg-card border-b border-border">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="font-heading text-2xl font-bold text-foreground mb-4 text-center">How we hire</h2>
+          <p className="text-muted-foreground text-center leading-relaxed mb-4">
+            We keep hiring practical and respectful of your time. After you apply, we acknowledge within one business
+            day, then schedule a short conversation about your experience, the stack you prefer, and overlap hours for
+            US or UK client work. Strong candidates complete a focused task — similar to a real sprint ticket, not
+            unpaid spec work — followed by a technical review with an engineering lead and a final conversation with a
+            director about culture, growth and compensation.
+          </p>
           <p className="text-muted-foreground text-center leading-relaxed mb-6">
-            One application, a short technical conversation, a practical task related to real work, and a final
-            interview with a director. We reply to every application within one business day.
+            Learn about the leadership team and delivery model on{" "}
+            <Link href="/about" className="text-primary hover:underline">
+              About Golax India
+            </Link>
+            . Registration and ISO certificates are published on{" "}
+            <Link href="/certificates" className="text-primary hover:underline">
+              Company Registration &amp; Certificates
+            </Link>
+            .
           </p>
           <p className="text-sm text-muted-foreground text-center">
             Apply by email:{" "}
@@ -360,6 +376,12 @@ export default function Careers() {
           </p>
         </div>
       </section>
+
+      <FAQSection
+        title="Careers — FAQs"
+        description="Process, remote work and what to send"
+        faqs={careersFaqs}
+      />
 
       {/* Application Form */}
       <section id="apply-form" className="py-20 bg-card">

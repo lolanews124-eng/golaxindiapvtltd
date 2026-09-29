@@ -453,7 +453,7 @@ export default function Blog() {
                 Subscribe to Our Newsletter
               </h2>
               <p className="text-primary-foreground/80 text-lg mb-8">
-                Get the latest tech insights, industry news, and expert tips delivered to your inbox every week. Join 5,000+ subscribers.
+                Practical guides for offshore buyers — outsourcing, stack choices and delivery tips. No spam; unsubscribe anytime.
               </p>
               <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
                 <input
@@ -473,23 +473,15 @@ export default function Blog() {
         </div>
       </section>
 
-      {/* Recent Articles Summary */}
-      <section className="py-16 bg-card">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="text-4xl font-heading font-bold text-primary mb-2">50+</div>
-              <p className="text-muted-foreground">Published Articles</p>
-            </div>
-            <div className="text-center p-6">
-              <div className="text-4xl font-heading font-bold text-accent mb-2">12</div>
-              <p className="text-muted-foreground">Categories Covered</p>
-            </div>
-            <div className="text-center p-6">
-              <div className="text-4xl font-heading font-bold text-success mb-2">5K+</div>
-              <p className="text-muted-foreground">Monthly Readers</p>
-            </div>
-          </div>
+      <section className="py-16 bg-card border-t border-border">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
+            Practical guides for offshore buyers
+          </h2>
+          <p className="text-muted-foreground leading-relaxed">
+            Articles cover outsourcing to India, React and Next.js choices, e-commerce builds, security and SEO for
+            international sites — written for founders, CTOs and marketing leads planning their next release.
+          </p>
         </div>
       </section>
     </Layout>

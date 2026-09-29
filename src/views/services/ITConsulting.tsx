@@ -11,6 +11,8 @@ import {
   CheckCircle,
   Gauge,
   DollarSign,
+  Clock,
+  Users,
 } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 import ServiceHero from "@/components/shared/ServiceHero";
@@ -117,6 +119,30 @@ export default function ITConsulting() {
         formTitle="Book a free discovery call for IT consulting and cloud"
       />
 
+      <section className="py-12 bg-card border-b border-border">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { icon: DollarSign, label: "Billed in", value: "USD" },
+              { icon: Clock, label: "US / UK overlap", value: "4–5 hrs/day" },
+              { icon: Shield, label: "Contracts", value: "NDA + IP" },
+              { icon: Users, label: "Assessment kickoff", value: "5–7 days" },
+            ].map((item) => (
+              <div
+                key={item.label}
+                className="flex items-center gap-3 p-4 rounded-xl border border-border bg-gradient-subtle"
+              >
+                <item.icon className="h-5 w-5 text-primary shrink-0" />
+                <div>
+                  <div className="text-xs text-muted-foreground">{item.label}</div>
+                  <div className="font-semibold text-foreground">{item.value}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="section-padding bg-card">
         <div className="container mx-auto px-4 sm:px-6">
           <SectionHeader
@@ -178,6 +204,39 @@ export default function ITConsulting() {
                 .
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-card border-t border-border">
+        <div className="container mx-auto px-4 sm:px-6 max-w-5xl">
+          <SectionHeader
+            badge="Delivery"
+            title="Security reviews, runbooks and cloud outcomes"
+            description="Hands-on consulting for teams that need evidence—not slideware—for customers and auditors."
+          />
+          <div className="grid lg:grid-cols-2 gap-8 mt-4">
+            <p className="text-muted-foreground leading-relaxed">
+              We help you respond to customer security questionnaires with concrete controls: IAM policies, backup
+              tests, CI/CD gates and logging. Migration work is staged with rollback paths so production traffic is not
+              a single risky cutover. When you need proof of how we operate, review our{" "}
+              <Link href="/certificates" className="text-primary hover:underline">
+                company certificates and registrations
+              </Link>{" "}
+              before granting console access.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Product companies in the{" "}
+              <Link href="/locations/global/united-states" className="text-primary hover:underline">
+                United States
+              </Link>{" "}
+              and{" "}
+              <Link href="/locations/global/singapore" className="text-primary hover:underline">
+                Singapore
+              </Link>{" "}
+              often engage us for cost optimisation and DevOps retainers after a fixed-fee assessment. We reply within
+              one business day on new enquiries with a suggested next step—usually a discovery call and scoped proposal.
+            </p>
           </div>
         </div>
       </section>

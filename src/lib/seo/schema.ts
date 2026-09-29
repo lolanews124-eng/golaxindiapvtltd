@@ -70,6 +70,42 @@ export function buildServiceSchema({
   };
 }
 
+export interface WebPageSchemaInput {
+  name: string;
+  description: string;
+  slug: string;
+  path?: string;
+}
+
+export function buildWebPageSchema({
+  name,
+  description,
+  slug,
+  path,
+}: WebPageSchemaInput) {
+  const pagePath = path ?? `/services/${slug}`;
+  const url = `${BASE_URL}${pagePath}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    name,
+    description,
+    url,
+    inLanguage: "en",
+    isPartOf: {
+      "@type": "WebSite",
+      "@id": `${BASE_URL}/#website`,
+      name: ENTITY.brandName,
+      url: BASE_URL,
+    },
+    about: {
+      "@id": `${BASE_URL}/services/${slug}#service`,
+    },
+    publisher: organizationRef(),
+  };
+}
+
 /** HowTo — “how to start an offshore project” for AEO procedural queries. */
 export function buildOffshoreKickoffHowToSchema() {
   return {
