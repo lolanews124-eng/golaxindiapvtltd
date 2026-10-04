@@ -145,7 +145,7 @@ export function buildOffshoreKickoffHowToSchema() {
       {
         "@type": "HowToStep",
         position: 4,
-        name: "Kickoff within 5–7 business days",
+        name: "Kickoff in 1–2 weeks after the contract",
         text: "Dedicated PM, senior lead, shared Slack/GitHub and a clear sprint plan. Weekly staging demos follow.",
       },
     ],

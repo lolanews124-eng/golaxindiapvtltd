@@ -260,15 +260,15 @@ export function buildCitySeoSections(
   return [
     {
       heading: `Web Development Company in ${city}, ${country}`,
-      body: `Searching for a web development company in ${city}? Golax India delivers custom websites, e-commerce stores, SaaS dashboards, and landing pages for ${city}-based startups, agencies, and enterprises. We specialize in React, Next.js, WordPress, Shopify, and headless commerce — shipped with Core Web Vitals optimization, SEO-ready architecture, and ${currency} billing that beats local ${city} agency rates by 40–60%.
+      body: `Searching for a web development company in ${city}? Golax India builds custom websites, e-commerce stores, SaaS dashboards, and landing pages for ${city} startups and established teams. We use React, Next.js, WordPress, Shopify, and headless commerce, with SEO-ready architecture and ${currency} billing.
 
-Every ${city} web project is led by a senior full-stack engineer with 5+ years of experience, supported by a dedicated English-fluent project manager available during ${city} business hours (${timezoneOverlap} overlap daily).`,
+Every ${city} web project is led by a senior engineer, with an English-speaking project contact available during ${city} business hours (${timezoneOverlap} overlap daily).`,
     },
     {
       heading: `Software & SaaS Development for ${city} Businesses`,
       body: `Our software development team helps ${city} founders and CTOs build custom ERPs, CRMs, HRMS platforms, marketplaces, billing engines, and SaaS products. Whether you're validating an MVP or modernizing a legacy system, we deliver clean architecture, automated tests, CI/CD pipelines, and documentation that survives investor due diligence.
 
-${city} clients typically save 50–70% vs hiring locally while shipping in 6–12 weeks instead of 6–12 months.`,
+Quotes are written after discovery. Senior engineers are commonly billed around $25–$45 per hour equivalent, in ${currency} when you prefer.`,
     },
     {
       heading: `Mobile App Development Company in ${city}`,
@@ -289,7 +289,7 @@ We sign NDAs, MSAs, and IP-assignment agreements before any code is written. All
     {
       heading: `Also Serving ${cityList ? `${cityList} & More in ${country}` : `All of ${country}`}`,
       body: cityList
-        ? `In addition to ${city}, we actively serve businesses across ${cityList}, and every major market in ${country}. Each city page and service page is tailored to local search intent — so whether your customers search "web development company in ${city}" or "hire offshore developers for ${country}", you'll find Golax India ranking for the terms that matter.`
+        ? `Besides ${city}, we also publish pages for ${cityList} and the rest of ${country}. Delivery stays in Patna, India, with overlap for ${country} business hours. We do not promise a specific Google ranking.`
         : `We serve businesses across ${country} with the same senior team, transparent ${currency} pricing, and offshore delivery model trusted by startups and enterprises alike.`,
     },
   ];

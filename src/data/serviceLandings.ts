@@ -54,7 +54,7 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     h1: "E-commerce Development for International Online Stores",
     heroLead:
       "We build online stores that sell in more than one country. Our team creates Shopify stores, headless Next.js storefronts and custom platforms with fast checkout, international payments, tax and shipping so you can sell to the US, UK, Canada, Australia and the Gulf. You get a single partner for theme or headless front end, integrations and launch support—with code and merchant accounts in your name.",
-    seoTitle: "E-commerce Development Company India | Shopify & Headless",
+    seoTitle: "Shopify and Headless E-commerce Development",
     metaDescription:
       "Shopify, headless commerce and custom online stores with Stripe, PayPal and tax-ready checkout for US, UK and global retailers.",
     keywords:

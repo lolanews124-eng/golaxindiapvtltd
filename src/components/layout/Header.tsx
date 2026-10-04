@@ -135,7 +135,7 @@ export default function Header() {
             </a>
           </div>
           <div className="text-primary-foreground/80 text-right truncate hidden sm:block">
-            Offshore Engineering Partner · 12+ Countries
+            Offshore partner · USA · UK · UAE · Global
           </div>
         </div>
       </div>

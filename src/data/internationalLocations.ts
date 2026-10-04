@@ -723,7 +723,7 @@ const buildServiceCountryContent = (
   const cityList = majorCities.slice(0, 4).join(", ");
 
   return {
-    introduction: `Golax India is a trusted offshore ${serviceName} company for businesses in ${country}. From ${cityList} to every corner of ${country}, we help startups, SMEs, and enterprises ship high-quality ${serviceKw} projects at 40-60% lower cost than hiring locally - with senior engineers, transparent ${currency} pricing, and ${timezoneOverlap} of daily timezone overlap.
+    introduction: `Golax India is an offshore ${serviceName} company for businesses in ${country}. From ${cityList} and across ${country}, we help startups and established teams ship ${serviceKw} projects with senior engineers, transparent ${currency} pricing, and ${timezoneOverlap} of daily timezone overlap.
 
 We're not a body-shop. Every ${serviceName} engagement for a ${country} client is led by a senior practitioner, supported by a dedicated project manager, and shipped against a clearly defined scope and quality bar. The outcome: faster delivery, predictable invoices, and code or campaigns that actually move your ${country} business forward.`,
 
@@ -733,7 +733,7 @@ Outsourcing ${serviceKw} to India through Golax India gives ${country} businesse
 
     ourApproach: `Our approach to ${serviceName} for ${country} clients is built on three principles: senior ownership, transparent communication, and disciplined delivery. Every engagement starts with a discovery call to understand your ${country} business context - goals, customers, constraints, and success metrics.
 
-From there, we propose a clearly scoped engagement (fixed-scope project, monthly retainer, or dedicated team), agree on milestones, and kick off within 5-7 business days. You get shared access to all tooling from day one - Jira/Linear, GitHub/GitLab, Figma, staging environments - plus a dedicated PM who works during your ${country} business hours.
+From there, we propose a clearly scoped engagement (fixed-scope project, monthly retainer, or dedicated team), agree on milestones, and kick off in 1–2 weeks after the contract. You get shared access to the tools you choose - board, GitHub or GitLab, Figma, staging - plus a project contact during your ${country} business hours.
 
 Throughout delivery we run weekly demos, daily async updates, and senior code review on every pull request. There are no surprises and no quiet quality drops.`,
 
@@ -783,7 +783,7 @@ We pick the right stack for your ${country} business - long-term maintainability
 1. Discovery call (free, 30-45 min).
 2. Written proposal in ${currency} within 48 hours.
 3. Contracting - MSA, NDA, IP assignment, DPA where relevant.
-4. Kickoff within 5-7 business days.
+4. Kickoff in 1–2 weeks after the contract.
 5. Iterative delivery with weekly demos and async updates.
 6. QA, UAT, and senior review before each release.
 7. Production launch with monitoring and on-call coverage.
@@ -812,7 +812,7 @@ const buildServiceCountryFAQs = (
   return [
     {
       question: `Why outsource ${serviceName.toLowerCase()} from ${country} to Golax India?`,
-      answer: `${country} businesses outsource ${serviceName.toLowerCase()} to Golax India for three reasons: 40-60% cost savings vs hiring locally in ${country}, access to senior engineering talent that's hard to hire locally, and ${timezoneOverlap} of daily overlap for real-time collaboration. All billed transparently in ${currency}.`,
+      answer: `${country} businesses outsource ${serviceName.toLowerCase()} to Golax India for senior engineers, ${timezoneOverlap} of daily overlap, and billing in ${currency}. Senior rates are commonly quoted at $25–$45 per hour equivalent. Compare that with your local quotes after a discovery call.`,
     },
     {
       question: `How much does ${serviceName.toLowerCase()} cost for ${country} businesses?`,
@@ -828,7 +828,7 @@ const buildServiceCountryFAQs = (
     },
     {
       question: `How quickly can you start on a ${country} ${serviceName.toLowerCase()} project?`,
-      answer: `For most ${country} engagements we kick off within 5-7 business days of contract signing - including a dedicated PM, senior lead, and shared tooling access.`,
+      answer: `For most ${country} engagements we kick off in 1–2 weeks after the contract is signed, with a project contact, a senior lead, and shared tooling access.`,
     },
     {
       question: `Do you provide ongoing support after the ${serviceName.toLowerCase()} project launches?`,
@@ -836,7 +836,7 @@ const buildServiceCountryFAQs = (
     },
     {
       question: `Have you worked with ${country} businesses before?`,
-      answer: `Yes - ${country} is one of our active markets. We've delivered ${serviceName.toLowerCase()} for ${country} startups, agencies (white-labelled), and enterprises. References available after a discovery call.`,
+      answer: `We serve ${country} remotely from Patna, India. We do not publish client names unless they approve a case study. Ask on the discovery call if a relevant reference is available.`,
     },
   ];
 };
@@ -861,7 +861,7 @@ export const getServiceInternationalData = (
     pricingOverview: `Transparent ${location.currency} pricing. Written proposal after a free discovery call — fixed-scope, dedicated pod, or time & materials.`,
     workingModel: `${location.timezoneOverlap} of daily overlap. Slack/Teams, weekly demos, senior review on deliverables.`,
     technologyStack: service.technologies.map((t) => `- ${t}`).join("\n"),
-    processOverview: `1. Discovery call\n2. Written ${location.currency} proposal\n3. NDA / IP / DPA as needed\n4. Kickoff in 5–7 days\n5. Weekly demos → launch → 60-day warranty`,
+    processOverview: `1. Discovery call\n2. Written ${location.currency} proposal\n3. NDA / IP / DPA as needed\n4. Kickoff in 1–2 weeks after the contract\n5. Weekly demos, then launch and handover`,
     whyChooseUs: unique.lead,
     successStories: "", // never invent metrics
     callToAction: `Ready to scope ${service.title} for ${location.country}? Book a free discovery call — proposal in ${location.currency} within 48 hours.`,

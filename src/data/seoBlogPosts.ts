@@ -95,7 +95,7 @@ Many quotes exclude content writing, photography, and SEO setup. Budget separate
 | Freelancer | ₹500–₹2,000/hour | Cheap but inconsistent quality & support |
 | Small agency / IT company | Fixed project quotes | Balanced cost, accountability, warranty |
 | Large metro agency | ₹2,000–₹5,000+/hour | Premium pricing, enterprise focus |
-| Offshore from India (global clients) | $25–$45/hour USD | 40–60% savings vs US/UK local rates |
+| Offshore from India (global clients) | $25–$45/hour USD | Senior rate quoted after discovery; compare with your local quotes |
 
 ## Hidden Costs to Watch For
 
@@ -320,7 +320,7 @@ If you are comparing onshore and offshore models, model fully loaded cost: hourl
 
 Website development cost in India ranges from ₹15,000 for a simple business site to lakhs for custom platforms. The right budget depends on your business goals — not just the lowest quote.
 
-**Need a transparent quote?** [Contact Golax India](/contact) for a free consultation. We serve businesses across [25+ Indian cities](/locations) and [12+ countries worldwide](/locations#global) — with clear pricing, no hidden fees, and a 60-day post-launch warranty.
+**Need a transparent quote?** [Contact Golax India](/contact) for a free consultation. We work with buyers in the [USA, UK, UAE and other markets](/locations) from our Patna delivery team — written scope, clear pricing, and no hidden fees.
     `,
   },
   {
@@ -657,7 +657,7 @@ If you're in the **United States**, **United Kingdom**, or **Europe** evaluating
 
 ### 1. Cost efficiency (typical offshore savings vary)
 
-Published industry comparisons often cite **roughly 40–60% savings** versus fully loaded onshore rates, but your outcome depends on role mix, seniority and scope. As planning figures only: a senior full-stack developer in the US is often quoted around **$80–$180/hour**, in the UK around **£60–£120/hour**, while comparable talent through an established Indian IT company is commonly **$25–$45/hour** with project management included — confirm ranges in your own quotes.
+Cost depends on role mix, seniority and scope. As planning figures only: a senior full-stack developer in the US is often quoted around **$80–$180/hour**, in the UK around **£60–£120/hour**, while comparable senior talent from India is commonly quoted at **$25–$45/hour** with project management included. Confirm the numbers in your own quotes.
 
 That difference funds marketing, longer runway, or more features — not just savings.
 
@@ -916,7 +916,7 @@ If you are comparing onshore and offshore models, model fully loaded cost: hourl
 
 Outsourcing software development to India works when you choose a senior-led partner, define scope clearly, and maintain regular communication — not when you chase the cheapest hourly rate on a freelance marketplace.
 
-**Start with a discovery call.** [Contact Golax India](/contact) — free 30-minute consultation, written proposal within 48 hours, kick-off in 5–7 business days.
+**Start with a discovery call.** [Contact Golax India](/contact) — free 30-minute consultation, written proposal within a few days, kick-off in 1–2 weeks after the contract.
     `,
   },
   {
@@ -1011,7 +1011,7 @@ For business-critical apps, an established [mobile app development company in In
 
 International founders hire Indian app teams for:
 
-- **Cost:** 40–60% less than US/UK agencies
+- **Cost:** senior engineers commonly quoted at $25–$45/hour, versus higher local agency rates
 - **Speed:** experienced teams reuse auth, payment, and notification modules
 - **Scale:** add developers without local hiring delays
 

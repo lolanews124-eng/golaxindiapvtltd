@@ -181,8 +181,8 @@ export default function ServiceInternationalTemplate({ data }: Props) {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-primary-foreground/90">
                 <div className="flex items-start gap-2"><Clock className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Overlap</div><div className="font-semibold">{location.timezoneOverlap}</div></div></div>
                 <div className="flex items-start gap-2"><DollarSign className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Billed in</div><div className="font-semibold">{location.currency}</div></div></div>
-                <div className="flex items-start gap-2"><Zap className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Kick-off</div><div className="font-semibold">5–7 days</div></div></div>
-                <div className="flex items-start gap-2"><Shield className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Savings</div><div className="font-semibold">40–60%</div></div></div>
+                <div className="flex items-start gap-2"><Zap className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Kick-off</div><div className="font-semibold">1–2 weeks</div></div></div>
+                <div className="flex items-start gap-2"><Shield className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Contracts</div><div className="font-semibold">NDA + IP</div></div></div>
               </div>
             </motion.div>
           </div>

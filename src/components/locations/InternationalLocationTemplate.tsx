@@ -161,8 +161,8 @@ export default function InternationalLocationTemplate({ location }: Props) {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-primary-foreground/90">
                 <div className="flex items-start gap-2"><Clock className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Timezone overlap</div><div className="font-semibold">{location.timezoneOverlap}</div></div></div>
                 <div className="flex items-start gap-2"><DollarSign className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Billed in</div><div className="font-semibold">{location.currency}</div></div></div>
-                <div className="flex items-start gap-2"><Zap className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Kick-off in</div><div className="font-semibold">5–7 days</div></div></div>
-                <div className="flex items-start gap-2"><Shield className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Cost savings</div><div className="font-semibold">40–60%</div></div></div>
+                <div className="flex items-start gap-2"><Zap className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Kick-off</div><div className="font-semibold">1–2 weeks</div></div></div>
+                <div className="flex items-start gap-2"><Shield className="h-5 w-5 text-accent mt-0.5" /><div><div className="text-sm opacity-80">Contracts</div><div className="font-semibold">NDA + IP</div></div></div>
               </div>
             </motion.div>
           </div>
@@ -181,7 +181,7 @@ export default function InternationalLocationTemplate({ location }: Props) {
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Your Offshore Engineering Partner in {location.country}
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">{location.about}</p>
+              <p className="text-lg text-muted-foreground leading-relaxed">{location.seoContent.whyOffshore}</p>
               <div className="mt-8">
                 <h3 className="font-heading text-lg font-semibold text-foreground mb-3">
                   Cities We Serve in {location.country}
@@ -290,9 +290,7 @@ export default function InternationalLocationTemplate({ location }: Props) {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             {([
-              ["introduction", `Offshore Web & Software Development Company for ${location.country}`],
-              ["whyOffshore", `Why ${location.country} Businesses Outsource Web & Software Development to India`],
-              ["ourExpertise", `Offshore IT Company for ${location.country} — Web, Software, Apps & Marketing`],
+              ["ourExpertise", `What we build for ${location.country}`],
               ["webDevelopmentDetails", `Web Development Company for ${location.country} Businesses`],
               ["softwareDevelopmentDetails", `Custom Software Development Company for ${location.country}`],
               ["mobileAppDetails", `Mobile App Development Company for ${location.country}`],
@@ -309,12 +307,12 @@ export default function InternationalLocationTemplate({ location }: Props) {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className={`mb-10 ${i === 12 ? "bg-gradient-hero rounded-2xl p-8 text-primary-foreground" : ""}`}
+                className={`mb-10 ${key === "commitment" ? "bg-gradient-hero rounded-2xl p-8 text-primary-foreground" : ""}`}
               >
-                <h3 className={`font-heading text-2xl font-bold mb-4 ${i === 12 ? "text-primary-foreground" : "text-foreground"}`}>
+                <h3 className={`font-heading text-2xl font-bold mb-4 ${key === "commitment" ? "text-primary-foreground" : "text-foreground"}`}>
                   {heading}
                 </h3>
-                <p className={`leading-relaxed whitespace-pre-line ${i === 12 ? "text-primary-foreground/90" : "text-muted-foreground"}`}>
+                <p className={`leading-relaxed whitespace-pre-line ${key === "commitment" ? "text-primary-foreground/90" : "text-muted-foreground"}`}>
                   {location.seoContent[key]}
                 </p>
               </motion.div>
@@ -389,7 +387,7 @@ export default function InternationalLocationTemplate({ location }: Props) {
               Build Your Next Product With a {location.country}-Friendly Offshore Team
             </h2>
             <p className="text-xl text-primary-foreground/85 mb-8">
-              Senior engineers. Transparent {location.currency} pricing. {location.timezoneOverlap} of daily overlap. Kick-off in 5–7 days.
+              Senior engineers. Transparent {location.currency} pricing. {location.timezoneOverlap} of daily overlap. Kick-off in 1–2 weeks.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild variant="accent" size="lg">

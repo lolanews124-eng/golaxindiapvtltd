@@ -126,7 +126,7 @@ export default function ITConsulting() {
               { icon: DollarSign, label: "Billed in", value: "USD" },
               { icon: Clock, label: "US / UK overlap", value: "4–5 hrs/day" },
               { icon: Shield, label: "Contracts", value: "NDA + IP" },
-              { icon: Users, label: "Assessment kickoff", value: "5–7 days" },
+              { icon: Users, label: "Assessment kickoff", value: "1–2 weeks" },
             ].map((item) => (
               <div
                 key={item.label}

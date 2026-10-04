@@ -192,7 +192,7 @@ export default function WebDevelopment() {
               { icon: DollarSign, label: "Billed in", value: "USD" },
               { icon: Clock, label: "US overlap", value: "4–5 hrs/day" },
               { icon: Shield, label: "Contracts", value: "NDA + IP" },
-              { icon: Users, label: "Kickoff", value: "5–7 days" },
+              { icon: Users, label: "Kickoff", value: "1–2 weeks" },
             ].map((item) => (
               <div
                 key={item.label}

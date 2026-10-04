@@ -32,7 +32,7 @@ export default function OpenGraphImage() {
             fontWeight: 600,
           }}
         >
-          Offshore Partner · USA · UK · UAE · 12+ Countries
+          Offshore Partner · USA · UK · UAE · Global
         </div>
         <div style={{ fontSize: 64, fontWeight: 800, lineHeight: 1.1, marginBottom: 24 }}>
           Golax India Pvt Ltd

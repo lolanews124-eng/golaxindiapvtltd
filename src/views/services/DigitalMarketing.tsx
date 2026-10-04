@@ -137,7 +137,7 @@ export default function DigitalMarketing() {
               { icon: DollarSign, label: "Retainers billed in", value: "USD" },
               { icon: Clock, label: "Reporting calls", value: "Your timezone" },
               { icon: Shield, label: "SEO ethics", value: "No spam links" },
-              { icon: Users, label: "Audit turnaround", value: "5–7 days" },
+              { icon: Users, label: "Audit turnaround", value: "About 1 week" },
             ].map((item) => (
               <div
                 key={item.label}

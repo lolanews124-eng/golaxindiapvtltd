@@ -134,7 +134,7 @@ export default function MobileAppDevelopment() {
               { icon: DollarSign, label: "Quotes in", value: "USD" },
               { icon: Clock, label: "Sprint overlap", value: "4–5 hrs/day" },
               { icon: Shield, label: "Store listings", value: "Your accounts" },
-              { icon: Users, label: "Discovery to estimate", value: "5–7 days" },
+              { icon: Users, label: "Discovery to estimate", value: "1–2 weeks" },
             ].map((item) => (
               <div
                 key={item.label}

@@ -21,8 +21,8 @@ export async function generateMetadata({
 
   const geo = getCountryGeo(data.slug);
   const titleBySlug: Record<string, string> = {
-    "united-states": "Offshore Software Development for United States",
-    "united-kingdom": "Offshore Software Development for United Kingdom",
+    "united-states": "Offshore Development for USA Teams",
+    "united-kingdom": "Offshore Development for UK Teams",
     canada: "Offshore Software Development for Canada",
     australia: "Offshore Software Development for Australia",
     "united-arab-emirates": "Offshore Software Development for UAE",

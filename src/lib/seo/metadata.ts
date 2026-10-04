@@ -72,7 +72,11 @@ export function formatSeoTitle(primary: string): string {
 
   if (full.length > TITLE_MAX) {
     const maxCore = TITLE_MAX - BRAND_SUFFIX.length;
-    core = core.slice(0, maxCore).replace(/[\s,;:.\-/|]+$/u, "").trim();
+    const sliced = core.slice(0, maxCore);
+    const lastSpace = sliced.lastIndexOf(" ");
+    core = (lastSpace > 20 ? sliced.slice(0, lastSpace) : sliced)
+      .replace(/[\s,;:.\-/|]+$/u, "")
+      .trim();
     full = `${core}${BRAND_SUFFIX}`;
   }
 
