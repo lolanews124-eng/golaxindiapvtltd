@@ -285,38 +285,48 @@ export default function InternationalLocationTemplate({ location }: Props) {
         </div>
       </section>
 
-      {/* Long-form SEO body */}
+      {/* Long-form — few natural sections, not keyword-stuffed H2 lists */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            {([
-              ["ourExpertise", `What we build for ${location.country}`],
-              ["webDevelopmentDetails", `Web Development Company for ${location.country} Businesses`],
-              ["softwareDevelopmentDetails", `Custom Software Development Company for ${location.country}`],
-              ["mobileAppDetails", `Mobile App Development Company for ${location.country}`],
-              ["digitalMarketingDetails", `Digital Marketing & SEO Agency for ${location.country}`],
-              ["itConsultingDetails", `IT Consulting & Cloud Services for ${location.country}`],
-              ["pricingAdvantage", `Affordable Offshore Development — ${location.currency} Pricing for ${location.country}`],
-              ["workingModel", `How We Work With ${location.country} Clients — Time Zones & Collaboration`],
-              ["technologyStack", `Technology Stack for ${location.country} Web & Software Projects`],
-              ["processOverview", `Offshore Development Process for ${location.country} Clients`],
-              ["commitment", `Our Commitment to ${location.country} Clients`],
-            ] as const).map(([key, heading], i) => (
-              <motion.div
-                key={key}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className={`mb-10 ${key === "commitment" ? "bg-gradient-hero rounded-2xl p-8 text-primary-foreground" : ""}`}
-              >
-                <h3 className={`font-heading text-2xl font-bold mb-4 ${key === "commitment" ? "text-primary-foreground" : "text-foreground"}`}>
-                  {heading}
-                </h3>
-                <p className={`leading-relaxed whitespace-pre-line ${key === "commitment" ? "text-primary-foreground/90" : "text-muted-foreground"}`}>
-                  {location.seoContent[key]}
-                </p>
-              </motion.div>
-            ))}
+          <div className="max-w-4xl mx-auto space-y-12">
+            {(
+              [
+                ["ourExpertise", `What we usually build for teams in ${location.country}`],
+                ["workingModel", `Working hours with ${location.country}`],
+                ["itConsultingDetails", `Contracts and data handling`],
+                ["pricingAdvantage", `Pricing in ${location.currency}`],
+                ["processOverview", `How a project starts`],
+                ["commitment", `Talk to us`],
+              ] as const
+            ).map(([key, heading]) => {
+              const body = location.seoContent[key]?.trim();
+              if (!body) return null;
+              const isCta = key === "commitment";
+              return (
+                <motion.div
+                  key={key}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className={isCta ? "bg-gradient-hero rounded-2xl p-8 text-primary-foreground" : undefined}
+                >
+                  <h2
+                    className={`font-heading text-2xl md:text-3xl font-bold mb-4 ${
+                      isCta ? "text-primary-foreground" : "text-foreground"
+                    }`}
+                  >
+                    {heading}
+                  </h2>
+                  <p
+                    className={`leading-relaxed whitespace-pre-line ${
+                      isCta ? "text-primary-foreground/90" : "text-muted-foreground"
+                    }`}
+                  >
+                    {body}
+                  </p>
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>

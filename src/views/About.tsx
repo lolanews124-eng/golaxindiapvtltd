@@ -56,19 +56,19 @@ const deliveryModels = [
     icon: FileText,
     title: "Fixed-scope projects",
     description:
-      "Well-defined builds such as marketing sites and MVPs — clear quote, milestones and delivery date.",
+      "Well-defined builds such as marketing sites and MVPs, with a clear quote, milestones and delivery date.",
   },
   {
     icon: Clock,
     title: "Time and materials",
     description:
-      "Evolving products where requirements change — transparent hours, demos and sprint planning.",
+      "Evolving products where requirements change, with open hours, demos and sprint planning.",
   },
   {
     icon: Layers,
     title: "Dedicated teams",
     description:
-      "Engineers working full time on your roadmap under your direction, with a stable squad lead.",
+      "Engineers who work full time on your roadmap under your direction, with a squad lead.",
   },
 ];
 
@@ -76,19 +76,19 @@ const securityPractices = [
   "Mutual NDA signed before we review your ideas or systems.",
   "Project access granted per engagement and removed when work ends.",
   "Developers use secured devices and least-privilege access to repos and environments.",
-  "For regulated work we design for GDPR, HIPAA or SOC 2 readiness with your compliance lead.",
+  "For regulated work we plan around GDPR, HIPAA or SOC 2 needs with your compliance lead.",
 ];
 
 const differentiators = [
   {
     icon: Banknote,
     title: "USD & multi-currency billing",
-    description: "Transparent quotes in USD, GBP, CAD, AED or AUD — Wise, wire or card.",
+    description: "Quotes in USD, GBP, CAD, AED or AUD. We accept Wise, wire or card.",
   },
   {
     icon: Clock,
     title: "Timezone-aware delivery",
-    description: "4–5 hours daily overlap for US East Coast; strong windows for UK, UAE and Australia.",
+    description: "About four to five hours of daily overlap with US East Coast, and workable windows for the UK, UAE and Australia.",
   },
   {
     icon: Shield,
@@ -98,7 +98,7 @@ const differentiators = [
   {
     icon: Globe2,
     title: "Senior offshore squads",
-    description: "Dedicated React/Node/Python/Flutter engineers — not junior body shops.",
+    description: "Dedicated React, Node, Python and Flutter engineers.",
   },
 ];
 
@@ -111,42 +111,38 @@ const team = [
   {
     name: "Deepak Bharti",
     role: "CEO",
-    bio: "Leads company growth, client relationships and delivery accountability for international buyers",
+    bio: "Leads company growth, client relationships and delivery for international clients",
   },
   {
     name: "Shekhar Sahani",
     role: "CTO",
-    bio: "Owns product architecture, engineering standards and technical handovers for SaaS and web builds",
+    bio: "Owns architecture, engineering standards and technical handovers for SaaS and web builds",
   },
   {
     name: "Priya Verma",
     role: "Head of Delivery",
-    bio: "Keeps US and UK projects on sprint cadence — demos, handovers and client communication",
+    bio: "Runs sprints, demos, handovers and client communication for US and UK projects",
   },
   {
     name: "Amit Ranjan",
     role: "Engineering Manager",
-    bio: "Leads React/Node squads and code quality for offshore product and agency engagements",
+    bio: "Leads the React and Node squads and code quality",
   },
   {
     name: "Neha Gupta",
     role: "Growth & Partnerships",
-    bio: "SEO, partnerships and market outreach for USA, UK and UAE buyer pipelines",
+    bio: "SEO, partnerships and outreach for the US, UK and UAE",
   },
 ];
 
 const milestones = [
   {
-    year: "2025",
-    event: "Incorporated as Golax India Private Limited (CIN U42102BR2025PTC079250) — MCA registered, ISO 9001 & ISO 27001 certified",
-  },
-  {
     year: "2018",
-    event: "Expanded multi-timezone delivery capacity for US and UK product teams",
+    event: "Added capacity to work across time zones for US and UK product teams",
   },
   {
     year: "2020",
-    event: "Launched dedicated offshore squads for USA, UK and Middle East clients",
+    event: "Launched dedicated squads for clients in the US, UK and Middle East",
   },
   {
     year: "2022",
@@ -155,11 +151,15 @@ const milestones = [
   {
     year: "2024",
     event:
-      "Deepened dedicated offshore squads for USA, UK, UAE, Canada, Australia and European product teams",
+      "Grew dedicated squads for product teams in the US, UK, UAE, Canada, Australia and Europe",
+  },
+  {
+    year: "2025",
+    event: "Incorporated as Golax India Private Limited (CIN U42102BR2025PTC079250). MCA registered, ISO 9001 and ISO 27001 certified.",
   },
   {
     year: "2026",
-    event: "Fully focused on international clients — dedicated squads, SaaS MVPs and product engineering",
+    event: "Focused on international clients: dedicated squads, SaaS MVPs and product engineering",
   },
 ];
 
@@ -175,7 +175,7 @@ export default function About() {
             <span className="text-accent">USA and Global Clients</span>
           </>
         }
-        description="Golax India Pvt Ltd is headquartered in Patna, India. We work with startups, agencies and established businesses in the United States, United Kingdom, Canada, Australia, the Gulf and Singapore who want to build software without the cost and delay of local hiring."
+        description="Golax India Pvt Ltd is based in Patna, India. We work with startups, agencies and established businesses in the United States, United Kingdom, Canada, Australia, the Gulf and Singapore that want to build software with an offshore team."
         formContext="About — USA & Global"
       />
 
@@ -268,9 +268,7 @@ export default function About() {
             description="Most of our clients are in different time zones and have never visited India."
           />
           <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10 -mt-4">
-            We set up the working model in the first week: a shared Slack or Teams channel, a project board, a Git
-            repository under your account, a defined overlap window and a weekly demo call. You always know who is working
-            on what and what will ship next.
+            In the first week we set up a shared Slack or Teams channel, a project board, a Git repository under your account, an overlap window and a weekly demo call. You can always see who is working on what.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {differentiators.map((item, index) => (
@@ -363,7 +361,7 @@ export default function About() {
           <SectionHeader
             badge="Global reach"
             title="Where We Work"
-            description="Based in Patna, India — serving buyers across ten international markets"
+            description={`Based in Patna, India, serving clients in ${internationalLocations.length} international markets`}
           />
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {internationalLocations.map((loc) => (
@@ -401,7 +399,7 @@ export default function About() {
             >
               <h2 className="heading-display text-2xl sm:text-3xl md:text-4xl text-foreground mb-4">Our Journey</h2>
               <p className="text-base sm:text-lg text-muted-foreground">
-                From founding to a fully international offshore delivery focus
+                A short timeline
               </p>
             </motion.div>
           </div>
@@ -445,7 +443,7 @@ export default function About() {
                 Our Leadership Team
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground">
-                Experienced leaders who run offshore delivery for international product teams
+                The people who run delivery and client work
               </p>
             </motion.div>
           </div>
@@ -497,7 +495,7 @@ export default function About() {
 
       <CTABanner
         title="Talk to our team about your project"
-        description="Email or message us from the contact page — we reply within 24 hours with next steps and an NDA if you need one."
+        description="Write to us from the contact page. We reply within 24 hours with next steps, and an NDA if you need one."
         primaryLabel="Talk to our team"
         primaryHref="/contact"
       />

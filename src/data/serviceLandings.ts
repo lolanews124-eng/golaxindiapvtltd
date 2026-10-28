@@ -53,7 +53,7 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "ecommerce-development",
     h1: "E-commerce Development for International Online Stores",
     heroLead:
-      "We build online stores that sell in more than one country. Our team creates Shopify stores, headless Next.js storefronts and custom platforms with fast checkout, international payments, tax and shipping so you can sell to the US, UK, Canada, Australia and the Gulf. You get a single partner for theme or headless front end, integrations and launch support—with code and merchant accounts in your name.",
+      "We build online stores that sell in more than one country. That means Shopify stores, headless Next.js storefronts and custom platforms, with checkout, payments, tax and shipping set up for the US, UK, Canada, Australia and the Gulf. Code and merchant accounts stay in your name.",
     seoTitle: "Shopify and Headless E-commerce Development",
     metaDescription:
       "Shopify, headless commerce and custom online stores with Stripe, PayPal and tax-ready checkout for US, UK and global retailers.",
@@ -63,36 +63,36 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         heading: "What we deliver",
         body: [
-          "Shopify and Shopify Plus stores, themes and apps. Headless commerce with Next.js and Shopify, BigCommerce or Medusa. Custom marketplace and B2B ordering portals. Checkout optimisation and abandoned-cart flows.",
-          "Payments: Stripe, PayPal, Apple Pay, Google Pay and local methods. Tax, VAT and multi-currency setup. Inventory, ERP and shipping integrations. Speed and conversion optimisation.",
-          "We document feed, analytics and pixel setup so your marketing team can measure add-to-cart and purchase events consistently across regions.",
+          "Shopify and Shopify Plus stores, themes and apps. Headless builds with Next.js on Shopify, BigCommerce or Medusa. Custom marketplaces and B2B ordering portals. Checkout work and abandoned-cart flows.",
+          "Payments through Stripe, PayPal, Apple Pay, Google Pay and local methods. Tax, VAT and multi-currency setup. Inventory, ERP and shipping integrations.",
+          "We also document analytics and pixel setup, so your marketers see the same add-to-cart and purchase events in every region.",
         ],
       },
       {
         heading: "Who this is for",
         body: [
-          "Direct-to-consumer brands, retailers moving from an old platform, and B2B sellers who need portals for repeat orders.",
+          "Direct-to-consumer brands, retailers leaving an old platform, and B2B sellers who need a portal for repeat orders.",
         ],
       },
       {
-        heading: "Why choose Golax India for e-commerce development",
+        heading: "Why teams pick us for e-commerce",
         body: [
-          "Store speed as a priority because it affects conversion and SEO. Experience with multi-currency and multi-region setups. Clean migrations that preserve SEO. Ongoing optimisation, not just launch.",
+          "We care about store speed, because it affects both conversion and search. We have done multi-currency and multi-region setups, and we migrate stores without losing existing SEO. We stay on after launch to tune the store.",
         ],
       },
       {
         heading: "Security, payments and checkout trust",
         body: [
-          "International buyers expect PCI-aware checkout flows, HTTPS everywhere and clear privacy policies. We configure Stripe, PayPal and other gateways in your merchant accounts so funds and customer data stay under your control, not ours.",
-          "We follow least-privilege access for Shopify, hosting and headless backends, rotate API keys after launch and document who can change prices or refunds. For B2B portals we add role-based permissions and audit-friendly order history so your finance team can reconcile without spreadsheet exports.",
+          "Buyers expect HTTPS everywhere, a PCI-aware checkout and a clear privacy policy. We set up Stripe, PayPal and other gateways in your own merchant accounts, so funds and customer data stay with you.",
+          "Access is least-privilege across Shopify, hosting and any headless back end. We rotate API keys after launch and write down who can change prices or issue refunds. B2B portals get role-based permissions and an order history your finance team can reconcile.",
         ],
       },
       {
-        heading: "How we collaborate with your marketing team",
+        heading: "Working with your marketing team",
         body: [
-          "E-commerce launches rarely succeed when developers work in isolation. We join your Slack or Teams channel, review merchandising and campaign calendars before build, and leave room in the theme or headless front end for landing pages your marketers can publish.",
-          "Weekly demos show real checkout paths on staging, including mobile and multi-currency tests. After go-live we hand over runbooks for common tasks—adding a collection, updating shipping zones, or rolling back a theme—so you are not locked into us for every small change.",
-          "If you already run paid social or email, we coordinate UTM conventions and landing-page templates so campaign traffic lands on fast, tracked product pages rather than generic homepages.",
+          "We join your Slack or Teams, and we look at your campaign calendar before we build. The theme or storefront leaves room for landing pages your marketers can publish themselves.",
+          "Weekly demos show real checkout paths on staging, including mobile and multi-currency. After go-live we hand over short runbooks for jobs like adding a collection, changing shipping zones or rolling back a theme.",
+          "If you run paid social or email, we agree UTM conventions and landing-page templates up front, so campaign traffic lands on tracked product pages and not the homepage.",
         ],
       },
     ],
@@ -134,32 +134,32 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       "Cloud hosting (headless)",
     ],
     pricingNote:
-      "Standard Shopify stores start in the low thousands of dollars. Headless and custom platforms are scoped after discovery. Monthly support covers updates and campaigns.",
+      "Standard Shopify stores start in the low thousands of dollars. Headless and custom platforms are quoted after discovery. Monthly support covers updates and campaigns.",
     faqs: [
       {
         question: "Shopify or custom store?",
         answer:
-          "Shopify suits most brands and launches faster with a mature app ecosystem. Custom or headless suits complex catalogues, unique checkout rules, heavy personalisation or integrations that Shopify cannot support cleanly. We recommend after a short discovery call rather than defaulting to one stack.",
+          "Shopify suits most brands and launches faster. Custom or headless makes sense for complex catalogues, unusual checkout rules, heavy personalisation, or integrations Shopify cannot handle cleanly. We recommend one after a short discovery call.",
       },
       {
         question: "Can you migrate my store without losing SEO?",
         answer:
-          "Yes. We export products and content, map every old URL to a new one, preserve titles and meta descriptions where they still fit, and implement 301 redirects. After launch we monitor Search Console and fix crawl errors before they affect rankings.",
+          "Yes. We export products and content, map every old URL to a new one, keep titles and meta descriptions that still fit, and set up 301 redirects. After launch we watch Search Console and fix crawl errors early.",
       },
       {
         question: "Do you handle tax and VAT?",
         answer:
-          "We configure Shopify Tax, Avalara or similar tools and set rules for the regions you sell into. Your accountant or tax adviser still confirms rates, registrations and filing obligations—we do not provide legal tax advice.",
+          "We configure Shopify Tax, Avalara or similar tools for the regions you sell into. Your accountant still confirms rates, registrations and filing. We do not give tax advice.",
       },
       {
         question: "Who owns the theme, custom code and product data?",
         answer:
-          "You do. Themes, custom apps and headless repositories live in accounts you control. We assign IP in the contract before development starts. We can transfer Shopify partner access or repo ownership at any time with documentation.",
+          "You do. Themes, custom apps and headless repositories live in accounts you control, and IP is assigned in the contract before development starts.",
       },
       {
-        question: "How quickly can you start an e-commerce project?",
+        question: "How quickly can you start?",
         answer:
-          "Discovery and a written proposal usually happen within one business day of your enquiry. Build kickoff is often within five to seven days after contract sign, depending on access to your current store, payment accounts and any migration windows your team prefers.",
+          "We usually send a proposal within a business day of your enquiry. Build kickoff is often five to seven days after contract, depending on access to your store, payment accounts and any migration window you prefer.",
       },
     ],
     relatedServices: [
@@ -178,7 +178,7 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "ui-ux-design",
     h1: "UI/UX Design Services for Web and Mobile Products",
     heroLead:
-      "Good design reduces development cost and raises conversion. Our designers work with product teams abroad to turn ideas into clear flows, clean interfaces and tested prototypes that developers can build without guesswork. Engagements can cover research through handoff only, or continue into build with the same team when you want one accountable partner.",
+      "Clear design saves build time. Our designers work with product teams abroad to turn ideas into flows, interfaces and tested prototypes that developers can build without guessing. You can hire us for research through handoff only, or keep us on through the build.",
     seoTitle: "UI/UX Design Services for SaaS & Apps | Golax India",
     metaDescription:
       "Product design, design systems and conversion-focused landing pages by an India-based team, tested with users before development.",
@@ -189,37 +189,37 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
         heading: "What we deliver",
         body: [
           "User research, personas and journey maps. Wireframes and interactive prototypes in Figma. High-fidelity UI for web, SaaS dashboards and mobile apps. Design systems and component libraries.",
-          "Conversion-focused landing pages for paid and organic traffic. Usability testing and accessibility (WCAG) review. Developer handoff with specs and assets.",
-          "Responsive layouts and content priorities are defined for international audiences, including RTL considerations when your product requires them.",
+          "Landing pages for paid and organic traffic. Usability testing and a WCAG accessibility review. Developer handoff with specs and assets.",
+          "We plan responsive layouts and content priorities for international audiences, including right-to-left layouts when your product needs them.",
         ],
       },
       {
         heading: "Who this is for",
         body: [
-          "Founders shaping an MVP, product managers redesigning a confusing interface, and marketers who need landing pages that convert.",
-          "Teams preparing for a fundraise or enterprise pilot also use us to tighten UX before due diligence or security review cycles.",
+          "Founders shaping an MVP, product managers fixing a confusing interface, and marketers who need landing pages that convert.",
+          "Teams preparing for a fundraise or an enterprise pilot also use us to tighten the UX before due diligence.",
         ],
       },
       {
-        heading: "Why choose Golax India for UI/UX design",
+        heading: "Why teams pick us for design",
         body: [
-          "Design and development under one roof, so designs are buildable. Accessibility and performance considered from the start. Designs made for international audiences and languages. Clear documentation and handoff.",
+          "Design and development sit together, so designs are buildable. We think about accessibility and performance from the first wireframe, and we document handoff clearly.",
         ],
       },
       {
-        heading: "Design IP, files and developer handoff",
+        heading: "Design IP, files and handoff",
         body: [
-          "Figma files, component libraries and exported assets are delivered in workspaces you own. Our contracts assign design IP to your company before paid work begins, so you can switch developers or agencies later without licensing disputes.",
-          "Handoff includes named layers, responsive breakpoints, spacing tokens and interaction notes—not just pretty screens. When we also build the product, the same team closes the gap between design and code; when you only need design, we review the implemented UI once against the spec at no extra theatre.",
-          "Design critiques with your stakeholders happen in shared Figma links with comment threads so decisions stay traceable after the workshop ends.",
+          "Figma files, component libraries and exported assets live in workspaces you own. The contract assigns design IP to your company before paid work begins, so you can change developers or agencies later.",
+          "Handoff includes named layers, responsive breakpoints, spacing tokens and interaction notes, not only finished screens. If we also build the product, the same team closes the gap between design and code. If you only need design, we review the built UI against the spec once.",
+          "Design reviews happen in shared Figma links with comment threads, so decisions are still traceable after the workshop.",
         ],
       },
       {
         heading: "When a full design engagement is not the right fit",
         body: [
-          "If you only need a logo refresh with no product flows, a freelance brand designer may be enough. If your engineering team already has a rigid component library and just needs one landing page, a short fixed-scope sprint works better than a multi-month design retainer.",
-          "We are honest when research or testing would add little value—for example, a simple internal admin with five users. In those cases we suggest lightweight wireframes and move budget toward development or security review instead.",
-          "For SaaS dashboards we prioritise density, keyboard paths and empty states—not just marketing polish—because those details determine whether daily users trust the product.",
+          "If you only need a logo refresh, a freelance brand designer may be enough. If your engineers already have a strict component library and need one landing page, a short fixed-scope sprint beats a long retainer.",
+          "We will also say when research would add little. A simple internal admin tool with five users is one example. We would suggest light wireframes and put the budget into development.",
+          "For SaaS dashboards we focus on density, keyboard paths and empty states, because those details decide whether daily users trust the product.",
         ],
       },
     ],
@@ -257,32 +257,32 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       "Hotjar / Microsoft Clarity",
     ],
     pricingNote:
-      "Design sprints and landing pages are fixed-price. Full product design is scoped by screens and complexity, or provided as a monthly design retainer.",
+      "Design sprints and landing pages are fixed-price. Full product design is scoped by screens and complexity, or offered as a monthly retainer.",
     faqs: [
       {
         question: "Can you design and build?",
         answer:
-          "Yes. Combining design and development under one team avoids handoff gaps, speeds up iteration and keeps accessibility and performance decisions consistent from the first wireframe through production.",
+          "Yes. One team for both avoids handoff gaps and keeps accessibility and performance choices consistent from wireframe to production.",
       },
       {
         question: "Do you test designs with users?",
         answer:
-          "Yes. We run moderated or unmoderated tests on Figma prototypes before development, summarise findings in plain language and prioritise fixes so you spend build budget on flows that tested well.",
+          "Yes. We run moderated or unmoderated tests on Figma prototypes before development and summarise the findings in plain language. You then spend build budget on flows that tested well.",
       },
       {
         question: "Will you follow my brand?",
         answer:
-          "Yes. We work within your brand guidelines, design tokens and existing UI kits, or help define a new visual identity when you are early-stage. We document colours, type and components so future pages stay on-brand.",
+          "Yes. We work inside your brand guidelines, tokens and UI kits. If you are early-stage, we can help define a visual identity and document colours, type and components.",
       },
       {
         question: "Who owns the Figma files and design assets?",
         answer:
-          "You do. We invite your team to the project workspace, transfer ownership on request and assign IP in the contract. Exported icons, illustrations and spec documents are yours to reuse without ongoing license fees to us.",
+          "You do. We invite your team to the workspace, transfer ownership on request and assign IP in the contract. Icons, illustrations and specs are yours to reuse with no licence fees to us.",
       },
       {
         question: "Can designers overlap with US or UK working hours?",
         answer:
-          "Yes. We agree a daily overlap window for workshops, reviews and stakeholder calls—typically four to five hours with US Eastern or UK time. Async comments in Figma keep progress moving between sessions.",
+          "Yes. We agree a daily window for workshops and reviews, usually four to five hours with US Eastern or UK time. Comments in Figma cover the gaps between calls.",
       },
     ],
     relatedServices: [
@@ -301,7 +301,7 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "crm-erp-solutions",
     h1: "Custom CRM and ERP Solutions",
     heroLead:
-      "Many growing businesses run on spreadsheets and a patchwork of subscriptions that do not talk to each other. We design and build custom CRM, ERP and internal tools that match how you actually work, reduce manual effort and give you one source of truth. Projects roll out in phases so finance and operations see value before the full platform is finished.",
+      "Many growing businesses run on spreadsheets and subscriptions that do not talk to each other. We build custom CRM, ERP and internal tools that follow how you actually work. We roll them out in phases, so finance and operations see value before the whole platform is finished.",
     seoTitle: "Custom CRM & ERP Development Company India | Golax",
     metaDescription:
       "Build custom CRM, ERP and internal tools that replace spreadsheets and costly SaaS stacks. Senior engineers, NDA and full IP ownership.",
@@ -313,36 +313,36 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
         body: [
           "Custom CRM: leads, pipeline, contacts, quotes and follow-ups. ERP modules: inventory, purchasing, invoicing, HR and production. Workflow automation and approvals. Customer and supplier portals.",
           "Reporting dashboards and data exports. Integrations with accounting, e-commerce, email and payment tools. Migration from spreadsheets and legacy systems.",
-          "Mobile-friendly views for field sales and warehouse staff when your team needs access away from a desktop browser.",
+          "Mobile-friendly views for field sales and warehouse staff who work away from a desk.",
         ],
       },
       {
         heading: "Who this is for",
         body: [
-          "Manufacturers, distributors, service firms and agencies that have outgrown off-the-shelf tools or pay for many overlapping subscriptions.",
-          "Operations leaders who need one dashboard for inventory, orders and billing—not three exports merged in Excel every Monday—are typical buyers.",
+          "Manufacturers, distributors, service firms and agencies that have outgrown off-the-shelf tools or pay for several overlapping subscriptions.",
+          "Operations leaders who want one dashboard for inventory, orders and billing, not three exports merged in Excel every Monday.",
         ],
       },
       {
-        heading: "Why choose Golax India for CRM and ERP development",
+        heading: "How we approach CRM and ERP projects",
         body: [
-          "We compare build versus buy honestly and tell you if an existing tool is better. Modular design so you pay only for what you need. Data ownership and export at all times. Training and documentation for your team.",
+          "We compare build against buy and tell you if an existing tool is the better choice. The design is modular, so you pay only for what you need. You can export your data at any time, and we train your team and document the system.",
         ],
       },
       {
         heading: "Data ownership, backups and access control",
         body: [
-          "Your operational data stays in databases and cloud accounts you control. We implement role-based permissions, audit logs for sensitive actions and encrypted backups with tested restore procedures—not promises on a slide.",
-          "Exports to CSV, API access and documentation are part of delivery so you are never locked in. NDAs and IP assignment cover custom workflows and reports. We can host in your AWS or Azure tenant if your security team requires it.",
-          "Retention policies and deletion workflows can be built to match how long your contracts require you to keep customer or employee records.",
+          "Your operational data stays in databases and cloud accounts you control. We add role-based permissions, audit logs for sensitive actions and encrypted backups, and we test the restore.",
+          "CSV exports, API access and documentation come with delivery, so you are not locked in. An NDA and IP assignment cover custom workflows and reports. If your security team requires it, we can host in your AWS or Azure tenant.",
+          "We can build retention and deletion workflows to match how long your contracts require you to keep customer or employee records.",
         ],
       },
       {
-        heading: "Who should stay on SaaS instead of custom CRM or ERP",
+        heading: "When you should stay on SaaS",
         body: [
-          "If a standard CRM like HubSpot or Salesforce already matches your sales process with minor configuration, rebuilding rarely pays off. The same applies when a mid-market ERP covers inventory and finance with modest customisation.",
-          "Custom builds make sense when subscription costs stack up, teams work around tool limits with spreadsheets, or you need industry-specific workflows regulators expect to see in one system. We tell you which side of that line you are on before quoting.",
-          "When you stay on SaaS, we can still integrate or automate between tools—you do not have to choose custom software to get practical help from our engineers.",
+          "If HubSpot or Salesforce already fits your sales process with light configuration, rebuilding rarely pays off. The same goes for a mid-market ERP that covers inventory and finance with modest changes.",
+          "Custom builds make sense when subscription costs stack up, teams work around tool limits with spreadsheets, or you need an industry-specific workflow in one system. We tell you which side of that line you are on before we quote.",
+          "If you stay on SaaS, we can still integrate or automate between your tools.",
         ],
       },
     ],
@@ -389,27 +389,27 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         question: "Is custom software better than a SaaS tool?",
         answer:
-          "Custom is better when your process is unique, integrations are fragile, or SaaS fees and manual workarounds cost more than ownership over a few years. If HubSpot, Zoho or a vertical ERP already fits with light config, we recommend staying there and spending budget elsewhere.",
+          "It is when your process is unusual, your integrations are fragile, or SaaS fees and workarounds cost more than owning the system over a few years. If HubSpot, Zoho or a vertical ERP fits with light configuration, we will tell you to stay and spend the budget elsewhere.",
       },
       {
         question: "Can you connect it to QuickBooks or Xero?",
         answer:
-          "Yes, through their official APIs for invoices, payments, customers and chart-of-accounts sync. We map fields carefully, handle OAuth securely and log failures so finance can reconcile without silent mismatches.",
+          "Yes, through their official APIs, for invoices, payments, customers and chart-of-accounts sync. We map fields carefully, handle OAuth securely and log failures so finance can reconcile without silent mismatches.",
       },
       {
         question: "How do you handle our existing data?",
         answer:
-          "We map fields from spreadsheets and legacy systems, clean duplicates, run trial imports on staging and validate totals with your team before production cutover. Rollback plans stay ready until you sign off.",
+          "We map fields from your spreadsheets and old systems, clean duplicates, run trial imports on staging and check totals with your team before cutover. A rollback plan stays ready until you sign off.",
       },
       {
         question: "Who owns the source code and database?",
         answer:
-          "You do. Repositories and database instances are in accounts you control. IP is assigned in the contract. We deliver architecture diagrams and admin runbooks so your team or another vendor can maintain the system.",
+          "You do. Repositories and databases sit in accounts you control, and IP is assigned in the contract. We hand over architecture diagrams and admin runbooks so your team or another vendor can maintain the system.",
       },
       {
-        question: "How long does a first CRM or ERP module take?",
+        question: "How long does a first module take?",
         answer:
-          "A focused first module—often pipeline plus quotes or inventory plus orders—typically takes eight to fourteen weeks after discovery, depending on integrations and data quality. Later phases add modules without rewriting the core.",
+          "A focused first module, such as pipeline plus quotes or inventory plus orders, usually takes eight to fourteen weeks after discovery. Integrations and data quality can move that. Later phases add modules without rewriting the core.",
       },
     ],
     relatedServices: [
@@ -428,7 +428,7 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "dedicated-development-teams",
     h1: "Hire a Dedicated Development Team from India",
     heroLead:
-      "A dedicated team gives you full-time engineers who work only on your product, take direction from you and join your stand-ups, tools and roadmap. You get the control of an in-house team with lower cost, faster hiring and no local employment overhead. Typical senior rates fall in the $25–$45 per hour equivalent range on monthly billing, with roles and notice terms spelled out up front.",
+      "A dedicated team is a set of full-time engineers who work only on your product. They take direction from you and join your stand-ups, tools and roadmap. You get something close to an in-house team without the local hiring and employment overhead. Senior rates are usually around $25–$45 per hour equivalent, billed monthly, with roles and notice terms written into the contract.",
     seoTitle: "Hire Dedicated Development Team from India | Golax",
     metaDescription:
       "Hire a vetted dedicated team of engineers from India at $25-45/hr with US/UK overlap. Month-to-month, NDA and IP assignment included.",
@@ -438,35 +438,35 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         heading: "What we deliver",
         body: [
-          "Full-time developers, QA engineers, designers, DevOps and a project manager as needed. Team set-up in one to two weeks after contract. Working overlap with US, UK, Gulf or Singapore hours.",
-          "Weekly reports, sprint demos and transparent timesheets. Flexible scaling: add or reduce members with notice. Knowledge transfer and documentation.",
+          "Full-time developers, QA engineers, designers, DevOps and a project manager, as you need them. Most teams are set up one to two weeks after contract. Overlap with US, UK, Gulf or Singapore hours.",
+          "Weekly reports, sprint demos and open timesheets. You can add or remove people with notice. We handle knowledge transfer and documentation.",
         ],
       },
       {
         heading: "Who this is for",
         body: [
-          "Product companies with a long roadmap, agencies that need capacity, and startups that want engineers without hiring locally.",
+          "Product companies with a long roadmap, agencies that need extra capacity, and startups that want engineers without hiring locally.",
         ],
       },
       {
-        heading: "Why choose Golax India for dedicated development teams",
+        heading: "How a dedicated team works with us",
         body: [
-          "You interview and approve every team member. Team members stay on your project, not shared across clients. If a team member is not the right fit, we work with you on a replacement within the terms in your contract. Legal protection and secure access controls.",
+          "You interview and approve every team member. They work on your project only and are not shared across clients. If someone is not the right fit, we work with you on a replacement under the terms in your contract. Access controls and legal protections are in place from day one.",
         ],
       },
       {
         heading: "IP, NDAs and confidentiality",
         body: [
-          "Every dedicated engagement starts with an NDA and master services agreement that assigns work product and code to your company. Engineers use your GitHub or GitLab, your issue tracker and your secrets manager—never personal repos for production code.",
-          "Access is revoked promptly when someone rolls off the team. We support customer security questionnaires with evidence of background checks, device policies and secure development practices where your procurement team requires it.",
+          "Every dedicated engagement starts with an NDA and a master services agreement that assigns work product and code to your company. Engineers use your GitHub or GitLab, your issue tracker and your secrets manager. Production code never goes in personal repositories.",
+          "Access is removed promptly when someone leaves the team. If your procurement team needs it, we can support security questionnaires with details on background checks, device policies and secure development practices.",
         ],
       },
       {
         heading: "When a dedicated team is not the right model",
         body: [
-          "A one-off landing page or two-week bug fix does not need a full-time squad—a fixed-scope project is cheaper and clearer. If you have no product owner or technical lead to prioritise work, adding headcount alone will not speed delivery.",
-          "We also caution against dedicated teams when the roadmap is undefined for months; a short discovery and prototype phase first often saves budget. We will say so upfront rather than sell seats you cannot use effectively.",
-          "When a dedicated team is the right fit, the same engineers stay with you across quarters so context compounds instead of resetting every project.",
+          "A one-off landing page or a two-week bug fix does not need a full-time squad. A fixed-scope project is cheaper and clearer. If nobody on your side can prioritise the work, extra headcount will not speed delivery.",
+          "We also advise against it when the roadmap is undefined for months. A short discovery and prototype phase usually saves money first. We would rather say so than sell seats you cannot use well.",
+          "When a dedicated team does fit, the same engineers stay with you across quarters, so context builds up instead of resetting with each project.",
         ],
       },
     ],
@@ -510,37 +510,37 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       "MongoDB",
     ],
     pricingNote:
-      "Senior engineers are billed at roughly $25-$45 per hour equivalent on a monthly basis, depending on skill and seniority. There are no hidden fees, and notice periods are stated in the contract.",
+      "Senior engineers are billed at roughly $25-$45 per hour equivalent on a monthly basis, depending on skill and seniority. Notice periods are stated in the contract.",
     faqs: [
       {
         question: "How do you vet engineers for dedicated teams?",
         answer:
-          "Candidates pass a technical screen, a practical task relevant to your stack and an English communication check. You interview finalists live before anyone joins your Slack or repository. We share employment history and sample code with your approval.",
+          "Candidates go through a technical screen, a practical task close to your stack and an English communication check. You interview finalists live before anyone joins your Slack or repository.",
       },
       {
         question: "Who owns the code and IP?",
         answer:
-          "Your company owns all work product created for you. IP assignment is in the MSA before the first sprint. Repositories and cloud resources remain in accounts you control; we never withhold code for payment disputes outside what the contract states.",
+          "Your company owns all work product created for you. IP assignment is in the MSA before the first sprint. Repositories and cloud resources stay in accounts you control.",
       },
       {
         question: "What timezone overlap do you offer?",
         answer:
-          "We align four to five hours of overlap with US Eastern, UK, Gulf or Singapore hours depending on your preference. Core meetings—stand-ups, planning, demos—sit inside that window; async updates cover the rest.",
+          "We usually align four to five hours with US Eastern, UK, Gulf or Singapore hours, depending on your preference. Stand-ups, planning and demos sit in that window, and async updates cover the rest.",
       },
       {
         question: "Which tools will the team use?",
         answer:
-          "Yours. We work in your GitHub, Jira, Linear, Azure DevOps, Figma and CI pipelines. If you have no preference, we suggest a standard stack but still host code in your org, not ours.",
+          "Yours. We work in your GitHub, Jira, Linear, Azure DevOps, Figma and CI pipelines. If you have no preference, we suggest a standard stack, but code still lives in your organisation.",
       },
       {
         question: "What is the notice period to scale or end the engagement?",
         answer:
-          "Notice terms are written clearly in the contract—typically thirty days to add or remove roles, with shorter notice for replacing an individual who is not a fit. There are no hidden exit fees beyond agreed notice and final invoicing.",
+          "The contract states it. It is typically thirty days to add or remove roles, and shorter to replace one person. There are no exit fees beyond the agreed notice and final invoicing.",
       },
       {
         question: "What is the minimum team size?",
         answer:
-          "One senior engineer is possible for a narrow roadmap. Most product companies start with two or three engineers plus optional QA or DevOps for sustainable velocity and code review.",
+          "One senior engineer is possible for a narrow roadmap. Most product companies start with two or three engineers, plus QA or DevOps if they need it.",
       },
     ],
     relatedServices: [
@@ -559,7 +559,7 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "hire-react-developers",
     h1: "Hire React Developers from India",
     heroLead:
-      "Hire experienced React and Next.js developers who build fast, accessible and maintainable interfaces. Our engineers work full time on your product or on a fixed-scope project, with code you can hand to any future team. Monthly billing typically reflects $25–$45 per hour equivalent for senior talent, with an optional paid trial sprint before you commit long term.",
+      "Hire React and Next.js developers who build fast, accessible and maintainable interfaces. They can work full time on your product or on a fixed-scope project, and the code is yours to hand to any future team. Senior monthly billing is usually around $25–$45 per hour equivalent, and you can start with a paid trial sprint.",
     seoTitle: "Hire React Developers from India | Golax India",
     metaDescription:
       "Hire senior React and Next.js developers from India at $25-45/hr with US/UK overlap. Trial period, NDA and full IP assignment.",
@@ -569,37 +569,37 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         heading: "What we deliver",
         body: [
-          "React and Next.js web apps and dashboards. Server-side rendering and static generation for SEO. Component libraries and design system implementation. State management with Redux, Zustand or React Query.",
-          "TypeScript migration and code refactoring. Performance profiling and Core Web Vitals work. Testing with Jest, React Testing Library and Playwright.",
-          "Internationalisation hooks and locale-aware routing when you ship the same product to multiple English-speaking markets or translated locales.",
+          "React and Next.js web apps and dashboards. Server-side rendering and static generation for SEO. Component libraries and design-system work. State management with Redux, Zustand or React Query.",
+          "TypeScript migration and refactoring. Performance profiling and Core Web Vitals work. Tests with Jest, React Testing Library and Playwright.",
+          "Locale-aware routing and internationalisation, when you ship one product to several markets.",
         ],
       },
       {
         heading: "Who this is for",
         body: [
-          "Product teams that need front-end capacity, agencies that need reliable React talent, and startups building SaaS dashboards.",
-          "CTOs replatforming from jQuery or Angular to React often start with one senior hire before expanding to a small squad.",
+          "Product teams that need front-end capacity, agencies that need reliable React people, and startups building SaaS dashboards.",
+          "CTOs moving from jQuery or Angular to React often start with one senior hire and add a small squad later.",
         ],
       },
       {
-        heading: "Why choose Golax India for React developers",
+        heading: "How we vet and work",
         body: [
-          "Vetted through code tests and interviews. Comfortable with pull requests, CI and agile ceremonies. Attention to accessibility and speed. Clean, typed, documented code.",
+          "Developers are screened with code tests and interviews. They are comfortable with pull requests, CI and agile ceremonies, and they write typed, documented code with an eye on accessibility and speed.",
         ],
       },
       {
-        heading: "Security and front-end quality standards",
+        heading: "Security and front-end quality",
         body: [
-          "Our React engineers treat XSS, CSRF and secrets in the browser seriously: no API keys in client bundles, sanitised rich text, secure cookie settings when you use session auth and dependency updates tracked in your repo.",
-          "Pull requests include accessibility checks, Lighthouse or Core Web Vitals notes where relevant and unit tests for critical UI logic. That reduces regressions when your back-end team ships parallel API changes.",
+          "Our React engineers take XSS, CSRF and browser-side secrets seriously. That means no API keys in client bundles, sanitised rich text, secure cookie settings for session auth, and dependency updates tracked in your repo.",
+          "Pull requests include accessibility checks, Lighthouse or Core Web Vitals notes where they matter, and unit tests for critical UI logic. That cuts regressions when your back-end team ships API changes in parallel.",
         ],
       },
       {
         heading: "Working in your repository and design system",
         body: [
-          "Developers clone your GitHub org, branch from your conventions and open PRs for your review. They implement your Figma specs or extend your Storybook components instead of inventing one-off CSS.",
-          "Daily stand-ups and async updates happen in your Slack or Teams. We agree overlap hours with US, UK or EU leads so design reviews and unblock sessions happen live, not only overnight.",
-          "We reply to new hire enquiries within one business day with shortlisted profiles or clarifying questions—no generic rate cards without understanding your stack.",
+          "Developers work in your GitHub organisation, follow your branching conventions and open PRs for your review. They build to your Figma specs or extend your Storybook, rather than adding one-off CSS.",
+          "Stand-ups and async updates happen in your Slack or Teams. We agree overlap hours with your US, UK or EU leads, so design reviews and unblocking happen live.",
+          "For new hire enquiries, we aim to reply within one business day with shortlisted profiles or questions about your stack.",
         ],
       },
     ],
@@ -644,32 +644,32 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         question: "How do you vet React developers?",
         answer:
-          "Each candidate completes a live technical interview, a React or Next.js coding exercise close to real product work and a review of prior repositories or redacted samples. You meet finalists before onboarding. Communication in English is assessed for stand-ups and PR descriptions.",
+          "Each candidate does a live technical interview, a React or Next.js coding exercise close to real product work, and a review of past repositories or redacted samples. You meet finalists before onboarding, and we check English for stand-ups and PR descriptions.",
       },
       {
         question: "Who owns the React code and components?",
         answer:
-          "You do. All commits land in your repository under your IP assignment clause. We do not reuse your proprietary components for other clients. Work-for-hire terms are signed before the trial sprint or monthly engagement begins.",
+          "You do. All commits go into your repository under your IP assignment clause. We do not reuse your proprietary components for other clients.",
       },
       {
         question: "Can they work in my time zone?",
         answer:
-          "Yes. We document a daily overlap window—often four to five hours with US or UK time—for pairing, reviews and planning. Outside that window, developers continue async via PRs and tickets with clear handoff notes.",
+          "Yes. We set a daily overlap window, often four to five hours with US or UK time, for pairing, reviews and planning. Outside it, developers continue through PRs and tickets with clear handoff notes.",
       },
       {
         question: "Which tools do your React developers use?",
         answer:
-          "Your stack: GitHub or GitLab, your CI, Jest or Vitest, Playwright or Cypress, Figma and whatever monorepo or package manager you standardise on. We adapt to Next.js App Router, Pages Router or Vite SPAs as needed.",
+          "Yours: GitHub or GitLab, your CI, Jest or Vitest, Playwright or Cypress, Figma and your package manager or monorepo setup. We work with the Next.js App Router, the Pages Router or a Vite SPA.",
       },
       {
-        question: "What notice period applies for part-time or full-time hires?",
+        question: "What notice period applies?",
         answer:
-          "Monthly engagements include a written notice period—commonly two to four weeks—to pause or end without surprise billing. Replacing a developer who is not a fit is handled faster under the replacement clause in your agreement.",
+          "Monthly engagements carry a written notice period, commonly two to four weeks, so you can pause or end without surprise billing. Replacing a developer who is not a fit is faster under the replacement clause.",
       },
       {
         question: "Do you offer part-time React developers?",
         answer:
-          "Yes, from roughly half-time upward when capacity allows. Part-time works well for maintenance, design-system work or supporting an in-house lead who owns architecture.",
+          "Yes, from roughly half-time upward when capacity allows. Part-time suits maintenance, design-system work, or support for an in-house lead who owns the architecture.",
       },
     ],
     relatedServices: [
@@ -688,7 +688,7 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "hire-nodejs-developers",
     h1: "Hire Node.js Developers from India",
     heroLead:
-      "Our Node.js and TypeScript engineers build secure, scalable back ends: REST and GraphQL APIs, real-time features, background jobs and integrations. Hire one engineer or a full back-end team to work alongside your product and front-end developers. Engagements include NDA and IP assignment; senior monthly rates usually sit in the $25–$45 per hour equivalent band.",
+      "Our Node.js and TypeScript engineers build back ends: REST and GraphQL APIs, real-time features, background jobs and integrations. Hire one engineer or a small back-end team to work with your product and front-end developers. An NDA and IP assignment are part of every engagement, and senior monthly rates usually sit around $25–$45 per hour equivalent.",
     seoTitle: "Hire Node.js Developers from India | Golax India",
     metaDescription:
       "Hire senior Node.js and TypeScript backend developers from India for APIs, SaaS and real-time apps. NDA, IP assignment, US/UK overlap.",
@@ -698,38 +698,38 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         heading: "What we deliver",
         body: [
-          "REST and GraphQL API development. Microservices and event-driven systems. Real-time features with WebSockets. Authentication, authorisation and payments.",
-          "Database design in PostgreSQL, MongoDB and Redis. Queues and background processing. Third-party integrations and webhooks. Testing, logging and monitoring.",
-          "Versioned APIs and migration paths so mobile and web clients can adopt changes without coordinated big-bang releases.",
+          "REST and GraphQL APIs. Microservices and event-driven systems. Real-time features over WebSockets. Authentication, authorisation and payments.",
+          "Database design in PostgreSQL, MongoDB and Redis. Queues and background jobs. Third-party integrations and webhooks. Testing, logging and monitoring.",
+          "Versioned APIs with migration paths, so mobile and web clients can adopt changes without a big-bang release.",
         ],
       },
       {
         heading: "Who this is for",
         body: [
-          "SaaS startups, marketplaces and enterprises needing dependable back-end engineers.",
-          "Teams blocked on API delivery while front-end waits on endpoints, or carrying ops debt on a growing Express codebase, bring us in to stabilise and extend.",
+          "SaaS startups, marketplaces and enterprises that need dependable back-end engineers.",
+          "Teams whose front end is waiting on endpoints, or who carry ops debt in a growing Express codebase, bring us in to stabilise and extend it.",
         ],
       },
       {
-        heading: "Why choose Golax India for Node.js developers",
+        heading: "How we work on back ends",
         body: [
-          "Strong TypeScript and testing habits. Security practice: input validation, rate limiting and secrets management. Experience with scale and observability. Straightforward communication.",
+          "We write typed, tested code. For security that means input validation, rate limiting and proper secrets management. We have worked on systems that needed to scale, and we add observability early. Communication is straightforward.",
         ],
       },
       {
-        heading: "API security, secrets and compliance-aware backends",
+        heading: "API security, secrets and compliance",
         body: [
-          "Node services we build use environment-based secrets, hashed credentials, rate limits and structured logging without leaking PII. We align with your security team on OWASP basics, dependency scanning in CI and least-privilege IAM on AWS or Azure.",
-          "When you process payments or health data, we follow your data-classification rules—encryption at rest, audit trails and no production data on developer laptops without approval.",
+          "The services we build use environment-based secrets, hashed credentials, rate limits and structured logging that does not leak personal data. We align with your security team on OWASP basics, dependency scanning in CI and least-privilege IAM on AWS or Azure.",
+          "If you process payments or health data, we follow your data-classification rules: encryption at rest, audit trails, and no production data on developer laptops without approval.",
         ],
       },
       {
-        heading: "Collaboration with your front-end and DevOps teams",
+        heading: "Working with your front-end and DevOps teams",
         body: [
-          "Back-end engineers document OpenAPI or GraphQL schemas, publish migration steps and join API contract reviews so React or mobile teams are not blocked. They work inside your Docker and Terraform workflows when you already have platform standards.",
-          "Incident response playbooks and on-call handoffs can be shared for production systems we maintain. Overlap hours match your lead engineer timezone for architecture decisions that should not wait overnight.",
-          "Whether you extend a legacy Express monolith or greenfield a NestJS service, we match your conventions instead of forcing a rewrite on day one.",
-          "Webhook and idempotency patterns are documented so finance and ops integrations do not double-charge or duplicate orders under retries.",
+          "Back-end engineers document OpenAPI or GraphQL schemas, write up migration steps and join API contract reviews, so React and mobile teams are not blocked. They work in your Docker and Terraform setup if you already have platform standards.",
+          "For production systems we maintain, we can share incident playbooks and on-call handoffs. Overlap hours match your lead engineer's time zone, so architecture decisions do not wait overnight.",
+          "Whether we extend a legacy Express monolith or start a new NestJS service, we follow your conventions and do not push a rewrite on day one.",
+          "We document webhook and idempotency patterns, so finance and ops integrations do not double-charge or duplicate orders when requests retry.",
         ],
       },
     ],
@@ -774,32 +774,32 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         question: "How do you vet Node.js developers?",
         answer:
-          "We assess TypeScript fluency, async patterns, testing discipline and security awareness in a live interview plus a take-home or pair-programming task involving APIs and data modelling. You interview shortlisted engineers before they receive repository access.",
+          "We check TypeScript fluency, async patterns, testing habits and security awareness in a live interview, plus a take-home or pair-programming task on APIs and data modelling. You interview shortlisted engineers before they get repository access.",
       },
       {
         question: "Who owns the API code and database migrations?",
         answer:
-          "Your company owns all back-end code, migration files and infrastructure definitions we write for you. IP assignment is in place before work starts. Repos and databases stay in accounts you administer.",
+          "Your company owns all back-end code, migration files and infrastructure definitions we write for you. IP assignment is in place before work starts, and repos and databases stay in accounts you administer.",
       },
       {
-        question: "Can Node.js developers match my timezone?",
+        question: "Can Node.js developers match my time zone?",
         answer:
-          "Yes. We schedule overlap for stand-ups, incident calls and design reviews—typically with US, UK, Singapore or Gulf hours. Async PR reviews continue outside the window with documented decisions.",
+          "Yes. We schedule overlap for stand-ups, incident calls and design reviews, usually with US, UK, Singapore or Gulf hours. Outside that window, PR reviews continue with decisions written down.",
       },
       {
         question: "Do you work with NestJS, Express or our existing stack?",
         answer:
-          "We work in NestJS, Express, Fastify and serverless Node on AWS Lambda as your architecture requires. We follow your lint rules, folder structure and CI gates rather than imposing a new framework mid-project.",
+          "Yes: NestJS, Express, Fastify, or serverless Node on AWS Lambda, depending on your architecture. We follow your lint rules, folder structure and CI gates instead of introducing a new framework mid-project.",
       },
       {
-        question: "What notice period applies when hiring Node engineers?",
+        question: "What notice period applies?",
         answer:
-          "Monthly contracts state notice for pause or termination—often two to four weeks—and replacement terms if a engineer is not meeting expectations. There are no lock-in clauses beyond that written notice.",
+          "Monthly contracts state the notice to pause or end, often two to four weeks, plus replacement terms if an engineer is not meeting expectations. There is no lock-in beyond that notice.",
       },
       {
         question: "Can you help with database performance?",
         answer:
-          "Yes. Indexing, query tuning, connection pooling, Redis caching and slow-query monitoring are part of back-end delivery. We document changes so your team can maintain performance after handoff.",
+          "Yes. Indexing, query tuning, connection pooling, Redis caching and slow-query monitoring are part of back-end work. We document the changes so your team can keep performance up after handoff.",
       },
     ],
     relatedServices: [
@@ -818,7 +818,7 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "hire-flutter-developers",
     h1: "Hire Flutter Developers from India",
     heroLead:
-      "Flutter lets you ship iOS and Android from a single codebase, cutting cost and time. Our Flutter developers build polished apps with native-feeling performance, and integrate them with your back end, payments and analytics. Hire full time or start with a trial sprint; senior monthly rates are typically in the $25–$45 per hour equivalent range with clear notice terms.",
+      "Flutter lets you ship iOS and Android from one codebase, which cuts cost and time. Our Flutter developers build polished apps and connect them to your back end, payments and analytics. You can hire full time or start with a trial sprint. Senior monthly rates are typically around $25–$45 per hour equivalent, with notice terms in the contract.",
     seoTitle: "Hire Flutter Developers from India | Golax India",
     metaDescription:
       "Hire experienced Flutter developers from India to build iOS and Android apps from one codebase. Trial sprint, NDA and IP assignment.",
@@ -828,38 +828,38 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         heading: "What we deliver",
         body: [
-          "Cross-platform Flutter apps for iOS and Android. Custom UI and animations. State management with Riverpod, Bloc or Provider. REST, GraphQL and Firebase integrations.",
-          "Payments, maps, push notifications and offline mode. Play Store and App Store release. Migration from native or React Native.",
-          "Deep linking and app analytics wired to your marketing stack so installs can be tied to campaigns where platforms allow it.",
+          "Cross-platform Flutter apps for iOS and Android. Custom UI and animation. State management with Riverpod, Bloc or Provider. REST, GraphQL and Firebase integrations.",
+          "Payments, maps, push notifications and offline mode. Play Store and App Store releases. Migration from native or React Native.",
+          "Deep linking and app analytics connected to your marketing stack, so installs can be tied to campaigns where the platforms allow it.",
         ],
       },
       {
         heading: "Who this is for",
         body: [
           "Startups that want to launch on both stores quickly, and companies extending a web product to mobile.",
-          "Products that need parity on iOS and Android without maintaining two native teams are the sweet spot for dedicated Flutter engineers.",
+          "Products that need the same experience on iOS and Android, without two native teams, are the best fit.",
         ],
       },
       {
-        heading: "Why choose Golax India for Flutter developers",
+        heading: "How we work on Flutter projects",
         body: [
-          "Store release experience. Clean architecture and tests. Design-friendly developers. Overlap with your team hours.",
+          "Our developers have shipped to the stores. They write structured, tested code, work well with designers, and overlap with your team's hours.",
         ],
       },
       {
         heading: "App security, keys and store compliance",
         body: [
-          "Flutter builds use secure storage for tokens, certificate pinning when you require it and obfuscation guidance for release builds. API keys belong on your back end, not hard-coded in the client.",
-          "We help you meet Apple and Google privacy questionnaire requirements—data collection disclosures, account deletion flows and kids-data rules when applicable—without claiming legal advice.",
+          "Flutter builds use secure storage for tokens, certificate pinning if you want it, and obfuscation for release builds. API keys belong on your back end, not hard-coded in the app.",
+          "We help you fill in Apple and Google privacy questionnaires: data collection disclosures, account deletion flows, and rules for children's data when they apply. We do not give legal advice.",
         ],
       },
       {
-        heading: "When Flutter staff augmentation is not ideal",
+        heading: "When Flutter is not the right choice",
         body: [
-          "Games or apps that need deep native GPU features may still need Kotlin or Swift specialists. If you only need a wrapper around a website with no offline value, a PWA might cost less.",
-          "We flag those cases early. When Flutter is the right call, our developers integrate with your back-end squad and designers so TestFlight and Play internal tracks update every sprint.",
-          "Enquiries receive a response within one business day so you can plan release dates against real availability, not a black-box bench.",
-          "Platform channel updates for iOS and Android are tracked so we schedule SDK bumps before store deadlines affect your submission.",
+          "Games, or apps that need deep native GPU features, may still need Kotlin or Swift specialists. If you only need a wrapper around a website with no offline value, a PWA may cost less.",
+          "We flag those cases early. When Flutter fits, our developers work with your back-end team and designers, so TestFlight and Play internal tracks get a new build every sprint.",
+          "We reply to enquiries within one business day, so you can plan release dates against real availability.",
+          "We also track iOS and Android platform updates, and schedule SDK upgrades before store deadlines hit your submission.",
         ],
       },
     ],
@@ -903,32 +903,32 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         question: "How do you vet Flutter developers?",
         answer:
-          "Candidates show production Flutter apps or contributions, complete a Dart exercise covering state management and API integration and discuss widget performance in a live interview. You approve anyone before they access your repo or signing certificates workflow.",
+          "Candidates show production Flutter apps or contributions, complete a Dart exercise on state management and API integration, and talk through widget performance in a live interview. You approve anyone before they get access to your repo or signing certificates.",
       },
       {
         question: "Who owns the Flutter source and store listings?",
         answer:
-          "You own the codebase and App Store or Google Play listings under your developer accounts. IP is assigned in the contract. We do not publish apps under Golax accounts for client products.",
+          "You own the codebase and the App Store and Google Play listings, under your own developer accounts. IP is assigned in the contract. We never publish client apps under Golax accounts.",
       },
       {
-        question: "Can Flutter developers overlap with my timezone?",
+        question: "Can Flutter developers overlap with my time zone?",
         answer:
-          "Yes. We set overlap for sprint planning, design reviews and release go/no-go calls with US, UK, Australia or Gulf teams. Builds and PR comments continue asynchronously with clear release notes.",
+          "Yes. We set overlap for sprint planning, design reviews and release calls with US, UK, Australia or Gulf teams. Builds and PR comments continue outside that window, with clear release notes.",
       },
       {
         question: "Which tools do Flutter developers use day to day?",
         answer:
-          "Your Git repo, CI for iOS and Android builds—Codemagic, GitHub Actions or Bitrise—Figma, Firebase or your API docs and Fastlane where you already use it. Crash reporting ties into Sentry or Firebase Crashlytics in your projects.",
+          "Your Git repo, CI for iOS and Android builds (Codemagic, GitHub Actions or Bitrise), Figma, Firebase or your API docs, and Fastlane if you already use it. Crash reporting goes through Sentry or Firebase Crashlytics in your projects.",
       },
       {
-        question: "What notice period applies for Flutter hires?",
+        question: "What notice period applies?",
         answer:
-          "Engagements document notice to scale down or end—commonly two to four weeks on monthly contracts. Trial sprints can end after the agreed sprint if either side is not satisfied, per the statement of work.",
+          "The engagement documents it, commonly two to four weeks on monthly contracts. A trial sprint can end after the agreed sprint if either side is not satisfied, as set out in the statement of work.",
       },
       {
         question: "Do you handle store submission?",
         answer:
-          "Yes. We prepare builds, screenshots, metadata and privacy labels, then submit under your Apple and Google accounts and respond to review feedback until approval.",
+          "Yes. We prepare builds, screenshots, metadata and privacy labels, submit under your Apple and Google accounts, and respond to review feedback until the app is approved.",
       },
     ],
     relatedServices: [
@@ -947,7 +947,7 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
     slug: "hire-python-developers",
     h1: "Hire Python Developers from India",
     heroLead:
-      "Our Python developers build web back ends, data pipelines, automation and AI features. Whether you need Django or FastAPI services, integrations, or machine-learning-powered functions, you can add proven engineers to your team within weeks. Contracts include confidentiality and IP assignment; senior hires are usually billed monthly in the $25–$45 per hour equivalent range.",
+      "Our Python developers build web back ends, data pipelines, automation and AI features. Whether you need Django or FastAPI services, integrations or machine-learning functions, you can add engineers to your team within a few weeks. Contracts include confidentiality and IP assignment, and senior hires are usually billed monthly at around $25–$45 per hour equivalent.",
     seoTitle: "Hire Python Developers from India | Golax India",
     metaDescription:
       "Hire senior Python developers from India for Django, FastAPI, data and AI projects. US/UK time overlap, NDA and IP assignment included.",
@@ -957,38 +957,38 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         heading: "What we deliver",
         body: [
-          "Django and FastAPI web applications and APIs. Data pipelines and ETL. Automation, scraping and integrations (within legal limits). AI and machine learning features using LLM APIs and standard libraries.",
-          "Dashboards and analytics back ends. Testing and CI/CD. Legacy Python upgrades.",
-          "Scheduled jobs and observability around batch workloads so data pipelines fail loudly instead of silently drifting.",
+          "Django and FastAPI web apps and APIs. Data pipelines and ETL. Automation, scraping and integrations, within legal limits. AI and machine-learning features using LLM APIs and standard libraries.",
+          "Dashboards and analytics back ends. Testing and CI/CD. Upgrades for legacy Python code.",
+          "Scheduled jobs with monitoring around batch workloads, so pipelines fail loudly and do not drift silently.",
         ],
       },
       {
         heading: "Who this is for",
         body: [
-          "Product teams adding data or AI features, and companies needing solid back-end capacity.",
-          "Analytics-heavy SaaS and logistics platforms that outgrow notebooks and ad hoc scripts often hire Python engineers for pipelines first, features second.",
+          "Product teams adding data or AI features, and companies that need solid back-end capacity.",
+          "Analytics-heavy SaaS and logistics platforms that have outgrown notebooks and one-off scripts often hire Python engineers for pipelines first and features second.",
         ],
       },
       {
-        heading: "Why choose Golax India for Python developers",
+        heading: "How we work on Python projects",
         body: [
-          "Clean, tested, typed Python. Understanding of data privacy in AI projects. Experience across web and data work. Honest advice on what AI can and cannot do.",
+          "We write clean, tested, typed Python. We understand data privacy in AI projects, we have worked on both web and data systems, and we give honest advice on what AI can and cannot do.",
         ],
       },
       {
-        heading: "Data privacy and AI feature boundaries",
+        heading: "Data privacy and AI boundaries",
         body: [
-          "Python work on customer data runs under your NDA and data-processing terms. We avoid sending sensitive records to third-party LLMs without your approval, prefer private endpoints or self-hosted models when required and log prompts minimally.",
-          "For Django and FastAPI apps we apply standard auth, encryption and backup practices. We will tell you when a requested AI feature needs legal review rather than rushing a demo that creates compliance risk.",
+          "Python work on customer data runs under your NDA and data-processing terms. We avoid sending sensitive records to third-party LLMs without your approval, prefer private endpoints or self-hosted models when needed, and keep prompt logging to a minimum.",
+          "For Django and FastAPI apps we use standard auth, encryption and backup practice. If an AI feature needs legal review, we will say so, not rush a demo that creates compliance risk.",
         ],
       },
       {
-        heading: "Embedding Python engineers in your data and product teams",
+        heading: "Joining your data and product teams",
         body: [
-          "Developers join your Jupyter, dbt or Airflow workflows when you have them, or help introduce lightweight ETL with clear ownership docs. They pair with analysts on Pandas pipelines and with product on API contracts.",
-          "Overlap hours align with your tech lead for architecture decisions on model deployment, GPU spend and batch windows. Handoffs include runbooks so on-call is not a black box.",
-          "We scope AI features realistically—retrieval, classification and workflow automation often ship before custom model training is worth the cost.",
-          "Unit and integration tests around data transforms help prevent silent schema drift when upstream sources change columns or formats.",
+          "Developers can work in your Jupyter, dbt or Airflow setup, or help introduce lightweight ETL with clear ownership docs. They pair with analysts on Pandas pipelines and with product on API contracts.",
+          "Overlap hours line up with your tech lead for decisions on model deployment, GPU spend and batch windows. Handoffs include runbooks, so on-call is not a black box.",
+          "We scope AI features realistically. Retrieval, classification and workflow automation often ship well before custom model training is worth the cost.",
+          "Unit and integration tests around data transforms help catch schema drift when an upstream source changes a column or format.",
         ],
       },
     ],
@@ -1034,32 +1034,32 @@ export const serviceLandings: Record<ServiceLandingSlug, ServiceLanding> = {
       {
         question: "How do you vet Python developers?",
         answer:
-          "We test Python fundamentals, framework experience (Django, FastAPI or Flask), SQL and testing habits in a technical interview plus a practical task. Data and ML candidates discuss privacy and deployment trade-offs. You meet finalists before access to production systems.",
+          "We test Python fundamentals, framework experience (Django, FastAPI or Flask), SQL and testing habits in an interview plus a practical task. Data and ML candidates also discuss privacy and deployment trade-offs. You meet finalists before anyone touches production systems.",
       },
       {
         question: "Who owns Python code, models and training scripts?",
         answer:
-          "Your company owns application code, notebooks, model weights you paid to train and deployment configs we deliver under IP assignment. Third-party library licenses remain governed by their terms; we document them in your repo.",
+          "Your company owns the application code, notebooks, model weights you paid to train, and deployment configs we deliver, under IP assignment. Third-party library licences stay under their own terms, and we document them in your repo.",
       },
       {
-        question: "Can Python developers work in my timezone?",
+        question: "Can Python developers work in my time zone?",
         answer:
-          "Yes. Overlap is scheduled with your product or data lead—commonly US, UK or Canada hours—for stand-ups and architecture reviews. Long-running jobs and PRs proceed async with status in your tracker.",
+          "Yes. We schedule overlap with your product or data lead, commonly US, UK or Canada hours, for stand-ups and architecture reviews. Long-running jobs and PRs carry on outside that window, with status in your tracker.",
       },
       {
         question: "Which tools do your Python developers use?",
         answer:
-          "Your Git hosting, CI, Docker, cloud provider (AWS, GCP or Azure), Postgres or warehouse, and observability stack. We adopt Poetry, pip-tools or your existing packaging approach without forcing a new toolchain.",
+          "Your Git hosting, CI, Docker, cloud provider (AWS, GCP or Azure), Postgres or warehouse, and observability stack. We use Poetry, pip-tools or whatever packaging you already have.",
       },
       {
-        question: "What notice period applies for Python hires?",
+        question: "What notice period applies?",
         answer:
-          "Monthly engagements specify written notice to change hours or end—typically two to four weeks. Fixed-scope data or AI milestones use the exit terms in the statement of work instead of open-ended lock-in.",
+          "Monthly engagements set out written notice to change hours or end, typically two to four weeks. Fixed-scope data or AI milestones use the exit terms in the statement of work.",
       },
       {
         question: "Django or FastAPI for a new project?",
         answer:
-          "Django suits full applications with admin, auth and ORM out of the box. FastAPI suits high-throughput APIs and microservices. We recommend after reviewing your team skills, latency needs and existing infrastructure.",
+          "Django suits full applications that need admin, auth and an ORM out of the box. FastAPI suits high-throughput APIs and microservices. We recommend one after looking at your team's skills, latency needs and existing infrastructure.",
       },
     ],
     relatedServices: [

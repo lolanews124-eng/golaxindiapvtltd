@@ -24,12 +24,12 @@ const projects = [
     market: "United States",
     icon: Code,
     description:
-      "Example shape: a Series-A-stage US analytics startup needed a first product in one quarter on a tight budget. We delivered a multi-tenant web app with dashboards, user roles, billing hooks and CI/CD, following SOC 2-ready logging practices.",
+      "An example of the kind of build we take on: a US analytics startup that needs a first product quickly on a tight budget. Scope would be a multi-tenant web app with dashboards, user roles, billing hooks and CI/CD, with logging that helps later SOC 2 work.",
     technologies: ["Next.js", "Node.js", "PostgreSQL", "AWS"],
     outcomes: [
-      "MVP scope delivered in a single quarter (client timeline)",
-      "Multi-tenant roles and billing foundation",
-      "Automated deploy pipeline from sprint one",
+      "MVP scoped to fit a single quarter",
+      "Multi-tenant roles and a billing foundation",
+      "Automated deploy pipeline from the first sprint",
     ],
     color: "from-blue-500 to-cyan-500",
   },
@@ -40,12 +40,12 @@ const projects = [
     market: "International",
     icon: Smartphone,
     description:
-      "Example shape: a telemedicine provider wanted patients to book appointments and consult on iOS and Android. We built scheduling, video consultation flows and Stripe billing with privacy-first defaults suitable for regulated healthcare markets.",
+      "An example of the kind of build we take on: a telemedicine provider that wants patients to book and consult on iOS and Android. Scope would be scheduling, video consultations and Stripe billing, with privacy-first defaults for regulated healthcare.",
     technologies: ["Flutter", "Firebase", "Node.js", "Stripe"],
     outcomes: [
-      "Dual-store release under client brand (NDA)",
-      "Appointment and video consult flows",
-      "Stripe billing integrated for subscriptions",
+      "iOS and Android release under the client's brand",
+      "Appointment and video consultation flows",
+      "Stripe billing for subscriptions",
     ],
     color: "from-green-500 to-emerald-500",
   },
@@ -56,12 +56,12 @@ const projects = [
     market: "United Kingdom",
     icon: Globe,
     description:
-      "Example shape: a UK online retailer had a slow legacy storefront and rising hosting spend. We rebuilt on headless Next.js with a streamlined checkout, improved Core Web Vitals and lower infrastructure footprint.",
+      "An example of the kind of build we take on: a UK online retailer with a slow legacy storefront. Scope would be a headless Next.js rebuild with a simpler checkout and a focus on Core Web Vitals.",
     technologies: ["Next.js", "Headless CMS", "Stripe", "Vercel"],
     outcomes: [
-      "Faster checkout and product pages (measured in client staging)",
-      "Hosting cost reduced versus prior stack (client-reported)",
-      "SEO-safe migration with redirect map",
+      "Faster checkout and product pages, checked in staging",
+      "Hosting set up to keep running costs in check",
+      "SEO-safe migration with a redirect map",
     ],
     color: "from-purple-500 to-pink-500",
   },
@@ -75,27 +75,26 @@ export default function Portfolio() {
         badgeIcon={Sparkles}
         title={
           <>
-            Offshore Projects for <span className="text-accent">USA and Global Clients</span>
+            Example Projects for <span className="text-accent">USA and Global Clients</span>
           </>
         }
-        description="Examples of web, SaaS and mobile work we deliver for clients outside India. Each summary describes the problem, what we built, the stack and the outcome — anonymised where NDAs apply."
+        description="Example projects showing the web, SaaS and mobile work we do for clients outside India. They are illustrations of scope and stack, not named client case studies."
         formContext="Portfolio"
       />
 
       <section className="py-12 bg-gradient-subtle border-b border-border">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="font-heading text-2xl font-bold text-foreground mb-4 text-center">
-            How we scope work and document results
+            About these examples
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            These case studies are representative of our offshore delivery model. Numbers and client names are shared only
-            with permission; where a client is under NDA we describe industry, scope and architecture instead of
-            publishing unverified metrics.
+            The projects below are examples. They show the kind of work we take on and the stack we would use. They are
+            not named client case studies. We will publish real case studies, with numbers, once the clients approve
+            them.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            Every engagement starts with a written scope, milestones and acceptance criteria in your repository. We run
-            weekly demos, keep a shared board, and record outcomes as shipped features, performance checks in staging, or
-            client-approved release notes — not vanity KPIs. When you evaluate Golax India, you can review our{" "}
+            On a real engagement we agree scope and milestones in writing, run weekly demos and keep a shared board.
+            If you are checking us out, you can read our{" "}
             <Link href="/certificates" className="text-primary hover:underline">
               MCA registration and ISO certificates
             </Link>
@@ -107,7 +106,7 @@ export default function Portfolio() {
             <Link href="/locations" className="text-primary hover:underline">
               international markets
             </Link>
-            . Ask on a discovery call for anonymised references when NDAs allow.
+            . If you want references, ask on a discovery call. We will share what a client has agreed to.
           </p>
         </div>
       </section>
@@ -119,7 +118,7 @@ export default function Portfolio() {
         <div className="absolute inset-0 bg-mesh pointer-events-none opacity-30" aria-hidden />
         <div className="container relative mx-auto px-4">
           <h2 id="portfolio-projects-heading" className="font-heading text-2xl font-bold text-foreground mb-8 text-center">
-            Selected case study shapes
+            Example projects
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -156,7 +155,7 @@ export default function Portfolio() {
                     ))}
                   </div>
                   <div className="border-t border-border pt-4 mb-4">
-                    <h4 className="font-semibold text-foreground text-sm mb-2">Outcomes</h4>
+                    <h4 className="font-semibold text-foreground text-sm mb-2">What it covers</h4>
                     <ul className="space-y-1">
                       {project.outcomes.map((result) => (
                         <li
@@ -201,8 +200,8 @@ export default function Portfolio() {
       />
 
       <CTABanner
-        title="Want Results Like These?"
-        description="Tell us your goals — we reply within one business day with discovery next steps and a USD proposal outline."
+        title="Have a project like one of these?"
+        description="Tell us what you want to build. We reply within one business day with next steps and a rough proposal outline in USD."
         primaryLabel="Get a USD Quote"
       />
     </Layout>

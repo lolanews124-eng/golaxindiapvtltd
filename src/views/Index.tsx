@@ -63,9 +63,9 @@ const services = [{
   href: "/services/crm-erp-solutions"
 }];
 const portfolioPreview = [
-  { title: "SaaS analytics MVP", category: "Software", icon: Code, description: "Example shape: analytics SaaS MVP with CI/CD for an international product team — details published when clients approve case studies.", highlight: "SaaS MVP", color: "from-blue-500 to-cyan-500" },
-  { title: "Healthcare companion app", category: "Mobile App", icon: Smartphone, description: "Example shape: appointments and billing companion for iOS/Android — anonymized until a named case study is approved.", highlight: "Mobile", color: "from-green-500 to-emerald-500" },
-  { title: "Headless commerce rebuild", category: "Web Development", icon: Globe, description: "Example shape: Next.js headless storefront with improved checkout UX for an overseas retailer.", highlight: "Commerce", color: "from-purple-500 to-pink-500" },
+  { title: "SaaS analytics MVP", category: "Software", icon: Code, description: "Example: an analytics SaaS MVP with CI/CD for an international product team. Not a named case study.", highlight: "SaaS MVP", color: "from-blue-500 to-cyan-500" },
+  { title: "Healthcare companion app", category: "Mobile App", icon: Smartphone, description: "Example: an appointments and billing companion app for iOS and Android. Not a named case study.", highlight: "Mobile", color: "from-green-500 to-emerald-500" },
+  { title: "Headless commerce rebuild", category: "Web Development", icon: Globe, description: "Example: a headless Next.js storefront with a simpler checkout for an overseas retailer. Not a named case study.", highlight: "Commerce", color: "from-purple-500 to-pink-500" },
 ];
 
 const trustStats = [
@@ -176,7 +176,7 @@ export default function Index() {
                 transition={{ delay: 0.4 }}
                 className="text-base sm:text-lg text-primary-foreground/90 mb-6 sm:mb-8 leading-relaxed max-w-xl"
               >
-                Golax India is an offshore software development company that builds web platforms, SaaS products and mobile apps for businesses in the United States, United Kingdom, Canada, Australia, the UAE and other international markets. You get senior engineers, English-speaking project managers and a working schedule that overlaps with your business hours, at a cost that is well below local hiring.
+                Golax India is a software company in Patna, India. We build web platforms, SaaS products and mobile apps for businesses in the US, UK, Canada, Australia, the UAE and other markets. You work with senior engineers and an English-speaking project manager, on a schedule that overlaps your business hours.
               </motion.p>
               
               <motion.div 
@@ -319,7 +319,7 @@ export default function Index() {
                 Why international companies outsource to Golax India
               </h2>
               <p className="text-lg text-muted-foreground mb-8">
-                Hiring senior engineers in the US or UK typically costs $80–$180 per hour once salary, benefits and overhead are counted. Golax India provides equivalent senior talent at $25–$45 per hour, so a founder or CTO can fund a larger team, ship faster and keep runway longer — while you keep control of the product and we handle recruiting, tooling, management and delivery.
+                A senior engineer in the US or UK costs a lot once salary, benefits and overhead are added up. Our senior engineers are billed at around $25–$45 per hour equivalent. That can let a small team afford more people or a longer runway. You keep control of the product, and we handle recruiting, tooling and day-to-day management.
               </p>
               <ul className="space-y-4">
                 {["Senior engineers, not juniors — production experience in your stack", "Timezone overlap with US, UK, Gulf and Singapore business hours", "Legal protection first — mutual NDA, MSA and IP assignment before code", "Transparent billing — USD, GBP, CAD, AUD or AED with written scope", "Flexible engagement — fixed scope, time-and-material, or dedicated squad"].map((item, index) => <motion.li key={index} initial={{
@@ -395,10 +395,10 @@ export default function Index() {
               <span className="badge-premium mb-4">Industries We Serve</span>
               <div className="accent-line mx-auto mb-5" />
               <h2 className="heading-display text-3xl md:text-4xl text-foreground mb-4">
-                Trusted by Businesses Across Industries
+                Industries We Build For
               </h2>
               <p className="text-lg text-muted-foreground">
-                We build for e-commerce, EdTech, healthcare, real estate, manufacturing, travel, finance and logistics. Where an industry has regulation — for example HIPAA for US healthcare or GDPR for UK and EU customers — we design for compliance from the first sprint.
+                We build for e-commerce, EdTech, healthcare, real estate, manufacturing, travel, finance and logistics. When an industry has rules, such as HIPAA for US healthcare or GDPR for UK and EU customers, we plan for them early. Your legal adviser confirms what applies to you.
               </p>
             </motion.div>
           </div>
@@ -438,7 +438,7 @@ export default function Index() {
                 How Offshore Engagements Run
               </h2>
               <p className="text-lg text-muted-foreground">
-                Every project follows the same six steps so there are no surprises — from a free discovery call through proposal, design, agile sprints, launch and optional support as you grow.
+                Most projects move through six steps: a discovery call, a proposal, design, sprints, launch, and support if you want it. Steps shift a little by project size.
               </p>
             </motion.div>
           </div>
@@ -548,10 +548,10 @@ export default function Index() {
         <div className="container mx-auto px-4 sm:px-6 max-w-3xl text-center">
           <SectionHeader
             title="Client stories"
-            description="Verified case studies and testimonials will appear here once approved for publication — we do not display invented reviews."
+            description="We will add case studies and client quotes here once clients approve them. Until then, we show none."
           />
           <Button asChild variant="outline">
-            <Link href="/portfolio">View portfolio placeholders</Link>
+            <Link href="/portfolio">See example projects</Link>
           </Button>
         </div>
       </section>
@@ -565,13 +565,13 @@ export default function Index() {
             Credentials and proof before you hire
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            International buyers should verify who they are contracting with. Review our{" "}
+            Check who you are contracting with before you hire. Start with our{" "}
             <Link href="/certificates" className="text-primary hover:underline">
               company registration and certificates
             </Link>
             , browse{" "}
             <Link href="/portfolio" className="text-primary hover:underline">
-              portfolio shapes
+              example projects
             </Link>
             , and pick your market under{" "}
             <Link href="/locations" className="text-primary hover:underline">

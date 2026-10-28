@@ -51,21 +51,20 @@ export default function InternationalCityTemplate({ data }: Props) {
 
   const description =
     unique?.metaDescription ??
-    `Offshore web development, mobile app, SaaS, and digital marketing partner for ${city} businesses in ${country.country}. ${country.timezoneOverlap} overlap, transparent ${country.currency} pricing, senior India-based engineers. Hire developers from India for your ${city} project.`;
+    `Remote software team in India for ${city}, ${country.country}. Quotes in ${country.currency}, overlap of about ${country.timezoneOverlap}, NDA and IP before coding.`;
   const seoSections = unique?.seoSections ?? buildCitySeoSections(city, country);
   const heroH1 = unique?.h1 ?? (
     <>
-      Web & Software Development Company for <span className="text-yellow-300">{city}</span>
+      Software team for <span className="text-yellow-300">{city}</span>
     </>
   );
   const heroLead =
     unique?.lead ??
-    `Golax India is the offshore IT partner for ${city} startups, SMEs, and enterprises. We design, build, and grow websites, mobile apps, SaaS products, and marketing engines for ${city}-based businesses — at ${country.currency} pricing that local ${country.country} agencies simply can't match.`;
-  const introHeading = unique?.introHeading ?? `Trusted IT & Digital Partner for ${city} Businesses`;
+    `We work from Patna, India, with teams in ${city}. If you need web, SaaS or mobile help and want a written quote in ${country.currency}, email us and we will reply within one business day.`;
+  const introHeading = unique?.introHeading ?? `Working with teams in ${city}`;
   const introParagraphs = unique?.intro ?? [
-    `Looking for a reliable web development company in ${city}? Or planning to outsource your next mobile app, SaaS platform, or digital marketing campaign from ${city} to India? Golax India works with ${city}-based founders, agencies, and enterprises to deliver world-class engineering and growth, on time and on budget.`,
-    `From ${city}'s startup ecosystem to its established enterprise community, we've helped clients ship websites in weeks (not months), launch mobile apps that scale, and run paid + organic growth that compounds. Every ${city} engagement is led by a senior India-based engineer and an English-fluent project manager, with ${country.timezoneOverlap} of daily overlap with ${city} business hours.`,
-    `Whether you need a polished marketing site, a SaaS MVP, a customer-facing mobile app, an internal ERP, or a full-funnel digital marketing partner — we deliver it in ${country.currency}, with transparent monthly invoicing, NDA + IP-assignment, and a 60-day post-launch warranty on every project.`,
+    `We do not have an office in ${city}. Delivery is remote from India, with meetings scheduled for ${city} hours when we can. Typical work is websites, product MVPs, mobile apps and internal tools.`,
+    `Overlap is about ${country.timezoneOverlap} a day. You get a shared board, weekly demos and code in your own repository. NDA and IP assignment come before production work.`,
   ];
   const faqEntities = unique
     ? unique.faqs.map((f) => ({
@@ -308,11 +307,7 @@ export default function InternationalCityTemplate({ data }: Props) {
             ))}
             <div className="flex items-start gap-3 p-5 bg-card border border-border rounded-xl">
               <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-              <p className="text-foreground">Local {city} market understanding — buyer behavior, competitive landscape, ad costs.</p>
-            </div>
-            <div className="flex items-start gap-3 p-5 bg-card border border-border rounded-xl">
-              <CheckCircle className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-              <p className="text-foreground">References from comparable {country.country} clients — available on request.</p>
+              <p className="text-foreground">Remote delivery from Patna, India — no office in {city}, and we say so up front.</p>
             </div>
           </div>
         </div>

@@ -129,6 +129,39 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Apex preferred host (308). Vercel may also redirect www; keep both permanent.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.golaxindiapvtltd.in" }],
+        destination: "https://golaxindiapvtltd.in/:path*",
+        permanent: true,
+      },
+      // Legacy legal paths → /legal/* (308)
+      {
+        source: "/privacy-policy",
+        destination: "/legal/privacy-policy",
+        permanent: true,
+      },
+      {
+        source: "/terms-of-service",
+        destination: "/legal/terms-of-service",
+        permanent: true,
+      },
+      {
+        source: "/cookie-policy",
+        destination: "/legal/cookie-policy",
+        permanent: true,
+      },
+      {
+        source: "/disclaimer",
+        destination: "/legal/disclaimer",
+        permanent: true,
+      },
+      {
+        source: "/refund-policy",
+        destination: "/legal/refund-policy",
+        permanent: true,
+      },
       {
         source: "/locations/patna",
         destination: "/locations",

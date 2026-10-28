@@ -249,7 +249,7 @@ export function getCitySearchTerms(city: string, loc: InternationalLocationData)
   return terms.slice(0, 12);
 }
 
-/** Long-form city SEO paragraphs (city pages are thinner than country pages). */
+/** Short fallback copy for city pages that have no hand-written content. */
 export function buildCitySeoSections(
   city: string,
   loc: InternationalLocationData,
@@ -259,38 +259,30 @@ export function buildCitySeoSections(
 
   return [
     {
-      heading: `Web Development Company in ${city}, ${country}`,
-      body: `Searching for a web development company in ${city}? Golax India builds custom websites, e-commerce stores, SaaS dashboards, and landing pages for ${city} startups and established teams. We use React, Next.js, WordPress, Shopify, and headless commerce, with SEO-ready architecture and ${currency} billing.
-
-Every ${city} web project is led by a senior engineer, with an English-speaking project contact available during ${city} business hours (${timezoneOverlap} overlap daily).`,
+      heading: `Web Development for ${city} Businesses`,
+      body: `We build websites, online stores and web apps for teams in ${city}. We use React, Next.js, WordPress and Shopify, depending on what fits. A senior engineer leads each project, and a project contact is available during ${city} business hours (about ${timezoneOverlap} of overlap).`,
     },
     {
-      heading: `Software & SaaS Development for ${city} Businesses`,
-      body: `Our software development team helps ${city} founders and CTOs build custom ERPs, CRMs, HRMS platforms, marketplaces, billing engines, and SaaS products. Whether you're validating an MVP or modernizing a legacy system, we deliver clean architecture, automated tests, CI/CD pipelines, and documentation that survives investor due diligence.
-
-Quotes are written after discovery. Senior engineers are commonly billed around $25–$45 per hour equivalent, in ${currency} when you prefer.`,
+      heading: `Software and SaaS Development in ${city}`,
+      body: `If you are building a SaaS product, an internal tool or a CRM, we can take it from an MVP to a maintained product. We write tests, set up CI/CD and leave documentation behind. Quotes follow a discovery call, and we can bill in ${currency}.`,
     },
     {
-      heading: `Mobile App Development Company in ${city}`,
-      body: `Need a mobile app development company in ${city}? We build native iOS (Swift), native Android (Kotlin), and cross-platform Flutter / React Native apps for ${city} fintech, healthcare, e-commerce, on-demand, and B2B clients. Every app includes UX design, backend APIs, push notifications, in-app payments (Stripe, Apple Pay, Google Pay), and App Store + Play Store submission support.`,
+      heading: `Mobile Apps for ${city} Companies`,
+      body: `We build iOS and Android apps in Flutter, React Native or native code, plus the backend and admin tools behind them. We also help with App Store and Google Play submission.`,
     },
     {
-      heading: `Digital Marketing & SEO Services in ${city}`,
-      body: `Our digital marketing team helps ${city} businesses grow through local and national SEO, Google Ads, Meta Ads, LinkedIn campaigns, content marketing, and email lifecycle flows. We target high-intent ${city} keywords, fix technical SEO issues, and build topical authority that compounds month over month.
-
-Most ${city} clients see measurable organic traffic growth within 4–6 months of consistent SEO work.`,
+      heading: `SEO and Digital Marketing for ${city}`,
+      body: `We do technical SEO, content and paid campaigns for ${city} businesses. SEO takes months, and we cannot promise a Google ranking. We can promise clear reporting.`,
     },
     {
-      heading: `Why Outsource from ${city} to Golax India?`,
-      body: `Hiring senior developers in ${city} is expensive and slow. Outsourcing to Golax India gives ${city} businesses access to India's deepest engineering talent pool — React, Next.js, Node.js, Python, Flutter, AWS — at transparent ${currency} pricing with ${timezoneOverlap} of daily overlap.
-
-We sign NDAs, MSAs, and IP-assignment agreements before any code is written. All work product belongs to your ${country} entity on payment.`,
+      heading: `Working With Us From ${city}`,
+      body: `Our team is in Patna, India. We sign an NDA and IP assignment before work starts, and the code belongs to your ${country} company. Senior engineers are usually quoted at around $25–$45 per hour equivalent. Email contact@golaxindia.com to talk it through.`,
     },
     {
-      heading: `Also Serving ${cityList ? `${cityList} & More in ${country}` : `All of ${country}`}`,
+      heading: `Also Serving ${cityList ? `${cityList} and the Rest of ${country}` : `All of ${country}`}`,
       body: cityList
-        ? `Besides ${city}, we also publish pages for ${cityList} and the rest of ${country}. Delivery stays in Patna, India, with overlap for ${country} business hours. We do not promise a specific Google ranking.`
-        : `We serve businesses across ${country} with the same senior team, transparent ${currency} pricing, and offshore delivery model trusted by startups and enterprises alike.`,
+        ? `Besides ${city}, we have pages for ${cityList} and work with clients across ${country}. Delivery is from Patna, with overlap for ${country} business hours.`
+        : `We work with clients across ${country}, delivering from Patna with overlap for local business hours and billing in ${currency}.`,
     },
   ];
 }
